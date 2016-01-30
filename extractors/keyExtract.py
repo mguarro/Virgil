@@ -2,6 +2,7 @@
 import re
 from collections import Counter
 from rake import Rake
+from os import path
 
 # This function returns the keyword list contained in a document 
 def keyWords(self):
@@ -27,7 +28,7 @@ def smartWords(self):
 
 
 def getRakeKeywords(doc):
-    r = rake.Rake('SmartStoplist.txt')
+    r = rake.Rake(path.join('static', 'SmartStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
     return candidates[:10]
 
