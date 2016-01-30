@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<pdf>
+  <resolved_reference order="1">S. Havre, E. Hetzler, P. Whitney, and L.
+Nowell, "ThemeRiver: Visualizing thematic changes in large document
+collections," IEEE Trans. Vis. Comput. Graph. , vol. 8, no. 1, pp. 9-20,
+Jan. 2002.</resolved_reference>
+  <resolved_reference order="2">L. Byron and M. Wattenberg, "Stacked
+graphs-geometry &amp; IEEE Trans. Vis. Comput. Graph. aesthetics," , vol.
+14, no. 6, pp. 1245-1252, Nov. 2008.</resolved_reference>
+  <resolved_reference order="3">D. M. Blei, A. Y. Ng, and M. I. Jordan,
+"Latent dirichlet J. Mach. Learn. Res. allocation," , vol. 3, pp. 993-1022,
+2003.</resolved_reference>
+  <resolved_reference order="4">i-neighbor website. [Online]. Available:
+http://i-neighbors.org/, 2007. Proc. IEEE Symp. Vis. Lang.
+,</resolved_reference>
+  <resolved_reference order="5">B. Shneiderman, "The eyes have it: A task
+by data type taxonomy for information visualizations," in 1996, pp.
+336-343. Modern Information Retrieval</resolved_reference>
+  <resolved_reference order="6">R. Baeza-Yates and B. Ribeiro-Neto, .
+Reading, MA, USA: Addison-Wesley, 1999.</resolved_reference>
+  <resolved_reference order="7">A. Don, E. Zheleva, M. Gregory, S. Tarkan,
+L. Auvil, T. Clement, B. Shneiderman, and C. Plaisant, "Discovering
+interesting usage patterns in text collections: integrating text mining
+with visualProc. ACM Conf. Inform. Knowl. Manage. ization," in , 2007, pp.
+213-222.</resolved_reference>
+  <resolved_reference order="8">M. A. Hearst and D. K. Rosner, "Tag clouds:
+Data analysis Proc. Hawaii Int. Conf. Syst. Sci. tool or social signaller?"
+in , 2008, pp. 160-160.</resolved_reference>
+  <resolved_reference order="9">S. Lohmann, J. Ziegler, and L. Tetzlaff,
+"Comparison of tag cloud layouts: Task-related performance and visual
+exploration," Proc.eedings of INTERACT in , ser. Lecture Notes in Computer
+Science, New York, NY, USA: Springer, vol. 5726, 2009, pp. 392-404.
+(</resolved_reference>
+  <resolved_reference order="10">F. B. Viegas, M. Wattenberg, and J.
+Feinberg, "Participatory visuIEEE Trans. Vis. Comput. Graph. alization with
+Wordle," , vol. 15, no. 6, pp. 1137-1144, Nov. 2009.</resolved_reference>
+  <resolved_reference order="11">K. Koh, B. Lee, B. H. Kim, and J. Seo,
+"ManiWordle: Providing IEEE Trans. Vis. Comput. Graph. flexible control
+over Wordle," , vol. 16, no. 6, pp. 1190-1197, Nov./Dec.
+2010.</resolved_reference>
+  <resolved_reference order="12">K. T. Kim, S. Ko, N. Elmqvist, and D. S.
+Ebert, "WordBridge: Using composite tag clouds in node-link diagrams for
+visualizing Proc. Hawaiian Int. Conf. content and relations in text
+corpora," in Syst. Sci. , 2011, pp. 1-8. (</resolved_reference>
+  <resolved_reference order="13">F. van Ham, M. Wattenberg, and F. B.
+Viegas, "Mapping text with IEEE Trans. Vis. Comput. Graph. phrase nets," ,
+vol. 15, no. 6, pp. 1169-1176, Nov. 2009.</resolved_reference>
+  <resolved_reference order="14">P. C. Wong, P. Mackey, K. Perrine, J.
+Eagan, H. Foote, and J. Thomas, "Dynamic visualization of graphs with
+extended Proc. IEEE Symp. Inform. Vis. labels," in , 2005, pp.
+73-80.</resolved_reference>
+  <resolved_reference order="15">J. Clark. (2008, Oct.). Clustered word
+clouds. [Online]. Available:
+http://neoformix.com/2008/ClusteredWordClouds.html</resolved_reference>
+  <resolved_reference order="16">Y. Hassan-Montero and V. Herrero-Solana,
+"Improving tagProc. Int. clouds as visual information retrieval
+interfaces," in Conf. Multidisciplinary Inform. Sci. Technol. , 2006, pp.
+25-28.</resolved_reference>
+  <resolved_reference order="17">J. A. Wise, J. J. Thomas, K. Pennock, D.
+Lantrip, M. Pottier, A. Schur, and V. Crow, "Visualizing the non-visual:
+Spatial analysis Proc. and interaction with information from text
+documents," in IEEE Symp. Inform. Vis. , 1995, pp.
+51-58.</resolved_reference>
+  <resolved_reference order="18">B. Kwon, W. Javed, S. Ghani, N. Elmqvist,
+J. S. Yi, and D. Ebert, "Evaluating the role of time in investigative
+analysis of document IEEE Trans. Vis. Comput. Graph. collections," , vol.
+18, no. 11, pp. 1992-2004, Sep. 2012. The Visual Display of Quantitative
+Information</resolved_reference>
+  <resolved_reference order="19">E. R. Tufte, . Cheshire, CT, USA: Graphics
+Press, 1983.</resolved_reference>
+  <resolved_reference order="20">M. Ghoniem, D. Luo, J. Yang, and W.
+Ribarsky, "NewsLab: Proc. IEEE Symp. Exploratory broadcast news video
+analysis," in Vis. Anal. Sci. Technol. , 2007, pp.
+123-130.</resolved_reference>
+  <resolved_reference order="21">M. Wattenberg, "Visual exploration of
+multivariate graphs," Proc. ACM 2006 Conf. Human Factors Comput. Syst. in ,
+2006, pp. 811-819.</resolved_reference>
+  <resolved_reference order="22">F. Wei, S. Liu, Y. Song, S. Pan, M. X.
+Zhou, W. Qian, L. Shi, L. Tan, and Q. Zhang, "TIARA: A visual exploratory
+text analytic Proc. ACM Conf. Knowl. Discov. Data Min. system," in , 2010,
+pp. 153-162. (</resolved_reference>
+  <resolved_reference order="23">C. Collins, F. B. Viegas, and M.
+Wattenberg, "Parallel tag clouds to Proc. IEEE Symp. Vis. Anal. Sci.
+explore faceted text corpora," in Technol. , 2009, pp.
+91-98.</resolved_reference>
+  <resolved_reference order="24">N. W. Kim, S. K. Card, and J. Heer,
+"Tracing genealogical data Proc. ACM Conf. Adv. Vis. Interfaces with
+timenets," in , 2010, pp. 241-248.</resolved_reference>
+  <resolved_reference order="25">C. Turkay, J. Parulek, N. Reuter, and H.
+Hauser, "Interactive Comput. Graph. visual analysis of temporal cluster
+structures," Forum , vol. 30, no. 3, pp. 711-720,
+2011.</resolved_reference>
+  <resolved_reference order="26">W. Dou, X. Wang, R. Chang, and W.
+Ribarsky, "ParallelTopics: a probabilistic approach to exploring document
+collections," Proc. IEEE Conf. Vis. Anal. Sci. Technol. in , 2011, pp.
+231-240.</resolved_reference>
+  <resolved_reference order="27">W. Cui, S. Liu, L. Tan, C. Shi, Y. Song,
+Z. Gao, H. Qu, and X. Tong, "TextFlow: Towards better understanding of
+evolving topics in IEEE Trans. Vis. Comput. Graph. text," , vol. 17, no.
+12, pp. 2412- 2421, Nov. 2011. &#x20AC;</resolved_reference>
+  <resolved_reference order="28">A. Hotho, A. Nurnberger, and G. Paass, "A
+brief survey of text LDV Forum mining," , vol. 20, no. 1, pp. 19-62, 2005.
+Proc. Int. Proc. Conf.</resolved_reference>
+  <resolved_reference order="29">T. Hofmann, "Probabilistic latent semantic
+analysis," in Uncertainty Artif. Intell. , 1999, pp.
+289-296.</resolved_reference>
+  <resolved_reference order="30">D. M. Blei and J. D. Lafferty, "Dynamic
+topic models," in Conf. Mach. Learn. , 2006, pp.
+113-120.</resolved_reference>
+  <resolved_reference order="31">X. Wang and A. McCallum, "Topics over
+time: a non-Markov conProc. ACM Conf. Knowl. tinuous-time model of topical
+trends," in Discov. Data Mining , 2006, pp. 424-433.</resolved_reference>
+  <resolved_reference order="32">T. Iwata, T. Yamada, Y. Sakurai, and N.
+Ueda, "Online multiscale Proc. ACM Conf. Knowl. Discov. Data dynamic topic
+models," in Min. , 2010, pp. 663-672.</resolved_reference>
+  <resolved_reference order="33">C. Wang, D. Bleid, and D. Heckerman,
+"Continuous time dynamic Proc. Conf. Uncertainty Artif. Intell. topic
+models," in , 2008, pp. 579-586. Introduction to stochastic
+processes</resolved_reference>
+  <resolved_reference order="34">G. F. Lawler, . Boston, MA, USA: Chapman
+&amp; Hall/CRC, 1995.</resolved_reference>
+  <resolved_reference order="35">X. Wang, S. Liu, Y. Song, and B. Guo,
+"Mining evolutionary multiProc. 19th ACM SIGKDD Int. branch trees from text
+streams," in Conf. Knowl. Discov. Data Min. , 2013, pp.
+722-730.</resolved_reference>
+  <resolved_reference order="36">X. Wang, K. Zhang, X. Jin, and D. Shen,
+"Mining common topics Proceedings of the from multiple asynchronous text
+streams," in Second ACM International Conference on Web Search and Data
+Mining , ser. WSDM '09. New York, NY, USA: ACM, 2009, pp.
+192-201.</resolved_reference>
+  <resolved_reference order="37">X. Wang, C. Zhai, X. Hu, and R. Sproat,
+"Mining correlated bursty Proceedings of the topic patterns from
+coordinated text streams," in 13th ACM SIGKDD International Conference on
+Knowledge Discovery and Data Mining , ser. KDD '07. New York, NY, USA: ACM,
+2007, pp. 784-793.</resolved_reference>
+  <resolved_reference order="38">J. Leskovec, L. Backstrom, and J.
+Kleinberg, "Meme-tracking and Proceedings of the 15th ACM the dynamics of
+the news cycle," in SIGKDD International Conference on Knowledge Discovery
+and Data Mining , ser. KDD '09. New York, NY, USA: ACM, 2009, pp.
+497-506.</resolved_reference>
+  <resolved_reference order="39">Z. Gao, Y. Song, S. Liu, H. Wang, H. Wei,
+Y. Chen, and W. Cui, "Tracking and connecting topics via incremental
+hierarchical Proc. Data Min. IEEE 11th Int. Conf. Dirichlet processes," in
+, 2011, pp. 1056-1061.</resolved_reference>
+  <resolved_reference order="40">S. Gad, N. Ramakrishnan, K. N. Hampton,
+and A. Kavanaugh, "Bridging the divide in democratic engagement: Studying
+conversation patterns in advantaged and disadvantaged communities," Proc.
+IEEE Conf. Soc. Inform. in , 2012, pp. 165-176.</resolved_reference>
+  <resolved_reference order="41">N. Elmqvist and P. Tsigas, "Causality
+visualization using aniProc. IEEE Symp. Inform. Vis. mated growing
+polygons," in , 2003, pp. 189-196.</resolved_reference>
+  <resolved_reference order="42">I. Davidson, L. T. Watson, M. S. Hossain,
+and N. Ramakrishnan, Proc. Data Min. "How to alternatize a clustering
+algorithm," in Knowl. Discov. , vol. 27, no. 2, pp. 193-224, 2013. Graph
+Draw</resolved_reference>
+  <resolved_reference order="43">G. DiBattista, P. Eades, R. Tamassia, and
+I. G. Tollis, ing: Algorithms for the Visualization of Graphs . Englewood
+Cliffs, NJ, USA: Prentice Hall, 1998.</resolved_reference>
+  <resolved_reference order="44">Y. Tanahashi, and K.-L. Ma, "Design
+considerations for optimizIEEE Trans. Vis. Comput. Graph. ing storyline
+visualizations," , vol. 18, no. 12, pp. 2679-2688, Oct.
+2012.</resolved_reference>
+  <resolved_reference order="45">S. Liu, Y. Wu, E. Wei, M. Liu, and Y. Liu,
+"Storyflow: Tracking the IEEE Trans. Vis. Comput. Graph. evolution of
+stories," , vol. 19, no. 12, pp. 2436-2445, Dec. 2013.
+&#x20AC;</resolved_reference>
+  <resolved_reference order="46">M. Tory and T. Moller, "Evaluating
+visualizations: Do expert IEEE Comput. Graph. Appl. reviews work?" , vol.
+25, pp. 8-11, Sep. 2005.</resolved_reference>
+  <resolved_reference order="47">D. Sacha, A. Stoffel, F. Stoffel, B. C.
+Kwon, G. Ellis, and D. A. Keim, "Knowledge generation model for visual
+analytics." in Proc. IEEE Trans. Vis. Comput. Graph , vol. 20, no. 12,
+2014, pp. 1604-1613.</resolved_reference>
+  <resolved_reference order="48">A. Endert, M. Hossain, N. Ramakrishnan, C.
+North, P. Fiaux, and C. Andrews, "The human is the loop: New directions for
+visual Proc. J. Intell. Inform. Syst. analytics," in , 2014, pp. 1-25.
+Proc. J. Am. Stat. Assoc. , vol. 101, no. 476,</resolved_reference>
+  <resolved_reference order="49">Y. W. Teh, M. I. Jordan, M. J. Beal, and
+D. M. Blei, "Hierarchical Dirichlet processes," in pp.
+1566-1581.</resolved_reference>
+</pdf>
