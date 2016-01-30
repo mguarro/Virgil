@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<pdf>
+  <reference order="1">P. Cho, News Story Maps, http://typotopo.com/projects.php?id =mappingnews, retrieved March 28, 2009.</reference>
+  <reference order="2">J. Clark, Neoformix Blog, http://neoformix.com/, retrieved March 28, 2009.</reference>
+  <reference order="3">C. Collins, DocuBurst: Document Content Visualization Using Language Structure. In Proceedings of IEEE Symposium on Information Visualization, Poster Compendium, IEEE CS Press, 2006.</reference>
+  <reference order="4">P. DeCamp et al., Gist Icons: Seeing Meaning in Large Bodies of Literature. Proceedings of IEEE Symposium on Information Visualization, Poster Compendium, IEEE CS Press, 2005.</reference>
+  <reference order="5">W.B. Paley, TextArc: Showing Word Frequency and Distribution in Text. In Proceedings of IEEE Symposium on Information Visualization, Poster Compendium, IEEE CS Press, 2002.</reference>
+  <reference order="6">J. Feinberg, Wordle, http://www.wordle.net/, retrieved March 28, 2009.</reference>
+  <reference order="7">C. Fellbaum (eds), WordNet : An Electronic Lexical Database, The MIT Press, 1998.</reference>
+  <reference order="8">E. Gansner, Y. Koren and S. North, Graph Drawing by Stress Majorization, Proc. 12th Int.Symp. Graph Drawing (GD 04), LNCS 3383, pages 239 250, 2004.</reference>
+  <reference order="9">J. Guldi, Inscape Blog, http://landscape.blogspot.com/, retrieved March 28, 2009.</reference>
+  <reference order="10">S. Havre et al., ThemeRiver: visualizing thematic changes in large document collections, IEEE Transactions on Visualization and Computer Graphics, Vol. 8, No. 1, pp 9 20 , 2002.</reference>
+  <reference order="11">M. Hearst, Automatic Acquisition of Hyponyms from Large Text Corpora. Proc. of the Fourteenth International Conference on Computational Linguistics, 1992.</reference>
+  <reference order="12">X. Huang and W. Lai, Force-Transfer: A New Approach to Removing Overlapping Nodes, in Graph Layout, in 25th Australian Computer Science Conference , pp 249-358, 2003.</reference>
+  <reference order="13">D. Klein and C.D. Manning. Fast Exact Inference with a Factored Model for Natural Language Parsing. In Advances in Neural Information Processing Systems 15 (NIPS 2002), pp. 3-10, 2003.</reference>
+  <reference order="14">L. Leydesdorff, The university-industry knowledge relationship: Analyzing patents and the science base of technologies, Journal of the American Society for Information Science and Technology, Vol. 55 No. 11, pp 991 1001, 2004.</reference>
+  <reference order="15">F. Moretti, Graphs, Maps, Trees: Abstract Models for a Literary History, Verso Publishing, 2005.</reference>
+  <reference order="16">OpenCalais, http://www.opencalais.com/, retrieved March 28, 2009.</reference>
+  <reference order="17">P. Sarkar et al., A Latent Space Approach to Dynamic Embedding of Co-occurrence Data, Proceedings of the Eleventh International Conference on Artificial Intelligence and Statistics AISTATS-07, 2007.</reference>
+  <reference order="18">S.C. Shapiro, A net structure for semantic information storage, deduction and retrieval, Proc. IJCAI-71, pp 512-523, 1971.</reference>
+  <reference order="19">F.B. Vi&#xE9;gas, M. Wattenberg, F. van Ham, J. Kriss and M. McKeon, Many Eyes: A Site for Visualization at Internet Scale, IEEE Transactions on Visualization and Computer Graphics, Vol. 13, No. 6, pp 1121 1128, 2007.</reference>
+  <reference order="20">M. Wattenberg and F.B. Vi&#xE9;gas, The Word Tree, an Interactive Visual Concordance , IEEE Transactions on Visualization and Computer Graphics, Vol. 14, No. 6. pp 1221-1228, 2008.</reference>
+  <reference order="21">J.J. van Wijk. The Value of Visualization. In Proceedings of the IEEE Conference on Visualization 2005, pp. 79-86, 2005.</reference>
+</pdf>

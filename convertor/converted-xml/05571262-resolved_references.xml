@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pdf>
+  <resolved_reference order="1">Mihalcea, R., Language independent extractive summarization. Proceedings of the ACL 2005 on Interactive poster and demonstration sessions. p. 52, 2005</resolved_reference>
+  <resolved_reference order="2">Rusu, D., Dali, L., Fortuna, B., Grobelnik, M. and Mladenic, D. Triplet Extraction from Sentences. In Proceedings of the 10th International Multiconference "Information Society - IS 2007". Ljubljana, Slovenia. pp. 218 -- 222. Ljubljana, Slovenia, October 2007</resolved_reference>
+  <resolved_reference order="3">Leskovec, J., Grobelnik, M., Milic-Frayling, N.. Learning Substructures of Document Semantic Graphs for Document Summarization. In Proceedings of the 7th International MultiConference Information Society IS 2004, Volume B. pp. 18-25, 2004.</resolved_reference>
+  <resolved_reference order="4">Mihalcea, R. and Tarau, P. TextRank: Bringing order into texts. In Proceedings of EMNLP, vol. 4, pp. 404 -- 411, Barcelona 2004.</resolved_reference>
+  <resolved_reference order="5">Grobelnik, M. and Mladenic, D. Simple classification into large topic ontology of Web documents. Journal of Computing and Information Technology. nr. 4, vol. 13, p. 279, 2005</resolved_reference>
+  <resolved_reference order="6">Rusu, D., Fortuna, B., Mladenic, D., Grobelnik, M. and Sipos, R. Document Visualization Based on Semantic Graphs. In Proceedings of the 13th International Conference Information Visualisation (IV09). Barcelona, Spain. pp. 292 -- 297. July 2009.</resolved_reference>
+  <resolved_reference order="7">Grobelnik, M., Mladenic, D. Text Mining Recipes,Springer-Verlag , Berlin; Heidelberg; New York, 2006</resolved_reference>
+  <resolved_reference order="8">T. Stajner, D. Rusu, L. Dali, B. Fortuna, D.Mladenic, M. Grpbelnik, Enrycher - service oriented text enrychment, SiKDD2009, October 16th, 2009, Ljubljana, Slovenia</resolved_reference>
+  <resolved_reference order="9">A. Arasu, J. Novak, A. Tomkins and J. Tomlin, "PageRank Computation and the Structure of the Web: Experiments andAlgorithms", Technical Report, IBM Almaden Research Center, Nov. 2001.</resolved_reference>
+</pdf>
