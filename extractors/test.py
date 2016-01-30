@@ -23,4 +23,4 @@ if cmd_subfolder not in sys.path:
 # __file__ fails if someone does os.chdir() before
 # sys.argv[0] also fails because it doesn't not always contains the path
 
-import RAKE.rake
+#import RAKE.rake
