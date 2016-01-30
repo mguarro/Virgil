@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import sys
 import os.path
 import keyExtract
@@ -6,7 +5,7 @@ import keyExtract
 test = "05629128.txt"
 keyExtract.keyWords(test)
 keyExtract.smartWords(test)
-=======
+
 import os, sys, inspect
 # realpath() will make your script run, even if you symlink it :)
 cmd_folder = os.path.realpath(os.path.abspath(os.path.split(inspect.getfile( inspect.currentframe() ))[0]))
@@ -25,4 +24,3 @@ if cmd_subfolder not in sys.path:
 # sys.argv[0] also fails because it doesn't not always contains the path
 
 import RAKE.rake
->>>>>>> fdea83c43a948afc0501066eda94f84a6cb63417
