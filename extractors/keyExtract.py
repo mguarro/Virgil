@@ -2,18 +2,23 @@
 import re
 from collections import Counter
 
-def keyWords(doc):
-    searchfile = open("05629128.txt", "r")
+# This fuction returns the keyword list contained in a document 
+def keyWords(self):
+    searchfile = open(self, "r")
     for line in searchfile:    
         if "words-" in line: 
-            print line
-            #keylist = line.split("; ",";","-")
-            #keylist = re.findall(regex,line)
             keylist = re.split("\W+",line)
-            print keylist
+            #print keylist
+            return keylist
         if "Terms-" in line: print line
+            keylist = re.split("\W+",line)
+            #print keylist
+            return keylist
 
-def smartWords(doc):
-    words = re.findall(r'\w+', open('05629128.txt').read().lower())
-    for line in doc:
-    #TFIDF code
+# This fuction returns a list of words with their associated frequency
+# in the following format: ('word', frequency)
+def smartWords(self):
+    searchfile = open(self, "r")
+    words = re.findall(r'\w+', open(self).read().lower())
+    #print Counter(words).most_common()[:-60+100:-1] 
+    return Counter(words).most_common()[:-60+100:-1] 
