@@ -1,0 +1,11 @@
+Using 2 convertors for now:
+1)
+pdftotext
+http://www.cyberciti.biz/faq/converter-pdf-files-to-text-format-command/
+pdftotext {PDF-file} {text-file}
+
+
+2)
+pdfextract
+http://labs.crossref.org/pdfextract/
+https://github.com/CrossRef/pdfextract
