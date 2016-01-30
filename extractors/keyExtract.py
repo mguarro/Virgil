@@ -1,6 +1,7 @@
 # This is the module for extracting keywords and 'smartword'
 import re
 from collections import Counter
+from rake import Rake
 
 # This fuction returns the keyword list contained in a document 
 def keyWords(self):
@@ -24,11 +25,12 @@ def smartWords(self):
     #print Counter(words).most_common()[:-60+100:-1] 
     return Counter(words).most_common()[:-60+100:-1] 
 
-# from rake import Rake
-# def getRakeKeywords(doc):
-#     r = Rake('SmartStoplist.txt')
-#     candidates = r.run(open(doc).read().replace('\n',' '))
-#     return candidates[:10]
+
+def getRakeKeywords(doc):
+    r = rake.Rake('SmartStoplist.txt')
+    candidates = r.run(open(doc).read().replace('\n',' '))
+    return candidates[:10]
+
 #Tested as follows:
 #keyExtract.getRakeKeywords('../convertor/converted-text/00528686.txt')
 
