@@ -1,0 +1,5 @@
+# Mac system file
+*.DS_STORE
+# compiled Python code
+*.pyc
+

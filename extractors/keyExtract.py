@@ -3,7 +3,7 @@ import re
 from collections import Counter
 from rake import Rake
 
-# This fuction returns the keyword list contained in a document 
+# This function returns the keyword list contained in a document 
 def keyWords(self):
     searchfile = open(self, "r")
     for line in searchfile:    
@@ -17,7 +17,7 @@ def keyWords(self):
             #print keylist
             return keylist
 
-# This fuction returns a list of words with their associated frequency
+# This function returns a list of words with their associated frequency
 # in the following format: ('word', frequency)
 def smartWords(self):
     searchfile = open(self, "r")
