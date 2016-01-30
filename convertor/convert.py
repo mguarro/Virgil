@@ -27,5 +27,10 @@ class Convertor:
     #    if os.path.exists():
         
 
-    #def getSections(self):
-    #    os.system(        
+    #def getReferenceSection(self):
+
+import sys
+
+if __name__ == '__main__':
+    c = Convertor(sys.argv[1])
+    print(c.getTextFilePath())
