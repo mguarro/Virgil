@@ -15,7 +15,6 @@ def keyWords(self):
             #print keylist
             return keylist
 
-#TODO: Change hardcoded filename to passed argument
 # This fuction returns a list of words with their associated frequency
 # in the following format: ('word', frequency)
 def smartWords(self):
