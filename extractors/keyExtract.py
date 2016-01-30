@@ -15,6 +15,7 @@ def keyWords(self):
             #print keylist
             return keylist
 
+#TODO: Change hardcoded filename to passed argument
 # This fuction returns a list of words with their associated frequency
 # in the following format: ('word', frequency)
 def smartWords(self):
@@ -22,3 +23,12 @@ def smartWords(self):
     words = re.findall(r'\w+', open(self).read().lower())
     #print Counter(words).most_common()[:-60+100:-1] 
     return Counter(words).most_common()[:-60+100:-1] 
+
+from rake import Rake
+def getRakeKeywords(doc):
+    r = Rake('SmartStoplist.txt')
+    candidates = r.run(open(doc).read().replace('\n',' '))
+    return candidates[:10]
+#Tested as follows:
+#keyExtract.getRakeKeywords('../convertor/converted-text/00528686.txt')
+

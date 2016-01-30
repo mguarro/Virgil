@@ -69,3 +69,13 @@ import sys
 if __name__ == '__main__':
     c = Convertor(sys.argv[1])
     print(c.getTextFilePath())
+
+'''
+sample usage:
+from convert import *
+filename_with_path = '/path/to/filename.pdf'
+c = Convertor(filename)
+c.getReferences()
+c.getRegions()
+etc.
+'''
