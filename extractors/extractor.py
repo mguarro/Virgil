@@ -13,6 +13,7 @@ class PDF(object):
     def __init__(self, pdfName):
         basepath = path.join("..", "convertor", "converted-xml", pdfName)
         print basepath
+        self.pdfName = pdfName
         regionsDOM = getDOM(basepath, "regions")
         self.pages = columnProcessing(regionsDOM)
         self.conclusion = None
@@ -53,6 +54,19 @@ class PDF(object):
                 for region in regions:
                     string += get60(region.childNodes[0].toxml()) + ",\n"
             string += "\n"
+        return string
+    def htmlstring(self):
+        string = ""
+        string += "<html>"
+        string += "<h3>" + "Abstract" + "</h3>"
+        string += "<p>" + thispdf.abstract + "</p>"
+        string += "<h3>" + "Conclusion" + "</h3>"
+        string += "<p>" + thispdf.conclusion + "</p>"
+        string += "<h3>" + "Text" + "</h3>"
+        paras = getParasInOrder(self.pages)
+        for para in paras:
+            string += "<p>" + para + "</p>"
+        string += "</html>"
         return string
 
 # gets the DOM of an XML file
@@ -200,8 +214,8 @@ pdfs = ["05571262", "05290726", "07001093"]
 
 for p in pdfs:
     thispdf = PDF(p)
-    paras = getParasInOrder(thispdf.pages)
-#    for para in paras:
-#        print para
-    print thispdf
+    thepath = path.join("..", "database_builder", "htmls", (thispdf.pdfName+".html"))
+    ffile = codecs.open(thepath, 'w', encoding='utf-8')
+    ffile.write(thispdf.htmlstring())
+#    print thispdf
 #    print thispdf.columnString()
