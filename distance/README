@@ -1,1 +1,1 @@
-This module computes distances between documents based on the contents of the text
+This module computes distances between documents based on the weighted keywords extracted from the text.
