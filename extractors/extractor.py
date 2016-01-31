@@ -36,14 +36,24 @@ class PDF(object):
         return string
     def columnString(self):
         string = ""
-        for pagenum, page in self.pages.iteritems():
-            string += pagenum + "\n"
-            for column, regions in page.iteritems():
-                string += column + ":\n"
+        for i in range(len(self.pages)):
+            page = self.pages[i]
+            string += str(i) + "\n"
+            for j in range(len(page)):
+                regions = page[j]
+                string += getColumn(j) + ":\n"
                 for region in regions:
                     string += get60(region.childNodes[0].toxml()) + ",\n"
             string += "\n"
         return string
+    def getParasInOrder(self):
+        paras = []
+        for page in self.pages:
+            for regions in page:
+                for region in regions:
+                    for node in region.childNodes:
+                        paras.append(node.toxml() + "\n\n")
+        return paras
 
 # gets the DOM of an XML file
 def getDOM(basepath, xmlID):
@@ -51,7 +61,6 @@ def getDOM(basepath, xmlID):
     try:
         dom = parse(filepath)
     except Exception:
-#        print "There is no file at " + filepath
         return None
     return dom
 
@@ -94,26 +103,40 @@ def columnProcessing(dom):
     if dom == None:
         return None
     pageElements = dom.getElementsByTagName("page")
-    pages = {}
+    pages = []
     for i in range(len(pageElements)):
         pageElement = pageElements[i]
-        ii = str(i)
-        for node in pageElement.childNodes:
+        hascolumns = False
+        for i in range(len(pageElement.childNodes)):
+            node = pageElement.childNodes[i]
             if node.nodeName == "region":
-                pages.setdefault(ii, {"middle":[],
-                                      "left":[],
-                                      "right":[]})
-                page = pages[ii]
+                if not hascolumns:
+                    pages.append([[],[],[]])
+                    hascolumns = True
                 width = float(node.getAttribute("width"))
                 x = float(node.getAttribute("x"))
                 pagewidth = float(pageElement.getAttribute("width"))
+                page = pages[len(pages)-1]
+                # if it's in the middle
                 if width > pagewidth/2:
-                    page["middle"].append(node)
+                    page[0].append(node)
+                # if it's on the left
                 elif x < pagewidth/2:
-                    page["left"].append(node)
+                    page[1].append(node)
+                # if it's on the right
                 else:
-                    page["right"].append(node)
+                    page[2].append(node)
     return pages
+
+def getColumn(number):
+    if number == 0:
+        return "middle"
+    elif number == 1:
+        return "left"
+    elif number == 2:
+        return "right"
+    else:
+        print "Unknown column: " + number
 
 # trims "Abstract - " and similar from the beginning of an abstract
 def trimAbstract(abstract):
@@ -175,5 +198,8 @@ pdfs = ["05571262", "05290726", "07001093"]
 
 for p in pdfs:
     thispdf = PDF(p)
+    paras = thispdf.getParasInOrder()
+    for para in paras:
+        print para
 #    print thispdf
-    print thispdf.columnString()
+#    print thispdf.columnString()
