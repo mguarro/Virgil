@@ -1,6 +1,6 @@
 import sys
 import os.path
-import keyExtract
+#import keyExtract
 
 
 def normVectorGen(keyList):
@@ -10,7 +10,7 @@ def normVectorGen(keyList):
     for i in keyList:
         normSum = normSum + i[1]
 
-    for i in rakeList:
+    for i in keyList:
         normKeyList.append((i[0],i[1] / normSum))
 
     return normKeyList

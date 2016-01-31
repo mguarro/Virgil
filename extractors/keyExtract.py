@@ -25,8 +25,8 @@ def keyWords(self):
 # This function returns a list of words with their associated frequency
 # in the following format: ('word', frequency)
 def smartWords(self):
-    stop1 = open(path.join('static', 'FoxStoplist.txt'), "r")
-    stop2 = open(path.join('static', 'SmartStoplist.txt'), "r")
+    stop1 = open(path.join('extractors/static', 'FoxStoplist.txt'), "r")
+    stop2 = open(path.join('extractors/static', 'SmartStoplist.txt'), "r")
     words = re.findall(r'\w+', open(self).read().lower())
     print len(words)
     ref1 = re.findall(r'\w+', stop1.read().lower())
@@ -36,7 +36,7 @@ def smartWords(self):
     return Counter(stopwordsfree_words).most_common(15) 
 
 def getRakeKeywords(doc):
-    r = Rake(path.join('static', 'VirgilStoplist.txt'))
+    r = Rake(path.join('extractors/static', 'VirgilStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
     return candidates[:300]
 
