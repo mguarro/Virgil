@@ -40,6 +40,7 @@ class PDF(object):
             string += "No conclusion identified\n"
         else:
             string += self.conclusion + "\n"
+        string = string.encode("ascii", "replace")
         return string
     def columnString(self):
         string = ""
