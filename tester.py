@@ -1,6 +1,6 @@
 import sys
 import os.path
-import extractors.keyExtract as keyExt
+import distance.keyExtract as keyExt
 import distance.distance as dist
 from pprint import pprint
 
