@@ -10,34 +10,40 @@ ALLOWED_EXTENSIONS = set(['pdf'])
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
+@app.route("/graph/")
+def graph():
+    return render_template('graph.html')
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         file = request.files['pdf_file']
+
         if file:
             if allowed_file(file.filename):
                 filename = secure_filename(file.filename)
                 filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                 file.save(filepath)
                 doi = extract_doi(filepath)
-                return redirect(url_for('split', doi=doi))
+                if doi:
+                    return redirect(url_for('split', doi=doi, view='summary'))
+                else:
+                    #TODO: Make cute error page
+                    return render_template('index.html')
         elif request.doi:
             doi = search_doi(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi))
+                return redirect(url_for('split', doi=doi, view='summary'))
         else:
             doi = search_doi_by_title(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi))
+                return redirect(url_for('split', doi=doi, view='summary'))
     return render_template('index.html')
 
-@app.route("/split")
+@app.route("/split/")
 def split():
     return render_template('split.html')
     
-@app.route("/graph")
-def graph():
-    return render_template('graph.html')
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
