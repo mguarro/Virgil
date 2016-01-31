@@ -289,11 +289,11 @@
       <line x_offset="3.72" y_offset="11.88" spacing="3.5">10</line>
       <line x_offset="7.56" y_offset="0.0" spacing="2.9">0</line>
     </region>
-    <region x="272.03" y="215.16" width="7.9" height="8.98" line_height="8.98" font="BLMHKE+TimesNewRoman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">35</line>
-    </region>
     <region x="75.0" y="215.16" width="4.06" height="8.98" line_height="8.98" font="BLMHKE+TimesNewRoman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="272.03" y="215.16" width="7.9" height="8.98" line_height="8.98" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">35</line>
     </region>
     <region x="83.88" y="186.18" width="167.37" height="37.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
       <line x_offset="19.8" y_offset="28.99" spacing="0.0">5</line>
