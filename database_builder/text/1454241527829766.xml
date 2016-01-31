@@ -149,65 +149,65 @@
     <region x="350.26" y="704.42" width="1.67" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide n</line>
     </region>
-    <region x="394.23" y="702.7" width="1.01" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">food</line>
-    </region>
     <region x="389.19" y="702.7" width="0.44" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="394.23" y="702.7" width="1.01" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">food</line>
     </region>
     <region x="453.63" y="702.55" width="7.79" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Snippet for Target Slide</line>
     </region>
+    <region x="345.59" y="699.15" width="0.44" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
     <region x="350.64" y="699.15" width="1.57" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
-    <region x="345.59" y="699.15" width="0.44" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    <region x="390.01" y="697.1" width="0.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="394.42" y="697.1" width="2.12" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">green foods</line>
     </region>
-    <region x="390.01" y="697.1" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="348.06" y="692.95" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="352.47" y="692.95" width="1.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sal ad</line>
     </region>
-    <region x="348.06" y="692.95" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="390.42" y="691.31" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="394.19" y="691.31" width="1.83" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sea fo od</line>
     </region>
-    <region x="390.42" y="691.31" width="0.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
-    </region>
     <region x="462.14" y="688.13" width="1.91" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
-    </region>
-    <region x="353.92" y="687.61" width="1.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">spi nach</line>
     </region>
     <region x="350.79" y="687.61" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
+    <region x="353.92" y="687.61" width="1.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">spi nach</line>
+    </region>
     <region x="508.09" y="686.38" width="1.08" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">food</line>
-    </region>
-    <region x="398.56" y="685.93" width="0.73" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="394.38" y="685.93" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
+    <region x="398.56" y="685.93" width="0.73" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
+    </region>
     <region x="451.68" y="683.31" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
     </region>
-    <region x="353.92" y="682.38" width="1.07" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">chard</line>
-    </region>
     <region x="350.79" y="682.38" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
+    </region>
+    <region x="353.92" y="682.38" width="1.07" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">chard</line>
     </region>
     <region x="495.8" y="681.97" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
@@ -233,17 +233,17 @@
     <region x="481.61" y="663.48" width="2.27" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
     </region>
+    <region x="326.09" y="660.26" width="0.44" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
     <region x="331.17" y="660.26" width="2.18" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
     </region>
-    <region x="326.09" y="660.26" width="0.44" height="0.0" line_height="0.0" font="">
+    <region x="375.7" y="659.55" width="0.44" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
     <region x="380.75" y="659.55" width="2.27" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
-    </region>
-    <region x="375.7" y="659.55" width="0.44" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
     <region x="481.61" y="657.35" width="1.53" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
@@ -251,53 +251,53 @@
     <region x="453.66" y="656.86" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
     </region>
+    <region x="457.47" y="655.0" width="1.2" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">target</line>
+    </region>
     <region x="459.71" y="655.0" width="0.87" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide</line>
     </region>
-    <region x="457.47" y="655.0" width="1.2" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">target</line>
+    <region x="328.6" y="654.17" width="0.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="333.01" y="654.17" width="1.78" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
-    <region x="328.6" y="654.17" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="378.95" y="653.39" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="383.4" y="653.39" width="1.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
-    <region x="378.95" y="653.39" width="0.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
-    </region>
     <region x="481.61" y="651.22" width="1.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
-    </region>
-    <region x="336.52" y="648.76" width="0.75" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="333.38" y="648.76" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
-    <region x="383.4" y="647.41" width="1.18" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
+    <region x="336.52" y="648.76" width="0.75" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="378.95" y="647.41" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
+    <region x="383.4" y="647.41" width="1.18" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
+    </region>
     <region x="102.58" y="647.34" width="3.92" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Generalized</line>
-    </region>
-    <region x="333.04" y="643.01" width="1.11" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
     </region>
     <region x="329.27" y="643.01" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="382.73" y="641.44" width="1.74" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">coc onut</line>
+    <region x="333.04" y="643.01" width="1.11" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
     </region>
     <region x="378.95" y="641.44" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
+    <region x="382.73" y="641.44" width="1.74" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">coc onut</line>
     </region>
     <region x="458.59" y="637.18" width="1.95" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
@@ -338,50 +338,50 @@
     <region x="479.22" y="616.26" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
     </region>
-    <region x="350.6" y="614.88" width="1.87" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
-    </region>
     <region x="345.56" y="614.88" width="0.44" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="350.6" y="614.88" width="1.87" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
     </region>
     <region x="486.87" y="614.58" width="1.75" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gherkin</line>
     </region>
+    <region x="391.62" y="610.21" width="0.44" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
     <region x="396.66" y="610.21" width="2.18" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">veg etabl e</line>
     </region>
-    <region x="391.62" y="610.21" width="0.44" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    <region x="348.02" y="608.71" width="0.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="352.43" y="608.71" width="1.45" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">garden</line>
     </region>
-    <region x="348.02" y="608.71" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="394.08" y="604.42" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="398.49" y="604.42" width="1.87" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">cucumber</line>
     </region>
-    <region x="394.08" y="604.42" width="0.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    <region x="350.86" y="603.3" width="0.26" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="354.67" y="603.3" width="1.67" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
     </region>
-    <region x="350.86" y="603.3" width="0.26" height="0.0" line_height="0.0" font="">
+    <region x="396.81" y="599.11" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="399.95" y="599.11" width="1.37" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gherkin</line>
     </region>
-    <region x="396.81" y="599.11" width="0.26" height="0.0" line_height="0.0" font="">
+    <region x="350.79" y="598.14" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="353.92" y="598.14" width="0.79" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
-    </region>
-    <region x="350.79" y="598.14" width="0.26" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="108.84" y="591.91" width="3.22" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieved</line>
@@ -404,83 +404,83 @@
     <region x="168.89" y="463.87" width="1.59" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide x</line>
     </region>
-    <region x="171.06" y="457.89" width="1.5" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
-    </region>
     <region x="167.14" y="457.89" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="171.06" y="457.89" width="1.5" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
     </region>
     <region x="74.29" y="454.03" width="1.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide x</line>
     </region>
-    <region x="172.25" y="453.14" width="0.7" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
-    </region>
     <region x="168.89" y="453.14" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
+    <region x="172.25" y="453.14" width="0.7" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
     </region>
     <region x="155.52" y="448.59" width="0.43" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
     </region>
-    <region x="172.25" y="448.52" width="1.51" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
-    </region>
     <region x="168.89" y="448.52" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="75.71" y="447.9" width="1.68" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
+    <region x="172.25" y="448.52" width="1.51" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
     </region>
     <region x="71.25" y="447.9" width="0.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
+    <region x="75.71" y="447.9" width="1.68" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
+    </region>
     <region x="159.78" y="446.68" width="0.27" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">x</line>
-    </region>
-    <region x="174.0" y="444.47" width="0.9" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="171.16" y="444.47" width="0.15" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
+    <region x="174.0" y="444.47" width="0.9" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
+    </region>
+    <region x="73.43" y="442.49" width="0.33" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
     <region x="77.32" y="442.49" width="0.79" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">frui t</line>
     </region>
-    <region x="73.43" y="442.49" width="0.33" height="0.0" line_height="0.0" font="">
+    <region x="73.43" y="437.17" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="77.32" y="437.17" width="1.85" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
     </region>
-    <region x="73.43" y="437.17" width="0.33" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    <region x="75.84" y="432.42" width="0.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="79.21" y="432.42" width="1.09" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
-    <region x="75.84" y="432.42" width="0.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
-    </region>
     <region x="170.27" y="431.14" width="1.56" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide y</line>
-    </region>
-    <region x="172.05" y="426.95" width="1.21" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="168.13" y="426.95" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
-    <region x="173.24" y="422.19" width="1.33" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
+    <region x="172.05" y="426.95" width="1.21" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="169.88" y="422.19" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="175.75" y="418.14" width="0.53" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
+    <region x="173.24" y="422.19" width="1.33" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
     <region x="172.88" y="418.14" width="0.15" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
+    </region>
+    <region x="175.75" y="418.14" width="0.53" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="156.32" y="417.57" width="0.43" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
@@ -488,26 +488,26 @@
     <region x="160.57" y="415.66" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
     </region>
+    <region x="169.88" y="413.65" width="0.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
     <region x="173.24" y="413.65" width="1.22" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
     </region>
-    <region x="169.88" y="413.65" width="0.23" height="0.0" line_height="0.0" font="">
+    <region x="169.88" y="409.03" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="173.24" y="409.03" width="0.87" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
     </region>
-    <region x="169.88" y="409.03" width="0.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
-    </region>
     <region x="175.88" y="396.19" width="1.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide x</line>
     </region>
-    <region x="177.86" y="390.06" width="1.68" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
-    </region>
     <region x="173.37" y="390.06" width="0.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="177.86" y="390.06" width="1.68" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
     </region>
     <region x="66.11" y="388.84" width="8.06" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Keyword Conceptual Structure</line>
@@ -521,38 +521,38 @@
     <region x="219.53" y="387.85" width="6.37" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Presentational Structure</line>
     </region>
-    <region x="179.48" y="384.58" width="0.76" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
-    </region>
     <region x="175.58" y="384.58" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="243.55" y="380.82" width="1.68" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
+    <region x="179.48" y="384.58" width="0.76" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
     </region>
     <region x="239.07" y="380.82" width="0.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
+    <region x="243.55" y="380.82" width="1.68" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
+    </region>
     <region x="97.48" y="380.62" width="1.72" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
+    </region>
+    <region x="175.58" y="379.33" width="0.33" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="179.48" y="379.33" width="1.85" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">veget abl e</line>
     </region>
-    <region x="175.58" y="379.33" width="0.33" height="0.0" line_height="0.0" font="">
+    <region x="253.49" y="374.85" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="257.41" y="374.85" width="0.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
     </region>
-    <region x="253.49" y="374.85" width="0.33" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    <region x="177.99" y="374.55" width="0.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="181.36" y="374.55" width="1.09" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
-    </region>
-    <region x="177.99" y="374.55" width="0.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="225.67" y="372.27" width="1.58" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide x</line>
@@ -563,23 +563,23 @@
     <region x="112.43" y="370.69" width="2.0" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
     </region>
-    <region x="257.64" y="369.57" width="1.82" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
-    </region>
     <region x="253.68" y="369.57" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="262.56" y="363.79" width="1.06" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
+    <region x="257.64" y="369.57" width="1.82" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
     </region>
     <region x="259.19" y="363.79" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
-    <region x="83.0" y="360.69" width="1.41" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">orange</line>
+    <region x="262.56" y="363.79" width="1.06" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="67.46" y="360.69" width="1.14" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
+    </region>
+    <region x="83.0" y="360.69" width="1.41" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">orange</line>
     </region>
     <region x="100.52" y="360.62" width="1.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
@@ -590,80 +590,80 @@
     <region x="177.1" y="357.29" width="1.73" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide y</line>
     </region>
-    <region x="243.55" y="355.38" width="1.39" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
-    </region>
     <region x="239.07" y="355.38" width="0.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
-    <region x="177.33" y="352.18" width="1.17" height="0.0" line_height="0.0" font="">
+    <region x="243.55" y="355.38" width="1.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="173.37" y="352.18" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
-    <region x="257.51" y="349.84" width="1.72" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
+    <region x="177.33" y="352.18" width="1.17" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="253.59" y="349.84" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="107.12" y="349.51" width="1.72" height="0.0" line_height="0.0" font="">
+    <region x="257.51" y="349.84" width="1.72" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
     <region x="89.24" y="349.51" width="1.55" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
     </region>
+    <region x="107.12" y="349.51" width="1.72" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
+    </region>
     <region x="129.75" y="349.47" width="1.54" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gherkin</line>
-    </region>
-    <region x="178.52" y="346.9" width="1.54" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
     <region x="175.12" y="346.9" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="263.22" y="344.29" width="0.64" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
+    <region x="178.52" y="346.9" width="1.54" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
     <region x="259.85" y="344.29" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
+    <region x="263.22" y="344.29" width="0.64" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
+    </region>
     <region x="226.2" y="343.66" width="1.56" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide y</line>
-    </region>
-    <region x="182.28" y="342.11" width="0.64" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="178.92" y="342.11" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
-    <region x="258.2" y="339.94" width="1.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
+    <region x="182.28" y="342.11" width="0.64" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
     </region>
     <region x="254.25" y="339.94" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
+    <region x="258.2" y="339.94" width="1.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
+    </region>
     <region x="112.04" y="338.55" width="0.82" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">kale</line>
+    </region>
+    <region x="175.12" y="337.53" width="0.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="178.52" y="337.53" width="1.18" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
     </region>
-    <region x="175.12" y="337.53" width="0.23" height="0.0" line_height="0.0" font="">
+    <region x="254.58" y="334.66" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="258.53" y="334.66" width="0.98" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
     </region>
-    <region x="254.58" y="334.66" width="0.33" height="0.0" line_height="0.0" font="">
+    <region x="175.12" y="332.94" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="178.52" y="332.94" width="0.84" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">apple</line>
-    </region>
-    <region x="175.12" y="332.94" width="0.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="82.31" y="332.78" width="5.51" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">denotes an is-a relationshi p</line>
@@ -903,11 +903,11 @@
     <region x="177.71" y="713.51" width="1.71" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee xx</line>
     </region>
-    <region x="180.01" y="707.37" width="1.85" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
-    </region>
     <region x="174.94" y="707.37" width="0.45" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;&#x25A0;</line>
+    </region>
+    <region x="180.01" y="707.37" width="1.85" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
     </region>
     <region x="222.61" y="702.34" width="6.82" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">PPrreesseennttaattiioonnaall SSttrruuccttuurree</line>
@@ -921,44 +921,44 @@
     <region x="61.6" y="702.04" width="8.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KKeeyywwoorrdd CCoonncceeppttuuaall SSttrruuccttuurree</line>
     </region>
+    <region x="177.84" y="701.24" width="0.4" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
+    </region>
     <region x="182.37" y="701.24" width="1.12" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">aappppllee</line>
     </region>
-    <region x="177.84" y="701.24" width="0.4" height="0.0" line_height="0.0" font="">
+    <region x="177.84" y="695.24" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
     <region x="182.37" y="695.24" width="0.86" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
     </region>
-    <region x="177.84" y="695.24" width="0.4" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
-    </region>
     <region x="241.98" y="695.11" width="0.23" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="250.41" y="694.67" width="1.85" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
     </region>
     <region x="245.34" y="694.67" width="0.45" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;&#x25A0;</line>
     </region>
-    <region x="95.27" y="691.91" width="1.87" height="0.0" line_height="0.0" font="">
+    <region x="250.41" y="694.67" width="1.85" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
     </region>
-    <region x="182.37" y="689.74" width="1.67" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    <region x="95.27" y="691.91" width="1.87" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
     </region>
     <region x="177.84" y="689.74" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
+    <region x="182.37" y="689.74" width="1.67" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
     <region x="250.51" y="689.41" width="0.36" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">22 </line>
     </region>
-    <region x="265.08" y="688.57" width="1.12" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">aappppllee</line>
-    </region>
     <region x="260.58" y="688.57" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
+    </region>
+    <region x="265.08" y="688.57" width="1.12" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">aappppllee</line>
     </region>
     <region x="224.94" y="684.11" width="1.67" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee xx</line>
@@ -966,17 +966,17 @@
     <region x="250.58" y="682.21" width="0.36" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">22 </line>
     </region>
-    <region x="264.88" y="682.01" width="0.86" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
-    </region>
     <region x="260.38" y="682.01" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
-    <region x="113.5" y="680.47" width="2.11" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    <region x="264.88" y="682.01" width="0.86" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
     </region>
     <region x="77.53" y="680.47" width="0.95" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
+    </region>
+    <region x="113.5" y="680.47" width="2.11" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
     </region>
     <region x="170.51" y="679.34" width="3.0" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ddeettaaiilleedd</line>
@@ -984,26 +984,26 @@
     <region x="250.58" y="675.14" width="0.36" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">22 </line>
     </region>
-    <region x="264.81" y="674.54" width="1.99" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
     <region x="260.31" y="674.54" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
-    <region x="83.53" y="667.41" width="1.58" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">oorraannggee</line>
+    <region x="264.81" y="674.54" width="1.99" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
     </region>
     <region x="64.9" y="667.41" width="1.24" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">aappppllee</line>
     </region>
+    <region x="83.53" y="667.41" width="1.58" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">oorraannggee</line>
+    </region>
     <region x="104.94" y="667.34" width="1.51" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
     </region>
-    <region x="250.58" y="667.11" width="0.95" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
-    </region>
     <region x="245.51" y="667.11" width="0.45" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;&#x25A0;</line>
+    </region>
+    <region x="250.58" y="667.11" width="0.95" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
     </region>
     <region x="125.54" y="667.01" width="2.21" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ccuuccuummbbeerr</line>
@@ -1014,20 +1014,20 @@
     <region x="178.51" y="666.31" width="1.68" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee yy</line>
     </region>
-    <region x="265.45" y="661.54" width="1.99" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
     <region x="260.35" y="661.54" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
+    </region>
+    <region x="265.45" y="661.54" width="1.99" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
     </region>
     <region x="249.81" y="661.47" width="0.36" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">22 </line>
     </region>
-    <region x="180.01" y="659.94" width="0.95" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
-    </region>
     <region x="174.94" y="659.94" width="0.45" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;&#x25A0;</line>
+    </region>
+    <region x="180.01" y="659.94" width="0.95" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ffrruuiitt</line>
     </region>
     <region x="226.24" y="657.34" width="1.65" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee yy</line>
@@ -1035,11 +1035,11 @@
     <region x="259.31" y="655.1" width="0.34" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">33 </line>
     </region>
-    <region x="271.41" y="654.97" width="1.18" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
-    </region>
     <region x="267.45" y="654.97" width="0.34" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;&#x25C6;</line>
+    </region>
+    <region x="271.41" y="654.97" width="1.18" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
     </region>
     <region x="104.1" y="654.8" width="1.66" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ssppiinnaacchh</line>
@@ -1047,155 +1047,155 @@
     <region x="127.74" y="654.47" width="1.69" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gghheerrkkiinn</line>
     </region>
-    <region x="181.11" y="654.34" width="1.83" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbll ee</line>
-    </region>
     <region x="176.61" y="654.34" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
+    </region>
+    <region x="181.11" y="654.34" width="1.83" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbll ee</line>
     </region>
     <region x="250.04" y="651.27" width="0.26" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">22</line>
     </region>
-    <region x="264.95" y="649.1" width="1.99" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ccuuccuummbbeerr</line>
-    </region>
     <region x="260.45" y="649.1" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
-    <region x="184.87" y="649.0" width="1.22" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
+    <region x="264.95" y="649.1" width="1.99" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ccuuccuummbbeerr</line>
     </region>
     <region x="180.91" y="649.0" width="0.34" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;&#x25C6;</line>
     </region>
+    <region x="184.87" y="649.0" width="1.22" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
+    </region>
     <region x="80.37" y="648.0" width="5.25" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ddeennootteess aann iiss--aa rreellaattiioonnsshhiipp</line>
-    </region>
-    <region x="181.11" y="643.64" width="1.84" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ccuuccuummbbeerr</line>
     </region>
     <region x="176.57" y="643.64" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;&#x25CF;</line>
     </region>
-    <region x="272.91" y="639.67" width="1.68" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee yy</line>
+    <region x="181.11" y="643.64" width="1.84" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ccuuccuummbbeerr</line>
     </region>
     <region x="67.47" y="639.67" width="1.71" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee xx</line>
     </region>
-    <region x="288.38" y="632.6" width="0.3" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
-    </region>
-    <region x="284.28" y="632.6" width="0.32" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
-    </region>
-    <region x="280.98" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="259.61" y="632.6" width="2.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="257.61" y="632.6" width="0.15" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="255.08" y="632.6" width="0.26" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
-    </region>
-    <region x="252.81" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
-    </region>
-    <region x="245.71" y="632.6" width="0.39" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
-    </region>
-    <region x="130.07" y="632.6" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">}}</line>
-    </region>
-    <region x="112.1" y="632.6" width="1.8" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
-    </region>
-    <region x="108.87" y="632.6" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">{{</line>
-    </region>
-    <region x="104.84" y="632.6" width="0.32" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
-    </region>
-    <region x="101.54" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="80.13" y="632.6" width="2.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="78.1" y="632.6" width="0.15" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="75.57" y="632.6" width="0.26" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
-    </region>
-    <region x="73.3" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    <region x="272.91" y="639.67" width="1.68" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">sslliiddee yy</line>
     </region>
     <region x="66.2" y="632.6" width="0.39" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
     </region>
-    <region x="250.11" y="631.14" width="0.17" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
+    <region x="73.3" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    </region>
+    <region x="75.57" y="632.6" width="0.26" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
+    </region>
+    <region x="78.1" y="632.6" width="0.15" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="80.13" y="632.6" width="2.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="101.54" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="104.84" y="632.6" width="0.32" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="108.87" y="632.6" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">{{</line>
+    </region>
+    <region x="112.1" y="632.6" width="1.8" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
+    </region>
+    <region x="130.07" y="632.6" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">}}</line>
+    </region>
+    <region x="245.71" y="632.6" width="0.39" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
+    </region>
+    <region x="252.81" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    </region>
+    <region x="255.08" y="632.6" width="0.26" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
+    </region>
+    <region x="257.61" y="632.6" width="0.15" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="259.61" y="632.6" width="2.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="280.98" y="632.6" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="284.28" y="632.6" width="0.32" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="288.38" y="632.6" width="0.3" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
     </region>
     <region x="70.6" y="631.14" width="0.17" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
     </region>
-    <region x="109.3" y="625.04" width="0.3" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
-    </region>
-    <region x="105.1" y="625.04" width="0.33" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
-    </region>
-    <region x="101.7" y="625.04" width="0.2" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="79.83" y="625.04" width="2.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="77.77" y="625.04" width="0.15" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="75.17" y="625.04" width="0.27" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
-    </region>
-    <region x="72.87" y="625.04" width="0.2" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    <region x="250.11" y="631.14" width="0.17" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
     </region>
     <region x="66.2" y="625.04" width="0.4" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
     </region>
+    <region x="72.87" y="625.04" width="0.2" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    </region>
+    <region x="75.17" y="625.04" width="0.27" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
+    </region>
+    <region x="77.77" y="625.04" width="0.15" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="79.83" y="625.04" width="2.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="101.7" y="625.04" width="0.2" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="105.1" y="625.04" width="0.33" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="109.3" y="625.04" width="0.3" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
+    </region>
     <region x="268.88" y="624.87" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
     </region>
-    <region x="290.15" y="624.87" width="0.27" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">}}</line>
-    </region>
-    <region x="275.61" y="624.87" width="1.45" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
-    </region>
-    <region x="272.85" y="624.87" width="0.27" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">{{</line>
-    </region>
-    <region x="265.58" y="624.87" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="244.38" y="624.87" width="2.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="242.41" y="624.87" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="239.81" y="624.87" width="0.25" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
+    <region x="230.88" y="624.87" width="0.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
     </region>
     <region x="237.34" y="624.87" width="0.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
     </region>
-    <region x="230.88" y="624.87" width="0.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
+    <region x="239.81" y="624.87" width="0.25" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
+    </region>
+    <region x="242.41" y="624.87" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="244.38" y="624.87" width="2.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="265.58" y="624.87" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="272.85" y="624.87" width="0.27" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">{{</line>
+    </region>
+    <region x="275.61" y="624.87" width="1.45" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
+    </region>
+    <region x="290.15" y="624.87" width="0.27" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">}}</line>
     </region>
     <region x="70.63" y="623.54" width="0.14" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ss</line>
@@ -1203,217 +1203,217 @@
     <region x="235.18" y="623.44" width="0.13" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ss</line>
     </region>
-    <region x="289.68" y="617.17" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="285.91" y="617.17" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
-    </region>
-    <region x="282.05" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="260.05" y="617.17" width="2.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="257.98" y="617.17" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="255.31" y="617.17" width="0.25" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
-    </region>
-    <region x="252.71" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
-    </region>
-    <region x="245.38" y="617.17" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="67.54" y="617.17" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
-    </region>
-    <region x="111.47" y="617.17" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="107.71" y="617.17" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
-    </region>
-    <region x="103.84" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="81.87" y="617.17" width="2.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="79.8" y="617.17" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="77.2" y="617.17" width="0.25" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
     </region>
     <region x="74.84" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
     </region>
-    <region x="67.54" y="617.17" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="77.2" y="617.17" width="0.25" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
+    </region>
+    <region x="79.8" y="617.17" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="81.87" y="617.17" width="2.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="103.84" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="107.71" y="617.17" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="111.47" y="617.17" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    </region>
+    <region x="245.38" y="617.17" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
+    </region>
+    <region x="252.71" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    </region>
+    <region x="255.31" y="617.17" width="0.25" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
+    </region>
+    <region x="257.98" y="617.17" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="260.05" y="617.17" width="2.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="282.05" y="617.17" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="285.91" y="617.17" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="289.68" y="617.17" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
     <region x="219.44" y="616.54" width="0.29" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
     </region>
-    <region x="228.61" y="616.54" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    <region x="122.47" y="616.54" width="1.79" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
     </region>
-    <region x="224.85" y="616.54" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="143.21" y="616.54" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
     <region x="146.97" y="616.54" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="143.21" y="616.54" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="224.85" y="616.54" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
-    <region x="122.47" y="616.54" width="1.79" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pprroodduuccee</line>
-    </region>
-    <region x="203.28" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
+    <region x="228.61" y="616.54" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="199.51" y="615.84" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
-    </region>
-    <region x="195.58" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
-    </region>
-    <region x="163.57" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
+    <region x="156.31" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
     <region x="159.81" y="615.84" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
-    <region x="156.31" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
+    <region x="163.57" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="249.94" y="615.77" width="0.16" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
+    <region x="195.58" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
+    </region>
+    <region x="199.51" y="615.84" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="203.28" y="615.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
     <region x="72.07" y="615.77" width="0.16" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
     </region>
-    <region x="239.25" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    <region x="249.94" y="615.77" width="0.16" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">gg</line>
     </region>
-    <region x="207.61" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
-    </region>
-    <region x="190.51" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
-    </region>
-    <region x="186.28" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">55</line>
-    </region>
-    <region x="184.84" y="612.27" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">..</line>
-    </region>
-    <region x="181.98" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
-    </region>
-    <region x="177.41" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&gt;&gt;</line>
-    </region>
-    <region x="173.07" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">22</line>
-    </region>
-    <region x="168.41" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="115.81" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
     </region>
     <region x="151.31" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
     </region>
-    <region x="115.81" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="168.41" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="173.07" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">22</line>
+    </region>
+    <region x="177.41" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&gt;&gt;</line>
+    </region>
+    <region x="181.98" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
+    </region>
+    <region x="184.84" y="612.27" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">..</line>
+    </region>
+    <region x="186.28" y="612.27" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">55</line>
+    </region>
+    <region x="190.51" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="207.61" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
+    </region>
+    <region x="239.25" y="612.27" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">==</line>
     </region>
     <region x="129.54" y="607.84" width="0.29" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x3C6;&#x3C6;</line>
     </region>
-    <region x="289.38" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="285.61" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
-    </region>
-    <region x="281.75" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
-    </region>
-    <region x="259.75" y="607.84" width="2.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
-    </region>
-    <region x="257.68" y="607.84" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
-    </region>
-    <region x="254.98" y="607.84" width="0.25" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
-    </region>
-    <region x="252.38" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
-    </region>
-    <region x="245.71" y="607.84" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="67.84" y="607.84" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
     </region>
-    <region x="234.94" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    <region x="74.54" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
     </region>
-    <region x="231.18" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    <region x="76.87" y="607.84" width="0.25" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
     </region>
-    <region x="213.85" y="607.84" width="1.45" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
+    <region x="79.47" y="607.84" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
     </region>
-    <region x="202.78" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    <region x="81.54" y="607.84" width="2.09" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
     </region>
-    <region x="199.01" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    <region x="103.54" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
     </region>
-    <region x="195.51" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="164.07" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="160.31" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
-    </region>
-    <region x="156.37" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
-    </region>
-    <region x="138.71" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
-    </region>
-    <region x="134.94" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="107.41" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
     <region x="111.17" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="107.41" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+    <region x="134.94" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
-    <region x="103.54" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    <region x="138.71" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="81.54" y="607.84" width="2.09" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    <region x="156.37" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">00</line>
     </region>
-    <region x="79.47" y="607.84" width="0.14" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    <region x="160.31" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
     </region>
-    <region x="76.87" y="607.84" width="0.25" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">xx</line>
+    <region x="164.07" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="74.54" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    <region x="195.51" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
-    <region x="67.84" y="607.84" width="0.38" height="0.0" line_height="0.0" font="">
+    <region x="199.01" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="202.78" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    </region>
+    <region x="213.85" y="607.84" width="1.45" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ggrreeeennss</line>
+    </region>
+    <region x="231.18" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="234.94" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
+    </region>
+    <region x="245.71" y="607.84" width="0.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">KK</line>
     </region>
-    <region x="250.14" y="606.4" width="0.13" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ss</line>
+    <region x="252.38" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">((</line>
+    </region>
+    <region x="254.98" y="607.84" width="0.25" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">yy</line>
+    </region>
+    <region x="257.68" y="607.84" width="0.14" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">,,</line>
+    </region>
+    <region x="259.75" y="607.84" width="2.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vveeggeettaabbllee</line>
+    </region>
+    <region x="281.75" y="607.84" width="0.19" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">))</line>
+    </region>
+    <region x="285.61" y="607.84" width="0.31" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">++</line>
+    </region>
+    <region x="289.38" y="607.84" width="0.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11</line>
     </region>
     <region x="72.3" y="606.4" width="0.13" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ss</line>
+    </region>
+    <region x="250.14" y="606.4" width="0.13" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">ss</line>
     </region>
     <region x="79.59" y="584.76" width="192.5" height="7.23" line_height="7.23" font="AJGLEF+Times-Roman">
@@ -1794,12 +1794,12 @@
     <region x="55.79" y="710.12" width="43.83" height="9.03" line_height="9.03" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">conditions;</line>
     </region>
+    <region x="103.08" y="709.8" width="4.4" height="9.86" line_height="9.86" font="AJGLFI+CMMI10">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x1D45E;</line>
+    </region>
     <region x="115.15" y="709.8" width="146.31" height="9.86" line_height="9.03" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="0.33" spacing="0.5">is an expanded query keyword of .</line>
       <line x_offset="139.09" y_offset="0.0" spacing="-9.54">&#x1D45E;</line>
-    </region>
-    <region x="103.08" y="709.8" width="4.4" height="9.86" line_height="9.86" font="AJGLFI+CMMI10">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x1D45E;</line>
     </region>
     <region x="107.48" y="709.06" width="3.72" height="6.9" line_height="6.9" font="AJGLFJ+CMMI7">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x1D460;</line>
@@ -1807,23 +1807,23 @@
     <region x="333.42" y="705.11" width="2.16" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide 2</line>
     </region>
-    <region x="333.98" y="698.62" width="2.4" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
-    </region>
     <region x="327.63" y="698.62" width="0.56" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
     </region>
-    <region x="336.29" y="690.87" width="1.13" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
+    <region x="333.98" y="698.62" width="2.4" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">produce</line>
     </region>
     <region x="330.74" y="690.87" width="0.47" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
-    <region x="336.29" y="683.3" width="2.68" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
+    <region x="336.29" y="690.87" width="1.13" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">fruit</line>
     </region>
     <region x="330.74" y="683.3" width="0.47" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
+    <region x="336.29" y="683.3" width="2.68" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
     </region>
     <region x="499.72" y="680.24" width="5.18" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Generalized</line>
@@ -1852,20 +1852,20 @@
     <region x="333.14" y="646.39" width="2.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide 4</line>
     </region>
-    <region x="334.03" y="640.37" width="2.9" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
-    </region>
     <region x="327.68" y="640.37" width="0.56" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="334.03" y="640.37" width="2.9" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetabl e</line>
     </region>
     <region x="438.78" y="639.52" width="3.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">vegetable</line>
     </region>
-    <region x="336.33" y="632.57" width="1.76" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
-    </region>
     <region x="330.79" y="632.57" width="0.47" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
+    <region x="336.33" y="632.57" width="1.76" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="438.78" y="631.86" width="2.24" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
@@ -1876,11 +1876,11 @@
     <region x="424.44" y="628.85" width="0.35" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">4</line>
     </region>
-    <region x="336.33" y="625.04" width="1.49" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
-    </region>
     <region x="330.79" y="625.04" width="0.47" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
+    <region x="336.33" y="625.04" width="1.49" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
     </region>
     <region x="438.74" y="624.15" width="1.89" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">onion</line>
@@ -1912,32 +1912,32 @@
     <region x="333.32" y="587.71" width="2.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">slide 5</line>
     </region>
-    <region x="333.98" y="581.55" width="1.97" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
-    </region>
     <region x="327.63" y="581.55" width="0.56" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25A0;</line>
+    </region>
+    <region x="333.98" y="581.55" width="1.97" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">greens</line>
     </region>
     <region x="506.82" y="576.0" width="3.57" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Detailed</line>
     </region>
+    <region x="330.74" y="573.79" width="0.47" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    </region>
     <region x="336.29" y="573.79" width="1.97" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">spinach</line>
     </region>
-    <region x="330.74" y="573.79" width="0.47" height="0.0" line_height="0.0" font="">
+    <region x="330.74" y="566.32" width="0.47" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
     </region>
     <region x="336.29" y="566.32" width="2.24" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">cabbage</line>
     </region>
-    <region x="330.74" y="566.32" width="0.47" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25CF;</line>
+    <region x="335.44" y="558.75" width="0.33" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="339.39" y="558.75" width="1.13" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">kal e</line>
-    </region>
-    <region x="335.44" y="558.75" width="0.33" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x25C6;</line>
     </region>
     <region x="366.88" y="535.89" width="136.58" height="7.23" line_height="7.23" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 5. Example of snippet generation</line>
@@ -2282,6 +2282,9 @@
     <region x="325.33" y="645.51" width="14.93" height="5.35" line_height="5.35" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Recall</line>
     </region>
+    <region x="320.46" y="631.81" width="24.66" height="5.35" line_height="5.35" font="AJGLEF+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">F-measure</line>
+    </region>
     <region x="503.74" y="631.81" width="46.93" height="48.09" line_height="5.35" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="42.74" spacing="0.0">Matching keywords</line>
       <line x_offset="8.99" y_offset="36.06" spacing="1.33">All contents</line>
@@ -2299,6 +2302,15 @@
       <line x_offset="2.97" y_offset="7.01" spacing="1.33">(260/374)</line>
       <line x_offset="9.38" y_offset="0.0" spacing="1.66">0.70</line>
     </region>
+    <region x="355.14" y="631.81" width="26.02" height="41.7" line_height="5.35" font="AJGLEF+Times-Roman">
+      <line x_offset="0.0" y_offset="36.06" spacing="0.3">Content</line>
+      <line x_offset="20.55" y_offset="35.86" spacing="-5.65">&#x1D44B;</line>
+      <line x_offset="5.69" y_offset="27.38" spacing="3.13">73.4%</line>
+      <line x_offset="1.72" y_offset="20.7" spacing="1.32">(149/203)</line>
+      <line x_offset="5.69" y_offset="13.69" spacing="1.66">79.7%</line>
+      <line x_offset="1.72" y_offset="7.01" spacing="1.33">(149/187)</line>
+      <line x_offset="8.13" y_offset="0.0" spacing="1.66">0.76</line>
+    </region>
     <region x="391.63" y="631.81" width="61.02" height="48.09" line_height="5.35" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="36.06" spacing="6.68">Content</line>
       <line x_offset="20.55" y_offset="35.86" spacing="-5.65">&#x1D44C;</line>
@@ -2315,18 +2327,6 @@
       <line x_offset="41.13" y_offset="13.69" spacing="1.66">46.7%</line>
       <line x_offset="38.61" y_offset="7.01" spacing="1.33">(63/135)</line>
       <line x_offset="43.57" y_offset="0.0" spacing="1.66">0.56</line>
-    </region>
-    <region x="355.14" y="631.81" width="26.02" height="41.7" line_height="5.35" font="AJGLEF+Times-Roman">
-      <line x_offset="0.0" y_offset="36.06" spacing="0.3">Content</line>
-      <line x_offset="20.55" y_offset="35.86" spacing="-5.65">&#x1D44B;</line>
-      <line x_offset="5.69" y_offset="27.38" spacing="3.13">73.4%</line>
-      <line x_offset="1.72" y_offset="20.7" spacing="1.32">(149/203)</line>
-      <line x_offset="5.69" y_offset="13.69" spacing="1.66">79.7%</line>
-      <line x_offset="1.72" y_offset="7.01" spacing="1.33">(149/187)</line>
-      <line x_offset="8.13" y_offset="0.0" spacing="1.66">0.76</line>
-    </region>
-    <region x="320.46" y="631.81" width="24.66" height="5.35" line_height="5.35" font="AJGLEF+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">F-measure</line>
     </region>
     <region x="315.09" y="443.22" width="240.57" height="151.83" line_height="9.03" font="AJGLEF+Times-Roman">
       <line x_offset="13.43" y_offset="142.29" spacing="0.5">containing the specified keyword, is determined from</line>
@@ -2664,32 +2664,32 @@
     <region x="329.83" y="694.98" width="0.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">news</line>
     </region>
-    <region x="333.56" y="690.51" width="5.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve s tructure pat t ern based on the order in </line>
-    </region>
     <region x="329.83" y="690.51" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
-    <region x="432.13" y="686.49" width="12.08" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">browsing method for news archives</line>
+    <region x="333.56" y="690.51" width="5.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve s tructure pat t ern based on the order in </line>
     </region>
     <region x="410.05" y="686.49" width="2.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">about </line>
     </region>
-    <region x="432.42" y="686.19" width="12.08" height="0.0" line_height="0.0" font="">
+    <region x="432.13" y="686.49" width="12.08" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">browsing method for news archives</line>
     </region>
     <region x="410.34" y="686.19" width="2.19" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">about </line>
     </region>
+    <region x="432.42" y="686.19" width="12.08" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">browsing method for news archives</line>
+    </region>
     <region x="333.9" y="686.19" width="0.59" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">video</line>
     </region>
-    <region x="335.36" y="682.21" width="2.43" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Structure pattern contanis 3 elemnets </line>
-    </region>
     <region x="332.06" y="682.21" width="0.22" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
+    <region x="335.36" y="682.21" width="2.43" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Structure pattern contanis 3 elemnets </line>
     </region>
     <region x="404.52" y="678.57" width="0.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">C</line>
@@ -2709,29 +2709,29 @@
     <region x="324.44" y="674.69" width="0.43" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">7</line>
     </region>
+    <region x="332.06" y="674.4" width="0.22" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
     <region x="335.36" y="674.4" width="1.68" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve structure pattern </line>
     </region>
-    <region x="332.06" y="674.4" width="0.22" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    <region x="333.71" y="670.95" width="0.04" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="334.44" y="670.95" width="2.94" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Noun v e ctor a s n e w s su bj e ct </line>
     </region>
-    <region x="333.71" y="670.95" width="0.04" height="0.0" line_height="0.0" font="">
+    <region x="333.71" y="667.61" width="0.04" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="334.44" y="667.61" width="5.55" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">V erb v e ctor con s i sts of g e n er ation stat us and con c lu s ion st atu s</line>
     </region>
-    <region x="333.71" y="667.61" width="0.04" height="0.0" line_height="0.0" font="">
+    <region x="333.71" y="664.21" width="0.04" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="334.44" y="664.21" width="2.75" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Th e i mporta n c eb a s e d ont h e o rd er</line>
-    </region>
-    <region x="333.71" y="664.21" width="0.04" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="332.69" y="659.99" width="5.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Det ermine the relations based on structure pat tern</line>
@@ -2742,11 +2742,11 @@
     <region x="62.68" y="659.58" width="24.14" height="5.94" line_height="5.94" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Precision</line>
     </region>
-    <region x="336.14" y="656.01" width="2.23" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Definition of four relation types</line>
-    </region>
     <region x="332.79" y="656.01" width="0.22" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
+    <region x="336.14" y="656.01" width="2.23" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Definition of four relation types</line>
     </region>
     <region x="336.38" y="652.56" width="4.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Co mp ar e, An a log iz e, Fo ll ow-up , A lt ern ati v e r el at ion</line>
@@ -2763,34 +2763,8 @@
     <region x="400.92" y="633.29" width="4.9" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Determine the relations based on news </line>
     </region>
-    <region x="261.9" y="629.17" width="25.58" height="36.36" line_height="5.94" font="AJGLEF+Times-Roman">
-      <line x_offset="4.42" y_offset="30.41" spacing="0.0">72.1%</line>
-      <line x_offset="0.0" y_offset="23.0" spacing="1.47">(173/240)</line>
-      <line x_offset="4.42" y_offset="15.21" spacing="1.84">64.6%</line>
-      <line x_offset="0.0" y_offset="7.79" spacing="1.48">(173/268)</line>
-      <line x_offset="7.12" y_offset="0.0" spacing="1.84">0.68</line>
-    </region>
-    <region x="217.43" y="629.17" width="28.17" height="53.75" line_height="5.94" font="AJGLEF+Times-Roman">
-      <line x_offset="0.01" y_offset="47.47" spacing="0.33">Content</line>
-      <line x_offset="22.84" y_offset="47.26" spacing="-6.28">&#x1D44D;</line>
-      <line x_offset="0.0" y_offset="40.05" spacing="1.26">Snippet</line>
-      <line x_offset="22.1" y_offset="39.84" spacing="-6.28">&#x1D437;</line>
-      <line x_offset="5.8" y_offset="30.41" spacing="3.48">78.3%</line>
-      <line x_offset="4.63" y_offset="23.0" spacing="1.47">(47/60)</line>
-      <line x_offset="5.8" y_offset="15.21" spacing="1.84">51.6%</line>
-      <line x_offset="4.63" y_offset="7.79" spacing="1.48">(47/91)</line>
-      <line x_offset="8.51" y_offset="0.0" spacing="1.84">0.62</line>
-    </region>
-    <region x="177.53" y="629.17" width="27.87" height="53.75" line_height="5.94" font="AJGLEF+Times-Roman">
-      <line x_offset="0.0" y_offset="47.47" spacing="0.33">Content</line>
-      <line x_offset="22.82" y_offset="47.26" spacing="-6.28">&#x1D44C;</line>
-      <line x_offset="0.45" y_offset="40.05" spacing="1.26">Snippet</line>
-      <line x_offset="22.56" y_offset="39.84" spacing="-6.28">&#x1D436;</line>
-      <line x_offset="6.01" y_offset="30.41" spacing="3.48">62.0%</line>
-      <line x_offset="4.83" y_offset="23.0" spacing="1.47">(31/50)</line>
-      <line x_offset="6.01" y_offset="15.21" spacing="1.84">91.2%</line>
-      <line x_offset="4.83" y_offset="7.79" spacing="1.48">(31/34)</line>
-      <line x_offset="8.71" y_offset="0.0" spacing="1.84">0.74</line>
+    <region x="61.05" y="629.17" width="27.39" height="5.94" line_height="5.94" font="AJGLEF+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">F-measure</line>
     </region>
     <region x="99.57" y="629.17" width="66.52" height="53.75" line_height="5.94" font="AJGLEF+Times-Roman">
       <line x_offset="0.0" y_offset="40.05" spacing="7.75">Snippet</line>
@@ -2810,23 +2784,49 @@
       <line x_offset="43.27" y_offset="7.79" spacing="1.48">(46/69)</line>
       <line x_offset="47.14" y_offset="0.0" spacing="1.84">0.71</line>
     </region>
-    <region x="61.05" y="629.17" width="27.39" height="5.94" line_height="5.94" font="AJGLEF+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">F-measure</line>
+    <region x="177.53" y="629.17" width="27.87" height="53.75" line_height="5.94" font="AJGLEF+Times-Roman">
+      <line x_offset="0.0" y_offset="47.47" spacing="0.33">Content</line>
+      <line x_offset="22.82" y_offset="47.26" spacing="-6.28">&#x1D44C;</line>
+      <line x_offset="0.45" y_offset="40.05" spacing="1.26">Snippet</line>
+      <line x_offset="22.56" y_offset="39.84" spacing="-6.28">&#x1D436;</line>
+      <line x_offset="6.01" y_offset="30.41" spacing="3.48">62.0%</line>
+      <line x_offset="4.83" y_offset="23.0" spacing="1.47">(31/50)</line>
+      <line x_offset="6.01" y_offset="15.21" spacing="1.84">91.2%</line>
+      <line x_offset="4.83" y_offset="7.79" spacing="1.48">(31/34)</line>
+      <line x_offset="8.71" y_offset="0.0" spacing="1.84">0.74</line>
+    </region>
+    <region x="217.43" y="629.17" width="28.17" height="53.75" line_height="5.94" font="AJGLEF+Times-Roman">
+      <line x_offset="0.01" y_offset="47.47" spacing="0.33">Content</line>
+      <line x_offset="22.84" y_offset="47.26" spacing="-6.28">&#x1D44D;</line>
+      <line x_offset="0.0" y_offset="40.05" spacing="1.26">Snippet</line>
+      <line x_offset="22.1" y_offset="39.84" spacing="-6.28">&#x1D437;</line>
+      <line x_offset="5.8" y_offset="30.41" spacing="3.48">78.3%</line>
+      <line x_offset="4.63" y_offset="23.0" spacing="1.47">(47/60)</line>
+      <line x_offset="5.8" y_offset="15.21" spacing="1.84">51.6%</line>
+      <line x_offset="4.63" y_offset="7.79" spacing="1.48">(47/91)</line>
+      <line x_offset="8.51" y_offset="0.0" spacing="1.84">0.62</line>
+    </region>
+    <region x="261.9" y="629.17" width="25.58" height="36.36" line_height="5.94" font="AJGLEF+Times-Roman">
+      <line x_offset="4.42" y_offset="30.41" spacing="0.0">72.1%</line>
+      <line x_offset="0.0" y_offset="23.0" spacing="1.47">(173/240)</line>
+      <line x_offset="4.42" y_offset="15.21" spacing="1.84">64.6%</line>
+      <line x_offset="0.0" y_offset="7.79" spacing="1.48">(173/268)</line>
+      <line x_offset="7.12" y_offset="0.0" spacing="1.84">0.68</line>
     </region>
     <region x="400.92" y="628.44" width="2.2" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">structure pattern</line>
     </region>
-    <region x="405.0" y="623.59" width="2.91" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">News structure pattern</line>
-    </region>
     <region x="400.92" y="623.59" width="0.34" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
-    <region x="405.9" y="619.17" width="4.2" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">News subjec t: remark ed event in news</line>
+    <region x="405.0" y="623.59" width="2.91" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">News structure pattern</line>
     </region>
     <region x="405.0" y="619.17" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="405.9" y="619.17" width="4.2" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">News subjec t: remark ed event in news</line>
     </region>
     <region x="375.69" y="618.98" width="0.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
@@ -2834,11 +2834,11 @@
     <region x="382.63" y="616.55" width="0.43" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">3</line>
     </region>
-    <region x="405.9" y="614.8" width="4.97" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Generation sta tus : generation reason of news</line>
-    </region>
     <region x="405.0" y="614.8" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="405.9" y="614.8" width="4.97" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Generation sta tus : generation reason of news</line>
     </region>
     <region x="474.26" y="614.37" width="0.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">C</line>
@@ -2846,17 +2846,17 @@
     <region x="481.83" y="611.94" width="0.44" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">3</line>
     </region>
-    <region x="405.9" y="610.44" width="4.89" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Conclusion status : what s t atu s is conclusion</line>
-    </region>
     <region x="405.0" y="610.44" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
-    <region x="404.22" y="605.68" width="5.02" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve structure pattern based on the </line>
+    <region x="405.9" y="610.44" width="4.89" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Conclusion status : what s t atu s is conclusion</line>
     </region>
     <region x="400.92" y="605.68" width="0.22" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
+    <region x="404.22" y="605.68" width="5.02" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve structure pattern based on the </line>
     </region>
     <region x="403.69" y="600.83" width="2.63" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">feature of video news</line>
@@ -2879,17 +2879,17 @@
     <region x="475.61" y="572.87" width="5.89" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve news structure pattern</line>
     </region>
+    <region x="477.51" y="567.24" width="0.34" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
     <region x="481.58" y="567.24" width="3.24" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Retrieve structure pattern</line>
     </region>
-    <region x="477.51" y="567.24" width="0.34" height="0.0" line_height="0.0" font="">
+    <region x="479.93" y="562.78" width="0.28" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
     <region x="483.62" y="562.78" width="3.8" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">The importance based on the order of </line>
-    </region>
-    <region x="479.93" y="562.78" width="0.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
     <region x="461.88" y="561.66" width="0.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
@@ -2900,17 +2900,17 @@
     <region x="484.01" y="558.41" width="3.03" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">news elements in news video</line>
     </region>
+    <region x="484.3" y="554.43" width="0.06" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
     <region x="485.09" y="554.43" width="2.68" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">News subject: efature vector (only noun)</line>
     </region>
-    <region x="484.3" y="554.43" width="0.06" height="0.0" line_height="0.0" font="">
+    <region x="484.3" y="550.55" width="0.06" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="485.09" y="550.55" width="2.88" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Generation stauts: feature vector (only verb)</line>
-    </region>
-    <region x="484.3" y="550.55" width="0.06" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
     <region x="337.3" y="550.21" width="10.0" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">The portion of the retrieved slide</line>
@@ -2918,11 +2918,11 @@
     <region x="543.02" y="548.66" width="0.76" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">C</line>
     </region>
-    <region x="485.09" y="546.67" width="2.96" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Conclusion status: feature vector (only verb)</line>
-    </region>
     <region x="484.3" y="546.67" width="0.06" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="485.09" y="546.67" width="2.96" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Conclusion status: feature vector (only verb)</line>
     </region>
     <region x="550.59" y="546.23" width="0.44" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">5</line>
@@ -2984,26 +2984,26 @@
     <region x="416.57" y="396.01" width="4.83" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Conventional research (4)</line>
     </region>
-    <region x="421.01" y="389.97" width="4.01" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Group for updating maintenance</line>
-    </region>
     <region x="416.96" y="389.97" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
-    <region x="423.26" y="385.14" width="4.02" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Each clustering urn over with a high cost</line>
+    <region x="421.01" y="389.97" width="4.01" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Group for updating maintenance</line>
     </region>
     <region x="422.27" y="385.14" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
+    <region x="423.26" y="385.14" width="4.02" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Each clustering urn over with a high cost</line>
+    </region>
     <region x="395.52" y="380.99" width="0.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
     </region>
-    <region x="423.02" y="380.75" width="4.28" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Group can vary frequently, moving object </line>
-    </region>
     <region x="422.22" y="380.75" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="423.02" y="380.75" width="4.28" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Group can vary frequently, moving object </line>
     </region>
     <region x="402.47" y="378.58" width="0.43" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">9</line>
@@ -3011,20 +3011,20 @@
     <region x="424.25" y="376.4" width="2.37" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">inconsistent with group</line>
     </region>
-    <region x="421.01" y="371.67" width="4.48" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">To propose updating maintenance by </line>
-    </region>
     <region x="416.96" y="371.67" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
+    <region x="421.01" y="371.67" width="4.48" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">To propose updating maintenance by </line>
     </region>
     <region x="421.5" y="366.84" width="4.0" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">comparison of areas (THREmbr)</line>
     </region>
-    <region x="422.73" y="362.45" width="3.64" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">When the area is big, the group can </line>
-    </region>
     <region x="421.84" y="362.45" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="422.73" y="362.45" width="3.64" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">When the area is big, the group can </line>
     </region>
     <region x="423.38" y="358.1" width="2.38" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">maintaining as possible</line>
@@ -3035,11 +3035,11 @@
     <region x="332.73" y="343.71" width="6.81" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Discuss in geographical information</line>
     </region>
-    <region x="338.91" y="335.11" width="4.97" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Moving direction of group contains how </line>
-    </region>
     <region x="334.81" y="335.11" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
+    </region>
+    <region x="338.91" y="335.11" width="4.97" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Moving direction of group contains how </line>
     </region>
     <region x="338.87" y="330.28" width="4.04" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">many areas to control the data of </line>
@@ -3056,11 +3056,11 @@
     <region x="338.87" y="325.45" width="3.17" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">geographical information</line>
     </region>
-    <region x="340.58" y="321.01" width="4.18" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Delivery : reduce the dat a and period of </line>
-    </region>
     <region x="339.69" y="321.01" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="340.58" y="321.01" width="4.18" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Delivery : reduce the dat a and period of </line>
     </region>
     <region x="476.21" y="319.22" width="7.32" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Discuss the maintenance cost of group</line>
@@ -3068,35 +3068,35 @@
     <region x="354.95" y="316.71" width="0.84" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">delivery</line>
     </region>
-    <region x="340.58" y="312.37" width="3.97" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Receiving: less da ta of geographical </line>
-    </region>
     <region x="339.69" y="312.37" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
-    <region x="482.54" y="311.93" width="5.03" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Clustering (CG: Grouping by clustering)</line>
+    <region x="340.58" y="312.37" width="3.97" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Receiving: less da ta of geographical </line>
     </region>
     <region x="478.48" y="311.93" width="0.33" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x30FB;</line>
     </region>
+    <region x="482.54" y="311.93" width="5.03" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Clustering (CG: Grouping by clustering)</line>
+    </region>
     <region x="357.36" y="308.07" width="2.65" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">information to reduce the </line>
-    </region>
-    <region x="484.26" y="307.49" width="1.17" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">A high cost</line>
     </region>
     <region x="483.36" y="307.49" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
     </region>
+    <region x="484.26" y="307.49" width="1.17" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">A high cost</line>
+    </region>
     <region x="357.36" y="303.72" width="2.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">burden of terminal handing</line>
     </region>
-    <region x="484.26" y="303.19" width="4.38" height="0.0" line_height="0.0" font="">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">To generate a group, terminals are varying </line>
-    </region>
     <region x="483.36" y="303.19" width="0.07" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">-</line>
+    </region>
+    <region x="484.26" y="303.19" width="4.38" height="0.0" line_height="0.0" font="">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">To generate a group, terminals are varying </line>
     </region>
     <region x="453.47" y="301.93" width="0.7" height="0.0" line_height="0.0" font="">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>

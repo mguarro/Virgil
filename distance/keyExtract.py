@@ -9,6 +9,7 @@ import operator
 from rake import Rake
 from os import path
 
+cur_dir = path.dirname(__file__)
 # This function returns the keyword list contained in a document 
 def keyWords(self):
     searchfile = open(self, "r")
@@ -39,7 +40,7 @@ def smartWords(self):
 
 # This function returns a list of weighted words using the RAKE algortihm
 def getRakeKeywords(doc):
-    r = Rake(path.join('', 'SmartStoplist.txt'))
+    r = Rake(path.join('', cur_dir+'/SmartStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
     return candidates[:300]
 

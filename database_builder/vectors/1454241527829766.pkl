@@ -1,0 +1,1202 @@
+(lp0
+(S'{{vveeggeettaabbllee}}                 sslliiddee xx                 \xe2\x96\xa0\xe2\x96\xa0                 pprroodduuccee                 pprreesseennttaattiioonnaall ssttrruuccttuurree                 kkeeyywwoorrdd ccoonncceeppttuuaall ssttrruuccttuurree                 pprreesseennttaattiioonnaall ssttrruuccttuurree                 kkeeyywwoorrdd ccoonncceeppttuuaall ssttrruuccttuurree                 \xe2\x97\x8f\xe2\x97\x8f                 aappppllee                 \xe2\x97\x8f\xe2\x97\x8f                 ffrruuiitt                 11                 \xe2\x96\xa0\xe2\x96\xa0                 pprroodduuccee                 pprroodduuccee                 \xe2\x97\x8f\xe2\x97\x8f                 vveeggeettaabbllee                 22                  \xe2\x97\x8f\xe2\x97\x8f                 aappppllee                 sslliiddee xx                 22                  \xe2\x97\x8f\xe2\x97\x8f                 ffrruuiitt                 ffrruuiitt                 vveeggeettaabbllee                 ddeettaaiilleedd                 22                  \xe2\x97\x8f\xe2\x97\x8f                 vveeggeettaabbllee                 aappppllee                 oorraannggee                 ggrreeeennss                 \xe2\x96\xa0\xe2\x96\xa0                 ffrruuiitt                 ccuuccuummbbeerr                 11                 sslliiddee yy                 \xe2\x97\x8f\xe2\x97\x8f                 vveeggeettaabbllee                 22                  \xe2\x96\xa0\xe2\x96\xa0                 ffrruuiitt                 sslliiddee yy                 33                  \xe2\x97\x86\xe2\x97\x86                 ggrreeeennss                 ssppiinnaacchh                 gghheerrkkiinn                 \xe2\x97\x8f\xe2\x97\x8f                 vveeggeettaabbll ee                 22                 \xe2\x97\x8f\xe2\x97\x8f                 ccuuccuummbbeerr                 \xe2\x97\x86\xe2\x97\x86                 ggrreeeennss                 ddeennootteess aann iiss--aa rreellaattiioonnsshhiipp                 \xe2\x97\x8f\xe2\x97\x8f                 ccuuccuummbbeerr                 sslliiddee xx                 sslliiddee yy                 kk'
+p1
+F2476.2378205128207
+tp2
+a(S'target slide                 \xe2\x96\xa0                 greens                 \xe2\x97\x8f                 green foods                 \xe2\x97\x8f                 sal ad                 \xe2\x97\x8f                 sea fo od                 produce                 \xe2\x97\x86                 spi nach                 food                 \xe2\x97\x86                 kale'
+p3
+F156.03764701812645
+tp4
+a(S'target                 slide                 \xe2\x97\x8f                 cabbage                 \xe2\x97\x8f                 greens                 onion                 \xe2\x97\x86                 kale                 \xe2\x97\x8f                 onion                 generalized                 \xe2\x97\x8f                 apple                 \xe2\x97\x8f                 coc onut                 cabbage                 spinach'
+p5
+F95.04512176560122
+tp6
+a(S'\xe2\x96\xa0                 produce                 keyword conceptual structure                 keyword conceptual structure                 presentational structure                 presentational structure                 \xe2\x97\x8f                 fruit                 \xe2\x96\xa0                 produce                 produce                 \xe2\x97\x8f                 veget abl'
+p7
+F92.4606325281637
+tp8
+a(S'++                 11                 \xcf\x86\xcf\x86                 pprroodduuccee                 ++                 11                 ++                 11                 11                 ++                 11                 00                 ++                 11                 gg                 gg                 ==                 ==                 ==                 22                 >>                 00'
+p9
+F79.75
+tp10
+a(S'++                 11                 ++                 11                 00                 ++                 11                 11                 ++                 11                 ggrreeeennss                 ++                 11                 kk'
+p11
+F78.325
+tp12
+a(S'\xe2\x96\xa0                 greens                 \xe2\x96\xa0                 greens                 \xe2\x97\x8f                 cabbage                 spinach                 cabbage                 gherkin                 \xe2\x97\x8f                 cabbage                 \xe2\x97\x86                 kale                 slide'
+p13
+F55.707343987823435
+tp14
+a(S'{{                 ggrreeeennss                 }}                 ss                 ss                 kk'
+p15
+F52.575
+tp16
+a(S'4                 \xe2\x97\x8f                 onion                 onion                 apple                 \xe2\x97\x8f                 spinach                 det ailed                 cabbage'
+p17
+F50.31111111111112
+tp18
+a(S'\xe2\x97\x86                 kale                 \xe2\x97\x8f                 spinach                 kale                 \xe2\x97\x8f                 spinach                 \xe2\x97\x8f                 apple                 \xe2\x97\x8f                 apple                 denotes'
+p19
+F45.47222222222222
+tp20
+a(S'alternative relation                 slide 5                 retrieve news structure pattern                 \xe3\x83\xbb                 retrieve structure pattern                 \xe3\x83\xbb'
+p21
+F45.14990671183778
+tp22
+a(S'==                 {{                 pprroodduuccee                 }}                 kk'
+p23
+F44.375
+tp24
+a(S'\xf0\x9d\x91\x91\xf0\x9d\x91\x92\xf0\x9d\x91\xa1\xf0\x9d\x91\x8e\xf0\x9d\x91\x96\xf0\x9d\x91\x99\xf0\x9d\x91\x92\xf0\x9d\x91\x91                 42                       qquueerryy kkeeyywwoorrdd'
+p25
+F39.333333333333336
+tp26
+a(S'5                 kale                 slide 5                 \xe2\x96\xa0                 greens                 detailed                 \xe2\x97\x8f                 spinach                 \xe2\x97\x8f                 cabbage                 \xe2\x97\x86                 kal'
+p27
+F38.151788432267885
+tp28
+a(S'news archives                 video                 \xe3\x83\xbb                 structure pattern contanis 3 elemnets'
+p29
+F33.83100358422939
+tp30
+a(S'presentational structure                 yuanyuan wang kazutoshi sumiya       university'
+p31
+F32.68179723502304
+tp32
+a(S'green foods                 target slide                 slide'
+p33
+F29.45357686453577
+tp34
+a(S'yy'
+p35
+F28.0
+tp36
+a(S'\xe2\x97\x86                 greens                 apple                 orange                 greens                 cucumber                 slide'
+p37
+F27.37123287671233
+tp38
+a(S'\xe2\x97\x8f                 garden                 \xe2\x97\x8f                 cucumber                 \xe2\x97\x86                 vegetable                 \xe2\x97\x86                 gherkin                 \xe2\x97\x86                 fruit                 retrieved                 figure 3'
+p39
+F26.61054804804805
+tp40
+a(S'7th international con-       tion content archives'
+p41
+F25.57823920265781
+tp42
+a(S'open format xml representa-       tion'
+p43
+F22.75
+tp44
+a(S'68                 structure pattern                 \xe3\x83\xbb                 news structure pattern'
+p45
+F22.31200716845878
+tp46
+a(S'\xe2\x96\xa0                 produce                 gherkin                 \xe2\x96\xa0                 veg etabl'
+p47
+F22.03030303030303
+tp48
+a(S'vveeggeettaabbllee'
+p49
+F21.76923076923077
+tp50
+a(S'xx'
+p51
+F21.25
+tp52
+a(S'\xe2\x96\xa0                 greens                 \xe2\x97\x8f                 cabbage                 \xe2\x97\x86                 kale'
+p53
+F20.925
+tp54
+a(S'system named unified presentation slide retrieval'
+p55
+F20.733732876712327
+tp56
+a(S'==                 \xcf\x86\xcf\x86                 gg                 gg                 kk'
+p57
+F20.375
+tp58
+a(S'structure pat tern                 \xe3\x83\xbb                 precision                 \xe3\x83\xbb                 definition'
+p59
+F19.403225806451612
+tp60
+a(S'711-       tional acm sigir conference'
+p61
+F19.375
+tp62
+a(S'conclusion                 \xe3\x83\xbb                 retrieve structure pattern based'
+p63
+F18.997670250896057
+tp64
+a(S'en er ation st atu'
+p65
+F18.75
+tp66
+a(S'11th ieee international symposium       systems'
+p67
+F18.714285714285715
+tp68
+a(S'hierarchical       fuzzy feature similarity combination'
+p69
+F18.4
+tp70
+a(S'kale                 chard                 cucumber                 slide'
+p71
+F18.29623287671233
+tp72
+a(S'presentation scene retrieval exploiting features'
+p73
+F17.229166666666668
+tp74
+a(S'section 4 describes snippet genera-       tion'
+p75
+F16.97222222222222
+tp76
+a(S'++                 11                 ss                 ss                 figure 4'
+p77
+F16.8125
+tp78
+a(S'presentation slide re-       eurasip journal'
+p79
+F16.567066210045663
+tp80
+a(S'++                 11                 kk'
+p81
+F16.125
+tp82
+a(S'\xf0\x9d\x91\x9e                 \xf0\x9d\x91\xa0                 slide 2                 \xe2\x96\xa0                 produce                 \xe2\x97\x8f                 fruit                 \xe2\x97\x8f                 vegetabl'
+p83
+F16.07931368479314
+tp84
+a(S'im-       pression search engine'
+p85
+F15.75
+tp86
+a(S'easily obtain successful retrieval results'
+p87
+F15.573529411764707
+tp88
+a(S'snippets                 7                 7                 \xe3\x83\xbb                 retrieve structure pattern'
+p89
+F15.288846721484294
+tp90
+a(S'fo ll ow-'
+p91
+F15.0
+tp92
+a(S'slide 4                 apple                 \xe2\x97\x86                 produce'
+p93
+F14.368202573682026
+tp94
+a(S'keyword conceptual structure       structure'
+p95
+F13.950734734500323
+tp96
+a(S'obtain user retrieval       results efficiently'
+p97
+F13.602941176470589
+tp98
+a(S'semantic       web search engines'
+p99
+F13.270833333333334
+tp100
+a(S'semantic web search engines'
+p101
+F13.270833333333334
+tp102
+a(S'slide 3                 conclusion                 table ii       esults'
+p103
+F13.121232876712329
+tp104
+a(S'\xe2\x97\x8f                 spinach                 \xe2\x97\x8f                 apple                 slide'
+p105
+F13.115677321156774
+tp106
+a(S'vegetable                 \xe2\x97\x8f                 greens                 greens'
+p107
+F13.033333333333331
+tp108
+a(S'retrieved slides satisfies user demand'
+p109
+F12.939387917329093
+tp110
+a(S'news structure pattern'
+p111
+F12.63100358422939
+tp112
+a(S'ministry                 47                        2011 ninth international conference'
+p113
+F12.589285714285715
+tp114
+a(S'keyword conceptual structure consisting'
+p115
+F12.54750892804871
+tp116
+a(S'precision                 recall                 f-measure                 matching keywords'
+p117
+F12.31969696969697
+tp118
+a(S'system analyzing       contextual information'
+p119
+F12.25925925925926
+tp120
+a(S'presentation retrieval engine       based'
+p121
+F12.0125
+tp122
+a(S'displayed query related topics'
+p123
+F11.995472552348614
+tp124
+a(S'automatically generating learning channels'
+p125
+F11.863636363636363
+tp126
+a(S'\xe2\x97\x8f                 fruit                 \xe2\x97\x86                 greens                 slide'
+p127
+F11.715677321156772
+tp128
+a(S'er                 det ermine'
+p129
+F11.666666666666666
+tp130
+a(S'target slide                 detailed                 figure 1'
+p131
+F11.622621765601219
+tp132
+a(S'presentation content re-       trieval'
+p133
+F11.376453488372093
+tp134
+a(S'extracting important scenes       proc'
+p135
+F11.375
+tp136
+a(S'scene extracting       method based'
+p137
+F11.212711864406781
+tp138
+a(S'lower-       level indented keywords'
+p139
+F10.803030303030301
+tp140
+a(S'inherit identifica tion'
+p141
+F10.75
+tp142
+a(S'er ation stat'
+p143
+F10.666666666666666
+tp144
+a(S'slide retrieval method       involving'
+p145
+F10.517278074452442
+tp146
+a(S'office open xml'
+p147
+F10.5
+tp148
+a(S'\xe2\x96\xa0                 food                 snippet'
+p149
+F10.472222222222221
+tp150
+a(S'2011 ninth international conference'
+p151
+F10.089285714285715
+tp152
+a(S'keyword conceptual structure'
+p153
+F10.04750892804871
+tp154
+a(S'keyword conceptual       structure'
+p155
+F10.04750892804871
+tp156
+a(S'\xf0\x9d\x91\x9e \xf0\x9d\x91\x9e       \xf0\x9d\x91\x9e       \xf0\x9d\x91\xa0 \xf0\x9d\x91\x94       keyword conceptual structure'
+p157
+F10.04750892804871
+tp158
+a(S'expert systems       application'
+p159
+F10.0
+tp160
+a(S'news structure patterns'
+p161
+F9.853225806451613
+tp162
+a(S'semantic relationship implicitly exists'
+p163
+F9.766447368421053
+tp164
+a(S'target       slide related'
+p165
+F9.65953697027958
+tp166
+a(S'geographical information                 \xe3\x83\xbb                 moving direction'
+p167
+F9.559259259259258
+tp168
+a(S'signal processing       trieval'
+p169
+F9.5
+tp170
+a(S'55                 ==                 ==                 ==                 \xcf\x86\xcf\x86                 kk'
+p171
+F9.375
+tp172
+a(S'==                 \xcf\x86\xcf\x86                 ==                 kk'
+p173
+F9.375
+tp174
+a(S'conceptual relation-       ships'
+p175
+F9.368421052631579
+tp176
+a(S'\xe2\x96\xa0                 produce                 slide'
+p177
+F9.368202573682026
+tp178
+a(S'target slides related'
+p179
+F9.29467664258686
+tp180
+a(S'slide       conceptual structure'
+p181
+F9.276213069128854
+tp182
+a(S'\xe2\x97\x8f                 vegetable                 \xe2\x96\xa0                 produce'
+p183
+F9.196969696969697
+tp184
+a(S'produce vegetables'
+p185
+F9.113636363636363
+tp186
+a(S'ion st atu'
+p187
+F9.083333333333334
+tp188
+a(S'remark ed event'
+p189
+F9.0
+tp190
+a(S'recommender sys-       ture'
+p191
+F9.0
+tp192
+a(S'/                 ur pproach'
+p193
+F9.0
+tp194
+a(S'news                  f-measure                 snippet       \xf0\x9d\x90\xb4       70'
+p195
+F8.922222222222222
+tp196
+a(S'accompanying recorded video'
+p197
+F8.9
+tp198
+a(S'semantic web conference'
+p199
+F8.895833333333334
+tp200
+a(S'automatically       generating digests'
+p201
+F8.863636363636363
+tp202
+a(S'participants freely captured portions'
+p203
+F8.84920634920635
+tp204
+a(S'actual classes conducted'
+p205
+F8.75
+tp206
+a(S'blog search based'
+p207
+F8.7
+tp208
+a(S'semantic similarity measure'
+p209
+F8.6875
+tp210
+a(S'presentational struc-       ture'
+p211
+F8.678571428571429
+tp212
+a(S'snippet generation method identifies'
+p213
+F8.646698792511355
+tp214
+a(S'belongs       conceptual structure'
+p215
+F8.604980192416525
+tp216
+a(S'fruit                 vegetable                 \xe2\x97\x8f                 vegetabl'
+p217
+F8.544444444444444
+tp218
+a(S'semantic web documents'
+p219
+F8.520833333333334
+tp220
+a(S'moving object                  9                 inconsistent'
+p221
+F8.5
+tp222
+a(S'lt ern ati'
+p223
+F8.5
+tp224
+a(S'videos including pointing'
+p225
+F8.5
+tp226
+a(S'query keyword {structure}'
+p227
+F8.46403411197627
+tp228
+a(S'related slides                 correct answers'
+p229
+F8.433565531475749
+tp230
+a(S'unified contents retrieval'
+p231
+F8.416666666666666
+tp232
+a(S'generation sta tus'
+p233
+F8.411764705882353
+tp234
+a(S'snippet-       generating algorithm'
+p235
+F8.363636363636363
+tp236
+a(S'generalized relation-       \xf0\x9d\x91\xa5       \xf0\x9d\x91\x94       ship'
+p237
+F8.36
+tp238
+a(S'laser pointer information'
+p239
+F8.25925925925926
+tp240
+a(S'broadcasting       \xf0\x9d\x91\x8c       geographic information'
+p241
+F8.25925925925926
+tp242
+a(S'[8] extended existing work'
+p243
+F8.25
+tp244
+a(S'conceptual content easily'
+p245
+F8.182374541003671
+tp246
+a(S'method extracts important slides'
+p247
+F8.116703461045436
+tp248
+a(S'geographical information                 collect'
+p249
+F8.059259259259258
+tp250
+a(S'education or-       ganizations'
+p251
+F8.0
+tp252
+a(S'japan       nd09s005@stshse'
+p253
+F8.0
+tp254
+a(S'conceptual relationship                 ntroduction'
+p255
+F7.947368421052632
+tp256
+a(S'gener-       ated snippets'
+p257
+F7.9411764705882355
+tp258
+a(S'automatic digest generation'
+p259
+F7.911764705882353
+tp260
+a(S'retrieved slides efficiently'
+p261
+F7.909976152623211
+tp262
+a(S'efficient slide kwic'
+p263
+F7.837899543378995
+tp264
+a(S'slide kwic takes'
+p265
+F7.837899543378995
+tp266
+a(S'tree       content       \xf0\x9d\x91\x8b       patterns'
+p267
+F7.813953488372093
+tp268
+a(S'recorded presentation videos'
+p269
+F7.8125
+tp270
+a(S'slide       \xf0\x9d\x91\xa5                 4       dbsj archives'
+p271
+F7.804566210045662
+tp272
+a(S'test participants found'
+p273
+F7.777777777777778
+tp274
+a(S'test participants       found'
+p275
+F7.777777777777778
+tp276
+a(S'complementary method considers'
+p277
+F7.762711864406779
+tp278
+a(S'enhance retrieval techniques'
+p279
+F7.75
+tp280
+a(S'news video                 determine'
+p281
+F7.707142857142857
+tp282
+a(S'conceptual dictionary wordnet'
+p283
+F7.654135338345864
+tp284
+a(S'jp/mpmeister/                 important slides'
+p285
+F7.639705882352941
+tp286
+a(S'important slides decreases'
+p287
+F7.639705882352941
+tp288
+a(S'\xe2\x97\x86                 greens                 slide'
+p289
+F7.604566210045662
+tp290
+a(S'\xe2\x97\x86                 greens                 \xe2\x97\x8f                 frui'
+p291
+F7.6
+tp292
+a(S'gave correct answers'
+p293
+F7.583333333333334
+tp294
+a(S'retrieve desired slides'
+p295
+F7.556372549019607
+tp296
+a(S'retrieve slides related'
+p297
+F7.516898864809082
+tp298
+a(S'technology enhanced learning'
+p299
+F7.5
+tp300
+a(S'proposed solution leveraged'
+p301
+F7.5
+tp302
+a(S'section briefly       explains'
+p303
+F7.5
+tp304
+a(S'on-line lexical database'
+p305
+F7.5
+tp306
+a(S'archiving presentation       slides'
+p307
+F7.452205882352941
+tp308
+a(S'target slide'
+p309
+F7.449010654490107
+tp310
+a(S'\xe2\x96\xa0                 vegetable                 greens'
+p311
+F7.433333333333333
+tp312
+a(S'produce'
+p313
+F7.363636363636363
+tp314
+a(S'experimental results show'
+p315
+F7.323529411764706
+tp316
+a(S'implicit semantic       relationship'
+p317
+F7.266447368421053
+tp318
+a(S'relevant       information existing'
+p319
+F7.2592592592592595
+tp320
+a(S'implicit       relevant information'
+p321
+F7.2592592592592595
+tp322
+a(S'slide retrieval based'
+p323
+F7.2045662100456624
+tp324
+a(S'slide       retrieval based'
+p325
+F7.2045662100456624
+tp326
+a(S'cabbage'
+p327
+F7.2
+tp328
+a(S'propose slide kwic'
+p329
+F7.171232876712329
+tp330
+a(S'extracting important slides'
+p331
+F7.139705882352941
+tp332
+a(S'target slides'
+p333
+F7.084150326797386
+tp334
+a(S'presentational       structure'
+p335
+F7.081797235023041
+tp336
+a(S'presentational structure'
+p337
+F7.081797235023041
+tp338
+a(S'slide 19                 10                 geographical information'
+p339
+F7.063825469304922
+tp340
+a(S'keyword       \xf0\x9d\x91\x9e       \xf0\x9d\x91\xa0       \xf0\x9d\x91\x9e       keyword present'
+p341
+F7.051724137931035
+tp342
+a(S'8                 slide 9                 conventional research'
+p343
+F7.004566210045662
+tp344
+a(S'slide 9                 conventional research'
+p345
+F7.004566210045662
+tp346
+a(S'html                 45                       slide 7                 snippet'
+p347
+F6.976788432267885
+tp348
+a(S'2                 generalized                 slide 4                 \xe2\x96\xa0                 vegetabl'
+p349
+F6.964566210045662
+tp350
+a(S'actual academic content'
+p351
+F6.963953488372093
+tp352
+a(S'implicit semantic       relationships'
+p353
+F6.9625
+tp354
+a(S'high cost                 burden'
+p355
+F6.933333333333334
+tp356
+a(S'expanded query keyword'
+p357
+F6.89414163885799
+tp358
+a(S'focused slide conforms'
+p359
+F6.868202573682026
+tp360
+a(S'actual lecture       data'
+p361
+F6.840909090909091
+tp362
+a(S'computing                 slide kwic'
+p363
+F6.837899543378995
+tp364
+a(S'propose updating maintenance'
+p365
+F6.833333333333334
+tp366
+a(S'ordered user query'
+p367
+F6.814358001265022
+tp368
+a(S'effectively retrieve slides'
+p369
+F6.806372549019607
+tp370
+a(S'news archives'
+p371
+F6.75
+tp372
+a(S'retrieval result consists'
+p373
+F6.75
+tp374
+a(S'required lecture slides'
+p375
+F6.730614973262032
+tp376
+a(S'international journal'
+p377
+F6.714285714285714
+tp378
+a(S'experimental academic content'
+p379
+F6.713953488372093
+tp380
+a(S'slides       varies depending'
+p381
+F6.639705882352941
+tp382
+a(S'browse important slides'
+p383
+F6.639705882352941
+tp384
+a(S'news                 \xe3\x83\xbb                 retrieve'
+p385
+F6.616666666666667
+tp386
+a(S'ion                 slide 3                 recall'
+p387
+F6.604566210045663
+tp388
+a(S'contents browsing based'
+p389
+F6.5928571428571425
+tp390
+a(S'provide relevant       information'
+p391
+F6.5925925925925934
+tp392
+a(S'international conference'
+p393
+F6.589285714285714
+tp394
+a(S'figure 7 shows snippet'
+p395
+F6.534722222222222
+tp396
+a(S'retrieved slide                 information'
+p397
+F6.534095739575191
+tp398
+a(S'slide retrieval method'
+p399
+F6.517278074452442
+tp400
+a(S'slide satisfy eqs'
+p401
+F6.504566210045662
+tp402
+a(S'retrieved slide related'
+p403
+F6.485362796105406
+tp404
+a(S'matching keywords method'
+p405
+F6.482408834103749
+tp406
+a(S'matching keywords       method'
+p407
+F6.482408834103749
+tp408
+a(S'method generates snippets'
+p409
+F6.370555001661682
+tp410
+a(S'video news'
+p411
+F6.35
+tp412
+a(S'news video'
+p413
+F6.35
+tp414
+a(S'proposed slide kwic'
+p415
+F6.337899543378995
+tp416
+a(S'1st level indent'
+p417
+F6.333333333333333
+tp418
+a(S'snippet generation       proc'
+p419
+F6.258986928104575
+tp420
+a(S'browsing slides based'
+p421
+F6.232563025210084
+tp422
+a(S'international symposium'
+p423
+F6.214285714285714
+tp424
+a(S'lecture slides       based'
+p425
+F6.180614973262032
+tp426
+a(S'snippet       generation method'
+p427
+F6.146698792511354
+tp428
+a(S'snippet generation method'
+p429
+F6.146698792511354
+tp430
+a(S'retrieved slides related'
+p431
+F6.120502468412685
+tp432
+a(S'spinach'
+p433
+F6.111111111111111
+tp434
+a(S'st atu'
+p435
+F6.083333333333334
+tp436
+a(S'apple is-'
+p437
+F6.083333333333333
+tp438
+a(S'\xf0\x9d\x91\x9e       \xf0\x9d\x91\x9e       query keyword present'
+p439
+F6.060808305524657
+tp440
+a(S'learning channels'
+p441
+F6.0
+tp442
+a(S'helps users understand'
+p443
+F6.0
+tp444
+a(S'query keyword {group}'
+p445
+F5.935808305524657
+tp446
+a(S'tree-shaped structure'
+p447
+F5.903225806451613
+tp448
+a(S'method                 slide 8                 snippet'
+p449
+F5.739500296674664
+tp450
+a(S'detailed relationship       slide       \xf0\x9d\x91\xa5       \xf0\x9d\x91\x91'
+p451
+F5.694624689577826
+tp452
+a(S'presentational struc-'
+p453
+F5.678571428571429
+tp454
+a(S'\xf0\x9d\x91\xa5       \xf0\x9d\x91\xa5       \xf0\x9d\x91\x94       \xf0\x9d\x91\x94       general content related'
+p455
+F5.624479804161567
+tp456
+a(S'extract incorrect relationship'
+p457
+F5.624401913875598
+tp458
+a(S'greens'
+p459
+F5.6
+tp460
+a(S'semantic web'
+p461
+F5.520833333333334
+tp462
+a(S'explain query expansion'
+p463
+F5.5182795698924725
+tp464
+a(S'detailed information       portion       \xf0\x9d\x91\xa5       \xf0\x9d\x91\x83       \xf0\x9d\x91\x91       \xf0\x9d\x91\x91'
+p465
+F5.508301404853129
+tp466
+a(S'prototype       system'
+p467
+F5.5
+tp468
+a(S'xml-based system'
+p469
+F5.5
+tp470
+a(S'implicitly exists'
+p471
+F5.5
+tp472
+a(S'tructure pat'
+p473
+F5.5
+tp474
+a(S'2011 ieee       doi 10'
+p475
+F5.5
+tp476
+a(S'unified content'
+p477
+F5.48062015503876
+tp478
+a(S'section describes'
+p479
+F5.25
+tp480
+a(S're-       lationships'
+p481
+F5.25
+tp482
+a(S're-       lations'
+p483
+F5.25
+tp484
+a(S'slide text       extracted'
+p485
+F5.2423284478079
+tp486
+a(S'retrieving lecture slides'
+p487
+F5.230614973262032
+tp488
+a(S'presentational tructure'
+p489
+F5.178571428571429
+tp490
+a(S'actual academic       4'
+p491
+F5.15
+tp492
+a(S'users browse slides'
+p493
+F5.139705882352941
+tp494
+a(S'generalized keyword       \xf0\x9d\x91\x9e       \xf0\x9d\x91\x94       \xf0\x9d\x91\x9e       \xf0\x9d\x91\xa5'
+p495
+F5.135862068965517
+tp496
+a(S'generalized keyword'
+p497
+F5.135862068965517
+tp498
+a(S'generalized keyword       \xf0\x9d\x91\x9e       \xf0\x9d\x91\x98       \xf0\x9d\x91\x96'
+p499
+F5.135862068965517
+tp500
+a(S'extract relevant portions'
+p501
+F5.116883116883117
+tp502
+a(S'geographical information'
+p503
+F5.0592592592592585
+tp504
+a(S'information retrieval'
+p505
+F5.0092592592592595
+tp506
+a(S'apple'
+p507
+F5.0
+tp508
+a(S'recorded videos'
+p509
+F5.0
+tp510
+a(S'important functions'
+p511
+F5.0
+tp512
+a(S'relation types'
+p513
+F5.0
+tp514
+a(S'news elements'
+p515
+F4.95
+tp516
+a(S'5                 news elements'
+p517
+F4.95
+tp518
+a(S'ern based'
+p519
+F4.95
+tp520
+a(S'news                 \xe3\x83\xbb                 compare'
+p521
+F4.95
+tp522
+a(S'news subjec'
+p523
+F4.95
+tp524
+a(S'conceptual       relationship'
+p525
+F4.947368421052632
+tp526
+a(S'conceptual relationship'
+p527
+F4.947368421052632
+tp528
+a(S'semantic information'
+p529
+F4.9467592592592595
+tp530
+a(S'table ii'
+p531
+F4.916666666666666
+tp532
+a(S'automatic       generation'
+p533
+F4.911764705882353
+tp534
+a(S'conclusion status'
+p535
+F4.866666666666667
+tp536
+a(S'slide kwic'
+p537
+F4.837899543378995
+tp538
+a(S'slide retrieval'
+p539
+F4.754566210045662
+tp540
+a(S'retrieval result'
+p541
+F4.75
+tp542
+a(S'matching keywords'
+p543
+F4.71969696969697
+tp544
+a(S'semantic ranking'
+p545
+F4.6875
+tp546
+a(S'semantic analysis'
+p547
+F4.6875
+tp548
+a(S'conceptual relationships'
+p549
+F4.643421052631579
+tp550
+a(S'important slides'
+p551
+F4.639705882352941
+tp552
+a(S'presentation content'
+p553
+F4.626453488372093
+tp554
+a(S'generalized information'
+p555
+F4.619259259259259
+tp556
+a(S'correct answers'
+p557
+F4.583333333333334
+tp558
+a(S'correct       answers'
+p559
+F4.583333333333334
+tp560
+a(S'retrieval results'
+p561
+F4.573529411764706
+tp562
+a(S'figure 4 shows'
+p563
+F4.5625
+tp564
+a(S'query keyword       \xf0\x9d\x91\xa5'
+p565
+F4.560808305524657
+tp566
+a(S'query keyword'
+p567
+F4.560808305524657
+tp568
+a(S'query       \xf0\x9d\x90\xb6       9       keyword'
+p569
+F4.560808305524657
+tp570
+a(S'query keyword       \xf0\x9d\x90\xb7       3'
+p571
+F4.560808305524657
+tp572
+a(S'18                       query keyword'
+p573
+F4.560808305524657
+tp574
+a(S'\xf0\x9d\x91\xa0                 43                       query keyword'
+p575
+F4.560808305524657
+tp576
+a(S'retrieval method'
+p577
+F4.512711864406779
+tp578
+a(S'\xf0\x9d\x91\x83       \xf0\x9d\x91\x94       \xf0\x9d\x91\x94 \xf0\x9d\x91\x94 \xf0\x9d\x91\x96       \xf0\x9d\x91\x94 \xf0\x9d\x91\x94       \xe2\x88\xaa       satisfy eqs'
+p579
+F4.5
+tp580
+a(S'freely shared'
+p581
+F4.5
+tp582
+a(S'implicitly assume'
+p583
+F4.5
+tp584
+a(S'experimental evaluation'
+p585
+F4.5
+tp586
+a(S'\xf0\x9d\x91\xa5       \xf0\x9d\x91\x9e       \xf0\x9d\x91\x9e       \xf0\x9d\x91\xa0       satisfy eqs'
+p587
+F4.5
+tp588
+a(S'lexical database'
+p589
+F4.5
+tp590
+a(S'\xf0\x9d\x91\x83       \xf0\x9d\x91\x91       \xf0\x9d\x91\xa0 \xf0\x9d\x91\x91       \xf0\x9d\x91\xa0 \xf0\x9d\x91\x91 \xf0\x9d\x91\x97       \xe2\x88\xaa       satisfy eqs'
+p591
+F4.5
+tp592
+a(S'microsoft office       2007'
+p593
+F4.5
+tp594
+a(S'updating maintenance'
+p595
+F4.5
+tp596
+a(S'implicitly accumulating'
+p597
+F4.5
+tp598
+a(S'1st workshop'
+p599
+F4.5
+tp600
+a.

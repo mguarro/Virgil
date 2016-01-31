@@ -69,6 +69,7 @@ def compute_vector_for_DOI(DOI):
     name = this_paper_dict['filename']
     ##here we call marcellos code
     vector = keyExtract.getRakeKeywords(text_dir+name+'.txt')
+    vectore = normVectorGen(vector)
     out_path = vector_dir + name+'.pkl'
     output = open(out_path,'wb')
     pickle.dump(vector,output)
@@ -78,52 +79,70 @@ def compute_vector_for_DOI(DOI):
 
     #add a new column and row to similiarity matrix for the new DOI (the vector should already have been computed)
 def update_similarity_matrix(newDOI):
-    db = TinyDB(db_loc)
-    paper = Query()
-    this_paper_dict = db.search(paper.ownDOI == newDOI)[0] #returns entry as dictionary
-    name = this_paper_dict['filename']
-    vector_path = vector_dir + name+'.pkl'
-    vec_file = open(vector_path, 'rb')
-    newVector = pickle.load(vec_file)
-    #now load the matrix
-    mat_file = open(sim_matrix,'rb')
-    mat_list = pickle.load(mat_file)
-    index_dict = mat_list[0];
-    mat = mat_list[1];
-    num_ent =  len(index_dict)
-    index_dict[newDOI] = num_ent
+    if(os.path.isfile(sim_matrix)):    
+        db = TinyDB(db_loc)
+        paper = Query()
+        this_paper_dict = db.search(paper.ownDOI == newDOI)[0] #returns entry as dictionary
+        name = this_paper_dict['filename']
+        vector_path = vector_dir + name+'.pkl'
+        vec_file = open(vector_path, 'rb')
+        newVector = pickle.load(vec_file)
+        #now load the matrix
+        mat_file = open(sim_matrix,'rb')
+        mat_list = pickle.load(mat_file)
+        index_dict = mat_list[0];
+        mat = mat_list[1];
+        if newDOI in index_dict:
+            return False
+        
+        sizemat =   np.size(mat)
+        print sizemat
+        if sizemat == 1:
+            num_ent = 1
+        else:
+            num_ent = sizemat[0]
+            
+        index_dict[newDOI] = num_ent
 
-    #extend the matrix to appropriate size
-    mat = np.vstack((mat,np.zeros((1,num_ent))))
-    mat = np.hstack((mat,np.zeros((num_ent+1,1))))
-    print mat
-    
-    #get all the entries of the db
-    all_DOIs = db.all()
-    for line in all_DOIs:
-        print vector_path
-        name = line['filename']
-        vector_path = vector_dir+name+'.pkl'
-        print vector_path
-        vec_file = open(vector_path,'rb')
-        vec = pickle.load(vec_file)
-        closeness = vector_mult_and_add(newVector,vec)
-        newInd = index_dict[newDOI]
-        oldInd = index_dict[line['ownDOI']]
-        mat[newInd][oldInd] = closeness;
-        mat[oldInd][newInd] = closeness;
-    
-    output = open(sim_matrix,'wb')
-    pickle.dump(mat_list,output)   
-    return
+        #extend the matrix to appropriate size
+        mat = np.vstack((mat,np.zeros((1,num_ent))))
+        mat = np.hstack((mat,np.zeros((num_ent+1,1))))
+        print mat
+        
+        #get all the entries of the db
+        all_DOIs = db.all()
+        for line in all_DOIs:
+            print vector_path
+            name = line['filename']
+            vector_path = vector_dir+name+'.pkl'
+            print vector_path
+            vec_file = open(vector_path,'rb')
+            vec = pickle.load(vec_file)
+            closeness = vector_mult_and_add(newVector,vec)
+            newInd = index_dict[newDOI]
+            oldInd = index_dict[line['ownDOI']]
+            mat[newInd][oldInd] = closeness;
+            mat[oldInd][newInd] = closeness;
+        
+        output = open(sim_matrix,'wb')
+        pickle.dump(mat_list,output)   
+        return None
+    else:
+        init_similarity_matrix(newDOI)
+        return None
 
 def distance_add_new_DOI(DOI):
     compute_vector_for_DOI(DOI)
     update_similarity_matrix(DOI)
+
+##distance_add_new_DOI("http://dx.doi.org/10.1109/wivec.2013.6698240")
+##distance_add_new_DOI("http://dx.doi.org/10.1109/icsc.2010.19")
+
 ##compute_vector_for_DOI("http://dx.doi.org/10.1109/wivec.2013.6698240")
-##init_similarity_matrix("http://dx.doi.org/10.1109/wivec.2013.6698240")
+##update_similarity_matrix("http://dx.doi.org/10.1109/wivec.2013.6698240")
 ##
 ##compute_vector_for_DOI("http://dx.doi.org/10.1109/icsc.2010.19")
+##update_similarity_matrix("http://dx.doi.org/10.1109/icsc.2010.19")
 ##
 ##compute_vector_for_DOI("http://dx.doi.org/10.1109/wmute.2010.24")
 ##update_similarity_matrix("http://dx.doi.org/10.1109/icsc.2010.19")
