@@ -27,45 +27,17 @@ def keyWords(self):
 def smartWords(self):
     stop1 = open(path.join('static', 'FoxStoplist.txt'), "r")
     stop2 = open(path.join('static', 'SmartStoplist.txt'), "r")
-    #dic = open(path.join('static', 'VirgilStoplist.txt'), "r")
     words = re.findall(r'\w+', open(self).read().lower())
-    #length = len(words)
     print len(words)
     ref1 = re.findall(r'\w+', stop1.read().lower())
-    #ref2 = re.findall(r'\w+', dic.read().lower())
     ref3 = re.findall(r'\w+', stop2.read().lower())
-    #pattern = re.compile(r'\b(' + r'|'.join(stopwords.words('english')) + r')\b\s*')
-    #print Counter(words).most_common()[:-60+100:-1]
-    #stopwords = nltk.corpus.stopwords.words('english') + ref1 + ref2 + ref3
-
     stopwords = nltk.corpus.stopwords.words('english') + ref1 + ref3
-    #wordList = [i for i in words.split() if i not in stop]
-    stopwordsfree_words = [word for word in words if word not in stopwords and len(word) >= 5 and len(word) <= 10]
-    #wordList = Counter(words).most_common()[:-60+100:-1]
-    #stopList = open(,"r")
-    #for word in wordList
-
-        #smartWordList =
-    #return Counter(wordList).most_common()[:-60+100:-1]
-    #word_scores = rake.calculate_word_scores(stopwordsfree_words)
-
-    #keyword_candidates = rake.generate_candidate_keyword_scores(stopwordsfree_words, word_scores)
-
-    #sorted_keywords = sorted(keyword_candidates.iteritems(), key=operator.itemgetter(1), reverse=True)
-    #return sorted_keywords 
+    stopwordsfree_words = [word for word in words if word not in stopwords and len(word) >= 5 and len(word) <= 10] 
     return Counter(stopwordsfree_words).most_common(15) 
-    #return Counter(sorted_keywords).most_common(15) 
-
 
 def getRakeKeywords(doc):
-    #r = Rake(path.join('static', 'SmartStoplist.txt'))
     r = Rake(path.join('static', 'VirgilStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
-
-    #stopwordsfree_words = [word for word in candidates if len(word) >= 5 and len(word) <= 10]
-    #return stopwordsfree_words[:1000]
     return candidates[:300]
 
-#Tested as follows:
-#keyExtract.getRakeKeywords('../convertor/converted-text/00528686.txt')
 
