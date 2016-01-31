@@ -1,1 +1,0 @@
-This module starts with a pdf, gets all of its citations using the converter, then tries to pull the citations off of google scholar and get all their citations, and so on and so forth until you get to some user defined depth
