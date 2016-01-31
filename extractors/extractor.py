@@ -14,8 +14,7 @@ class PDF(object):
         basepath = path.join("..", "convertor", "converted-xml", pdfName)
         print basepath
         regionsDOM = getDOM(basepath, "regions")
-        self.columnedRegions = columnProcessing(regionsDOM)
-        print columnedRegions
+        self.pages = columnProcessing(regionsDOM)
         titlesDOM = getDOM(basepath, "titles")
         self.titles = getTitles(titlesDOM)
         self.abstract = getAbstract(regionsDOM)
@@ -34,6 +33,16 @@ class PDF(object):
             string += "No abstract identified\n"
         else:
             string += self.abstract + "\n"
+        return string
+    def columnString(self):
+        string = ""
+        for pagenum, page in self.pages.iteritems():
+            string += pagenum + "\n"
+            for column, regions in page.iteritems():
+                string += column + ":\n"
+                for region in regions:
+                    string += get60(region.childNodes[0].toxml()) + ",\n"
+            string += "\n"
         return string
 
 # gets the DOM of an XML file
@@ -85,25 +94,26 @@ def columnProcessing(dom):
     if dom == None:
         return None
     pageElements = dom.getElementsByTagName("page")
-    pages = []
+    pages = {}
     for i in range(len(pageElements)):
-        page = pageElements[i]
-        pages[i] = []
-        for j in range(len(page.childNodes)):
-            node = page.childNodes[j]
-            pages[i][j] = {"middle":[],
-                           "left":[],
-                           "right":[]}
+        pageElement = pageElements[i]
+        ii = str(i)
+        for node in pageElement.childNodes:
             if node.nodeName == "region":
+                pages.setdefault(ii, {"middle":[],
+                                      "left":[],
+                                      "right":[]})
+                page = pages[ii]
                 width = float(node.getAttribute("width"))
                 x = float(node.getAttribute("x"))
-                pagewidth = float(page.getAttribute("width"))
+                pagewidth = float(pageElement.getAttribute("width"))
                 if width > pagewidth/2:
-                    pages[i][j]["middle"].append(node)
+                    page["middle"].append(node)
                 elif x < pagewidth/2:
-                    pages[i][j]["left"].append(node)
+                    page["left"].append(node)
                 else:
-                    pages[i][j]["right"].append(node)
+                    page["right"].append(node)
+    return pages
 
 # trims "Abstract - " and similar from the beginning of an abstract
 def trimAbstract(abstract):
@@ -148,15 +158,22 @@ def isTitleCase(words):
 def xmlPath(basepath, xmlID):
     return basepath + "-" + xmlID + ".xml"
 
-# helper function that prints the first sixty characters of a string
-def print70(string):
+# helper function that gets the first sixty characters of a string
+def get60(string):
+    base = None
     try:
-        print '"' + string[0:70] + '"'
+        base = string[0:60]
     except Exception:
-        print '"' + string + '"'
+        base = string
+    return '"' + base + '"'
+
+# helper function that prints the first sixty characters of a string
+def print60(string):
+    print get60(string)
 
 pdfs = ["05571262", "05290726", "07001093"]
 
 for p in pdfs:
     thispdf = PDF(p)
-    print thispdf
+#    print thispdf
+    print thispdf.columnString()
