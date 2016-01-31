@@ -2,22 +2,22 @@
   "nodes": [
     {
       "match": 1.0,
-      "title": "Lorem Ipsum",
-      "author": "Julius Caesar",
+      "name": "Lorem Ipsum",
+      "artist": "Julius Caesar",
       "id": "1",
       "playcount": 661020
     },
     {
       "match": 0.983114,
-      "title": "Selected Interpretations of Eric Clapton's \'Pink Cadillac\'",
-      "author": "Dmitry Rivkin",
+      "name": "Selected Interpretations of Eric Claptons Pink Cadillac",
+      "artist": "Dmitry Rivkin",
       "id": "2",
       "playcount": 772823
     },
     {
       "match": 0.2,
-      "title": "Simulation of the Proliferation of Dank Memes",
-      "author": "Sir Dankalot",
+      "name": "Simulation of the Proliferation of Dank Memes",
+      "artist": "Sir Dankalot",
       "id": "3",
       "playcount": 74441
     }
