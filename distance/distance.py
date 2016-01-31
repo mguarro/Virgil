@@ -1,3 +1,6 @@
+# keyWord Vector Manipulation Module
+# Written for Virgil by Marcello Guarro and Dmitriy Rivkin
+
 import sys
 import os.path
 import keyExtract
@@ -18,6 +21,7 @@ text_dir = cur_dir +"/../database_builder/text/"
 vector_dir = cur_dir+"/../database_builder/vectors/"
 sim_matrix = cur_dir+"/../database_builder/similarity_matrix.pkl"
 
+# Vector normalization function
 def normVectorGen(keyList):
     normSum = 0
     normKeyList = []
@@ -30,6 +34,7 @@ def normVectorGen(keyList):
 
     return normKeyList
 
+# Vector dot product
 def vectorMult(normKeyList1,normKeyList2):
     vectorResult = []
 
@@ -46,6 +51,7 @@ def vector_mult_and_add(keylist1,keylist2):
         for j in keylist2:
             if i[0] == j[0]:
                 sum = sum+i[1]*j[1]
+    return sum
 
 #initialize similarity matrix after you process the first DOI
 def init_similarity_matrix(firstDOI):
@@ -90,12 +96,11 @@ def update_similarity_matrix(newDOI):
         if newDOI in index_dict:
             return False
         
-        sizemat =   np.size(mat)
-        print sizemat
-        if sizemat == 1:
-            num_ent = 1
-        else:
-            num_ent = sizemat[0]
+        num_ent =   np.size(mat,axis = 0)
+##        if sizemat == 1:
+##            num_ent = 1
+##        else:
+##            num_ent = sizemat[0]
             
         index_dict[newDOI] = num_ent
 
@@ -118,9 +123,10 @@ def update_similarity_matrix(newDOI):
             oldInd = index_dict[line['ownDOI']]
             mat[newInd][oldInd] = closeness;
             mat[oldInd][newInd] = closeness;
-        
+
+        output_mat_list = [index_dict,mat]
         output = open(sim_matrix,'wb')
-        pickle.dump(mat_list,output)   
+        pickle.dump(output_mat_list,output)   
         return None
     else:
         init_similarity_matrix(newDOI)
@@ -129,6 +135,16 @@ def update_similarity_matrix(newDOI):
 def distance_add_new_DOI(DOI):
     compute_vector_for_DOI(DOI)
     update_similarity_matrix(DOI)
+
+
+##a = np.array([[1,2],[3,4]])
+##print a
+##b = np.size(a,axis =0)
+##
+##c = np.vstack((a,np.zeros((1,b))))
+##print c
+##c = np.hstack((c,np.zeros((b+1,1))))
+##print c
 
 ##distance_add_new_DOI("http://dx.doi.org/10.1109/wivec.2013.6698240")
 ##distance_add_new_DOI("http://dx.doi.org/10.1109/icsc.2010.19")

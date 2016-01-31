@@ -81,7 +81,7 @@ F26.61054804804805
 tp40
 a(S'7th international con-       tion content archives'
 p41
-F25.57823920265781
+F25.62109634551495
 tp42
 a(S'open format xml representa-       tion'
 p43
@@ -115,25 +115,25 @@ a(S'==                 \xcf\x86\xcf\x86                 gg                 gg   
 p57
 F20.375
 tp58
-a(S'structure pat tern                 \xe3\x83\xbb                 precision                 \xe3\x83\xbb                 definition'
-p59
-F19.403225806451612
-tp60
 a(S'711-       tional acm sigir conference'
+p59
+F19.45
+tp60
+a(S'structure pat tern                 \xe3\x83\xbb                 precision                 \xe3\x83\xbb                 definition'
 p61
-F19.375
+F19.403225806451612
 tp62
 a(S'conclusion                 \xe3\x83\xbb                 retrieve structure pattern based'
 p63
 F18.997670250896057
 tp64
-a(S'en er ation st atu'
-p65
-F18.75
-tp66
 a(S'11th ieee international symposium       systems'
+p65
+F18.757142857142856
+tp66
+a(S'en er ation st atu'
 p67
-F18.714285714285715
+F18.75
 tp68
 a(S'hierarchical       fuzzy feature similarity combination'
 p69
@@ -191,41 +191,41 @@ a(S'keyword conceptual structure       structure'
 p95
 F13.950734734500323
 tp96
-a(S'obtain user retrieval       results efficiently'
+a(S'ministry                 47                        2011 ninth international conference'
 p97
-F13.602941176470589
+F13.907142857142855
 tp98
-a(S'semantic       web search engines'
+a(S'obtain user retrieval       results efficiently'
 p99
-F13.270833333333334
+F13.602941176470589
 tp100
-a(S'semantic web search engines'
+a(S'semantic       web search engines'
 p101
 F13.270833333333334
 tp102
-a(S'slide 3                 conclusion                 table ii       esults'
+a(S'semantic web search engines'
 p103
-F13.121232876712329
+F13.270833333333334
 tp104
-a(S'\xe2\x97\x8f                 spinach                 \xe2\x97\x8f                 apple                 slide'
+a(S'slide 3                 conclusion                 table ii       esults'
 p105
-F13.115677321156774
+F13.121232876712329
 tp106
-a(S'vegetable                 \xe2\x97\x8f                 greens                 greens'
+a(S'\xe2\x97\x8f                 spinach                 \xe2\x97\x8f                 apple                 slide'
 p107
-F13.033333333333331
+F13.115677321156774
 tp108
-a(S'retrieved slides satisfies user demand'
+a(S'vegetable                 \xe2\x97\x8f                 greens                 greens'
 p109
-F12.939387917329093
+F13.033333333333331
 tp110
-a(S'news structure pattern'
+a(S'retrieved slides satisfies user demand'
 p111
-F12.63100358422939
+F12.939387917329093
 tp112
-a(S'ministry                 47                        2011 ninth international conference'
+a(S'news structure pattern'
 p113
-F12.589285714285715
+F12.63100358422939
 tp114
 a(S'keyword conceptual structure consisting'
 p115
@@ -291,17 +291,17 @@ a(S'slide retrieval method       involving'
 p145
 F10.517278074452442
 tp146
-a(S'office open xml'
-p147
-F10.5
-tp148
-a(S'\xe2\x96\xa0                 food                 snippet'
-p149
-F10.472222222222221
-tp150
 a(S'2011 ninth international conference'
+p147
+F10.507142857142856
+tp148
+a(S'office open xml'
+p149
+F10.5
+tp150
+a(S'\xe2\x96\xa0                 food                 snippet'
 p151
-F10.089285714285715
+F10.472222222222221
 tp152
 a(S'keyword conceptual structure'
 p153
@@ -387,17 +387,17 @@ a(S'/                 ur pproach'
 p193
 F9.0
 tp194
-a(S'news                  f-measure                 snippet       \xf0\x9d\x90\xb4       70'
-p195
-F8.922222222222222
-tp196
-a(S'accompanying recorded video'
-p197
-F8.9
-tp198
 a(S'semantic web conference'
+p195
+F8.970833333333335
+tp196
+a(S'news                  f-measure                 snippet       \xf0\x9d\x90\xb4       70'
+p197
+F8.922222222222222
+tp198
+a(S'accompanying recorded video'
 p199
-F8.895833333333334
+F8.9
 tp200
 a(S'automatically       generating digests'
 p201
@@ -739,53 +739,53 @@ a(S'effectively retrieve slides'
 p369
 F6.806372549019607
 tp370
-a(S'news archives'
+a(S'international journal'
 p371
-F6.75
+F6.757142857142857
 tp372
-a(S'retrieval result consists'
+a(S'news archives'
 p373
 F6.75
 tp374
-a(S'required lecture slides'
+a(S'retrieval result consists'
 p375
-F6.730614973262032
+F6.75
 tp376
-a(S'international journal'
+a(S'required lecture slides'
 p377
-F6.714285714285714
+F6.730614973262032
 tp378
 a(S'experimental academic content'
 p379
 F6.713953488372093
 tp380
-a(S'slides       varies depending'
+a(S'international conference'
 p381
-F6.639705882352941
+F6.707142857142857
 tp382
-a(S'browse important slides'
+a(S'slides       varies depending'
 p383
 F6.639705882352941
 tp384
-a(S'news                 \xe3\x83\xbb                 retrieve'
+a(S'browse important slides'
 p385
-F6.616666666666667
+F6.639705882352941
 tp386
-a(S'ion                 slide 3                 recall'
+a(S'news                 \xe3\x83\xbb                 retrieve'
 p387
-F6.604566210045663
+F6.616666666666667
 tp388
-a(S'contents browsing based'
+a(S'ion                 slide 3                 recall'
 p389
-F6.5928571428571425
+F6.604566210045663
 tp390
-a(S'provide relevant       information'
+a(S'contents browsing based'
 p391
-F6.5925925925925934
+F6.5928571428571425
 tp392
-a(S'international conference'
+a(S'provide relevant       information'
 p393
-F6.589285714285714
+F6.5925925925925934
 tp394
 a(S'figure 7 shows snippet'
 p395
@@ -839,13 +839,13 @@ a(S'snippet generation       proc'
 p419
 F6.258986928104575
 tp420
-a(S'browsing slides based'
-p421
-F6.232563025210084
-tp422
 a(S'international symposium'
+p421
+F6.257142857142857
+tp422
+a(S'browsing slides based'
 p423
-F6.214285714285714
+F6.232563025210084
 tp424
 a(S'lecture slides       based'
 p425

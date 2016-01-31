@@ -1,0 +1,1855 @@
+
+  
+    
+      MAC Contention Distributions for Efficient
+      Geo-routing in Vehicular Networks
+    
+    
+      Carolina García-Costa, Esteban Egea-López and Joan García-Haro
+      Department of Information and Communication Technologies,
+      Universidad Politécnica de Cartagena (UPCT), Spain,
+      e-mail: {carolina.garcia, esteban.egea, joang.haro}@upct.es.
+    
+    
+      Abstract-In this paper we evaluate a MAC-layer contention-
+      based forwarding scheme for vehicular networks that prioritizes
+      access according to node position. In particular, we consider
+      two schemes that use a geometrically-increasing probability
+      distribution for choosing the contention slots but, in the first
+      case, the distribution is appropriately weighted, and in the
+      second case, vehicles select the window size according to their
+      position. We analytically evaluate the total and per-vehicle success
+      probabilities and the average delay bounds. Our results show that
+      a weighted geometric distribution effectively prioritizes the access
+      based on position for a wide range of vehicle densities, while
+      retaining the benefits of geometrical distributions with respect to
+      success probabilities and delay bounds.
+      Index Terms-Vehicular networks, geo-routing, contention-
+      based forwarding, MAC slot distribution
+    
+    
+      implicit reliability mechanism in case the most suitable router
+      does not receive the packet, which in such a highly dynamic
+      environment is quite likely. Contention-based forwarding may
+      be implemented at network layer or directly at the MAC layer.
+      Implementing CBF at MAC layer should result in lower de-
+      lays than network layer operation, since forwarding and access
+      delays are integrated. Moreover, CSMA/CA mechanisms can
+      be controlled with several parameters, like contention window
+      size and intervals as well as the probability distribution for the
+      slot selection, which results in multiple degrees of freedom
+      to optimize MAC operation according to the most critical
+      functionality offered by the network. For instance, such an
+      optimization should benefit safety and emergency related
+      applications which rely and are built on top of the functionality
+      of the geo-routing protocol. As drawback, implementation at
+      the MAC layer may be potentially more complex, requiring at
+      least firmware modification.
+      CBF operation synchronizes medium access of all nodes,
+      that is, all receivers of a packet immediately become potential
+      forwarders and contend for the medium. In this particular
+      situation, in [5] it is shown that there exists an optimal
+      distribution for the contention slots that maximizes the con-
+      tention success probability. Although the optimal distribution
+      cannot be implemented in practice, geometric distributions
+      approximate the optimal one. With such a distribution the
+      conditional access probability in case of success is uniformly
+      distributed among all the contenders. However, the main goal
+      of CBF is to prioritize the access of the most suitable node
+      according to its position. Therefore, our objective is to find
+      a mechanism that prioritizes access based on position while
+      retaining the good properties of geometric distributions.
+      The remainder of this paper is organized as follows. In
+      Section II we briefly review the related work. A MAC-layer
+      CBF scheme that prioritizes access according to node position
+      is proposed in Section III. In Section IV we analytically
+      evaluate the total and per-vehicle success probabilities and the
+      average delay bounds. Finally, conclusions and future work
+      are remarked in Section V.
+    
+    
+      II. RELATED ORKW
+      Because of the dynamic nature of the mobile nodes in the
+      network, finding and maintaining routes is very challenging in
+      VANETs. Routing in VANETs (with pure ad hoc architectures)
+      has been studied recently and many different protocols have
+    
+    
+      I. INTRODUCTION
+      Inter-vehicle communications based on wireless technolo-
+      gies pave the way for innovative applications in traffic safety,
+      driver-assistance, traffic control and other advanced services
+      which will make up future Intelligent Transportation Systems
+      (ITS) [1]. Communications for Vehicular Ad-Hoc Networks
+      (VANET) have been developed and standardized in the last
+      years. At the moment, a dedicated short range communication
+      (DSRC) bandwidth has been allocated to vehicular communi-
+      cations at 5.9 GHz and both American and European standards
+      [2] have adopted IEEE 802.11p as physical and medium access
+      control (MAC) layers, based on carrier-sense multiple access
+      with collision avoidance (CSMA/CA).
+      At the network layer, European standards [3] specify the
+      GeoNetworking protocol as the default network layer protocol
+      for vehicle-to-vehicle (V2V) communications. It provides pac-
+      ket routing based on the use of geographical positions, that is,
+      a geo-routing protocol. GeoNetworking (GeoNet) supports the
+      communication among individual ITS stations as well as the
+      distribution of packets in geographical areas. If the source node
+      does not belong to the destination geo-area, then the packet
+      should be forwarded until reaching a node which belongs
+      to this area, which takes care on delivering the packet to
+      its destination. As basic forwarding algorithms, [3] defines
+      greedy forwarding and contention-based forwarding (CBF)
+      [4]. The latter makes a receiver decide if it becomes the next
+      forwarder, according to its position. Upon receiving a packet,
+      all routers start a timer whose timeout depends on the specific
+      position of the router, usually inversely proportional to the
+      distance. The major advantage of CBF is that it provides an
+    
+  
+  
+    
+      the same probability of success in accessing the channel. On
+      the contrary, for many applications in VANETs it is needed
+      that certain vehicles have a success probability greater than the
+      rest of them. A clear example is the usual GeoNet scenario
+      described in Section I, where the node located farthest away
+      should have priority access. In summary, our purpose is to
+      design a protocol that assigns higher success probability to
+      the nearest node to the destination, but without decreasing the
+      total success probability. This is achieved by allowing that
+      each vehicle uses a different probability distribution for the
+      slot selection, based on its own position. Next we propose
+      variations of Sift that retain its benefits but adapting the
+      operation to the needs of the GeoNet protocol.
+    
+    
+      been proposed. The authors in [6] classify them into five
+      categories as follows: ad hoc, position-based, cluster-based,
+      broadcast and geocast routing.
+      The objective of a geocast routing [7] is to deliver the
+      packet from a source node to all other nodes within a specified
+      geographical region. Most geocast routing methods are based
+      on directed flooding, which tries to limit the message overhead
+      and network congestion of simple flooding by defining a
+      forwarding zone and restricting the flooding inside it. Non-
+      flooding approaches are also proposed [8], [9], aiming to limit
+      the number of concurrent packets within the network.
+      We are particularly interested in the methods that use
+      the contention scheme at the MAC layer to select the next
+      forwarding node. This is achieved either by adapting the time
+      when to forward the packet or by introducing rules on whether
+      a given vehicle should forward the packet at all as in [4]. If
+      CSMA/CA is used at the MAC layer, not only the contention
+      window size may be selected [10] but also the distribution
+      function used for the selection of the contention slots may
+      be specifically adapted [5]. In this paper, we use the latter
+      approach, adapting the method in [5] not only to reduce the
+      message overhead, but to prioritize the retransmission of the
+      packet by certain nodes (e.g. the farthest node).
+    
+    
+      A. Weighted Sift
+      The first method we propose is to weight the Sift distribution
+      according to the respective position of vehicles within the
+      transmission range of the source node, giving a higher success
+      probability to the farthest nodes.
+      N
+      Considering the number of contending vehicles equal to ,
+      i
+      , . . . , N
+      each one of these vehicles,
+      , will choose the
+      1
+      ∈ {
+      }
+      r
+      , . . . , CW
+      slot
+      with probability
+      1
+      1
+      ∈ {
+      − }
+      i, r γ p r ,
+      (2)
+      g
+      ( ) =
+      ( )
+      CW
+      i
+      CW
+      ·
+      i
+      CW
+      while the probability of vehicle choosing slot
+      is
+      CW 1
+      −
+      i, CW γ p r ,
+      g
+      (3)
+      (
+      ) = 1
+      ( )
+      CW
+      i
+      CW
+      −
+      r=1
+      
+      p
+      CW
+      where
+      is the Sift probability distribution over
+      slots,
+      CW
+      as defined in eq. (1).
+      γ
+      ,
+      The following step is to select properly the coefficients
+      i
+      with the condition that them should be bigger for the farthest
+      i, r r
+      , . . . , CW
+      g
+      ,
+      , constitutes
+      vehicles. Since the
+      ( )
+      1
+      CW
+      ∈
+      CW
+      a probability distribution, the sum of the first
+      1
+      −
+      probabilities should be less than . From this observation we
+      1
+      CW 1
+      −
+      /
+      p r
+      γ
+      .
+      obtain
+      1
+      ( )
+      i
+      CW
+      r=1
+      ≤
+      Let us define
+      
+      1
+      CW 1
+      −
+      −
+      γ
+      w
+      p r
+      ,
+      (4)
+      =
+      ( )
+      i
+      i
+      CW
+      ·
+      
+      
+      r=1
+      
+      w
+      ,
+      i
+      , . . . , N
+      with
+      for
+      .
+      (0 1)
+      1
+      i
+      ∈
+      ∈ {
+      }
+      w
+      to the farthest vehi-
+      In order to assign higher values of
+      i
+      cles we use the following inverted and truncated exponential
+      distribution:
+      G R x
+      (
+      )
+      i
+      ,
+      w
+      (5)
+      = 1
+      −
+      i
+      G R
+      ( )
+      −
+      R
+      x
+      where denotes the transmission range of the source node,
+      i
+      i R
+      the position of vehicle in (with respect to the source node)
+      G
+      and finally denotes the cumulative distribution function of
+      1
+      . Let us remark that knowning the
+      an exponential distribution
+      exact number of contenders is not required for this procedure.
+    
+    
+      1
+      In this work an exponential distribution with mean
+      is used, but its
+      R/3
+      choice is quite arbitrary. We leave as future work the study of the most
+      appropriate parameters.
+    
+    
+      DAPTATIONS OF IFT FOR RIORITIZED CCESS
+      S
+      P
+      A
+      III. A
+      Sift is the contention technique proposed in [5] for event-
+      driven networks where a set of nodes tries to send a packet
+      simultaneously
+      . That is, when there are synchronized channel
+      access attempts among many nodes. The key idea in Sift
+      is to use a non-uniform, geometrically-increasing probability
+      distribution for choosing the slots (
+      ) within a fixed-
+      1, . . . , CW
+      CW
+      size contention window ( ), rather than varying the window
+      size as in many traditional MAC protocols. The resulting
+      protocol performs well when the number of nodes trying to
+      CW
+      send data is large in relation to
+      , therefore it scales well
+      when the number of contenders grows.
+      The Sift protocol assigns the probability that a node chooses
+      r
+      the slot
+      as :
+      CW
+      α α
+      (1 )
+      r
+      r
+      p
+      (1)
+      ( ) =
+      = 1, . . . , CW,
+      α , r−
+      −
+      CW
+      CW
+      α
+      1
+      ·
+      −
+      < α <
+      where
+      is a characteristic coefficient that determines
+      0
+      1
+      the shape of the probability distribution.
+      Let us note that using CBF for GeoNet implies that all
+      the packets are broadcast. In this mode, there is no reliability
+      mechanisms, such as acknowledgment packets, and every
+      transmission is independent of each other. In addition, all
+      receiving nodes become simultaneously potential forwarders
+      simultaneously
+      (contenders)
+      . When a node wins the conten-
+      tion, it rebroadcasts the packet and the process is exactly the
+      same, and actually keeps on this way until the packet reaches
+      the destination area.
+      Therefore, we might expect that Sift as contention dis-
+      tribution optimize the operation of GeoNet hop by hop.
+      However, with the Sift distribution, all the vehicles use the
+      same distribution for the slot selection, so all of them have
+    
+  
+  
+    
+      The probability of a successful transmission for an arbitrary
+      V
+      (in any slot) is calculated as the sum of the proba-
+      vehicle
+      i
+      N
+      bilities that the node selects one slot and all the other
+      1
+      −
+      nodes choose later slots, which is given by the expression:
+      CW 1
+      N
+      r
+      −
+      .
+      i, r
+      j, s
+      (8)
+      1
+      (P) = P( )
+      P( )
+      Π
+      V
+      i
+      −
+      
+      
+      r=1
+      s=1
+      j=1,j=i
+      (
+      
+      Immediately from eq. (8) we can compute the probability
+      of a successful transmission for the last group of vehicles and
+      the total probability of a successful transmission as follows:
+    
+    
+      B. Per groups Sift
+      The second method we consider is to divide the total number
+      of vehicles into different groups, depending on their priorities.
+      In particular, as we assume the priority is given by the position,
+      C
+      we divide the transmission range into intervals. The group
+      of vehicles placed in each of these intervals selects their
+      contention slots by using the Sift probability distribution with
+      different values for the contention window (lower values for
+      higher priorities).
+      , . . . , C
+      G
+      ,j
+      ,
+      Therefore, to each group of vehicles
+      1
+      j
+      ∈ {
+      }
+      CW
+      . So, the probability
+      we associate a contention window
+      G
+      j
+      (6)
+      CW
+      G
+      j
+      distribution used by all the vehicles in that group is the
+      following:
+      r p
+      r , r
+      , . . . , CW ,
+      h
+      ( ) =
+      ( )
+      1
+      CW
+      CW
+      G
+      G
+      G
+      j
+      j
+      j
+      ∈ {
+      }
+      p
+      where
+      is the Sift probability distribution over
+      CW
+      G
+      j
+      slots, as defined by eq. (1).
+    
+    
+      OMPARATIVE VALUATION
+      IV. C
+      E
+      In this section we present a comparative study to show
+      the performance of the proposed methods as forwarding al-
+      gorithms.
+      We consider a one-dimensional scenario in which vehicles
+      are uniformly distributed. The transmission range is assumed
+      to be constant and equal to
+      meters for all the vehicles, and
+      300
+      each vehicle knows its own position in the road segment. We
+      assume that after a first transmission of the packet from the
+      source node, all the vehicles in the transmission range have
+      received correctly the packet and all of them contend to be
+      the next forwarder.
+      We are concerned here exclusively with the probability of
+      success of the proposed distributions, rather than the actual re-
+      ception probability, which also depends on fading and channel
+      error. We only need to know the total number of contenders
+      and their positions for the analytic computations. In fact, a real
+      implementation of the proposed protocols only would require
+      to approximately know the transmission range and that each
+      vehicle would know its own position.
+    
+    
+      A. Performance metrics
+      N
+      Assuming that there are vehicles contending to be the
+      next forwarder, and that the size of the contention window is
+      CW
+      , for each protocol we construct a matrix of dimension
+      P
+      N CW
+      i, j
+      i
+      , where
+      is the probability of node selecting
+      P( )
+      ×
+      j
+      backoff value . Then, using this probability matrix, we
+      compute the following stochastic metrics.
+      The probability of a successful transmission (of any node)
+      S
+      N
+      remaining nodes do not
+      1
+      −
+      , . . . , r
+      , which is given by the
+      1
+      is calculated as the sum of the probabilities that
+      in the slot
+      r
+      r
+      one node selects slot and the
+      choose slots from the range of
+      expression:
+    
+    
+      (7)
+    
+    
+      Π
+      S
+    
+    
+      r
+    
+    
+      j, s .
+      P( )
+      
+    
+    
+      (9)
+      (P) = Π (P)
+      Π
+      LG
+      V
+      i
+      i LG
+      ∈
+      
+      N
+      ,
+      (10)
+      Π
+      (P) = Π (P)
+      T
+      V
+      i
+      i=1
+      
+      LG
+      where
+      is the last group of vehicles, that is, the nearest
+      group of vehicles to the destination.
+      veh
+      )
+      Additionally, we compute the mean winner vehicle (
+      ∗
+      sl
+      ) in which the successful
+      and the mean slot number (
+      ∗
+      transmission occurs, provided that the transmission attempt
+      is successful:
+      N
+      i
+      Π (P)
+      V
+      i
+      i=1
+      ,
+      veh
+      (11)
+      (P) =
+      ∗
+      ·
+      Π (P)
+      T
+      
+      CW
+      r
+      Π (P)
+      S
+      r
+      r=1
+      sl
+      .
+      (12)
+      (P) =
+      ∗
+      ·
+      Π (P)
+      T
+      
+      Finally, we will compute a lower and upper bound on the
+      delay incurred by the packet to reach the destination area in the
+      described scenario. As a first step, we compute these bounds
+      for one successful transmission, as it is done in [5]. Let us
+      L
+      T
+      to the time duration (in
+      call
+      to this delay, and
+      (P)
+      packet
+      slots) for a packet transmission. If there is a collision, then
+      T
+      , so
+      packet
+      the delay is at least
+      T
+      LB .
+      L
+      (13)
+      (P))
+      = (P)
+      (P) (1 Π
+      T
+      packet
+      1
+      ·
+      ≥ −
+      On the other hand, if there is a successful transmission in
+      sl
+      . If there is a co-
+      one round of contention, its latency is
+      (P)
+      ∗
+      L
+      L <
+      L
+      CW T
+      . Hence,
+      llision,
+      is at most
+      + (P)
+      (P)
+      (P)
+      +
+      packet
+      sl
+      CW T
+      L
+      , and
+      (P) (P) + (1 Π (P)) ( +
+      + (P))
+      Π
+      ∗
+      T
+      T
+      packet
+      −
+      simplifying, we obtain the expression for the upper bound
+      1
+      CW T
+      sl
+      .
+      UB
+      (14)
+      1 (
+      +
+      (P) = (P) +
+      )
+      ∗
+      1
+      packet
+      Π (P)
+      −
+      T
+      
+      
+      Now, for the total average delay, the lower and upper bounds
+      are computed as follows:
+      hops ,
+      LB LB
+      (15)
+      (P) (P)
+      (P) =
+      1
+      ·
+      UB UP
+      hops ,
+      (16)
+      (P) =
+      (P) (P)
+      1
+      ·
+      hops
+      where
+      is the average number of hops needed by the
+      (P)
+      packet to reach the destination area when the matrix is
+      P
+      used for the slot selection. It depends on the distance of the
+      average winner vehicle and the destination area to the source
+    
+    
+      N
+      N
+      r
+      i, r
+      1
+      (P) = P( )
+      −
+      
+      s=1
+      i=1
+      j=1,j=i
+      (
+      
+    
+  
+  
+    
+      1
+    
+    
+      1
+    
+    
+      0.9
+    
+    
+      0.9
+    
+    
+      0.8
+    
+    
+      0.8
+    
+    
+      p
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      u
+    
+    
+      o
+    
+    
+      r
+    
+    
+      g
+    
+    
+      y
+    
+    
+      0.7
+    
+    
+      0.7
+    
+    
+      t
+    
+    
+      t
+    
+    
+      i
+    
+    
+      s
+    
+    
+      l
+    
+    
+      i
+    
+    
+      a
+    
+    
+      l
+    
+    
+      b
+    
+    
+      a
+    
+    
+      e
+    
+    
+      b
+    
+    
+      0.6
+    
+    
+      h
+    
+    
+      0.6
+    
+    
+      t
+    
+    
+      o
+    
+    
+      r
+    
+    
+      f
+    
+    
+      P
+    
+    
+      o
+    
+    
+      s
+    
+    
+      y
+    
+    
+      t
+    
+    
+      s
+    
+    
+      i
+    
+    
+      0.5
+    
+    
+      0.5
+    
+    
+      l
+    
+    
+      i
+    
+    
+      e
+    
+    
+      c
+    
+    
+      b
+    
+    
+      c
+    
+    
+      a
+    
+    
+      u
+    
+    
+      b
+    
+    
+      o
+    
+    
+      S
+    
+    
+      0.4
+    
+    
+      r
+    
+    
+      0.4
+    
+    
+      l
+    
+    
+      p
+    
+    
+      a
+    
+    
+      t
+    
+    
+      s
+    
+    
+      o
+    
+    
+      s
+    
+    
+      T
+    
+    
+      e
+    
+    
+      0.3
+    
+    
+      0.3
+    
+    
+      c
+    
+    
+      c
+    
+    
+      u
+    
+    
+      S
+    
+    
+      0.2
+    
+    
+      0.2
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      0.1
+    
+    
+      0.1
+    
+    
+      0
+      10
+    
+    
+      20
+    
+    
+      30
+    
+    
+      40
+    
+    
+      7080
+    
+    
+      90
+    
+    
+      100
+    
+    
+      0
+      10
+    
+    
+      20
+    
+    
+      30
+    
+    
+      40
+    
+    
+      70
+    
+    
+      80
+    
+    
+      90
+    
+    
+      100
+    
+    
+      50
+      60
+      Number of vehicles
+    
+    
+      50
+      60
+      Number of vehicles
+    
+    
+      Fig. 2. Probability of a successful transmission for the last group of vehicles,
+      with respect to the number of contenders.
+    
+    
+      Fig. 1. Total probability of a successful transmission with respect to the
+      number of contenders.
+    
+    
+      1
+    
+    
+      0.9
+    
+    
+      0.8
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      0.7
+    
+    
+      y
+    
+    
+      t
+    
+    
+      i
+    
+    
+      l
+    
+    
+      i
+    
+    
+      0.6
+    
+    
+      b
+    
+    
+      a
+    
+    
+      b
+    
+    
+      o
+    
+    
+      r
+    
+    
+      P
+    
+    
+      0.5
+    
+    
+      s
+    
+    
+      s
+    
+    
+      e
+    
+    
+      c
+    
+    
+      c
+    
+    
+      0.4
+    
+    
+      u
+    
+    
+      S
+    
+    
+      0.3
+    
+    
+      0.2
+    
+    
+      0.1
+    
+    
+      0
+    
+    
+      0
+    
+    
+      1
+    
+    
+      2
+    
+    
+      3
+    
+    
+      4
+    
+    
+      5
+    
+    
+      6
+    
+    
+      7
+    
+    
+      8
+    
+    
+      9
+    
+    
+      10 11 12 13 14 15 16 17 18 19 20 21
+      Vehicle Number
+    
+    
+      (a) Scenario with contenders.
+      20
+    
+    
+      0.07
+    
+    
+      0.06
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      0.05
+    
+    
+      y
+    
+    
+      t
+    
+    
+      i
+    
+    
+      l
+    
+    
+      i
+    
+    
+      b
+    
+    
+      a
+    
+    
+      0.04
+    
+    
+      b
+    
+    
+      o
+    
+    
+      r
+    
+    
+      P
+    
+    
+      s
+    
+    
+      s
+    
+    
+      e
+    
+    
+      c
+    
+    
+      0.03
+    
+    
+      c
+    
+    
+      u
+    
+    
+      S
+    
+    
+      0.02
+    
+    
+      0.01
+    
+    
+      0
+    
+    
+      0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50
+      Vehicle Number
+    
+    
+      (b) Scenario with contenders.
+      50
+    
+    
+      Fig. 3. Probability of a successful transmission for each vehicle.
+    
+    
+      vehicles is
+      (Fig. 3(b)) the success probability drops to zero
+      50
+      for all the contending vehicles. For the two proposed protocols
+      we can see better in Fig. 3(b) how the probability grows when
+      approaching the last vehicle/group of vehicles.
+      In Fig. 4 the probability of a successful transmission in each
+      slot is represented when the number of contenders is fixed to
+      (Fig. 4(a)) and (Fig. 4(b)). For the first case, we can
+      20
+      50
+      observe that the probability for the CBF is concentrated on the
+      first slot, but when the number of vehicles is
+      (Fig. 4(b))
+      50
+      the success probability is zero for all the slots. Looking at
+      Per groups Sift
+      Fig. 4(b) we can observe that the
+      gives a high
+      success probability to the first few slots. On the other hand,
+      Weighted Sift
+      the original Sift outperforms the
+      in terms of the
+      slot success probability, since the latter gives more success
+      probability to later slots, which increases the forwarding delay.
+      It seems that Sift would perform slightly better in terms of
+      delay. However, if we actually consider the average delay to
+      the destination, that is, the multihop or end-to-end delay the
+      results are different as discussed next.
+      We consider a multi-hop scenario, where the destination
+    
+    
+      dist veh
+      dist Dest
+      node, denoted as
+      and
+      (
+      (P))
+      (
+      ), respectively.
+      ∗
+      It is computed as follows:
+      dist Dest
+      (
+      )
+      .
+      hops
+      (17)
+      (P) =
+      dist veh
+      (
+      (P))
+      ∗
+      B. Results
+      The total probability of a successful transmission and the
+      probability of a successful transmission for the last group
+      of vehicles are shown in Figures 1 and 2, respectively, for
+      the two proposed protocols, as well as for the original Sift
+      protocol and for a basic Contention Based Forwarding (CBF)
+      algorithm. The number of vehicles is varied between and
+      10
+      , while the contention window is always fixed to slots.
+      100
+      32
+      Per groups Sift
+      For the
+      protocol,
+      groups are used and the
+      3
+      corresponding contention windows are , and slots. For
+      8 16
+      32
+      r
+      the basic CBF mechanism, we assume nodes select the slot
+      /R
+      CW dist V
+      with probability
+      as the closest integer to
+      ) )
+      (1
+      (
+      i
+      −
+      dist V
+      is the distance from the node to the source.
+      1, where
+      )
+      (
+      i
+      It can be seen in Fig. 1 that when the number of vehicles
+      is small (up to ) the success probability for the CBF is 1,
+      30
+      clearly outperforming the other protocols. However, when the
+      number of vehicles increases, the success probability becomes
+      0, because more than one vehicle is always close enough to
+      select the same slot. On the contrary, the other proposals scale
+      much better, maintaining almost the same success probability.
+      The same holds for the probability of a successful transmission
+      for the last group of vehicles (Fig. 2).
+      Let us recall that our main goal is to give higher priority to
+      the farthest vehicle. Our proposals achieve this goal and out-
+      performs other possibilities. Looking at Fig. 1 again, the total
+      Weighted Sift
+      success probability for the
+      is slightly superior
+      Per groups Sift
+      than Sift, whereas for the
+      it is significantly
+      lower than the others. Nevertheless, when we observe the
+      success probability of the last group of vehicles (Fig. 2), both
+      Weighted Sift
+      Per groups Sift
+      the
+      and the
+      clearly outperform
+      the original Sift protocol.
+      In Fig. 3 the probability of a successful transmission for
+      each vehicle is shown when the number of contenders is fixed
+      to (Fig. 3(a)) and (Fig. 3(b)).
+      20
+      50
+      As shown in Fig. 3(a), the probability of basic CBF is
+      concentrated on the last vehicle, but when the number of
+    
+  
+  
+    
+      1
+    
+    
+      110
+    
+    
+      0.9
+    
+    
+      100
+    
+    
+      0.8
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      90
+    
+    
+      0.7
+    
+    
+      y
+    
+    
+      t
+    
+    
+      i
+    
+    
+      80
+    
+    
+      l
+    
+    
+      i
+    
+    
+      0.6
+    
+    
+      b
+    
+    
+      a
+    
+    
+      Sift LB
+      Weighted Sift LB
+      Groups LB
+      Sift UB
+      Weighted Sift UB
+      Groups UB
+    
+    
+      b
+    
+    
+      )
+    
+    
+      o
+    
+    
+      s
+    
+    
+      r
+    
+    
+      t
+    
+    
+      P
+    
+    
+      70
+    
+    
+      0.5
+    
+    
+      o
+    
+    
+      l
+    
+    
+      s
+    
+    
+      s
+    
+    
+      s
+    
+    
+      e
+    
+    
+      (
+    
+    
+      c
+    
+    
+      c
+    
+    
+      y
+    
+    
+      0.4
+    
+    
+      u
+    
+    
+      60
+    
+    
+      a
+    
+    
+      l
+    
+    
+      S
+    
+    
+      e
+    
+    
+      d
+    
+    
+      0.3
+    
+    
+      e
+    
+    
+      50
+    
+    
+      g
+    
+    
+      a
+    
+    
+      r
+    
+    
+      0.2
+    
+    
+      e
+    
+    
+      v
+    
+    
+      40
+    
+    
+      A
+    
+    
+      0.1
+    
+    
+      30
+    
+    
+      0
+    
+    
+      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+      Slot Number
+    
+    
+      20
+    
+    
+      10
+    
+    
+      (a) Scenario with contenders.
+      20
+    
+    
+      0.2
+    
+    
+      0
+      400
+    
+    
+      450
+    
+    
+      500
+    
+    
+      550
+    
+    
+      650700
+    
+    
+      750
+    
+    
+      800
+    
+    
+      0.18
+    
+    
+      600
+      Destination (m)
+    
+    
+      0.16
+    
+    
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      CBF
+    
+    
+      0.14
+    
+    
+      y
+    
+    
+      t
+    
+    
+      i
+    
+    
+      l
+    
+    
+      i
+    
+    
+      0.12
+    
+    
+      b
+    
+    
+      a
+    
+    
+      b
+    
+    
+      o
+    
+    
+      r
+    
+    
+      P
+    
+    
+      0.1
+    
+    
+      s
+    
+    
+      s
+    
+    
+      Fig. 5. Lower and upper bounds on the expected delay incurred by the
+      (ranging between
+      and
+      ) from the source node and
+      400
+      800 m
+      packet to reach the destination area when it is situated at different distances
+      .
+      R = 300 m
+    
+    
+      e
+    
+    
+      c
+    
+    
+      c
+    
+    
+      0.08
+    
+    
+      u
+    
+    
+      S
+    
+    
+      0.06
+    
+    
+      0.04
+    
+    
+      0.02
+    
+    
+      0
+    
+    
+      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33
+      Slot Number
+    
+    
+      (b) Scenario with contenders.
+      50
+    
+    
+      Fig. 4. Probability of a successful transmission in each slot.
+    
+    
+      mechanisms scale gracefully and do not even need to know
+      the number of contenders. With respect to the end-to-end
+      delay, since the computed lower and upper bounds are weak,
+      a realistic simulation is needed to show the true benefits of
+      the proposed protocols, which is left as future work. On the
+      other hand, we have arbitrarily fixed several parameters of the
+      distribution, e.g., the window size. We leave as future work
+      as well a more detailed study on how to choose the more
+      appropriate parameters and their influence.
+    
+    
+      TABLE I
+      L
+      Protocol
+      Sift
+      Weighted Sift
+      Per Groups Sift
+      OWER AND UPPER BOUNDS ON THE AVERAGE DELAY FOR ONE
+      SUCCESSFUL TRANSMISSION
+      .
+      3.08
+      2.57
+      8.63
+      Lower Bound (slots) Upper Bound (slots)
+      14.31
+      17.54
+      26.09
+    
+    
+      CKNOWLEDGMENT
+      A
+      This research has been supported by the MICINN/FEDER project
+      grant TEC2010-21405-C02-02/TCM (CALM). It is also developed in
+      the framework of "Programa de Ayudas a Grupos de Excelencia de
+      la Región de Murcia, de la Fundación Séneca, Agencia de Ciencia y
+      Tecnología de la RM". C. Garcia-Costa acknowledges the Fundación
+      Seneca for a FPI (REF 12347/FPI/09) pre-doctoral fellowship.
+    
+    
+      area is situated at different distances (ranging between
+      and
+      400
+      m
+      ) from the source node, with
+      m. We assume
+      800
+      R= 300
+      the time duration of a packet transmission to be slots, and
+      30
+      the number of vehicles in the transmission range equal to .
+      60
+      For each protocol, the lower and upper bounds on the average
+      delay for one successful transmission, eq. (13) and (14), are
+      shown in Table I, whereas the lower and upper bounds on the
+      total average delay to reach the destination area are shown in
+      Fig. 5. Thus, when we take into account the number of hops
+      outperforms the usual Sift, unlike the
+      needed by the packet to reach the destination area, we can see
+      Weighted Sift
+      how the
+      Per Groups Sift
+      .
+    
+    
+      EFERENCES
+      R
+      [1] H. Hartenstein and K.P. Laberteaux, "VANET. Vehicular Applications
+      and Inter-Networking Technologies", Wiley, 2010.
+      [2] ETSI EN 302 663, "Intelligent Transport Systems (ITS); Access layer
+      specification for Intelligent Transport Systems operating in the 5 GHz
+      frequency band", V0.1.3, 2012.
+      [3] ETSI TS 102 636-4-1 V1.1.1 Intelligent Transport Systems (ITS);
+      Vehicular Communications; GeoNetworking; Part 4: Geographical ad-
+      dressing and forwarding for point-to-point and point-to-multipoint com-
+      munications; Sub-part 1: Media-Independent Functionality, June 2011.
+      [4] H. Füßler, J. Widmer, M. Käsemann, M. Mauve and H.
+      Hartenstein,"Contention-based forwarding for mobile ad hoc networks",
+      Ad Hoc Networks
+      , vol. 1, no. 4, pp. 351-369, Nov. 2003.
+      [5] Y.C. Tay, K. Jamieson and H. Balakrishnan, "Collision-Minimizing
+      IEEE
+      CSMA and Its Applications to Wireless Sensor Networks",
+      Journal on Selected Areas in Communications
+      , vol. 22, no. 6, pp. 1048-
+      1057, Aug. 2004.
+      [6] F. Li and Y. Wang, "Routing in vehicular ad hoc networks: A survey",
+      IEEE Vehicular Technology Magazine
+      , vol. 2, no. 2, pp. 12-22, June
+      2007.
+      IEEE Communi-
+      [7] C. Maihofer, "A survey of geocast routing protocols",
+      cations Surveys & Tutorials
+      , vol. 6, no. 2, pp. 32-42, 2004.
+      [8] B. Karp and H.T. Kung, "GPSR: greedy perimeter stateless routing
+      Proceedings of the 6th annual international
+      for wireless networks",
+      conference on Mobile computing and networking
+      , pp. 243-254, 2000.
+      [9] T. Imielinski and J.C. Navas, "GPS-Based Addressing and Routing",
+      Technical report LCSR-TR-262, Rutgers University, 1996.
+      Proc. of Wireless Personal Multimedia
+      [10] E. Fasolo, R. Furiato and A. Zanella, "Smart broadcast algorithm for
+      inter-vehicular communications",
+      Communication
+      , Sept. 2005.
+    
+    
+      ONCLUSIONS
+      V. C
+      In this paper we study CBF mechanisms for GeoNetworking
+      implemented at MAC layer. We considered two schemes that
+      use geometrically-distributed contention slots. We have analy-
+      tically evaluated the total and per-vehicle success probabilities
+      and the average delay bounds and compared them with a
+      basic CBF mechanism and the original Sift protocol. Our
+      results show that a weighted geometric distribution effectively
+      prioritizes the access based on position for a wide range of
+      vehicle densities, while retaining the benefits of geometrical
+      distributions with respect to success probabilities and delay
+      bounds. In particular, while a CBF mechanism with static
+      timers needs to adapt the contention window size to the
+      number of contenders to avoid packet collisions, the proposed
+    
+  

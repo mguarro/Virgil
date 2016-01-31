@@ -47,13 +47,13 @@ a(S'bottom detail image        shows'
 p23
 F13.974358974358974
 tp24
-a(S'historical        researcher untold time'
-p25
-F13.884615384615385
-tp26
 a(S'ieee computer society                       ieee transactions'
+p25
+F13.903910427807487
+tp26
+a(S'historical        researcher untold time'
 p27
-F13.843248663101605
+F13.884615384615385
 tp28
 a(S'full regular        expression syntax'
 p29
@@ -167,21 +167,21 @@ a(S'left image shows relationships'
 p83
 F10.107692307692307
 tp84
-a(S'personalized search engine'
+a(S'themes multiple                         ieee transactions'
 p85
-F9.5
+F9.601102941176471
 tp86
-a(S'wandering historical eye'
+a(S'personalized search engine'
 p87
 F9.5
 tp88
-a(S'simple pattern matching techniques'
+a(S'wandering historical eye'
 p89
-F9.455642633228841
+F9.5
 tp90
-a(S'themes multiple                         ieee transactions'
+a(S'simple pattern matching techniques'
 p91
-F9.430147058823529
+F9.455642633228841
 tp92
 a(S'future text visualization work'
 p93
@@ -297,7 +297,7 @@ F8.384615384615385
 tp148
 a(S'ieee cs press'
 p149
-F8.367647058823529
+F8.382352941176471
 tp150
 a(S'interactive visual        concordance'
 p151
@@ -847,13 +847,13 @@ a(S'interesting usage        scenarios'
 p423
 F5.916666666666666
 tp424
-a(S'ieee        conference'
-p425
-F5.867647058823529
-tp426
 a(S'compare multiple texts'
+p425
+F5.886904761904763
+tp426
+a(S'ieee        conference'
 p427
-F5.845238095238095
+F5.882352941176471
 tp428
 a(S'graph drawing cases'
 p429
@@ -907,25 +907,25 @@ a(S'van ham'
 p453
 F5.238095238095238
 tp454
-a(S'phrase        nets'
+a(S'ieee transactions'
 p455
-F5.195238095238095
+F5.226102941176471
 tp456
-a(S'phrase nets                 1171'
+a(S'ieee        transactions'
 p457
-F5.195238095238095
+F5.226102941176471
 tp458
-a(S'phrase nets'
+a(S'phrase        nets'
 p459
 F5.195238095238095
 tp460
-a(S'ieee transactions'
+a(S'phrase nets                 1171'
 p461
-F5.180147058823529
+F5.195238095238095
 tp462
-a(S'ieee        transactions'
+a(S'phrase nets'
 p463
-F5.180147058823529
+F5.195238095238095
 tp464
 a(S'mapping techniques'
 p465
@@ -1093,7 +1093,7 @@ F4.649572649572649
 tp546
 a(S'ieee symposium'
 p547
-F4.617647058823529
+F4.632352941176471
 tp548
 a(S'resulting diagram'
 p549

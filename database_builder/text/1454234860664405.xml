@@ -1,0 +1,1857 @@
+<?xml version="1.0"?>
+<pdf>
+  <page width="612" height="792" number="1">
+    <region x="92.35" y="680.67" width="427.39" height="49.81" line_height="21.9" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="27.9" spacing="0.0">MAC Contention Distributions for Efficient</line>
+      <line x_offset="41.17" y_offset="0.0" spacing="6.0">Geo-routing in Vehicular Networks</line>
+    </region>
+    <region x="156.19" y="615.18" width="299.59" height="46.96" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="36.93" spacing="0.0">Carolina Garc&#xED;a-Costa, Esteban Egea-L&#xF3;pez and Joan Garc&#xED;a-Haro</line>
+      <line x_offset="22.6" y_offset="24.67" spacing="3.13">Department of Information and Communication Technologies,</line>
+      <line x_offset="40.02" y_offset="12.33" spacing="3.21">Universidad Polit&#xE9;cnica de Cartagena (UPCT), Spain,</line>
+      <line x_offset="27.56" y_offset="0.0" spacing="3.21">e-mail: {carolina.garcia, esteban.egea, joang.haro}@upct.es.</line>
+    </region>
+    <region x="48.96" y="441.03" width="251.09" height="147.76" line_height="8.11" font="GBJKCD+Times-BoldItalic">
+      <line x_offset="9.96" y_offset="139.65" spacing="0.0">Abstract-In this paper we evaluate a MAC-layer contention-</line>
+      <line x_offset="0.0" y_offset="129.69" spacing="1.86">based forwarding scheme for vehicular networks that prioritizes</line>
+      <line x_offset="0.0" y_offset="119.74" spacing="1.85">access according to node position. In particular, we consider</line>
+      <line x_offset="0.0" y_offset="109.78" spacing="1.86">two schemes that use a geometrically-increasing probability</line>
+      <line x_offset="0.0" y_offset="99.81" spacing="1.86">distribution for choosing the contention slots but, in the first</line>
+      <line x_offset="0.0" y_offset="89.85" spacing="1.86">case, the distribution is appropriately weighted, and in the</line>
+      <line x_offset="0.0" y_offset="79.89" spacing="1.86">second case, vehicles select the window size according to their</line>
+      <line x_offset="0.0" y_offset="69.93" spacing="1.86">position. We analytically evaluate the total and per-vehicle success</line>
+      <line x_offset="0.0" y_offset="59.97" spacing="1.86">probabilities and the average delay bounds. Our results show that</line>
+      <line x_offset="0.0" y_offset="50.01" spacing="1.86">a weighted geometric distribution effectively prioritizes the access</line>
+      <line x_offset="0.0" y_offset="40.04" spacing="1.86">based on position for a wide range of vehicle densities, while</line>
+      <line x_offset="0.0" y_offset="30.08" spacing="1.86">retaining the benefits of geometrical distributions with respect to</line>
+      <line x_offset="0.0" y_offset="20.12" spacing="1.86">success probabilities and delay bounds.</line>
+      <line x_offset="9.96" y_offset="9.96" spacing="2.05">Index Terms-Vehicular networks, geo-routing, contention-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">based forwarding, MAC slot distribution</line>
+    </region>
+    <region x="311.97" y="137.47" width="251.08" height="451.92" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="442.8" spacing="0.0">implicit reliability mechanism in case the most suitable router</line>
+      <line x_offset="0.0" y_offset="430.84" spacing="2.83">does not receive the packet, which in such a highly dynamic</line>
+      <line x_offset="0.0" y_offset="418.89" spacing="2.83">environment is quite likely. Contention-based forwarding may</line>
+      <line x_offset="0.0" y_offset="406.92" spacing="2.84">be implemented at network layer or directly at the MAC layer.</line>
+      <line x_offset="9.96" y_offset="394.86" spacing="2.94">Implementing CBF at MAC layer should result in lower de-</line>
+      <line x_offset="0.0" y_offset="382.89" spacing="2.84">lays than network layer operation, since forwarding and access</line>
+      <line x_offset="0.0" y_offset="370.94" spacing="2.83">delays are integrated. Moreover, CSMA/CA mechanisms can</line>
+      <line x_offset="0.0" y_offset="358.98" spacing="2.83">be controlled with several parameters, like contention window</line>
+      <line x_offset="0.0" y_offset="347.02" spacing="2.84">size and intervals as well as the probability distribution for the</line>
+      <line x_offset="0.0" y_offset="335.06" spacing="2.83">slot selection, which results in multiple degrees of freedom</line>
+      <line x_offset="0.0" y_offset="323.11" spacing="2.83">to optimize MAC operation according to the most critical</line>
+      <line x_offset="0.0" y_offset="311.14" spacing="2.84">functionality offered by the network. For instance, such an</line>
+      <line x_offset="0.0" y_offset="299.19" spacing="2.83">optimization should benefit safety and emergency related</line>
+      <line x_offset="0.0" y_offset="287.23" spacing="2.83">applications which rely and are built on top of the functionality</line>
+      <line x_offset="0.0" y_offset="275.27" spacing="2.84">of the geo-routing protocol. As drawback, implementation at</line>
+      <line x_offset="0.0" y_offset="263.31" spacing="2.83">the MAC layer may be potentially more complex, requiring at</line>
+      <line x_offset="0.0" y_offset="251.36" spacing="2.83">least firmware modification.</line>
+      <line x_offset="9.96" y_offset="239.28" spacing="2.95">CBF operation synchronizes medium access of all nodes,</line>
+      <line x_offset="0.0" y_offset="227.33" spacing="2.83">that is, all receivers of a packet immediately become potential</line>
+      <line x_offset="0.0" y_offset="215.36" spacing="2.84">forwarders and contend for the medium. In this particular</line>
+      <line x_offset="0.0" y_offset="203.41" spacing="2.83">situation, in [5] it is shown that there exists an optimal</line>
+      <line x_offset="0.0" y_offset="191.44" spacing="2.84">distribution for the contention slots that maximizes the con-</line>
+      <line x_offset="0.0" y_offset="179.49" spacing="2.83">tention success probability. Although the optimal distribution</line>
+      <line x_offset="0.0" y_offset="167.53" spacing="2.83">cannot be implemented in practice, geometric distributions</line>
+      <line x_offset="0.0" y_offset="155.57" spacing="2.84">approximate the optimal one. With such a distribution the</line>
+      <line x_offset="0.0" y_offset="143.61" spacing="2.83">conditional access probability in case of success is uniformly</line>
+      <line x_offset="0.0" y_offset="131.66" spacing="2.83">distributed among all the contenders. However, the main goal</line>
+      <line x_offset="0.0" y_offset="119.69" spacing="2.84">of CBF is to prioritize the access of the most suitable node</line>
+      <line x_offset="0.0" y_offset="107.74" spacing="2.83">according to its position. Therefore, our objective is to find</line>
+      <line x_offset="0.0" y_offset="95.78" spacing="2.83">a mechanism that prioritizes access based on position while</line>
+      <line x_offset="0.0" y_offset="83.82" spacing="2.84">retaining the good properties of geometric distributions.</line>
+      <line x_offset="9.96" y_offset="71.75" spacing="2.94">The remainder of this paper is organized as follows. In</line>
+      <line x_offset="0.0" y_offset="59.79" spacing="2.84">Section II we briefly review the related work. A MAC-layer</line>
+      <line x_offset="0.0" y_offset="47.83" spacing="2.83">CBF scheme that prioritizes access according to node position</line>
+      <line x_offset="0.0" y_offset="35.88" spacing="2.83">is proposed in Section III. In Section IV we analytically</line>
+      <line x_offset="0.0" y_offset="23.91" spacing="2.84">evaluate the total and per-vehicle success probabilities and the</line>
+      <line x_offset="0.0" y_offset="11.96" spacing="2.83">average delay bounds. Finally, conclusions and future work</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.83">are remarked in Section V.</line>
+    </region>
+    <region x="311.98" y="66.28" width="251.06" height="60.81" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="82.58" y_offset="51.5" spacing="0.0">II. RELATED ORKW</line>
+      <line x_offset="9.96" y_offset="35.88" spacing="6.5">Because of the dynamic nature of the mobile nodes in the</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">network, finding and maintaining routes is very challenging in</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">VANETs. Routing in VANETs (with pure ad hoc architectures)</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">has been studied recently and many different protocols have</line>
+    </region>
+    <region x="48.96" y="66.2" width="251.08" height="360.46" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="86.66" y_offset="351.33" spacing="0.0">I. INTRODUCTION</line>
+      <line x_offset="9.96" y_offset="335.03" spacing="7.17">Inter-vehicle communications based on wireless technolo-</line>
+      <line x_offset="0.0" y_offset="323.08" spacing="2.83">gies pave the way for innovative applications in traffic safety,</line>
+      <line x_offset="0.0" y_offset="311.12" spacing="2.83">driver-assistance, traffic control and other advanced services</line>
+      <line x_offset="0.0" y_offset="299.16" spacing="2.84">which will make up future Intelligent Transportation Systems</line>
+      <line x_offset="0.0" y_offset="287.2" spacing="2.83">(ITS) [1]. Communications for Vehicular Ad-Hoc Networks</line>
+      <line x_offset="0.0" y_offset="275.25" spacing="2.83">(VANET) have been developed and standardized in the last</line>
+      <line x_offset="0.0" y_offset="263.28" spacing="2.84">years. At the moment, a dedicated short range communication</line>
+      <line x_offset="0.0" y_offset="251.33" spacing="2.83">(DSRC) bandwidth has been allocated to vehicular communi-</line>
+      <line x_offset="0.0" y_offset="239.37" spacing="2.83">cations at 5.9 GHz and both American and European standards</line>
+      <line x_offset="0.0" y_offset="227.41" spacing="2.84">[2] have adopted IEEE 802.11p as physical and medium access</line>
+      <line x_offset="0.0" y_offset="215.45" spacing="2.83">control (MAC) layers, based on carrier-sense multiple access</line>
+      <line x_offset="0.0" y_offset="203.5" spacing="2.83">with collision avoidance (CSMA/CA).</line>
+      <line x_offset="9.96" y_offset="191.34" spacing="3.03">At the network layer, European standards [3] specify the</line>
+      <line x_offset="0.0" y_offset="179.39" spacing="2.83">GeoNetworking protocol as the default network layer protocol</line>
+      <line x_offset="0.0" y_offset="167.42" spacing="2.84">for vehicle-to-vehicle (V2V) communications. It provides pac-</line>
+      <line x_offset="0.0" y_offset="155.47" spacing="2.83">ket routing based on the use of geographical positions, that is,</line>
+      <line x_offset="0.0" y_offset="143.51" spacing="2.83">a geo-routing protocol. GeoNetworking (GeoNet) supports the</line>
+      <line x_offset="0.0" y_offset="131.55" spacing="2.84">communication among individual ITS stations as well as the</line>
+      <line x_offset="0.0" y_offset="119.59" spacing="2.83">distribution of packets in geographical areas. If the source node</line>
+      <line x_offset="0.0" y_offset="107.63" spacing="2.84">does not belong to the destination geo-area, then the packet</line>
+      <line x_offset="0.0" y_offset="95.67" spacing="2.83">should be forwarded until reaching a node which belongs</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.83">to this area, which takes care on delivering the packet to</line>
+      <line x_offset="0.0" y_offset="71.75" spacing="2.84">its destination. As basic forwarding algorithms, [3] defines</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.83">greedy forwarding and contention-based forwarding (CBF)</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">[4]. The latter makes a receiver decide if it becomes the next</line>
+      <line x_offset="0.0" y_offset="35.88" spacing="2.84">forwarder, according to its position. Upon receiving a packet,</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">all routers start a timer whose timeout depends on the specific</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">position of the router, usually inversely proportional to the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">distance. The major advantage of CBF is that it provides an</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="2">
+    <region x="311.98" y="580.28" width="251.1" height="152.64" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="143.51" spacing="0.0">the same probability of success in accessing the channel. On</line>
+      <line x_offset="0.0" y_offset="131.55" spacing="2.84">the contrary, for many applications in VANETs it is needed</line>
+      <line x_offset="0.0" y_offset="119.59" spacing="2.83">that certain vehicles have a success probability greater than the</line>
+      <line x_offset="0.0" y_offset="107.64" spacing="2.83">rest of them. A clear example is the usual GeoNet scenario</line>
+      <line x_offset="0.0" y_offset="95.67" spacing="2.84">described in Section I, where the node located farthest away</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.83">should have priority access. In summary, our purpose is to</line>
+      <line x_offset="0.0" y_offset="71.76" spacing="2.83">design a protocol that assigns higher success probability to</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.84">the nearest node to the destination, but without decreasing the</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">total success probability. This is achieved by allowing that</line>
+      <line x_offset="0.0" y_offset="35.88" spacing="2.84">each vehicle uses a different probability distribution for the</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">slot selection, based on its own position. Next we propose</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">variations of Sift that retain its benefits but adapting the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">operation to the needs of the GeoNet protocol.</line>
+    </region>
+    <region x="48.96" y="460.26" width="251.1" height="272.7" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="263.57" spacing="0.0">been proposed. The authors in [6] classify them into five</line>
+      <line x_offset="0.0" y_offset="251.61" spacing="2.84">categories as follows: ad hoc, position-based, cluster-based,</line>
+      <line x_offset="0.0" y_offset="239.65" spacing="2.83">broadcast and geocast routing.</line>
+      <line x_offset="9.96" y_offset="227.46" spacing="3.07">The objective of a geocast routing [7] is to deliver the</line>
+      <line x_offset="0.0" y_offset="215.5" spacing="2.83">packet from a source node to all other nodes within a specified</line>
+      <line x_offset="0.0" y_offset="203.54" spacing="2.84">geographical region. Most geocast routing methods are based</line>
+      <line x_offset="0.0" y_offset="191.58" spacing="2.83">on directed flooding, which tries to limit the message overhead</line>
+      <line x_offset="0.0" y_offset="179.62" spacing="2.84">and network congestion of simple flooding by defining a</line>
+      <line x_offset="0.0" y_offset="167.66" spacing="2.83">forwarding zone and restricting the flooding inside it. Non-</line>
+      <line x_offset="0.0" y_offset="155.71" spacing="2.83">flooding approaches are also proposed [8], [9], aiming to limit</line>
+      <line x_offset="0.0" y_offset="143.74" spacing="2.84">the number of concurrent packets within the network.</line>
+      <line x_offset="9.96" y_offset="131.55" spacing="3.07">We are particularly interested in the methods that use</line>
+      <line x_offset="0.0" y_offset="119.59" spacing="2.83">the contention scheme at the MAC layer to select the next</line>
+      <line x_offset="0.0" y_offset="107.64" spacing="2.83">forwarding node. This is achieved either by adapting the time</line>
+      <line x_offset="0.0" y_offset="95.67" spacing="2.84">when to forward the packet or by introducing rules on whether</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.83">a given vehicle should forward the packet at all as in [4]. If</line>
+      <line x_offset="0.0" y_offset="71.76" spacing="2.83">CSMA/CA is used at the MAC layer, not only the contention</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.84">window size may be selected [10] but also the distribution</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">function used for the selection of the contention slots may</line>
+      <line x_offset="0.0" y_offset="35.89" spacing="2.83">be specifically adapted [5]. In this paper, we use the latter</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.84">approach, adapting the method in [5] not only to reduce the</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">message overhead, but to prioritize the retransmission of the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">packet by certain nodes (e.g. the farthest node).</line>
+    </region>
+    <region x="311.96" y="105.2" width="251.09" height="464.11" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.02" y_offset="455.11" spacing="0.0">A. Weighted Sift</line>
+      <line x_offset="9.98" y_offset="439.3" spacing="6.68">The first method we propose is to weight the Sift distribution</line>
+      <line x_offset="0.02" y_offset="427.34" spacing="2.83">according to the respective position of vehicles within the</line>
+      <line x_offset="0.02" y_offset="415.39" spacing="2.83">transmission range of the source node, giving a higher success</line>
+      <line x_offset="0.02" y_offset="403.42" spacing="2.84">probability to the farthest nodes.</line>
+      <line x_offset="239.49" y_offset="391.39" spacing="2.94">N</line>
+      <line x_offset="9.98" y_offset="391.3" spacing="-9.04">Considering the number of contending vehicles equal to ,</line>
+      <line x_offset="116.89" y_offset="379.43" spacing="2.77">i</line>
+      <line x_offset="144.72" y_offset="379.43" spacing="-9.1">, . . . , N</line>
+      <line x_offset="0.01" y_offset="379.34" spacing="-9.04">each one of these vehicles,</line>
+      <line x_offset="180.92" y_offset="379.34" spacing="-9.13">, will choose the</line>
+      <line x_offset="139.74" y_offset="379.01" spacing="-11.82">1</line>
+      <line x_offset="124.22" y_offset="371.94" spacing="-10.21">&#x2208; {</line>
+      <line x_offset="175.94" y_offset="371.94" spacing="-17.29">}</line>
+      <line x_offset="17.88" y_offset="367.48" spacing="-4.63">r</line>
+      <line x_offset="44.78" y_offset="367.48" spacing="-9.1">, . . . , CW</line>
+      <line x_offset="0.0" y_offset="367.39" spacing="-9.04">slot</line>
+      <line x_offset="111.18" y_offset="367.39" spacing="-9.13">with probability</line>
+      <line x_offset="39.8" y_offset="367.06" spacing="-11.82">1</line>
+      <line x_offset="97.72" y_offset="367.06" spacing="-12.14">1</line>
+      <line x_offset="25.41" y_offset="359.99" spacing="-10.21">&#x2208; {</line>
+      <line x_offset="87.76" y_offset="359.99" spacing="-17.29">&#x2212; }</line>
+      <line x_offset="96.98" y_offset="348.14" spacing="2.75">i, r &#x3B3; p r ,</line>
+      <line x_offset="239.47" y_offset="348.05" spacing="-9.04">(2)</line>
+      <line x_offset="73.07" y_offset="348.05" spacing="-9.09">g</line>
+      <line x_offset="93.11" y_offset="347.72" spacing="-11.82">( ) =</line>
+      <line x_offset="162.72" y_offset="347.72" spacing="-12.14">( )</line>
+      <line x_offset="77.84" y_offset="346.98" spacing="-6.23">CW</line>
+      <line x_offset="131.92" y_offset="346.98" spacing="-6.97">i</line>
+      <line x_offset="147.45" y_offset="346.98" spacing="-6.97">CW</line>
+      <line x_offset="137.46" y_offset="340.65" spacing="-10.96">&#xB7;</line>
+      <line x_offset="132.44" y_offset="328.71" spacing="2.84">i</line>
+      <line x_offset="196.7" y_offset="328.71" spacing="-9.1">CW</line>
+      <line x_offset="0.04" y_offset="328.62" spacing="-9.04">while the probability of vehicle choosing slot</line>
+      <line x_offset="218.81" y_offset="328.62" spacing="-9.13">is</line>
+      <line x_offset="141.87" y_offset="313.66" spacing="7.99">CW 1</line>
+      <line x_offset="156.64" y_offset="308.77" spacing="-7.2">&#x2212;</line>
+      <line x_offset="70.93" y_offset="300.88" spacing="-1.21">i, CW &#x3B3; p r ,</line>
+      <line x_offset="47.07" y_offset="300.88" spacing="-9.09">g</line>
+      <line x_offset="239.47" y_offset="300.79" spacing="-9.04">(3)</line>
+      <line x_offset="67.05" y_offset="300.46" spacing="-11.82">(</line>
+      <line x_offset="97.4" y_offset="300.46" spacing="-12.14">) = 1</line>
+      <line x_offset="188.77" y_offset="300.46" spacing="-12.14">( )</line>
+      <line x_offset="51.79" y_offset="299.72" spacing="-6.23">CW</line>
+      <line x_offset="136.88" y_offset="299.72" spacing="-6.97">i</line>
+      <line x_offset="173.5" y_offset="299.72" spacing="-6.97">CW</line>
+      <line x_offset="121.77" y_offset="293.39" spacing="-10.96">&#x2212;</line>
+      <line x_offset="147.35" y_offset="289.57" spacing="-3.16">r=1</line>
+      <line x_offset="147.15" y_offset="282.93" spacing="-23.24"></line>
+      <line x_offset="27.37" y_offset="273.97" spacing="-0.13">p</line>
+      <line x_offset="208.69" y_offset="273.97" spacing="-9.09">CW</line>
+      <line x_offset="0.04" y_offset="273.88" spacing="-9.04">where</line>
+      <line x_offset="50.63" y_offset="273.88" spacing="-9.12">is the Sift probability distribution over</line>
+      <line x_offset="230.31" y_offset="273.88" spacing="-9.13">slots,</line>
+      <line x_offset="32.37" y_offset="272.81" spacing="-5.9">CW</line>
+      <line x_offset="0.02" y_offset="261.93" spacing="1.75">as defined in eq. (1).</line>
+      <line x_offset="240.12" y_offset="249.89" spacing="2.94">&#x3B3;</line>
+      <line x_offset="248.58" y_offset="249.81" spacing="-9.04">,</line>
+      <line x_offset="9.98" y_offset="249.8" spacing="-9.12">The following step is to select properly the coefficients</line>
+      <line x_offset="245.27" y_offset="248.73" spacing="-5.9">i</line>
+      <line x_offset="0.03" y_offset="237.84" spacing="1.76">with the condition that them should be bigger for the farthest</line>
+      <line x_offset="108.37" y_offset="225.98" spacing="2.76">i, r r</line>
+      <line x_offset="160.15" y_offset="225.98" spacing="-9.1">, . . . , CW</line>
+      <line x_offset="84.48" y_offset="225.98" spacing="-9.09">g</line>
+      <line x_offset="124.86" y_offset="225.9" spacing="-9.04">,</line>
+      <line x_offset="200.91" y_offset="225.9" spacing="-9.13">, constitutes</line>
+      <line x_offset="0.03" y_offset="225.89" spacing="-9.12">vehicles. Since the</line>
+      <line x_offset="104.49" y_offset="225.57" spacing="-11.82">( )</line>
+      <line x_offset="155.17" y_offset="225.57" spacing="-12.14">1</line>
+      <line x_offset="89.23" y_offset="224.82" spacing="-6.23">CW</line>
+      <line x_offset="142.87" y_offset="218.49" spacing="-10.96">&#x2208;</line>
+      <line x_offset="211.21" y_offset="214.02" spacing="-4.62">CW</line>
+      <line x_offset="0.03" y_offset="213.93" spacing="-9.04">a probability distribution, the sum of the first</line>
+      <line x_offset="246.11" y_offset="213.6" spacing="-11.82">1</line>
+      <line x_offset="234.1" y_offset="206.53" spacing="-10.21">&#x2212;</line>
+      <line x_offset="0.03" y_offset="201.97" spacing="-4.57">probabilities should be less than . From this observation we</line>
+      <line x_offset="135.63" y_offset="201.65" spacing="-11.82">1</line>
+      <line x_offset="72.31" y_offset="195.45" spacing="-0.78">CW 1</line>
+      <line x_offset="87.08" y_offset="190.56" spacing="-7.2">&#x2212;</line>
+      <line x_offset="55.15" y_offset="190.12" spacing="-8.65">/</line>
+      <line x_offset="99.43" y_offset="190.12" spacing="-9.1">p r</line>
+      <line x_offset="28.42" y_offset="190.11" spacing="-9.09">&#x3B3;</line>
+      <line x_offset="132.23" y_offset="190.03" spacing="-9.05">.</line>
+      <line x_offset="0.03" y_offset="190.02" spacing="-9.12">obtain</line>
+      <line x_offset="50.17" y_offset="189.7" spacing="-11.83">1</line>
+      <line x_offset="119.71" y_offset="189.7" spacing="-12.14">( )</line>
+      <line x_offset="33.56" y_offset="188.95" spacing="-6.23">i</line>
+      <line x_offset="104.45" y_offset="188.95" spacing="-6.97">CW</line>
+      <line x_offset="72.31" y_offset="187.46" spacing="-5.48">r=1</line>
+      <line x_offset="39.66" y_offset="182.63" spacing="-12.45">&#x2264;</line>
+      <line x_offset="9.99" y_offset="177.91" spacing="-4.4">Let us define</line>
+      <line x_offset="61.77" y_offset="170.18" spacing="-22.16"></line>
+      <line x_offset="181.51" y_offset="166.26" spacing="-3.05">1</line>
+      <line x_offset="107.98" y_offset="162.96" spacing="-3.68">CW 1</line>
+      <line x_offset="175.29" y_offset="161.37" spacing="-10.49">&#x2212;</line>
+      <line x_offset="122.75" y_offset="158.07" spacing="-8.79">&#x2212;</line>
+      <line x_offset="60.69" y_offset="150.18" spacing="-1.2">&#x3B3;</line>
+      <line x_offset="82.44" y_offset="150.18" spacing="-9.09">w</line>
+      <line x_offset="134.6" y_offset="150.18" spacing="-9.1">p r</line>
+      <line x_offset="187.64" y_offset="150.18" spacing="-9.1">,</line>
+      <line x_offset="239.46" y_offset="150.09" spacing="-9.04">(4)</line>
+      <line x_offset="71.93" y_offset="149.76" spacing="-11.82">=</line>
+      <line x_offset="154.87" y_offset="149.76" spacing="-12.14">( )</line>
+      <line x_offset="65.84" y_offset="149.01" spacing="-6.23">i</line>
+      <line x_offset="89.57" y_offset="149.01" spacing="-6.97">i</line>
+      <line x_offset="139.61" y_offset="149.01" spacing="-6.97">CW</line>
+      <line x_offset="95.11" y_offset="142.69" spacing="-10.96">&#xB7;</line>
+      <line x_offset="100.09" y_offset="139.81" spacing="-27.0"></line>
+      <line x_offset="167.39" y_offset="139.81" spacing="-29.88"></line>
+      <line x_offset="113.46" y_offset="138.88" spacing="-6.05">r=1</line>
+      <line x_offset="113.26" y_offset="132.24" spacing="-23.24"></line>
+      <line x_offset="21.23" y_offset="122.61" spacing="0.53">w</line>
+      <line x_offset="52.69" y_offset="122.61" spacing="-9.1">,</line>
+      <line x_offset="84.58" y_offset="122.61" spacing="-9.1">i</line>
+      <line x_offset="110.14" y_offset="122.61" spacing="-9.1">, . . . , N</line>
+      <line x_offset="0.03" y_offset="122.52" spacing="-9.04">with</line>
+      <line x_offset="69.48" y_offset="122.52" spacing="-9.13">for</line>
+      <line x_offset="146.35" y_offset="122.52" spacing="-9.13">.</line>
+      <line x_offset="43.84" y_offset="122.19" spacing="-11.82">(0 1)</line>
+      <line x_offset="105.16" y_offset="122.19" spacing="-12.14">1</line>
+      <line x_offset="28.34" y_offset="121.45" spacing="-6.23">i</line>
+      <line x_offset="34.44" y_offset="115.12" spacing="-10.96">&#x2208;</line>
+      <line x_offset="90.78" y_offset="115.12" spacing="-17.29">&#x2208; {</line>
+      <line x_offset="141.37" y_offset="115.12" spacing="-17.29">}</line>
+      <line x_offset="156.17" y_offset="110.49" spacing="-4.46">w</line>
+      <line x_offset="170.23" y_offset="110.4" spacing="-9.04">to the farthest vehi-</line>
+      <line x_offset="9.98" y_offset="110.4" spacing="-9.12">In order to assign higher values of</line>
+      <line x_offset="163.3" y_offset="109.32" spacing="-5.9">i</line>
+      <line x_offset="0.02" y_offset="98.43" spacing="1.76">cles we use the following inverted and truncated exponential</line>
+      <line x_offset="0.02" y_offset="86.48" spacing="2.83">distribution:</line>
+      <line x_offset="122.4" y_offset="78.26" spacing="-0.88">G R x</line>
+      <line x_offset="130.23" y_offset="77.84" spacing="-11.73">(</line>
+      <line x_offset="162.94" y_offset="77.84" spacing="-12.14">)</line>
+      <line x_offset="159.63" y_offset="77.09" spacing="-6.23">i</line>
+      <line x_offset="168.0" y_offset="71.52" spacing="-3.52">,</line>
+      <line x_offset="80.32" y_offset="71.51" spacing="-9.09">w</line>
+      <line x_offset="239.46" y_offset="71.43" spacing="-9.04">(5)</line>
+      <line x_offset="93.53" y_offset="71.1" spacing="-11.81">= 1</line>
+      <line x_offset="143.96" y_offset="70.77" spacing="-16.96">&#x2212;</line>
+      <line x_offset="87.45" y_offset="70.35" spacing="-6.56">i</line>
+      <line x_offset="133.0" y_offset="64.69" spacing="-3.43">G R</line>
+      <line x_offset="140.83" y_offset="64.27" spacing="-11.73">( )</line>
+      <line x_offset="111.24" y_offset="64.03" spacing="-17.04">&#x2212;</line>
+      <line x_offset="27.02" y_offset="47.92" spacing="7.01">R</line>
+      <line x_offset="242.07" y_offset="47.92" spacing="-9.1">x</line>
+      <line x_offset="0.02" y_offset="47.83" spacing="-9.04">where denotes the transmission range of the source node,</line>
+      <line x_offset="247.76" y_offset="46.75" spacing="-5.9">i</line>
+      <line x_offset="92.28" y_offset="35.96" spacing="1.7">i R</line>
+      <line x_offset="0.02" y_offset="35.87" spacing="-9.04">the position of vehicle in (with respect to the source node)</line>
+      <line x_offset="47.27" y_offset="24.0" spacing="2.77">G</line>
+      <line x_offset="0.01" y_offset="23.91" spacing="-9.04">and finally denotes the cumulative distribution function of</line>
+      <line x_offset="108.01" y_offset="16.22" spacing="1.3">1</line>
+      <line x_offset="112.0" y_offset="11.97" spacing="-4.87">. Let us remark that knowning the</line>
+      <line x_offset="0.01" y_offset="11.96" spacing="-9.12">an exponential distribution</line>
+      <line x_offset="0.02" y_offset="0.0" spacing="2.83">exact number of contenders is not required for this procedure.</line>
+    </region>
+    <region x="311.97" y="66.71" width="251.07" height="26.66" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="7.97" y_offset="21.18" spacing="0.0">1</line>
+      <line x_offset="11.46" y_offset="17.94" spacing="-4.06">In this work an exponential distribution with mean</line>
+      <line x_offset="202.05" y_offset="17.94" spacing="-7.3">is used, but its</line>
+      <line x_offset="183.98" y_offset="17.68" spacing="-7.71">R/3</line>
+      <line x_offset="0.0" y_offset="8.97" spacing="1.4">choice is quite arbitrary. We leave as future work the study of the most</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.67">appropriate parameters.</line>
+    </region>
+    <region x="48.96" y="66.25" width="251.07" height="382.48" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="37.9" y_offset="373.79" spacing="1.39">DAPTATIONS OF IFT FOR RIORITIZED CCESS</line>
+      <line x_offset="107.04" y_offset="373.36" spacing="-8.69">S</line>
+      <line x_offset="148.47" y_offset="373.36" spacing="-9.13">P</line>
+      <line x_offset="206.63" y_offset="373.36" spacing="-9.13">A</line>
+      <line x_offset="10.78" y_offset="373.28" spacing="-9.05">III. A</line>
+      <line x_offset="9.96" y_offset="356.82" spacing="7.33">Sift is the contention technique proposed in [5] for event-</line>
+      <line x_offset="0.0" y_offset="344.86" spacing="2.84">driven networks where a set of nodes tries to send a packet</line>
+      <line x_offset="0.0" y_offset="333.02" spacing="2.83">simultaneously</line>
+      <line x_offset="59.76" y_offset="332.9" spacing="-9.01">. That is, when there are synchronized channel</line>
+      <line x_offset="0.0" y_offset="320.95" spacing="2.83">access attempts among many nodes. The key idea in Sift</line>
+      <line x_offset="0.0" y_offset="308.98" spacing="2.84">is to use a non-uniform, geometrically-increasing probability</line>
+      <line x_offset="0.0" y_offset="297.03" spacing="2.83">distribution for choosing the slots (</line>
+      <line x_offset="186.53" y_offset="297.03" spacing="-9.13">) within a fixed-</line>
+      <line x_offset="140.8" y_offset="296.7" spacing="-11.82">1, . . . , CW</line>
+      <line x_offset="99.96" y_offset="285.15" spacing="2.45">CW</line>
+      <line x_offset="0.0" y_offset="285.06" spacing="-9.04">size contention window ( ), rather than varying the window</line>
+      <line x_offset="0.0" y_offset="273.11" spacing="2.83">size as in many traditional MAC protocols. The resulting</line>
+      <line x_offset="0.0" y_offset="261.15" spacing="2.83">protocol performs well when the number of nodes trying to</line>
+      <line x_offset="132.84" y_offset="249.28" spacing="2.78">CW</line>
+      <line x_offset="0.0" y_offset="249.19" spacing="-9.04">send data is large in relation to</line>
+      <line x_offset="151.46" y_offset="249.19" spacing="-9.13">, therefore it scales well</line>
+      <line x_offset="0.0" y_offset="237.23" spacing="2.83">when the number of contenders grows.</line>
+      <line x_offset="9.96" y_offset="225.04" spacing="3.07">The Sift protocol assigns the probability that a node chooses</line>
+      <line x_offset="33.54" y_offset="213.17" spacing="2.77">r</line>
+      <line x_offset="0.0" y_offset="213.08" spacing="-9.04">the slot</line>
+      <line x_offset="41.8" y_offset="213.08" spacing="-9.13">as :</line>
+      <line x_offset="101.96" y_offset="200.87" spacing="5.23">CW</line>
+      <line x_offset="85.28" y_offset="196.93" spacing="-5.15">&#x3B1; &#x3B1;</line>
+      <line x_offset="64.25" y_offset="196.51" spacing="-11.73">(1 )</line>
+      <line x_offset="138.27" y_offset="194.64" spacing="-5.1">r</line>
+      <line x_offset="41.12" y_offset="190.2" spacing="-4.65">r</line>
+      <line x_offset="16.97" y_offset="190.16" spacing="-9.06">p</line>
+      <line x_offset="239.44" y_offset="190.11" spacing="-9.07">(1)</line>
+      <line x_offset="37.24" y_offset="189.78" spacing="-11.82">( ) =</line>
+      <line x_offset="165.1" y_offset="189.78" spacing="-12.14">= 1, . . . , CW,</line>
+      <line x_offset="125.63" y_offset="189.75" spacing="-12.06">&#x3B1; , r&#x2212;</line>
+      <line x_offset="75.32" y_offset="189.44" spacing="-16.97">&#x2212;</line>
+      <line x_offset="21.98" y_offset="189.03" spacing="-6.57">CW</line>
+      <line x_offset="94.89" y_offset="186.56" spacing="-4.51">CW</line>
+      <line x_offset="88.48" y_offset="183.36" spacing="-5.89">&#x3B1;</line>
+      <line x_offset="71.32" y_offset="182.94" spacing="-11.73">1</line>
+      <line x_offset="120.64" y_offset="182.7" spacing="-17.05">&#xB7;</line>
+      <line x_offset="78.52" y_offset="175.86" spacing="-10.45">&#x2212;</line>
+      <line x_offset="34.82" y_offset="167.99" spacing="-1.22">&lt; &#x3B1; &lt;</line>
+      <line x_offset="0.0" y_offset="167.9" spacing="-9.04">where</line>
+      <line x_offset="72.75" y_offset="167.9" spacing="-9.13">is a characteristic coefficient that determines</line>
+      <line x_offset="27.07" y_offset="167.57" spacing="-11.82">0</line>
+      <line x_offset="65.04" y_offset="167.57" spacing="-12.14">1</line>
+      <line x_offset="0.0" y_offset="155.93" spacing="2.51">the shape of the probability distribution.</line>
+      <line x_offset="9.96" y_offset="143.74" spacing="3.07">Let us note that using CBF for GeoNet implies that all</line>
+      <line x_offset="0.0" y_offset="131.79" spacing="2.83">the packets are broadcast. In this mode, there is no reliability</line>
+      <line x_offset="0.0" y_offset="119.83" spacing="2.83">mechanisms, such as acknowledgment packets, and every</line>
+      <line x_offset="0.0" y_offset="107.87" spacing="2.84">transmission is independent of each other. In addition, all</line>
+      <line x_offset="0.0" y_offset="95.91" spacing="2.83">receiving nodes become simultaneously potential forwarders</line>
+      <line x_offset="54.16" y_offset="84.06" spacing="2.84">simultaneously</line>
+      <line x_offset="0.0" y_offset="83.94" spacing="-9.01">(contenders)</line>
+      <line x_offset="113.92" y_offset="83.94" spacing="-9.13">. When a node wins the conten-</line>
+      <line x_offset="0.0" y_offset="71.99" spacing="2.83">tion, it rebroadcasts the packet and the process is exactly the</line>
+      <line x_offset="0.0" y_offset="60.03" spacing="2.83">same, and actually keeps on this way until the packet reaches</line>
+      <line x_offset="0.0" y_offset="48.07" spacing="2.84">the destination area.</line>
+      <line x_offset="9.96" y_offset="35.88" spacing="3.07">Therefore, we might expect that Sift as contention dis-</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">tribution optimize the operation of GeoNet hop by hop.</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">However, with the Sift distribution, all the vehicles use the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">same distribution for the slot selection, so all of them have</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="3">
+    <region x="311.96" y="605.02" width="251.07" height="127.93" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="9.96" y_offset="118.81" spacing="0.0">The probability of a successful transmission for an arbitrary</line>
+      <line x_offset="31.93" y_offset="106.93" spacing="2.78">V</line>
+      <line x_offset="44.37" y_offset="106.84" spacing="-9.04">(in any slot) is calculated as the sum of the proba-</line>
+      <line x_offset="0.0" y_offset="106.84" spacing="-9.12">vehicle</line>
+      <line x_offset="37.76" y_offset="105.77" spacing="-5.9">i</line>
+      <line x_offset="224.76" y_offset="94.98" spacing="1.69">N</line>
+      <line x_offset="0.01" y_offset="94.89" spacing="-9.04">bilities that the node selects one slot and all the other</line>
+      <line x_offset="246.09" y_offset="94.56" spacing="-11.82">1</line>
+      <line x_offset="236.09" y_offset="87.49" spacing="-10.21">&#x2212;</line>
+      <line x_offset="0.01" y_offset="82.93" spacing="-4.57">nodes choose later slots, which is given by the expression:</line>
+      <line x_offset="57.51" y_offset="66.86" spacing="9.1">CW 1</line>
+      <line x_offset="124.86" y_offset="66.86" spacing="-6.97">N</line>
+      <line x_offset="174.73" y_offset="66.86" spacing="-6.97">r</line>
+      <line x_offset="72.28" y_offset="61.97" spacing="-7.2">&#x2212;</line>
+      <line x_offset="223.88" y_offset="54.08" spacing="-1.2">.</line>
+      <line x_offset="95.82" y_offset="54.08" spacing="-9.1">i, r</line>
+      <line x_offset="197.24" y_offset="54.08" spacing="-9.1">j, s</line>
+      <line x_offset="239.44" y_offset="53.99" spacing="-9.04">(8)</line>
+      <line x_offset="152.34" y_offset="53.66" spacing="-11.82">1</line>
+      <line x_offset="28.63" y_offset="53.66" spacing="-12.14">(P) = P( )</line>
+      <line x_offset="185.54" y_offset="53.66" spacing="-12.14">P( )</line>
+      <line x_offset="12.81" y_offset="53.65" spacing="-12.14">&#x3A0;</line>
+      <line x_offset="20.28" y_offset="52.91" spacing="-6.23">V</line>
+      <line x_offset="24.99" y_offset="52.41" spacing="-4.48">i</line>
+      <line x_offset="159.53" y_offset="46.59" spacing="-11.46">&#x2212;</line>
+      <line x_offset="144.45" y_offset="43.71" spacing="-27.0"></line>
+      <line x_offset="214.31" y_offset="43.71" spacing="-29.88"></line>
+      <line x_offset="62.99" y_offset="42.78" spacing="-6.05">r=1</line>
+      <line x_offset="169.76" y_offset="42.78" spacing="-6.97">s=1</line>
+      <line x_offset="113.97" y_offset="42.43" spacing="-6.62">j=1,j=i</line>
+      <line x_offset="133.83" y_offset="37.54" spacing="-7.2">(</line>
+      <line x_offset="62.79" y_offset="36.14" spacing="-28.48"></line>
+      <line x_offset="9.97" y_offset="23.91" spacing="3.1">Immediately from eq. (8) we can compute the probability</line>
+      <line x_offset="0.01" y_offset="11.96" spacing="2.83">of a successful transmission for the last group of vehicles and</line>
+      <line x_offset="0.01" y_offset="0.0" spacing="2.83">the total probability of a successful transmission as follows:</line>
+    </region>
+    <region x="48.96" y="521.72" width="251.08" height="211.23" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="202.22" spacing="0.0">B. Per groups Sift</line>
+      <line x_offset="9.96" y_offset="185.39" spacing="7.71">The second method we consider is to divide the total number</line>
+      <line x_offset="0.0" y_offset="173.42" spacing="2.84">of vehicles into different groups, depending on their priorities.</line>
+      <line x_offset="0.0" y_offset="161.47" spacing="2.83">In particular, as we assume the priority is given by the position,</line>
+      <line x_offset="157.44" y_offset="149.6" spacing="2.77">C</line>
+      <line x_offset="0.0" y_offset="149.51" spacing="-9.04">we divide the transmission range into intervals. The group</line>
+      <line x_offset="0.0" y_offset="137.55" spacing="2.84">of vehicles placed in each of these intervals selects their</line>
+      <line x_offset="0.0" y_offset="125.59" spacing="2.83">contention slots by using the Sift probability distribution with</line>
+      <line x_offset="0.0" y_offset="113.64" spacing="2.83">different values for the contention window (lower values for</line>
+      <line x_offset="0.0" y_offset="101.67" spacing="2.84">higher priorities).</line>
+      <line x_offset="213.61" y_offset="89.38" spacing="3.2">, . . . , C</line>
+      <line x_offset="166.12" y_offset="89.35" spacing="-9.06">G</line>
+      <line x_offset="178.15" y_offset="89.29" spacing="-9.13">,j</line>
+      <line x_offset="248.56" y_offset="89.29" spacing="-9.13">,</line>
+      <line x_offset="9.96" y_offset="89.26" spacing="-9.09">Therefore, to each group of vehicles</line>
+      <line x_offset="208.63" y_offset="88.96" spacing="-11.85">1</line>
+      <line x_offset="173.94" y_offset="88.21" spacing="-6.23">j</line>
+      <line x_offset="193.19" y_offset="81.89" spacing="-10.96">&#x2208; {</line>
+      <line x_offset="243.58" y_offset="81.89" spacing="-17.29">}</line>
+      <line x_offset="142.21" y_offset="77.41" spacing="-4.62">CW</line>
+      <line x_offset="169.88" y_offset="77.33" spacing="-9.04">. So, the probability</line>
+      <line x_offset="0.0" y_offset="77.32" spacing="-9.12">we associate a contention window</line>
+      <line x_offset="159.44" y_offset="76.25" spacing="-5.9">G</line>
+      <line x_offset="165.65" y_offset="75.75" spacing="-4.48">j</line>
+      <line x_offset="239.45" y_offset="32.69" spacing="33.94">(6)</line>
+      <line x_offset="223.39" y_offset="12.04" spacing="11.55">CW</line>
+      <line x_offset="240.62" y_offset="10.88" spacing="-5.81">G</line>
+      <line x_offset="246.83" y_offset="10.38" spacing="-4.48">j</line>
+      <line x_offset="0.0" y_offset="65.37" spacing="-64.12">distribution used by all the vehicles in that group is the</line>
+      <line x_offset="0.0" y_offset="53.42" spacing="2.83">following:</line>
+      <line x_offset="62.67" y_offset="32.78" spacing="11.54">r p</line>
+      <line x_offset="117.2" y_offset="32.78" spacing="-9.1">r , r</line>
+      <line x_offset="164.18" y_offset="32.78" spacing="-9.1">, . . . , CW ,</line>
+      <line x_offset="29.34" y_offset="32.78" spacing="-9.09">h</line>
+      <line x_offset="58.8" y_offset="32.36" spacing="-11.73">( ) =</line>
+      <line x_offset="113.33" y_offset="32.36" spacing="-12.14">( )</line>
+      <line x_offset="159.2" y_offset="32.36" spacing="-12.14">1</line>
+      <line x_offset="35.08" y_offset="31.61" spacing="-6.23">CW</line>
+      <line x_offset="89.61" y_offset="31.61" spacing="-6.97">CW</line>
+      <line x_offset="203.53" y_offset="31.61" spacing="-6.97">G</line>
+      <line x_offset="48.78" y_offset="31.11" spacing="-4.48">G</line>
+      <line x_offset="103.31" y_offset="31.11" spacing="-4.98">G</line>
+      <line x_offset="209.73" y_offset="31.11" spacing="-4.98">j</line>
+      <line x_offset="54.08" y_offset="29.51" spacing="-3.38">j</line>
+      <line x_offset="108.61" y_offset="29.51" spacing="-4.98">j</line>
+      <line x_offset="144.81" y_offset="25.29" spacing="-13.06">&#x2208; {</line>
+      <line x_offset="213.97" y_offset="25.29" spacing="-17.29">}</line>
+      <line x_offset="28.12" y_offset="12.05" spacing="4.14">p</line>
+      <line x_offset="0.01" y_offset="11.96" spacing="-9.04">where</line>
+      <line x_offset="60.62" y_offset="11.95" spacing="-9.12">is the Sift probability distribution over</line>
+      <line x_offset="33.13" y_offset="10.88" spacing="-5.9">CW</line>
+      <line x_offset="46.83" y_offset="10.38" spacing="-4.48">G</line>
+      <line x_offset="52.13" y_offset="8.77" spacing="-3.38">j</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-0.35">slots, as defined by eq. (1).</line>
+    </region>
+    <region x="48.96" y="265.06" width="251.09" height="243.17" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="81.6" y_offset="234.48" spacing="1.39">OMPARATIVE VALUATION</line>
+      <line x_offset="56.27" y_offset="234.05" spacing="-8.7">IV. C</line>
+      <line x_offset="139.65" y_offset="234.04" spacing="-9.12">E</line>
+      <line x_offset="9.96" y_offset="216.18" spacing="8.74">In this section we present a comparative study to show</line>
+      <line x_offset="0.0" y_offset="204.22" spacing="2.83">the performance of the proposed methods as forwarding al-</line>
+      <line x_offset="0.0" y_offset="192.27" spacing="2.83">gorithms.</line>
+      <line x_offset="9.96" y_offset="179.84" spacing="3.3">We consider a one-dimensional scenario in which vehicles</line>
+      <line x_offset="0.0" y_offset="167.88" spacing="2.84">are uniformly distributed. The transmission range is assumed</line>
+      <line x_offset="0.0" y_offset="155.92" spacing="2.83">to be constant and equal to</line>
+      <line x_offset="127.9" y_offset="155.92" spacing="-9.13">meters for all the vehicles, and</line>
+      <line x_offset="110.26" y_offset="155.6" spacing="-11.82">300</line>
+      <line x_offset="0.01" y_offset="143.97" spacing="2.5">each vehicle knows its own position in the road segment. We</line>
+      <line x_offset="0.01" y_offset="132.0" spacing="2.84">assume that after a first transmission of the packet from the</line>
+      <line x_offset="0.01" y_offset="120.05" spacing="2.83">source node, all the vehicles in the transmission range have</line>
+      <line x_offset="0.01" y_offset="108.09" spacing="2.83">received correctly the packet and all of them contend to be</line>
+      <line x_offset="0.01" y_offset="96.13" spacing="2.84">the next forwarder.</line>
+      <line x_offset="9.97" y_offset="83.72" spacing="3.29">We are concerned here exclusively with the probability of</line>
+      <line x_offset="0.01" y_offset="71.75" spacing="2.84">success of the proposed distributions, rather than the actual re-</line>
+      <line x_offset="0.01" y_offset="59.8" spacing="2.83">ception probability, which also depends on fading and channel</line>
+      <line x_offset="0.01" y_offset="47.84" spacing="2.83">error. We only need to know the total number of contenders</line>
+      <line x_offset="0.01" y_offset="35.88" spacing="2.84">and their positions for the analytic computations. In fact, a real</line>
+      <line x_offset="0.01" y_offset="23.92" spacing="2.83">implementation of the proposed protocols only would require</line>
+      <line x_offset="0.01" y_offset="11.97" spacing="2.83">to approximately know the transmission range and that each</line>
+      <line x_offset="0.01" y_offset="0.0" spacing="2.84">vehicle would know its own position.</line>
+    </region>
+    <region x="48.95" y="105.78" width="251.07" height="145.81" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.02" y_offset="136.8" spacing="0.0">A. Performance metrics</line>
+      <line x_offset="114.51" y_offset="120.05" spacing="7.65">N</line>
+      <line x_offset="9.98" y_offset="119.96" spacing="-9.04">Assuming that there are vehicles contending to be the</line>
+      <line x_offset="0.01" y_offset="108.01" spacing="2.83">next forwarder, and that the size of the contention window is</line>
+      <line x_offset="0.01" y_offset="96.14" spacing="2.77">CW</line>
+      <line x_offset="18.63" y_offset="96.05" spacing="-9.04">, for each protocol we construct a matrix of dimension</line>
+      <line x_offset="187.29" y_offset="95.72" spacing="-11.59">P</line>
+      <line x_offset="0.01" y_offset="84.18" spacing="2.45">N CW</line>
+      <line x_offset="83.51" y_offset="84.18" spacing="-9.1">i, j</line>
+      <line x_offset="209.06" y_offset="84.18" spacing="-9.1">i</line>
+      <line x_offset="38.67" y_offset="84.09" spacing="-9.04">, where</line>
+      <line x_offset="103.07" y_offset="84.09" spacing="-9.13">is the probability of node selecting</line>
+      <line x_offset="71.81" y_offset="83.76" spacing="-11.82">P( )</line>
+      <line x_offset="10.7" y_offset="76.68" spacing="-10.21">&#xD7;</line>
+      <line x_offset="63.83" y_offset="72.22" spacing="-4.63">j</line>
+      <line x_offset="0.0" y_offset="72.13" spacing="-9.04">backoff value . Then, using this probability matrix, we</line>
+      <line x_offset="0.0" y_offset="60.17" spacing="2.84">compute the following stochastic metrics.</line>
+      <line x_offset="9.96" y_offset="47.75" spacing="3.29">The probability of a successful transmission (of any node)</line>
+      <line x_offset="43.55" y_offset="35.88" spacing="2.78">S</line>
+      <line x_offset="127.65" y_offset="24.01" spacing="2.77">N</line>
+      <line x_offset="155.48" y_offset="23.92" spacing="-9.04">remaining nodes do not</line>
+      <line x_offset="147.42" y_offset="23.59" spacing="-11.82">1</line>
+      <line x_offset="138.21" y_offset="16.52" spacing="-10.21">&#x2212;</line>
+      <line x_offset="131.39" y_offset="12.05" spacing="-4.63">, . . . , r</line>
+      <line x_offset="158.29" y_offset="11.97" spacing="-9.04">, which is given by the</line>
+      <line x_offset="126.41" y_offset="11.64" spacing="-11.82">1</line>
+      <line x_offset="57.14" y_offset="35.88" spacing="-33.36">is calculated as the sum of the probabilities that</line>
+      <line x_offset="0.0" y_offset="35.79" spacing="-9.04">in the slot</line>
+      <line x_offset="49.66" y_offset="34.8" spacing="-5.99">r</line>
+      <line x_offset="87.06" y_offset="24.01" spacing="1.69">r</line>
+      <line x_offset="0.01" y_offset="23.92" spacing="-9.04">one node selects slot and the</line>
+      <line x_offset="0.02" y_offset="11.97" spacing="2.83">choose slots from the range of</line>
+      <line x_offset="0.02" y_offset="0.0" spacing="2.84">expression:</line>
+    </region>
+    <region x="288.39" y="76.64" width="11.62" height="9.13" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(7)</line>
+    </region>
+    <region x="72.33" y="75.56" width="12.36" height="12.88" line_height="6.97" font="GBJKDH+CMMI7">
+      <line x_offset="0.0" y_offset="0.74" spacing="0.0">&#x3A0;</line>
+      <line x_offset="7.47" y_offset="0.0" spacing="-6.24">S</line>
+    </region>
+    <region x="84.69" y="75.06" width="3.34" height="4.98" line_height="4.98" font="GBJKFO+CMMI5">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="235.54" y="66.35" width="41.1" height="29.88" line_height="12.14" font="GBJKDF+CMR10">
+      <line x_offset="11.7" y_offset="10.37" spacing="10.41">j, s .</line>
+      <line x_offset="0.0" y_offset="9.95" spacing="-11.73">P( )</line>
+      <line x_offset="28.77" y_offset="0.0" spacing="-19.93"></line>
+    </region>
+    <region x="311.97" y="66.27" width="251.07" height="529.58" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="239.45" y_offset="517.56" spacing="2.9">(9)</line>
+      <line x_offset="84.49" y_offset="517.23" spacing="-11.82">(P) = &#x3A0; (P)</line>
+      <line x_offset="64.84" y_offset="517.23" spacing="-12.14">&#x3A0;</line>
+      <line x_offset="72.32" y_offset="516.48" spacing="-6.23">LG</line>
+      <line x_offset="142.34" y_offset="516.48" spacing="-6.97">V</line>
+      <line x_offset="147.05" y_offset="515.98" spacing="-4.48">i</line>
+      <line x_offset="113.36" y_offset="506.07" spacing="2.94">i LG</line>
+      <line x_offset="116.18" y_offset="501.18" spacing="-7.2">&#x2208;</line>
+      <line x_offset="116.09" y_offset="499.71" spacing="-28.4"></line>
+      <line x_offset="119.72" y_offset="495.8" spacing="-3.07">N</line>
+      <line x_offset="163.51" y_offset="483.02" spacing="3.69">,</line>
+      <line x_offset="234.46" y_offset="482.93" spacing="-9.04">(10)</line>
+      <line x_offset="73.45" y_offset="482.6" spacing="-11.82">&#x3A0;</line>
+      <line x_offset="87.19" y_offset="482.6" spacing="-12.14">(P) = &#x3A0; (P)</line>
+      <line x_offset="80.91" y_offset="481.85" spacing="-6.23">T</line>
+      <line x_offset="139.58" y_offset="481.85" spacing="-6.97">V</line>
+      <line x_offset="144.28" y_offset="481.35" spacing="-4.48">i</line>
+      <line x_offset="116.8" y_offset="471.59" spacing="2.79">i=1</line>
+      <line x_offset="116.05" y_offset="465.07" spacing="-23.35"></line>
+      <line x_offset="28.74" y_offset="454.88" spacing="1.09">LG</line>
+      <line x_offset="0.0" y_offset="454.79" spacing="-9.04">where</line>
+      <line x_offset="47.77" y_offset="454.79" spacing="-9.13">is the last group of vehicles, that is, the nearest</line>
+      <line x_offset="0.01" y_offset="442.84" spacing="2.83">group of vehicles to the destination.</line>
+      <line x_offset="227.58" y_offset="430.55" spacing="3.19">veh</line>
+      <line x_offset="247.74" y_offset="430.47" spacing="-9.04">)</line>
+      <line x_offset="9.97" y_offset="430.46" spacing="-9.12">Additionally, we compute the mean winner vehicle (</line>
+      <line x_offset="243.17" y_offset="429.61" spacing="-11.24">&#x2217;</line>
+      <line x_offset="126.19" y_offset="418.6" spacing="1.92">sl</line>
+      <line x_offset="138.6" y_offset="418.51" spacing="-9.04">) in which the successful</line>
+      <line x_offset="0.01" y_offset="418.51" spacing="-9.12">and the mean slot number (</line>
+      <line x_offset="134.03" y_offset="417.65" spacing="-11.23">&#x2217;</line>
+      <line x_offset="0.0" y_offset="406.55" spacing="1.98">transmission occurs, provided that the transmission attempt</line>
+      <line x_offset="0.0" y_offset="394.59" spacing="2.83">is successful:</line>
+      <line x_offset="130.43" y_offset="381.58" spacing="6.04">N</line>
+      <line x_offset="145.5" y_offset="376.24" spacing="-3.75">i</line>
+      <line x_offset="156.12" y_offset="375.82" spacing="-11.73">&#x3A0; (P)</line>
+      <line x_offset="163.59" y_offset="375.08" spacing="-6.23">V</line>
+      <line x_offset="168.29" y_offset="374.57" spacing="-4.48">i</line>
+      <line x_offset="130.43" y_offset="373.58" spacing="-5.98">i=1</line>
+      <line x_offset="188.73" y_offset="369.38" spacing="-4.89">,</line>
+      <line x_offset="55.32" y_offset="369.37" spacing="-9.09">veh</line>
+      <line x_offset="234.47" y_offset="369.29" spacing="-9.05">(11)</line>
+      <line x_offset="75.46" y_offset="368.96" spacing="-11.81">(P) =</line>
+      <line x_offset="70.89" y_offset="368.93" spacing="-12.06">&#x2217;</line>
+      <line x_offset="151.14" y_offset="368.75" spacing="-17.11">&#xB7;</line>
+      <line x_offset="139.06" y_offset="362.12" spacing="-5.51">&#x3A0; (P)</line>
+      <line x_offset="146.53" y_offset="361.37" spacing="-6.23">T</line>
+      <line x_offset="119.91" y_offset="356.31" spacing="-24.82"></line>
+      <line x_offset="130.43" y_offset="352.62" spacing="-3.28">CW</line>
+      <line x_offset="147.35" y_offset="347.28" spacing="-3.75">r</line>
+      <line x_offset="159.33" y_offset="346.86" spacing="-11.73">&#x3A0; (P)</line>
+      <line x_offset="166.79" y_offset="346.11" spacing="-6.23">S</line>
+      <line x_offset="171.69" y_offset="345.61" spacing="-4.48">r</line>
+      <line x_offset="130.43" y_offset="344.62" spacing="-5.98">r=1</line>
+      <line x_offset="63.05" y_offset="340.42" spacing="-4.89">sl</line>
+      <line x_offset="192.98" y_offset="340.42" spacing="-9.1">.</line>
+      <line x_offset="234.47" y_offset="340.33" spacing="-9.04">(12)</line>
+      <line x_offset="75.46" y_offset="339.99" spacing="-11.81">(P) =</line>
+      <line x_offset="70.89" y_offset="339.97" spacing="-12.06">&#x2217;</line>
+      <line x_offset="154.34" y_offset="339.79" spacing="-17.11">&#xB7;</line>
+      <line x_offset="141.18" y_offset="333.15" spacing="-5.51">&#x3A0; (P)</line>
+      <line x_offset="148.65" y_offset="332.41" spacing="-6.23">T</line>
+      <line x_offset="119.91" y_offset="327.35" spacing="-24.82"></line>
+      <line x_offset="9.97" y_offset="315.25" spacing="2.97">Finally, we will compute a lower and upper bound on the</line>
+      <line x_offset="0.01" y_offset="303.3" spacing="2.83">delay incurred by the packet to reach the destination area in the</line>
+      <line x_offset="0.01" y_offset="291.33" spacing="2.84">described scenario. As a first step, we compute these bounds</line>
+      <line x_offset="0.01" y_offset="279.38" spacing="2.83">for one successful transmission, as it is done in [5]. Let us</line>
+      <line x_offset="18.3" y_offset="267.51" spacing="2.77">L</line>
+      <line x_offset="120.14" y_offset="267.51" spacing="-9.1">T</line>
+      <line x_offset="153.53" y_offset="267.43" spacing="-9.05">to the time duration (in</line>
+      <line x_offset="0.01" y_offset="267.42" spacing="-9.11">call</line>
+      <line x_offset="44.56" y_offset="267.42" spacing="-9.13">to this delay, and</line>
+      <line x_offset="25.08" y_offset="267.09" spacing="-11.82">(P)</line>
+      <line x_offset="125.95" y_offset="266.36" spacing="-6.24">packet</line>
+      <line x_offset="0.0" y_offset="255.47" spacing="1.76">slots) for a packet transmission. If there is a collision, then</line>
+      <line x_offset="83.29" y_offset="243.6" spacing="2.77">T</line>
+      <line x_offset="112.79" y_offset="243.52" spacing="-9.04">, so</line>
+      <line x_offset="89.11" y_offset="242.44" spacing="-5.9">packet</line>
+      <line x_offset="0.0" y_offset="243.51" spacing="-10.19">the delay is at least</line>
+      <line x_offset="134.11" y_offset="223.08" spacing="11.34">T</line>
+      <line x_offset="176.88" y_offset="223.08" spacing="-9.1">LB .</line>
+      <line x_offset="37.03" y_offset="223.07" spacing="-9.09">L</line>
+      <line x_offset="234.47" y_offset="222.99" spacing="-9.04">(13)</line>
+      <line x_offset="107.45" y_offset="222.66" spacing="-11.82">(P))</line>
+      <line x_offset="166.37" y_offset="222.66" spacing="-12.14">= (P)</line>
+      <line x_offset="43.8" y_offset="222.66" spacing="-12.14">(P) (1 &#x3A0;</line>
+      <line x_offset="101.17" y_offset="221.91" spacing="-6.23">T</line>
+      <line x_offset="139.92" y_offset="221.91" spacing="-6.97">packet</line>
+      <line x_offset="191.22" y_offset="221.91" spacing="-6.97">1</line>
+      <line x_offset="129.12" y_offset="215.59" spacing="-10.96">&#xB7;</line>
+      <line x_offset="62.15" y_offset="215.58" spacing="-17.28">&#x2265; &#x2212;</line>
+      <line x_offset="9.98" y_offset="202.05" spacing="4.41">On the other hand, if there is a successful transmission in</line>
+      <line x_offset="155.63" y_offset="190.17" spacing="2.78">sl</line>
+      <line x_offset="183.6" y_offset="190.09" spacing="-9.04">. If there is a co-</line>
+      <line x_offset="0.01" y_offset="190.08" spacing="-9.12">one round of contention, its latency is</line>
+      <line x_offset="168.03" y_offset="189.76" spacing="-11.82">(P)</line>
+      <line x_offset="163.45" y_offset="189.23" spacing="-11.56">&#x2217;</line>
+      <line x_offset="160.43" y_offset="178.22" spacing="1.91">L</line>
+      <line x_offset="218.18" y_offset="178.22" spacing="-9.1">L &lt;</line>
+      <line x_offset="29.89" y_offset="178.22" spacing="-9.09">L</line>
+      <line x_offset="95.4" y_offset="178.22" spacing="-9.1">CW T</line>
+      <line x_offset="182.77" y_offset="178.13" spacing="-9.04">. Hence,</line>
+      <line x_offset="0.0" y_offset="178.13" spacing="-9.12">llision,</line>
+      <line x_offset="54.74" y_offset="178.13" spacing="-9.13">is at most</line>
+      <line x_offset="152.33" y_offset="177.8" spacing="-11.82">+ (P)</line>
+      <line x_offset="224.96" y_offset="177.8" spacing="-12.14">(P)</line>
+      <line x_offset="36.67" y_offset="177.8" spacing="-12.14">(P)</line>
+      <line x_offset="114.37" y_offset="177.8" spacing="-12.14">+</line>
+      <line x_offset="128.3" y_offset="177.06" spacing="-6.23">packet</line>
+      <line x_offset="29.32" y_offset="166.27" spacing="1.69">sl</line>
+      <line x_offset="130.89" y_offset="166.27" spacing="-9.1">CW T</line>
+      <line x_offset="203.37" y_offset="166.27" spacing="-9.1">L</line>
+      <line x_offset="229.61" y_offset="166.18" spacing="-9.04">, and</line>
+      <line x_offset="13.75" y_offset="165.85" spacing="-11.82">(P) (P) + (1 &#x3A0; (P)) ( +</line>
+      <line x_offset="193.4" y_offset="165.85" spacing="-12.14">+ (P))</line>
+      <line x_offset="0.0" y_offset="165.85" spacing="-12.14">&#x3A0;</line>
+      <line x_offset="37.16" y_offset="165.32" spacing="-11.56">&#x2217;</line>
+      <line x_offset="7.47" y_offset="165.11" spacing="-6.76">T</line>
+      <line x_offset="99.62" y_offset="165.11" spacing="-6.97">T</line>
+      <line x_offset="167.51" y_offset="165.11" spacing="-6.97">packet</line>
+      <line x_offset="82.19" y_offset="158.78" spacing="-10.96">&#x2212;</line>
+      <line x_offset="0.01" y_offset="154.22" spacing="-4.56">simplifying, we obtain the expression for the upper bound</line>
+      <line x_offset="114.41" y_offset="135.46" spacing="6.61">1</line>
+      <line x_offset="162.78" y_offset="129.14" spacing="-2.77">CW T</line>
+      <line x_offset="53.77" y_offset="129.14" spacing="-9.09">sl</line>
+      <line x_offset="226.71" y_offset="129.14" spacing="-9.1">.</line>
+      <line x_offset="4.99" y_offset="129.13" spacing="-9.09">UB</line>
+      <line x_offset="234.47" y_offset="129.05" spacing="-9.04">(14)</line>
+      <line x_offset="144.93" y_offset="128.72" spacing="-11.82">1 (</line>
+      <line x_offset="183.5" y_offset="128.72" spacing="-12.14">+</line>
+      <line x_offset="24.9" y_offset="128.72" spacing="-12.14">(P) = (P) +</line>
+      <line x_offset="222.83" y_offset="128.72" spacing="-12.14">)</line>
+      <line x_offset="61.6" y_offset="128.69" spacing="-12.06">&#x2217;</line>
+      <line x_offset="20.43" y_offset="127.97" spacing="-6.26">1</line>
+      <line x_offset="199.16" y_offset="127.97" spacing="-6.97">packet</line>
+      <line x_offset="102.23" y_offset="121.89" spacing="-6.06">&#x3A0; (P)</line>
+      <line x_offset="134.97" y_offset="121.65" spacing="-17.05">&#x2212;</line>
+      <line x_offset="109.7" y_offset="121.14" spacing="-6.47">T</line>
+      <line x_offset="149.91" y_offset="115.78" spacing="-24.52"></line>
+      <line x_offset="93.7" y_offset="115.78" spacing="-29.87"></line>
+      <line x_offset="9.97" y_offset="103.84" spacing="2.81">Now, for the total average delay, the lower and upper bounds</line>
+      <line x_offset="0.01" y_offset="91.89" spacing="2.83">are computed as follows:</line>
+      <line x_offset="138.08" y_offset="71.45" spacing="11.34">hops ,</line>
+      <line x_offset="52.8" y_offset="71.44" spacing="-9.09">LB LB</line>
+      <line x_offset="234.45" y_offset="71.36" spacing="-9.04">(15)</line>
+      <line x_offset="115.3" y_offset="71.03" spacing="-11.82">(P) (P)</line>
+      <line x_offset="67.65" y_offset="71.03" spacing="-12.14">(P) =</line>
+      <line x_offset="110.83" y_offset="70.28" spacing="-6.23">1</line>
+      <line x_offset="133.1" y_offset="63.96" spacing="-10.96">&#xB7;</line>
+      <line x_offset="53.39" y_offset="56.5" spacing="-1.64">UB UP</line>
+      <line x_offset="139.74" y_offset="56.5" spacing="-9.09">hops ,</line>
+      <line x_offset="234.47" y_offset="56.41" spacing="-9.04">(16)</line>
+      <line x_offset="69.35" y_offset="56.08" spacing="-11.82">(P) =</line>
+      <line x_offset="116.97" y_offset="56.08" spacing="-12.14">(P) (P)</line>
+      <line x_offset="112.5" y_offset="55.33" spacing="-6.23">1</line>
+      <line x_offset="134.76" y_offset="49.01" spacing="-10.96">&#xB7;</line>
+      <line x_offset="27.7" y_offset="35.96" spacing="3.95">hops</line>
+      <line x_offset="0.01" y_offset="35.88" spacing="-9.04">where</line>
+      <line x_offset="66.89" y_offset="35.88" spacing="-9.13">is the average number of hops needed by the</line>
+      <line x_offset="47.96" y_offset="35.55" spacing="-11.82">(P)</line>
+      <line x_offset="0.01" y_offset="23.92" spacing="2.5">packet to reach the destination area when the matrix is</line>
+      <line x_offset="231.68" y_offset="23.59" spacing="-11.59">P</line>
+      <line x_offset="0.01" y_offset="11.97" spacing="2.5">used for the slot selection. It depends on the distance of the</line>
+      <line x_offset="0.01" y_offset="0.0" spacing="2.84">average winner vehicle and the destination area to the source</line>
+    </region>
+    <region x="89.21" y="58.79" width="144.66" height="37.7" line_height="29.88" font="GBJKEL+CMEX10">
+      <line x_offset="32.53" y_offset="30.72" spacing="0.0">N</line>
+      <line x_offset="85.65" y_offset="30.72" spacing="-6.97">N</line>
+      <line x_offset="135.51" y_offset="30.72" spacing="-6.97">r</line>
+      <line x_offset="56.61" y_offset="17.94" spacing="3.69">i, r</line>
+      <line x_offset="113.12" y_offset="17.52" spacing="-11.73">1</line>
+      <line x_offset="0.0" y_offset="17.52" spacing="-12.14">(P) = P( )</line>
+      <line x_offset="120.31" y_offset="10.45" spacing="-10.21">&#x2212;</line>
+      <line x_offset="105.24" y_offset="7.57" spacing="-27.0"></line>
+      <line x_offset="130.54" y_offset="6.64" spacing="-6.04">s=1</line>
+      <line x_offset="29.6" y_offset="6.51" spacing="-6.85">i=1</line>
+      <line x_offset="74.75" y_offset="6.29" spacing="-6.75">j=1,j=i</line>
+      <line x_offset="94.61" y_offset="1.4" spacing="-7.2">(</line>
+      <line x_offset="28.86" y_offset="0.0" spacing="-28.48"></line>
+    </region>
+  </page>
+  <page width="612" height="792" number="4">
+    <region x="362.45" y="733.3" width="2.25" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="99.44" y="733.3" width="2.25" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="359.08" y="721.9" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.9</line>
+    </region>
+    <region x="96.06" y="721.87" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.9</line>
+    </region>
+    <region x="359.08" y="710.47" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.8</line>
+    </region>
+    <region x="96.06" y="710.4" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.8</line>
+    </region>
+    <region x="357.15" y="708.75" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">p</line>
+    </region>
+    <region x="485.36" y="708.48" width="27.67" height="20.78" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="17.03" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="11.37" spacing="1.92">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="5.67" spacing="1.96">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.92">CBF</line>
+    </region>
+    <region x="357.15" y="706.49" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="357.15" y="704.24" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="357.15" y="702.9" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="357.15" y="700.64" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">g</line>
+    </region>
+    <region x="94.13" y="699.24" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="359.08" y="699.03" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.7</line>
+    </region>
+    <region x="96.06" y="698.93" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.7</line>
+    </region>
+    <region x="357.15" y="698.39" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="94.13" y="698.12" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="94.13" y="697.22" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="357.15" y="696.37" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="94.13" y="696.32" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="94.13" y="695.42" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="357.15" y="694.12" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="357.15" y="693.22" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="94.13" y="693.17" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="94.13" y="690.92" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="357.15" y="689.84" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="94.13" y="688.67" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="359.08" y="687.6" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.6</line>
+    </region>
+    <region x="357.15" y="687.59" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">h</line>
+    </region>
+    <region x="96.06" y="687.46" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.6</line>
+    </region>
+    <region x="357.15" y="686.47" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="94.13" y="686.41" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="94.13" y="685.07" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="357.15" y="684.22" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">f</line>
+    </region>
+    <region x="94.13" y="682.37" width="-3.74" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
+    </region>
+    <region x="357.15" y="681.97" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="94.13" y="679.22" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="357.15" y="678.82" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="357.15" y="677.69" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="94.13" y="677.19" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="357.15" y="676.79" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="359.08" y="676.16" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.5</line>
+    </region>
+    <region x="96.06" y="675.99" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.5</line>
+    </region>
+    <region x="357.15" y="675.89" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="357.15" y="674.99" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="94.13" y="674.94" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="94.13" y="672.92" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="357.15" y="672.74" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="94.13" y="670.89" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="357.15" y="670.49" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="94.13" y="668.64" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="357.15" y="668.24" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="357.15" y="665.99" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="94.13" y="665.94" width="-3.74" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="359.08" y="664.73" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.4</line>
+    </region>
+    <region x="357.15" y="664.64" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="96.06" y="664.56" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.4</line>
+    </region>
+    <region x="94.13" y="663.92" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="357.15" y="662.39" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">p</line>
+    </region>
+    <region x="94.13" y="661.67" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="94.13" y="660.54" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="357.15" y="659.24" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="94.13" y="658.29" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="357.15" y="657.22" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="94.13" y="655.82" width="-3.74" height="2.47" line_height="2.47" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">T</line>
+    </region>
+    <region x="357.15" y="654.97" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="359.08" y="653.29" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.3</line>
+    </region>
+    <region x="96.06" y="653.09" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.3</line>
+    </region>
+    <region x="357.15" y="652.94" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="357.15" y="650.92" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="357.15" y="648.67" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="357.15" y="645.97" width="-3.74" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="359.08" y="641.86" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
+    </region>
+    <region x="96.06" y="641.62" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
+    </region>
+    <region x="222.96" y="632.85" width="27.67" height="20.78" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="17.03" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="11.37" spacing="1.92">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="5.67" spacing="1.96">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.92">CBF</line>
+    </region>
+    <region x="359.08" y="630.42" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="96.06" y="630.15" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="362.45" y="615.58" width="5.68" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
+      <line x_offset="1.18" y_offset="0.0" spacing="-0.34">10</line>
+    </region>
+    <region x="380.67" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
+    </region>
+    <region x="397.7" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
+    </region>
+    <region x="414.73" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
+    </region>
+    <region x="465.87" y="615.58" width="21.54" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7080</line>
+    </region>
+    <region x="499.94" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
+    </region>
+    <region x="515.86" y="615.58" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
+    </region>
+    <region x="99.44" y="615.28" width="5.68" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
+      <line x_offset="1.18" y_offset="0.0" spacing="-0.34">10</line>
+    </region>
+    <region x="117.65" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
+    </region>
+    <region x="134.68" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
+    </region>
+    <region x="151.72" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
+    </region>
+    <region x="202.85" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">70</line>
+    </region>
+    <region x="219.89" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">80</line>
+    </region>
+    <region x="236.92" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
+    </region>
+    <region x="252.84" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
+    </region>
+    <region x="425.22" y="610.76" width="34.65" height="8.57" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="6.54" y_offset="4.82" spacing="0.0">50</line>
+      <line x_offset="23.61" y_offset="4.82" spacing="-3.74">60</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.08">Number of vehicles</line>
+    </region>
+    <region x="162.21" y="610.46" width="34.65" height="8.57" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="6.54" y_offset="4.82" spacing="0.0">50</line>
+      <line x_offset="23.61" y_offset="4.82" spacing="-3.74">60</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.08">Number of vehicles</line>
+    </region>
+    <region x="311.98" y="581.75" width="251.07" height="16.27" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="8.97" spacing="0.0">Fig. 2. Probability of a successful transmission for the last group of vehicles,</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.67">with respect to the number of contenders.</line>
+    </region>
+    <region x="48.96" y="581.35" width="251.06" height="16.27" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="8.97" spacing="0.0">Fig. 1. Total probability of a successful transmission with respect to the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.67">number of contenders.</line>
+    </region>
+    <region x="338.4" y="566.69" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="335.97" y="558.03" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.9</line>
+    </region>
+    <region x="335.97" y="549.36" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.8</line>
+    </region>
+    <region x="357.43" y="548.14" width="19.96" height="14.99" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="12.29" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="8.2" spacing="1.39">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="4.09" spacing="1.41">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.39">CBF</line>
+    </region>
+    <region x="335.97" y="540.72" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.7</line>
+    </region>
+    <region x="334.58" y="536.29" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="334.58" y="535.48" width="-2.7" height="0.81" line_height="0.81" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="334.58" y="534.83" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="334.58" y="534.18" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="334.58" y="533.53" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="335.97" y="532.06" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.6</line>
+    </region>
+    <region x="334.58" y="531.91" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="334.58" y="530.29" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="334.58" y="528.66" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="334.58" y="527.04" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="334.58" y="526.07" width="-2.7" height="0.97" line_height="0.97" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="334.58" y="524.12" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
+    </region>
+    <region x="335.97" y="523.37" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.5</line>
+    </region>
+    <region x="334.58" y="521.85" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="334.58" y="520.39" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="334.58" y="518.76" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="334.58" y="517.3" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="334.58" y="515.84" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="335.97" y="514.71" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.4</line>
+    </region>
+    <region x="334.58" y="514.22" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="334.58" y="512.27" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="335.97" y="506.04" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.3</line>
+    </region>
+    <region x="335.97" y="497.38" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
+    </region>
+    <region x="335.97" y="488.72" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="338.4" y="480.05" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="340.06" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="349.62" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="359.21" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">2</line>
+    </region>
+    <region x="368.8" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">3</line>
+    </region>
+    <region x="378.39" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">4</line>
+    </region>
+    <region x="387.98" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">5</line>
+    </region>
+    <region x="397.56" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">6</line>
+    </region>
+    <region x="407.15" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7</line>
+    </region>
+    <region x="416.74" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">8</line>
+    </region>
+    <region x="426.33" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">9</line>
+    </region>
+    <region x="431.22" y="474.11" width="112.59" height="6.18" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="3.89" y_offset="3.48" spacing="0.0">10 11 12 13 14 15 16 17 18 19 20 21</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.78">Vehicle Number</line>
+    </region>
+    <region x="383.72" y="459.97" width="107.56" height="7.97" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.26" spacing="0.41">(a) Scenario with contenders.</line>
+      <line x_offset="59.78" y_offset="0.0" spacing="-7.71">20</line>
+    </region>
+    <region x="335.97" y="452.25" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.07</line>
+    </region>
+    <region x="335.97" y="439.82" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.06</line>
+    </region>
+    <region x="358.02" y="433.9" width="19.96" height="14.99" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="12.29" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="8.2" spacing="1.39">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="4.09" spacing="1.41">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.39">CBF</line>
+    </region>
+    <region x="335.97" y="427.38" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.05</line>
+    </region>
+    <region x="334.58" y="421.63" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="334.58" y="420.82" width="-2.7" height="0.81" line_height="0.81" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="334.58" y="420.17" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="334.58" y="419.53" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="334.58" y="418.88" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="334.58" y="417.25" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="334.58" y="415.63" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="335.97" y="414.95" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.04</line>
+    </region>
+    <region x="334.58" y="414.01" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="334.58" y="412.38" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="334.58" y="411.41" width="-2.7" height="0.97" line_height="0.97" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="334.58" y="409.46" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
+    </region>
+    <region x="334.58" y="407.19" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="334.58" y="405.73" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="334.58" y="404.11" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="334.58" y="402.65" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="335.97" y="402.51" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.03</line>
+    </region>
+    <region x="334.58" y="401.19" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="334.58" y="399.56" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="334.58" y="397.61" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="335.97" y="390.07" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.02</line>
+    </region>
+    <region x="335.97" y="377.64" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.01</line>
+    </region>
+    <region x="340.03" y="365.18" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="341.69" y="359.24" width="199.98" height="6.18" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.48" spacing="0.0">0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50</line>
+      <line x_offset="91.26" y_offset="0.0" spacing="0.78">Vehicle Number</line>
+    </region>
+    <region x="383.51" y="344.94" width="107.99" height="7.97" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.26" spacing="0.41">(b) Scenario with contenders.</line>
+      <line x_offset="60.22" y_offset="0.0" spacing="-7.71">50</line>
+    </region>
+    <region x="329.14" y="327.42" width="216.75" height="7.3" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 3. Probability of a successful transmission for each vehicle.</line>
+    </region>
+    <region x="311.98" y="66.23" width="251.08" height="238.95" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="227.14" spacing="2.69">vehicles is</line>
+      <line x_offset="58.14" y_offset="227.14" spacing="-9.13">(Fig. 3(b)) the success probability drops to zero</line>
+      <line x_offset="45.16" y_offset="226.81" spacing="-11.82">50</line>
+      <line x_offset="0.0" y_offset="215.18" spacing="2.5">for all the contending vehicles. For the two proposed protocols</line>
+      <line x_offset="0.0" y_offset="203.22" spacing="2.84">we can see better in Fig. 3(b) how the probability grows when</line>
+      <line x_offset="0.0" y_offset="191.26" spacing="2.83">approaching the last vehicle/group of vehicles.</line>
+      <line x_offset="9.96" y_offset="179.35" spacing="2.79">In Fig. 4 the probability of a successful transmission in each</line>
+      <line x_offset="0.0" y_offset="167.38" spacing="2.84">slot is represented when the number of contenders is fixed to</line>
+      <line x_offset="14.16" y_offset="155.43" spacing="2.83">(Fig. 4(a)) and (Fig. 4(b)). For the first case, we can</line>
+      <line x_offset="0.0" y_offset="155.1" spacing="-11.82">20</line>
+      <line x_offset="79.58" y_offset="155.1" spacing="-12.14">50</line>
+      <line x_offset="0.0" y_offset="143.47" spacing="2.5">observe that the probability for the CBF is concentrated on the</line>
+      <line x_offset="0.0" y_offset="131.51" spacing="2.84">first slot, but when the number of vehicles is</line>
+      <line x_offset="207.91" y_offset="131.51" spacing="-9.13">(Fig. 4(b))</line>
+      <line x_offset="193.8" y_offset="131.18" spacing="-11.82">50</line>
+      <line x_offset="0.01" y_offset="119.55" spacing="2.5">the success probability is zero for all the slots. Looking at</line>
+      <line x_offset="138.08" y_offset="107.71" spacing="2.84">Per groups Sift</line>
+      <line x_offset="0.01" y_offset="107.59" spacing="-9.01">Fig. 4(b) we can observe that the</line>
+      <line x_offset="201.93" y_offset="107.59" spacing="-9.13">gives a high</line>
+      <line x_offset="0.02" y_offset="95.63" spacing="2.83">success probability to the first few slots. On the other hand,</line>
+      <line x_offset="134.5" y_offset="83.8" spacing="2.83">Weighted Sift</line>
+      <line x_offset="0.02" y_offset="83.68" spacing="-9.01">the original Sift outperforms the</line>
+      <line x_offset="191.09" y_offset="83.68" spacing="-9.13">in terms of the</line>
+      <line x_offset="0.02" y_offset="71.71" spacing="2.84">slot success probability, since the latter gives more success</line>
+      <line x_offset="0.02" y_offset="59.76" spacing="2.83">probability to later slots, which increases the forwarding delay.</line>
+      <line x_offset="0.02" y_offset="47.8" spacing="2.83">It seems that Sift would perform slightly better in terms of</line>
+      <line x_offset="0.02" y_offset="35.84" spacing="2.84">delay. However, if we actually consider the average delay to</line>
+      <line x_offset="0.02" y_offset="23.88" spacing="2.83">the destination, that is, the multihop or end-to-end delay the</line>
+      <line x_offset="0.02" y_offset="11.93" spacing="2.83">results are different as discussed next.</line>
+      <line x_offset="9.98" y_offset="0.0" spacing="2.8">We consider a multi-hop scenario, where the destination</line>
+    </region>
+    <region x="48.95" y="66.23" width="251.09" height="493.76" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="69.95" y_offset="482.04" spacing="2.63">dist veh</line>
+      <line x_offset="150.19" y_offset="482.04" spacing="-9.1">dist Dest</line>
+      <line x_offset="0.01" y_offset="481.95" spacing="-9.04">node, denoted as</line>
+      <line x_offset="133.05" y_offset="481.95" spacing="-9.13">and</line>
+      <line x_offset="86.83" y_offset="481.62" spacing="-11.82">(</line>
+      <line x_offset="110.85" y_offset="481.62" spacing="-12.14">(P))</line>
+      <line x_offset="167.07" y_offset="481.62" spacing="-12.14">(</line>
+      <line x_offset="192.37" y_offset="481.62" spacing="-12.14">), respectively.</line>
+      <line x_offset="106.27" y_offset="481.1" spacing="-11.56">&#x2217;</line>
+      <line x_offset="0.02" y_offset="469.99" spacing="1.98">It is computed as follows:</line>
+      <line x_offset="125.69" y_offset="453.11" spacing="7.79">dist Dest</line>
+      <line x_offset="142.57" y_offset="452.69" spacing="-11.73">(</line>
+      <line x_offset="167.87" y_offset="452.69" spacing="-12.14">)</line>
+      <line x_offset="180.1" y_offset="446.36" spacing="-2.77">.</line>
+      <line x_offset="68.23" y_offset="446.36" spacing="-9.09">hops</line>
+      <line x_offset="234.47" y_offset="446.27" spacing="-9.04">(17)</line>
+      <line x_offset="88.5" y_offset="445.94" spacing="-11.81">(P) =</line>
+      <line x_offset="118.53" y_offset="439.53" spacing="-2.68">dist veh</line>
+      <line x_offset="135.41" y_offset="439.11" spacing="-11.73">(</line>
+      <line x_offset="159.44" y_offset="439.11" spacing="-12.14">(P))</line>
+      <line x_offset="154.86" y_offset="437.85" spacing="-10.82">&#x2217;</line>
+      <line x_offset="0.02" y_offset="422.82" spacing="6.02">B. Results</line>
+      <line x_offset="9.98" y_offset="407.11" spacing="6.59">The total probability of a successful transmission and the</line>
+      <line x_offset="0.02" y_offset="395.16" spacing="2.83">probability of a successful transmission for the last group</line>
+      <line x_offset="0.02" y_offset="383.2" spacing="2.83">of vehicles are shown in Figures 1 and 2, respectively, for</line>
+      <line x_offset="0.02" y_offset="371.24" spacing="2.84">the two proposed protocols, as well as for the original Sift</line>
+      <line x_offset="0.02" y_offset="359.28" spacing="2.83">protocol and for a basic Contention Based Forwarding (CBF)</line>
+      <line x_offset="0.02" y_offset="347.33" spacing="2.83">algorithm. The number of vehicles is varied between and</line>
+      <line x_offset="222.92" y_offset="347.0" spacing="-11.82">10</line>
+      <line x_offset="14.95" y_offset="335.36" spacing="2.51">, while the contention window is always fixed to slots.</line>
+      <line x_offset="0.02" y_offset="335.03" spacing="-11.82">100</line>
+      <line x_offset="217.04" y_offset="335.03" spacing="-12.14">32</line>
+      <line x_offset="34.26" y_offset="323.53" spacing="2.5">Per groups Sift</line>
+      <line x_offset="0.02" y_offset="323.41" spacing="-9.01">For the</line>
+      <line x_offset="101.13" y_offset="323.41" spacing="-9.13">protocol,</line>
+      <line x_offset="150.19" y_offset="323.41" spacing="-9.13">groups are used and the</line>
+      <line x_offset="141.02" y_offset="323.08" spacing="-11.82">3</line>
+      <line x_offset="0.01" y_offset="311.44" spacing="2.51">corresponding contention windows are , and slots. For</line>
+      <line x_offset="159.34" y_offset="311.11" spacing="-11.82">8 16</line>
+      <line x_offset="200.45" y_offset="311.11" spacing="-12.14">32</line>
+      <line x_offset="246.29" y_offset="299.58" spacing="2.44">r</line>
+      <line x_offset="0.01" y_offset="299.49" spacing="-9.04">the basic CBF mechanism, we assume nodes select the slot</line>
+      <line x_offset="167.57" y_offset="287.65" spacing="2.74">/R</line>
+      <line x_offset="96.76" y_offset="287.62" spacing="-9.07">CW dist V</line>
+      <line x_offset="186.86" y_offset="287.56" spacing="-9.06">with probability</line>
+      <line x_offset="0.01" y_offset="287.53" spacing="-9.1">as the closest integer to</line>
+      <line x_offset="163.69" y_offset="287.23" spacing="-11.84">) )</line>
+      <line x_offset="115.38" y_offset="287.2" spacing="-12.12">(1</line>
+      <line x_offset="150.68" y_offset="287.2" spacing="-12.14">(</line>
+      <line x_offset="160.37" y_offset="286.48" spacing="-6.25">i</line>
+      <line x_offset="125.14" y_offset="280.13" spacing="-10.93">&#x2212;</line>
+      <line x_offset="38.14" y_offset="275.68" spacing="-4.65">dist V</line>
+      <line x_offset="75.04" y_offset="275.6" spacing="-9.04">is the distance from the node to the source.</line>
+      <line x_offset="0.02" y_offset="275.59" spacing="-9.12">1, where</line>
+      <line x_offset="68.01" y_offset="275.27" spacing="-11.82">)</line>
+      <line x_offset="55.02" y_offset="275.26" spacing="-12.14">(</line>
+      <line x_offset="64.69" y_offset="274.52" spacing="-6.23">i</line>
+      <line x_offset="9.97" y_offset="263.5" spacing="1.89">It can be seen in Fig. 1 that when the number of vehicles</line>
+      <line x_offset="0.01" y_offset="251.55" spacing="2.83">is small (up to ) the success probability for the CBF is 1,</line>
+      <line x_offset="64.61" y_offset="251.22" spacing="-11.82">30</line>
+      <line x_offset="0.01" y_offset="239.59" spacing="2.5">clearly outperforming the other protocols. However, when the</line>
+      <line x_offset="0.01" y_offset="227.63" spacing="2.84">number of vehicles increases, the success probability becomes</line>
+      <line x_offset="0.01" y_offset="215.67" spacing="2.83">0, because more than one vehicle is always close enough to</line>
+      <line x_offset="0.01" y_offset="203.72" spacing="2.83">select the same slot. On the contrary, the other proposals scale</line>
+      <line x_offset="0.01" y_offset="191.75" spacing="2.84">much better, maintaining almost the same success probability.</line>
+      <line x_offset="0.01" y_offset="179.8" spacing="2.83">The same holds for the probability of a successful transmission</line>
+      <line x_offset="0.01" y_offset="167.84" spacing="2.83">for the last group of vehicles (Fig. 2).</line>
+      <line x_offset="9.97" y_offset="155.74" spacing="2.98">Let us recall that our main goal is to give higher priority to</line>
+      <line x_offset="0.01" y_offset="143.78" spacing="2.83">the farthest vehicle. Our proposals achieve this goal and out-</line>
+      <line x_offset="0.01" y_offset="131.83" spacing="2.83">performs other possibilities. Looking at Fig. 1 again, the total</line>
+      <line x_offset="114.55" y_offset="119.98" spacing="2.84">Weighted Sift</line>
+      <line x_offset="0.01" y_offset="119.86" spacing="-9.01">success probability for the</line>
+      <line x_offset="173.3" y_offset="119.86" spacing="-9.13">is slightly superior</line>
+      <line x_offset="112.9" y_offset="108.02" spacing="2.83">Per groups Sift</line>
+      <line x_offset="0.0" y_offset="107.9" spacing="-9.01">than Sift, whereas for the</line>
+      <line x_offset="180.64" y_offset="107.9" spacing="-9.13">it is significantly</line>
+      <line x_offset="0.0" y_offset="95.95" spacing="2.83">lower than the others. Nevertheless, when we observe the</line>
+      <line x_offset="0.0" y_offset="83.98" spacing="2.84">success probability of the last group of vehicles (Fig. 2), both</line>
+      <line x_offset="16.17" y_offset="72.15" spacing="2.83">Weighted Sift</line>
+      <line x_offset="108.88" y_offset="72.15" spacing="-9.01">Per groups Sift</line>
+      <line x_offset="0.0" y_offset="72.03" spacing="-9.01">the</line>
+      <line x_offset="74.34" y_offset="72.03" spacing="-9.13">and the</line>
+      <line x_offset="175.15" y_offset="72.03" spacing="-9.13">clearly outperform</line>
+      <line x_offset="0.01" y_offset="60.07" spacing="2.83">the original Sift protocol.</line>
+      <line x_offset="9.97" y_offset="47.97" spacing="2.98">In Fig. 3 the probability of a successful transmission for</line>
+      <line x_offset="0.01" y_offset="36.01" spacing="2.83">each vehicle is shown when the number of contenders is fixed</line>
+      <line x_offset="0.01" y_offset="24.06" spacing="2.83">to (Fig. 3(a)) and (Fig. 3(b)).</line>
+      <line x_offset="11.25" y_offset="23.73" spacing="-11.82">20</line>
+      <line x_offset="88.0" y_offset="23.73" spacing="-12.14">50</line>
+      <line x_offset="9.97" y_offset="11.97" spacing="2.64">As shown in Fig. 3(a), the probability of basic CBF is</line>
+      <line x_offset="0.01" y_offset="0.0" spacing="2.84">concentrated on the last vehicle, but when the number of</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="5">
+    <region x="75.4" y="734.64" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="359.08" y="733.3" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">110</line>
+    </region>
+    <region x="72.96" y="725.98" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.9</line>
+    </region>
+    <region x="359.08" y="722.91" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
+    </region>
+    <region x="72.96" y="717.29" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.8</line>
+    </region>
+    <region x="253.93" y="715.71" width="19.96" height="14.99" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="12.29" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="8.2" spacing="1.39">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="4.09" spacing="1.41">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.39">CBF</line>
+    </region>
+    <region x="361.34" y="712.49" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
+    </region>
+    <region x="72.96" y="708.6" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.7</line>
+    </region>
+    <region x="71.57" y="704.14" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="71.57" y="703.33" width="-2.7" height="0.81" line_height="0.81" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="71.57" y="702.68" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="361.34" y="702.07" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">80</line>
+    </region>
+    <region x="71.57" y="702.04" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="71.57" y="701.39" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="72.96" y="699.91" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.6</line>
+    </region>
+    <region x="71.57" y="699.76" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="71.57" y="698.14" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="387.38" y="697.88" width="30.82" height="32.11" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="28.37" spacing="0.0">Sift LB</line>
+      <line x_offset="0.0" y_offset="22.7" spacing="1.92">Weighted Sift LB</line>
+      <line x_offset="0.0" y_offset="17.03" spacing="1.92">Groups LB</line>
+      <line x_offset="0.0" y_offset="11.33" spacing="1.96">Sift UB</line>
+      <line x_offset="0.0" y_offset="5.67" spacing="1.92">Weighted Sift UB</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.92">Groups UB</line>
+    </region>
+    <region x="71.57" y="696.52" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="357.15" y="696.17" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">)</line>
+    </region>
+    <region x="71.57" y="694.89" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="357.15" y="694.14" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="71.57" y="693.92" width="-2.7" height="0.97" line_height="0.97" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="357.15" y="693.02" width="-3.74" height="1.13" line_height="1.13" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="71.57" y="691.97" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
+    </region>
+    <region x="361.34" y="691.64" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">70</line>
+    </region>
+    <region x="72.96" y="691.23" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.5</line>
+    </region>
+    <region x="357.15" y="690.77" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="357.15" y="689.87" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="71.57" y="689.7" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="71.57" y="688.24" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="357.15" y="687.84" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="71.57" y="686.62" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="357.15" y="686.5" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(</line>
+    </region>
+    <region x="71.57" y="685.16" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="71.57" y="683.7" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="357.15" y="683.35" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="72.96" y="682.54" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.4</line>
+    </region>
+    <region x="71.57" y="682.07" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="361.34" y="681.22" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">60</line>
+    </region>
+    <region x="357.15" y="681.1" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="357.15" y="680.2" width="-3.74" height="0.9" line_height="0.9" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="71.57" y="680.13" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="357.15" y="677.95" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="357.15" y="675.69" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">d</line>
+    </region>
+    <region x="72.96" y="673.85" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.3</line>
+    </region>
+    <region x="357.15" y="672.32" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="361.34" y="670.8" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">50</line>
+    </region>
+    <region x="357.15" y="670.07" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">g</line>
+    </region>
+    <region x="357.15" y="667.82" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="357.15" y="666.47" width="-3.74" height="1.35" line_height="1.35" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="72.96" y="665.16" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
+    </region>
+    <region x="357.15" y="664.22" width="-3.74" height="2.25" line_height="2.25" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="357.15" y="662.19" width="-3.74" height="2.02" line_height="2.02" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">v</line>
+    </region>
+    <region x="361.34" y="660.38" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
+    </region>
+    <region x="357.15" y="659.49" width="-3.74" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">A</line>
+    </region>
+    <region x="72.96" y="656.47" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="361.34" y="649.95" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
+    </region>
+    <region x="75.4" y="647.79" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="77.05" y="641.85" width="203.97" height="6.18" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.48" spacing="0.0">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33</line>
+      <line x_offset="93.43" y_offset="0.0" spacing="0.78">Slot Number</line>
+    </region>
+    <region x="361.34" y="639.53" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
+    </region>
+    <region x="361.34" y="629.11" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">10</line>
+    </region>
+    <region x="120.72" y="627.62" width="107.56" height="7.97" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.26" spacing="0.41">(a) Scenario with contenders.</line>
+      <line x_offset="59.78" y_offset="0.0" spacing="-7.71">20</line>
+    </region>
+    <region x="74.59" y="619.91" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
+    </region>
+    <region x="363.6" y="615.28" width="6.79" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
+      <line x_offset="0.03" y_offset="0.0" spacing="-0.34">400</line>
+    </region>
+    <region x="382.66" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">450</line>
+    </region>
+    <region x="401.68" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">500</line>
+    </region>
+    <region x="420.7" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">550</line>
+    </region>
+    <region x="458.75" y="615.28" width="25.78" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">650700</line>
+    </region>
+    <region x="496.8" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">750</line>
+    </region>
+    <region x="515.86" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">800</line>
+    </region>
+    <region x="72.96" y="611.17" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.18</line>
+    </region>
+    <region x="429.34" y="610.46" width="27.44" height="8.57" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="10.39" y_offset="4.82" spacing="0.0">600</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.08">Destination (m)</line>
+    </region>
+    <region x="72.96" y="602.41" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.16</line>
+    </region>
+    <region x="254.8" y="600.46" width="19.96" height="14.99" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="12.29" spacing="0.0">Sift</line>
+      <line x_offset="0.0" y_offset="8.2" spacing="1.39">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="4.09" spacing="1.41">Per Groups Sift</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.39">CBF</line>
+    </region>
+    <region x="72.96" y="593.67" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.14</line>
+    </region>
+    <region x="71.57" y="589.07" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">y</line>
+    </region>
+    <region x="71.57" y="588.26" width="-2.7" height="0.81" line_height="0.81" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="71.57" y="587.61" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="71.57" y="586.96" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="71.57" y="586.31" width="-2.7" height="0.65" line_height="0.65" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="72.96" y="584.91" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.12</line>
+    </region>
+    <region x="71.57" y="584.69" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="71.57" y="583.07" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="71.57" y="581.44" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="71.57" y="579.82" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="71.57" y="578.85" width="-2.7" height="0.97" line_height="0.97" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="71.57" y="576.9" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">P</line>
+    </region>
+    <region x="74.59" y="576.15" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="71.57" y="574.63" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="71.57" y="573.17" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="311.98" y="572.12" width="251.08" height="25.5" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="18.2" spacing="0.0">Fig. 5. Lower and upper bounds on the expected delay incurred by the</line>
+      <line x_offset="0.0" y_offset="0.26" spacing="10.63">(ranging between</line>
+      <line x_offset="74.62" y_offset="0.26" spacing="-7.3">and</line>
+      <line x_offset="111.9" y_offset="0.26" spacing="-7.3">) from the source node and</line>
+      <line x_offset="59.14" y_offset="0.0" spacing="-7.71">400</line>
+      <line x_offset="88.92" y_offset="0.0" spacing="-7.97">800 m</line>
+      <line x_offset="0.0" y_offset="9.23" spacing="-16.53">packet to reach the destination area when it is situated at different distances</line>
+      <line x_offset="245.03" y_offset="0.26" spacing="1.67">.</line>
+      <line x_offset="204.33" y_offset="0.0" spacing="-7.71">R = 300 m</line>
+    </region>
+    <region x="71.57" y="571.54" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="71.57" y="570.08" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="71.57" y="568.62" width="-2.7" height="1.46" line_height="1.46" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="72.96" y="567.42" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.08</line>
+    </region>
+    <region x="71.57" y="567.0" width="-2.7" height="1.62" line_height="1.62" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="71.57" y="565.05" width="-2.7" height="1.95" line_height="1.95" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">S</line>
+    </region>
+    <region x="72.96" y="558.66" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.06</line>
+    </region>
+    <region x="72.96" y="549.92" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.04</line>
+    </region>
+    <region x="72.96" y="541.16" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.02</line>
+    </region>
+    <region x="77.03" y="532.4" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="78.68" y="526.46" width="202.34" height="6.18" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.48" spacing="0.0">0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33</line>
+      <line x_offset="92.62" y_offset="0.0" spacing="0.78">Slot Number</line>
+    </region>
+    <region x="120.49" y="512.31" width="108.0" height="7.97" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.26" spacing="0.41">(b) Scenario with contenders.</line>
+      <line x_offset="60.22" y_offset="0.0" spacing="-7.71">50</line>
+    </region>
+    <region x="73.36" y="494.79" width="202.26" height="7.3" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 4. Probability of a successful transmission in each slot.</line>
+    </region>
+    <region x="311.98" y="444.48" width="251.07" height="104.8" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.0" y_offset="95.67" spacing="0.0">mechanisms scale gracefully and do not even need to know</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.83">the number of contenders. With respect to the end-to-end</line>
+      <line x_offset="0.0" y_offset="71.76" spacing="2.83">delay, since the computed lower and upper bounds are weak,</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.84">a realistic simulation is needed to show the true benefits of</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">the proposed protocols, which is left as future work. On the</line>
+      <line x_offset="0.0" y_offset="35.88" spacing="2.84">other hand, we have arbitrarily fixed several parameters of the</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">distribution, e.g., the window size. We leave as future work</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">as well a more detailed study on how to choose the more</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">appropriate parameters and their influence.</line>
+    </region>
+    <region x="67.12" y="416.66" width="214.75" height="66.32" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="92.18" y_offset="59.02" spacing="0.0">TABLE I</line>
+      <line x_offset="0.0" y_offset="50.05" spacing="1.67">L</line>
+      <line x_offset="13.49" y_offset="28.36" spacing="14.39">Protocol</line>
+      <line x_offset="21.24" y_offset="18.99" spacing="2.07">Sift</line>
+      <line x_offset="4.67" y_offset="9.63" spacing="2.06">Weighted Sift</line>
+      <line x_offset="1.4" y_offset="0.26" spacing="2.07">Per Groups Sift</line>
+      <line x_offset="5.26" y_offset="50.4" spacing="-55.97">OWER AND UPPER BOUNDS ON THE AVERAGE DELAY FOR ONE</line>
+      <line x_offset="57.64" y_offset="41.43" spacing="3.12">SUCCESSFUL TRANSMISSION</line>
+      <line x_offset="155.14" y_offset="41.09" spacing="-6.96">.</line>
+      <line x_offset="90.7" y_offset="18.73" spacing="14.39">3.08</line>
+      <line x_offset="90.7" y_offset="9.37" spacing="1.39">2.57</line>
+      <line x_offset="90.7" y_offset="0.0" spacing="1.4">8.63</line>
+      <line x_offset="64.55" y_offset="28.36" spacing="-35.66">Lower Bound (slots) Upper Bound (slots)</line>
+      <line x_offset="167.55" y_offset="18.73" spacing="1.66">14.31</line>
+      <line x_offset="167.55" y_offset="9.37" spacing="1.39">17.54</line>
+      <line x_offset="167.55" y_offset="0.0" spacing="1.4">26.09</line>
+    </region>
+    <region x="311.98" y="352.63" width="251.08" height="83.55" line_height="8.21" font="GBJKBC+Times-Roman">
+      <line x_offset="89.41" y_offset="74.88" spacing="1.36">CKNOWLEDGMENT</line>
+      <line x_offset="82.08" y_offset="74.42" spacing="-8.66">A</line>
+      <line x_offset="9.96" y_offset="59.78" spacing="6.43">This research has been supported by the MICINN/FEDER project</line>
+      <line x_offset="0.0" y_offset="47.83" spacing="3.74">grant TEC2010-21405-C02-02/TCM (CALM). It is also developed in</line>
+      <line x_offset="0.0" y_offset="35.87" spacing="3.74">the framework of "Programa de Ayudas a Grupos de Excelencia de</line>
+      <line x_offset="0.0" y_offset="23.91" spacing="3.75">la Regi&#xF3;n de Murcia, de la Fundaci&#xF3;n S&#xE9;neca, Agencia de Ciencia y</line>
+      <line x_offset="0.0" y_offset="11.96" spacing="3.74">Tecnolog&#xED;a de la RM". C. Garcia-Costa acknowledges the Fundaci&#xF3;n</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.75">Seneca for a FPI (REF 12347/FPI/09) pre-doctoral fellowship.</line>
+    </region>
+    <region x="48.95" y="243.58" width="251.08" height="143.36" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="0.01" y_offset="131.55" spacing="2.69">area is situated at different distances (ranging between</line>
+      <line x_offset="236.68" y_offset="131.55" spacing="-9.13">and</line>
+      <line x_offset="219.21" y_offset="131.22" spacing="-11.82">400</line>
+      <line x_offset="18.63" y_offset="119.68" spacing="2.44">m</line>
+      <line x_offset="27.38" y_offset="119.59" spacing="-9.04">) from the source node, with</line>
+      <line x_offset="190.11" y_offset="119.59" spacing="-9.19">m. We assume</line>
+      <line x_offset="0.01" y_offset="119.26" spacing="-11.82">800</line>
+      <line x_offset="149.87" y_offset="119.26" spacing="-12.14">R= 300</line>
+      <line x_offset="0.0" y_offset="107.64" spacing="2.5">the time duration of a packet transmission to be slots, and</line>
+      <line x_offset="199.28" y_offset="107.31" spacing="-11.82">30</line>
+      <line x_offset="0.0" y_offset="95.67" spacing="2.51">the number of vehicles in the transmission range equal to .</line>
+      <line x_offset="238.61" y_offset="95.34" spacing="-11.82">60</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.5">For each protocol, the lower and upper bounds on the average</line>
+      <line x_offset="0.0" y_offset="71.76" spacing="2.83">delay for one successful transmission, eq. (13) and (14), are</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.84">shown in Table I, whereas the lower and upper bounds on the</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">total average delay to reach the destination area are shown in</line>
+      <line x_offset="0.0" y_offset="35.89" spacing="2.83">Fig. 5. Thus, when we take into account the number of hops</line>
+      <line x_offset="95.27" y_offset="11.97" spacing="14.79">outperforms the usual Sift, unlike the</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="-21.08">needed by the packet to reach the destination area, we can see</line>
+      <line x_offset="37.09" y_offset="12.08" spacing="2.83">Weighted Sift</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="-9.01">how the</line>
+      <line x_offset="0.0" y_offset="0.12" spacing="2.84">Per Groups Sift</line>
+      <line x_offset="63.29" y_offset="0.0" spacing="-9.01">.</line>
+    </region>
+    <region x="311.97" y="69.92" width="251.09" height="274.19" line_height="7.3" font="GBJKBC+Times-Roman">
+      <line x_offset="104.78" y_offset="265.49" spacing="1.39">EFERENCES</line>
+      <line x_offset="97.64" y_offset="265.06" spacing="-8.69">R</line>
+      <line x_offset="3.99" y_offset="251.12" spacing="6.64">[1] H. Hartenstein and K.P. Laberteaux, "VANET. Vehicular Applications</line>
+      <line x_offset="18.27" y_offset="242.15" spacing="1.67">and Inter-Networking Technologies", Wiley, 2010.</line>
+      <line x_offset="3.99" y_offset="233.18" spacing="1.67">[2] ETSI EN 302 663, "Intelligent Transport Systems (ITS); Access layer</line>
+      <line x_offset="18.27" y_offset="224.21" spacing="1.67">specification for Intelligent Transport Systems operating in the 5 GHz</line>
+      <line x_offset="18.27" y_offset="215.24" spacing="1.67">frequency band", V0.1.3, 2012.</line>
+      <line x_offset="3.99" y_offset="206.27" spacing="1.67">[3] ETSI TS 102 636-4-1 V1.1.1 Intelligent Transport Systems (ITS);</line>
+      <line x_offset="18.27" y_offset="197.31" spacing="1.67">Vehicular Communications; GeoNetworking; Part 4: Geographical ad-</line>
+      <line x_offset="18.27" y_offset="188.34" spacing="1.67">dressing and forwarding for point-to-point and point-to-multipoint com-</line>
+      <line x_offset="18.27" y_offset="179.37" spacing="1.67">munications; Sub-part 1: Media-Independent Functionality, June 2011.</line>
+      <line x_offset="3.99" y_offset="170.4" spacing="1.67">[4] H. F&#xFC;&#xDF;ler, J. Widmer, M. K&#xE4;semann, M. Mauve and H.</line>
+      <line x_offset="18.27" y_offset="161.43" spacing="1.67">Hartenstein,"Contention-based forwarding for mobile ad hoc networks",</line>
+      <line x_offset="18.27" y_offset="152.56" spacing="1.67">Ad Hoc Networks</line>
+      <line x_offset="76.08" y_offset="152.47" spacing="-7.2">, vol. 1, no. 4, pp. 351-369, Nov. 2003.</line>
+      <line x_offset="3.99" y_offset="143.49" spacing="1.67">[5] Y.C. Tay, K. Jamieson and H. Balakrishnan, "Collision-Minimizing</line>
+      <line x_offset="233.81" y_offset="134.62" spacing="1.67">IEEE</line>
+      <line x_offset="18.27" y_offset="134.53" spacing="-7.2">CSMA and Its Applications to Wireless Sensor Networks",</line>
+      <line x_offset="18.27" y_offset="125.66" spacing="1.67">Journal on Selected Areas in Communications</line>
+      <line x_offset="168.04" y_offset="125.56" spacing="-7.2">, vol. 22, no. 6, pp. 1048-</line>
+      <line x_offset="18.27" y_offset="116.59" spacing="1.67">1057, Aug. 2004.</line>
+      <line x_offset="3.99" y_offset="107.62" spacing="1.67">[6] F. Li and Y. Wang, "Routing in vehicular ad hoc networks: A survey",</line>
+      <line x_offset="18.27" y_offset="98.75" spacing="1.67">IEEE Vehicular Technology Magazine</line>
+      <line x_offset="144.58" y_offset="98.65" spacing="-7.2">, vol. 2, no. 2, pp. 12-22, June</line>
+      <line x_offset="18.27" y_offset="89.69" spacing="1.67">2007.</line>
+      <line x_offset="197.4" y_offset="80.82" spacing="1.67">IEEE Communi-</line>
+      <line x_offset="3.99" y_offset="80.72" spacing="-7.2">[7] C. Maihofer, "A survey of geocast routing protocols",</line>
+      <line x_offset="18.27" y_offset="71.84" spacing="1.67">cations Surveys &amp; Tutorials</line>
+      <line x_offset="109.19" y_offset="71.75" spacing="-7.2">, vol. 6, no. 2, pp. 32-42, 2004.</line>
+      <line x_offset="3.99" y_offset="62.78" spacing="1.67">[8] B. Karp and H.T. Kung, "GPSR: greedy perimeter stateless routing</line>
+      <line x_offset="100.85" y_offset="53.91" spacing="1.67">Proceedings of the 6th annual international</line>
+      <line x_offset="18.27" y_offset="53.81" spacing="-7.2">for wireless networks",</line>
+      <line x_offset="18.27" y_offset="44.94" spacing="1.67">conference on Mobile computing and networking</line>
+      <line x_offset="178.9" y_offset="44.84" spacing="-7.2">, pp. 243-254, 2000.</line>
+      <line x_offset="3.98" y_offset="35.87" spacing="1.67">[9] T. Imielinski and J.C. Navas, "GPS-Based Addressing and Routing",</line>
+      <line x_offset="18.26" y_offset="26.91" spacing="1.67">Technical report LCSR-TR-262, Rutgers University, 1996.</line>
+      <line x_offset="127.48" y_offset="9.06" spacing="10.64">Proc. of Wireless Personal Multimedia</line>
+      <line x_offset="0.0" y_offset="17.94" spacing="-16.18">[10] E. Fasolo, R. Furiato and A. Zanella, "Smart broadcast algorithm for</line>
+      <line x_offset="18.26" y_offset="8.97" spacing="1.67">inter-vehicular communications",</line>
+      <line x_offset="18.26" y_offset="0.1" spacing="1.67">Communication</line>
+      <line x_offset="69.18" y_offset="0.0" spacing="-7.2">, Sept. 2005.</line>
+    </region>
+    <region x="48.96" y="66.24" width="251.09" height="167.73" line_height="9.13" font="GBJKBC+Times-Roman">
+      <line x_offset="108.85" y_offset="159.07" spacing="1.35">ONCLUSIONS</line>
+      <line x_offset="87.31" y_offset="158.6" spacing="-8.65">V. C</line>
+      <line x_offset="9.96" y_offset="143.51" spacing="5.96">In this paper we study CBF mechanisms for GeoNetworking</line>
+      <line x_offset="0.0" y_offset="131.55" spacing="2.84">implemented at MAC layer. We considered two schemes that</line>
+      <line x_offset="0.0" y_offset="119.59" spacing="2.83">use geometrically-distributed contention slots. We have analy-</line>
+      <line x_offset="0.0" y_offset="107.63" spacing="2.84">tically evaluated the total and per-vehicle success probabilities</line>
+      <line x_offset="0.0" y_offset="95.67" spacing="2.83">and the average delay bounds and compared them with a</line>
+      <line x_offset="0.0" y_offset="83.72" spacing="2.83">basic CBF mechanism and the original Sift protocol. Our</line>
+      <line x_offset="0.0" y_offset="71.75" spacing="2.84">results show that a weighted geometric distribution effectively</line>
+      <line x_offset="0.0" y_offset="59.8" spacing="2.83">prioritizes the access based on position for a wide range of</line>
+      <line x_offset="0.0" y_offset="47.84" spacing="2.83">vehicle densities, while retaining the benefits of geometrical</line>
+      <line x_offset="0.0" y_offset="35.88" spacing="2.84">distributions with respect to success probabilities and delay</line>
+      <line x_offset="0.0" y_offset="23.92" spacing="2.83">bounds. In particular, while a CBF mechanism with static</line>
+      <line x_offset="0.0" y_offset="11.97" spacing="2.83">timers needs to adapt the contention window size to the</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.84">number of contenders to avoid packet collisions, the proposed</line>
+    </region>
+  </page>
+</pdf>

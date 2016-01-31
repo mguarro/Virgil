@@ -7,1196 +7,1196 @@ a(S'topic-specific scenarios       topic-1       topic-2       topic-3       ame
 p3
 F175.42857142857144
 tp4
-a(S'220011220000 ii11ee00ee iieeee eeffooeeuu iirrnntthhttee iirrnnnnttaaeettrriinnooaannttaaiilloo nnccaaoollnn ccffeeoorrnneeffnneeccrreeee nnooccnnee ssooeennmm ssaaeennmmttiiaaccnn ccttiiooccmm ccppoouummttiippnnuuggttiinngg'
+a(S'333366668888                        220011220000 ii11ee00ee iieeee eeffooeeuu iirrnntthhttee iirrnnnnttaaeettrriinnooaannttaaiilloo nnccaaoollnn ccffeeoorrnneeffnneeccrreeee nnooccnnee ssooeennmm ssaaeennmmttiiaaccnn ccttiiooccmm ccppoouummttiippnnuuggttiinngg'
 p5
 F144.0
 tp6
-a(S'test       data       c1       c2       c3       annotator-       agreement       relatedness katrina 66% 57% 65%       iraq       90% 83% 39'
+a(S'220011220000 ii11ee00ee iieeee eeffooeeuu iirrnntthhttee iirrnnnnttaaeettrriinnooaannttaaiilloo nnccaaoollnn ccffeeoorrnneeffnneeccrreeee nnooccnnee ssooeennmm ssaaeennmmttiiaaccnn ccttiiooccmm ccppoouummttiippnnuuggttiinngg'
 p7
-F34.65404502904503
+F144.0
 tp8
-a(S'achieving maximum interpolated-                 333366667777                       discourse       annual review'
+a(S'test       data       c1       c2       c3       annotator-       agreement       relatedness katrina 66% 57% 65%       iraq       90% 83% 39'
 p9
-F30.274509803921568
+F34.65404502904503
 tp10
-a(S'6%       85%                 100%                 97%                 95%                 94%                 task       ra       ca-       agreement       ra-       agreement                 table'
+a(S'achieving maximum interpolated-                 333366667777                       discourse       annual review'
 p11
-F28.4974358974359
+F30.274509803921568
 tp12
-a(S'identifying frequent event pairs                 contingency       relationships                 layer-3'
+a(S'6%       85%                 100%                 97%                 95%                 94%                 task       ra       ca-       agreement       ra-       agreement                 table'
 p13
-F24.75335781910018
+F28.4974358974359
 tp14
-a(S'suspects iraq iraq develops chemical       instances'
+a(S'identifying frequent event pairs                 contingency       relationships                 layer-3'
 p15
-F22.65740740740741
+F24.75335781910018
 tp16
-a(S'approach generates suitable       event pair candidates'
+a(S'suspects iraq iraq develops chemical       instances'
 p17
-F22.44964349376114
+F22.65740740740741
 tp18
-a(S'climate change issues       rescue efforts'
+a(S'approach generates suitable       event pair candidates'
 p19
-F22.0
+F22.44964349376114
 tp20
-a(S'dallas-       canceled       based southwest airlines'
+a(S'climate change issues       rescue efforts'
 p21
-F20.958333333333332
+F22.0
 tp22
-a(S'generating event pair candi-       dates'
+a(S'dallas-       canceled       based southwest airlines'
 p23
-F20.532976827094473
+F20.958333333333332
 tp24
-a(S'security council closed emergency       session'
+a(S'generating event pair candi-       dates'
 p25
-F19.75
+F20.532976827094473
 tp26
-a(S'people identify contingency discourse rela-       tions'
+a(S'security council closed emergency       session'
 p27
-F18.61486068111455
+F19.75
 tp28
-a(S'pam require large data       sets'
+a(S'people identify contingency discourse rela-       tions'
 p29
-F18.416666666666664
+F18.61486068111455
 tp30
-a(S'dist       dist       dist       dist       1       2       3       4       test-'
+a(S'pam require large data       sets'
 p31
-F17.333333333333332
+F18.416666666666664
 tp32
-a(S'explanation question answering deals'
+a(S'dist       dist       dist       dist       1       2       3       4       test-'
 p33
-F17.25
+F17.333333333333332
 tp34
-a(S'inter annotator       ca-       ra-'
+a(S'explanation question answering deals'
 p35
-F17.0
+F17.25
 tp36
-a(S'identifying topic-specific                 333366662222                       text       documents                 layer-1'
+a(S'inter annotator       ca-       ra-'
 p37
-F16.976190476190474
+F17.0
 tp38
-a(S'makes con-       tingency predictions based'
+a(S'identifying topic-specific                 333366662222                       text       documents                 layer-1'
 p39
-F16.958333333333336
+F16.976190476190474
 tp40
-a(S'dallas-based southwest       { }       \xe2\x86\x92       airlines canceled'
+a(S'makes con-       tingency predictions based'
 p41
-F16.833333333333332
+F16.958333333333336
 tp42
-a(S'{ }       dallas-based southwest airlines canceled'
+a(S'dallas-based southwest       { }       \xe2\x86\x92       airlines canceled'
 p43
 F16.833333333333332
 tp44
-a(S'module generates event pair candidates'
+a(S'{ }       dallas-based southwest airlines canceled'
 p45
-F16.782976827094473
+F16.833333333333332
 tp46
-a(S'dallas-based southwest airlines cancel'
+a(S'module generates event pair candidates'
 p47
-F16.5
+F16.782976827094473
 tp48
-a(S'dict causal potential       computational linguistics'
+a(S'dallas-based southwest airlines cancel'
 p49
-F16.036363636363635
+F16.5
 tp50
-a(S'point-wise mutual in-       formation'
+a(S'dict causal potential       computational linguistics'
 p51
-F16.0
+F16.036363636363635
 tp52
-a(S'n-level directed acyclic       graph'
+a(S'point-wise mutual in-       formation'
 p53
 F16.0
 tp54
-a(S'model generates ranked contingency relationships'
+a(S'n-level directed acyclic       graph'
 p55
-F15.849529621154336
+F16.0
 tp56
-a(S'generate frequent event group pairs'
+a(S'model generates ranked contingency relationships'
 p57
-F15.734383753501401
+F15.849529621154336
 tp58
-a(S'highly dependent frequent event pairs'
+a(S'generate frequent event group pairs'
 p59
-F15.513229907347554
+F15.734383753501401
 tp60
-a(S'events       <       emerged       hurricane katrina passed'
+a(S'highly dependent frequent event pairs'
 p61
-F15.250811688311689
+F15.513229907347554
 tp62
-a(S'security council suspects iraq'
+a(S'events       <       emerged       hurricane katrina passed'
 p63
-F15.12037037037037
+F15.250811688311689
 tp64
-a(S'frequent candidate event group pairs'
+a(S'security council suspects iraq'
 p65
-F15.067717086834733
+F15.12037037037037
 tp66
-a(S'revious ork       ii'
+a(S'frequent candidate event group pairs'
 p67
-F15.0
+F15.067717086834733
 tp68
-a(S'assessment       ural language engineering'
+a(S'revious ork       ii'
 p69
-F14.9
+F15.0
 tp70
-a(S'causal       set       rela-       tions       hk'
+a(S'assessment       ural language engineering'
 p71
-F14.874825174825174
+F14.9
 tp72
-a(S'model identifies       scenario-specific event pairs'
+a(S'causal       set       rela-       tions       hk'
 p73
-F14.692717086834737
+F14.874825174825174
 tp74
-a(S'team inspecting iraqi scientists'
+a(S'model identifies       scenario-specific event pairs'
 p75
-F14.666666666666668
+F14.692717086834737
 tp76
-a(S'fully connected tree structure'
+a(S'team inspecting iraqi scientists'
 p77
-F14.666666666666666
+F14.666666666666668
 tp78
-a(S'hurricane katrina       hurricane katrina disaster'
+a(S'fully connected tree structure'
 p79
-F14.625
+F14.666666666666666
 tp80
-a(S'table ii shows'
+a(S'hurricane katrina       hurricane katrina disaster'
 p81
-F14.6
+F14.625
 tp82
-a(S'contingency relations detection task       due'
+a(S'table ii shows'
 p83
-F14.38796992481203
+F14.6
 tp84
-a(S'con-       stantly changing flow'
+a(S'contingency relations detection task       due'
 p85
-F14.333333333333334
+F14.38796992481203
 tp86
-a(S'na\xc4\xb1ve       lexical similarity'
+a(S'con-       stantly changing flow'
 p87
-F14.3
+F14.333333333333334
 tp88
-a(S'generating event pair       candidates       1'
+a(S'na\xc4\xb1ve       lexical similarity'
 p89
-F14.282976827094474
+F14.3
 tp90
-a(S'generating event pair candidates'
+a(S'generating event pair       candidates       1'
 p91
 F14.282976827094474
 tp92
-a(S'5%       iraq       katrina 86% 94% 92%       80% 96% 86%                 table iii       evaluation'
+a(S'generating event pair candidates'
 p93
-F14.244179894179895
+F14.282976827094474
 tp94
-a(S'stronger causal rela-       tionships'
+a(S'5%       iraq       katrina 86% 94% 92%       80% 96% 86%                 table iii       evaluation'
 p95
-F14.16969696969697
+F14.244179894179895
 tp96
-a(S'basic clustering procedure based'
+a(S'stronger causal rela-       tionships'
 p97
-F14.125
+F14.16969696969697
 tp98
-a(S'pascal recognizing textual entailment'
+a(S'basic clustering procedure based'
 p99
-F14.0
+F14.125
 tp100
-a(S'question       answering-machine learning'
+a(S'pascal recognizing textual entailment'
 p101
-F13.833333333333334
+F14.0
 tp102
-a(S'standard normalized cosine similarity'
+a(S'question       answering-machine learning'
 p103
-F13.8
+F13.833333333333334
 tp104
-a(S'}                 abstract-contingency discourse relations play'
+a(S'standard normalized cosine similarity'
 p105
-F13.65546218487395
+F13.8
 tp106
-a(S'katrina hit florida late'
+a(S'}                 abstract-contingency discourse relations play'
 p107
-F13.5
+F13.65546218487395
 tp108
-a(S'annotating large text collections'
+a(S'katrina hit florida late'
 p109
-F13.442857142857143
+F13.5
 tp110
-a(S'constraints improves temporal ordering'
+a(S'annotating large text collections'
 p111
-F13.25
+F13.442857142857143
 tp112
-a(S'explanation question answering [6]'
+a(S'constraints improves temporal ordering'
 p113
 F13.25
 tp114
-a(S'generates event group pairs'
+a(S'explanation question answering [6]'
 p115
-F13.167717086834735
+F13.25
 tp116
-a(S'higher generative probabilities       conditioned'
+a(S'generates event group pairs'
 p117
-F13.076923076923077
+F13.167717086834735
 tp118
-a(S'identify multiple sce-       narios'
+a(S'higher generative probabilities       conditioned'
 p119
-F13.0
+F13.076923076923077
 tp120
-a(S'domain-specific data sets       collected'
+a(S'identify multiple sce-       narios'
 p121
-F12.75
+F13.0
 tp122
-a(S'world wide web www'
+a(S'domain-specific data sets       collected'
 p123
 F12.75
 tp124
-a(S'incremental cue phrase learning       [4]'
+a(S'world wide web www'
 p125
 F12.75
 tp126
-a(S'identifying scenario-specific strongly related events'
+a(S'incremental cue phrase learning       [4]'
 p127
-F12.742857142857144
+F12.75
 tp128
-a(S'natural language understanding tasks'
+a(S'identifying scenario-specific strongly related events'
 p129
-F12.566666666666668
+F12.742857142857144
 tp130
-a(S'non-contingency pairs iden-       tified'
+a(S'natural language understanding tasks'
 p131
-F12.514285714285714
+F12.566666666666668
 tp132
-a(S'frequent event group pair'
+a(S'non-contingency pairs iden-       tified'
 p133
-F12.47464349376114
+F12.514285714285714
 tp134
-a(S'subtopics       generates noisy scenarios'
+a(S'frequent event group pair'
 p135
-F12.428571428571429
+F12.47464349376114
 tp136
-a(S'discovering scenario-specific contingency       relationships'
+a(S'subtopics       generates noisy scenarios'
 p137
-F12.39397406559878
+F12.428571428571429
 tp138
-a(S'identify-       ing causal associations'
+a(S'discovering scenario-specific contingency       relationships'
 p139
-F12.303030303030303
+F12.39397406559878
 tp140
-a(S'entails predictably modifying event'
+a(S'identify-       ing causal associations'
 p141
-F12.245098039215687
+F12.303030303030303
 tp142
-a(S'identifying scenario-specific events                 layer-2'
+a(S'entails predictably modifying event'
 p143
-F12.188311688311689
+F12.245098039215687
 tp144
-a(S'structure helps finding correlations'
+a(S'identifying scenario-specific events                 layer-2'
 p145
-F12.133333333333333
+F12.188311688311689
 tp146
-a(S'pam represent topic-specific       scenarios'
+a(S'structure helps finding correlations'
 p147
-F12.095238095238095
+F12.133333333333333
 tp148
-a(S'contingency learning system architecture'
+a(S'pam represent topic-specific       scenarios'
 p149
-F11.96727395411606
+F12.095238095238095
 tp150
-a(S'present relevant previous work'
+a(S'contingency learning system architecture'
 p151
-F11.95
+F11.96727395411606
 tp152
-a(S'automatically       identifies contingency information'
+a(S'present relevant previous work'
 p153
-F11.932017543859649
+F11.95
 tp154
-a(S'roles annotation tasks       agreement'
+a(S'automatically       identifies contingency information'
 p155
-F11.901098901098901
+F11.932017543859649
 tp156
-a(S'identifying frequent event pairs'
+a(S'roles annotation tasks       agreement'
 p157
-F11.859383753501401
+F11.901098901098901
 tp158
-a(S'test sets oles accuracy'
+a(S'identifying frequent event pairs'
 p159
-F11.674242424242424
+F11.859383753501401
 tp160
-a(S'predefined linguistic patterns employed'
+a(S'test sets oles accuracy'
 p161
-F11.666666666666668
+F11.674242424242424
 tp162
-a(S'three-layer unsupervised       statistical system'
+a(S'predefined linguistic patterns employed'
 p163
-F11.576923076923077
+F11.666666666666668
 tp164
-a(S'learn strongly dependent scenario events'
+a(S'three-layer unsupervised       statistical system'
 p165
-F11.544322344322346
+F11.576923076923077
 tp166
-a(S'easily       domain portable model'
+a(S'learn strongly dependent scenario events'
 p167
-F11.44761904761905
+F11.544322344322346
 tp168
-a(S'maximum contingency score       based'
+a(S'easily       domain portable model'
 p169
-F11.408208020050125
+F11.44761904761905
 tp170
-a(S'automatically identify contingency relationships'
+a(S'maximum contingency score       based'
 p171
-F11.39397406559878
+F11.408208020050125
 tp172
-a(S'automatically identify       contingency relationships'
+a(S'automatically identify contingency relationships'
 p173
 F11.39397406559878
 tp174
-a(S'contingency roles assignment task'
+a(S'automatically identify       contingency relationships'
 p175
-F11.390350877192981
+F11.39397406559878
 tp176
-a(S'causal reasoning enables people'
+a(S'contingency roles assignment task'
 p177
-F11.303030303030303
+F11.390350877192981
 tp178
-a(S'hard-to-       build temporal classifiers'
+a(S'causal reasoning enables people'
 p179
-F11.25
+F11.303030303030303
 tp180
-a(S'previous data mining approaches'
+a(S'hard-to-       build temporal classifiers'
 p181
-F11.178571428571429
+F11.25
 tp182
-a(S'discovering topic-specific       scenario events'
+a(S'previous data mining approaches'
 p183
-F11.102597402597404
+F11.178571428571429
 tp184
-a(S'council suspects       gether'
+a(S'discovering topic-specific       scenario events'
 p185
-F11.083333333333332
+F11.102597402597404
 tp186
-a(S'identifies rela-       tionships'
+a(S'council suspects       gether'
 p187
-F11.033333333333333
+F11.083333333333332
 tp188
-a(S'pachinko allocation       topic model'
+a(S'identifies rela-       tionships'
 p189
-F11.019047619047619
+F11.033333333333333
 tp190
-a(S'topic-specific collec-       tions'
+a(S'pachinko allocation       topic model'
 p191
-F11.0
+F11.019047619047619
 tp192
-a(S'system       obtains good results'
+a(S'topic-specific collec-       tions'
 p193
-F10.951923076923077
+F11.0
 tp194
-a(S'identifying topic-specific       scenarios'
+a(S'system       obtains good results'
 p195
-F10.928571428571429
+F10.951923076923077
 tp196
-a(S'identifying topic-specific scenarios'
+a(S'identifying topic-specific       scenarios'
 p197
 F10.928571428571429
 tp198
-a(S'discovering topic-specific scenarios'
+a(S'identifying topic-specific scenarios'
 p199
 F10.928571428571429
 tp200
-a(S'discovering topic-specific scenarios       2'
+a(S'discovering topic-specific scenarios'
 p201
 F10.928571428571429
 tp202
-a(S'contingency relations       contingency relationship'
+a(S'discovering topic-specific scenarios       2'
 p203
-F10.928320802005013
+F10.928571428571429
 tp204
-a(S'contingency       causal relations       relations'
+a(S'contingency relations       contingency relationship'
 p205
-F10.871952608794714
+F10.928320802005013
 tp206
-a(S'evaluate contingency relationships ranked'
+a(S'contingency       causal relations       relations'
 p207
-F10.782862954487669
+F10.871952608794714
 tp208
-a(S'security council held'
+a(S'evaluate contingency relationships ranked'
 p209
-F10.75
+F10.782862954487669
 tp210
-a(S'indirect rela-       tionships'
+a(S'security council held'
 p211
-F10.533333333333333
+F10.75
 tp212
-a(S'natural language events contributing'
+a(S'indirect rela-       tionships'
 p213
-F10.254978354978356
+F10.533333333333333
 tp214
-a(S'topic-specific scenario       clusters obtained'
+a(S'natural language events contributing'
 p215
-F10.08095238095238
+F10.254978354978356
 tp216
-a(S'katrina hit florida'
+a(S'topic-specific scenario       clusters obtained'
 p217
-F10.0
+F10.08095238095238
 tp218
-a(S'predefined linguistic patterns'
+a(S'katrina hit florida'
 p219
-F9.666666666666668
+F10.0
 tp220
-a(S'inspected iraqi scientists'
+a(S'predefined linguistic patterns'
 p221
 F9.666666666666668
 tp222
-a(S'tingency discourse relations'
+a(S'inspected iraqi scientists'
 p223
-F9.65546218487395
+F9.666666666666668
 tp224
-a(S'inter-       annotator agreement'
+a(S'tingency discourse relations'
 p225
-F9.615384615384615
+F9.65546218487395
 tp226
-a(S'hurricane katrina passed'
+a(S'inter-       annotator agreement'
 p227
-F9.5625
+F9.615384615384615
 tp228
-a(S'katrina       hitflorida late'
+a(S'hurricane katrina passed'
 p229
-F9.5
+F9.5625
 tp230
-a(S'government rescue plans'
+a(S'katrina       hitflorida late'
 p231
 F9.5
 tp232
-a(S'topic-specific scenarios identified'
+a(S'government rescue plans'
 p233
-F9.428571428571429
+F9.5
 tp234
-a(S'generate frequent combinations'
+a(S'topic-specific scenarios identified'
 p235
-F9.4
+F9.428571428571429
 tp236
-a(S'human-agreed test sets'
+a(S'generate frequent combinations'
 p237
-F9.34090909090909
+F9.4
 tp238
-a(S'developed chemical weapons'
+a(S'human-agreed test sets'
 p239
-F9.25
+F9.34090909090909
 tp240
-a(S'special data sets [21]'
+a(S'developed chemical weapons'
 p241
 F9.25
 tp242
-a(S'special data       sets'
+a(S'special data sets [21]'
 p243
 F9.25
 tp244
-a(S'developing chemical weapons'
+a(S'special data       sets'
 p245
 F9.25
 tp246
-a(S'developing chemical       weapons'
+a(S'developing chemical weapons'
 p247
 F9.25
 tp248
-a(S'natural language understanding'
+a(S'developing chemical       weapons'
 p249
-F9.233333333333334
+F9.25
 tp250
-a(S'identifying causal relationships'
+a(S'natural language understanding'
 p251
-F9.223320158102768
+F9.233333333333334
 tp252
-a(S'linguistic patterns aim'
+a(S'identifying causal relationships'
 p253
-F9.166666666666668
+F9.223320158102768
 tp254
-a(S'effect roles assignment                 figure 1'
+a(S'linguistic patterns aim'
 p255
-F9.13888888888889
+F9.166666666666668
 tp256
-a(S'frequent event pair'
+a(S'effect roles assignment                 figure 1'
 p257
-F9.09964349376114
+F9.13888888888889
 tp258
-a(S'identifying contingency relations'
+a(S'frequent event pair'
 p259
-F9.021303258145362
+F9.09964349376114
 tp260
-a(S'ont el refers'
+a(S'identifying contingency relations'
 p261
-F9.0
+F9.021303258145362
 tp262
-a(S'conditional prob-       abilities'
+a(S'ont el refers'
 p263
 F9.0
 tp264
-a(S'residential homes north       >'
+a(S'conditional prob-       abilities'
 p265
 F9.0
 tp266
-a(S'supervision                 mehwish riaz'
+a(S'residential homes north       >'
 p267
 F9.0
 tp268
-a(S'frequent-pattern tree ap-'
+a(S'supervision                 mehwish riaz'
 p269
 F9.0
 tp270
-a(S'latent dirichlet al-'
+a(S'frequent-pattern tree ap-'
 p271
 F9.0
 tp272
-a(S'not-contingent ac-       cording'
+a(S'latent dirichlet al-'
 p273
 F9.0
 tp274
-a(S'urbana champaign       {       mriaz2'
+a(S'not-contingent ac-       cording'
 p275
 F9.0
 tp276
-a(S'beckman institute       university'
+a(S'urbana champaign       {       mriaz2'
 p277
 F9.0
 tp278
-a(S'casino barge sits'
+a(S'beckman institute       university'
 p279
 F9.0
 tp280
-a(S'long awaited ipo'
+a(S'casino barge sits'
 p281
 F9.0
 tp282
-a(S'destructive       <       force emerged'
+a(S'long awaited ipo'
 p283
 F9.0
 tp284
-a(S'learn       causal chains'
+a(S'destructive       <       force emerged'
 p285
-F8.969696969696969
+F9.0
 tp286
-a(S'unlike previous works [16]'
+a(S'learn       causal chains'
 p287
-F8.916666666666666
+F8.969696969696969
 tp288
-a(S'natural language processing'
+a(S'unlike previous works [16]'
 p289
-F8.9
+F8.916666666666666
 tp290
-a(S'iraq war test-sets ecd'
+a(S'natural language processing'
 p291
-F8.840608465608465
+F8.9
 tp292
-a(S'event       group pairs'
+a(S'iraq war test-sets ecd'
 p293
-F8.8343837535014
+F8.840608465608465
 tp294
-a(S'candidate event pairs'
+a(S'event       group pairs'
 p295
-F8.792717086834735
+F8.8343837535014
 tp296
-a(S'form good candidates'
+a(S'candidate event pairs'
 p297
-F8.791666666666666
+F8.792717086834735
 tp298
-a(S'ranked       contingency relationships'
+a(S'form good candidates'
 p299
-F8.782862954487669
+F8.791666666666666
 tp300
-a(S'rhetorical structure theory'
+a(S'ranked       contingency relationships'
 p301
-F8.777777777777777
+F8.782862954487669
 tp302
-a(S'supervised learning       models [6]'
+a(S'rhetorical structure theory'
 p303
-F8.75
+F8.777777777777777
 tp304
-a(S'supervised       learning models [6]'
+a(S'supervised learning       models [6]'
 p305
 F8.75
 tp306
-a(S'exploring contingency discourse       [7]'
+a(S'supervised       learning models [6]'
 p307
-F8.748194014447884
+F8.75
 tp308
-a(S'classify rhetorical relations'
+a(S'exploring contingency discourse       [7]'
 p309
-F8.714285714285715
+F8.748194014447884
 tp310
-a(S'contingency       detection task'
+a(S'classify rhetorical relations'
 p311
-F8.673684210526316
+F8.714285714285715
 tp312
-a(S'contingency detection task'
+a(S'contingency       detection task'
 p313
 F8.673684210526316
 tp314
-a(S'training supervised models'
+a(S'contingency detection task'
 p315
-F8.666666666666666
+F8.673684210526316
 tp316
-a(S'correct roles predicted'
+a(S'training supervised models'
 p317
 F8.666666666666666
 tp318
-a(S'international confer-       ence'
+a(S'correct roles predicted'
 p319
 F8.666666666666666
 tp320
-a(S'pam dirichlet parameters'
+a(S'international confer-       ence'
 p321
 F8.666666666666666
 tp322
-a(S'introduction                 unlike computers'
+a(S'pam dirichlet parameters'
 p323
 F8.666666666666666
 tp324
-a(S'comprehending       discourse relations'
+a(S'introduction                 unlike computers'
 p325
-F8.65546218487395
+F8.666666666666666
 tp326
-a(S'learning contingency       relations       1'
+a(S'comprehending       discourse relations'
 p327
-F8.604636591478698
+F8.65546218487395
 tp328
-a(S'learning contingency relations'
+a(S'learning contingency       relations       1'
 p329
 F8.604636591478698
 tp330
-a(S'maximum cosine       measure'
+a(S'learning contingency relations'
 p331
-F8.583333333333334
+F8.604636591478698
 tp332
-a(S'maximum       cosine measure'
+a(S'maximum cosine       measure'
 p333
 F8.583333333333334
 tp334
-a(S'unsupervised learning model'
+a(S'maximum       cosine measure'
 p335
-F8.566666666666666
+F8.583333333333334
 tp336
-a(S'electronic lexical database'
+a(S'unsupervised learning model'
 p337
-F8.5
+F8.566666666666666
 tp338
-a(S'jointly combining implicit       [3]'
+a(S'electronic lexical database'
 p339
 F8.5
 tp340
-a(S'online       counterfactual theories'
+a(S'jointly combining implicit       [3]'
 p341
 F8.5
 tp342
-a(S'probabilistic textual entailment'
+a(S'online       counterfactual theories'
 p343
 F8.5
 tp344
-a(S'war effects-economic progress'
+a(S'probabilistic textual entailment'
 p345
 F8.5
 tp346
-a(S'generic applied modeling'
+a(S'war effects-economic progress'
 p347
 F8.5
 tp348
-a(S'bigram event model'
+a(S'generic applied modeling'
 p349
-F8.47843137254902
+F8.5
 tp350
-a(S'causal lexico-syntactic patterns'
+a(S'bigram event model'
 p351
-F8.46969696969697
+F8.47843137254902
 tp352
-a(S'contingent/causal event pairs'
+a(S'causal lexico-syntactic patterns'
 p353
-F8.4593837535014
+F8.46969696969697
 tp354
-a(S'domain-specific text       collections'
+a(S'contingent/causal event pairs'
 p355
-F8.442857142857143
+F8.4593837535014
 tp356
-a(S'interpolated precision-recall curve'
+a(S'domain-specific text       collections'
 p357
-F8.416666666666666
+F8.442857142857143
 tp358
-a(S'topic-specific scenario tend'
+a(S'interpolated precision-recall curve'
 p359
-F8.414285714285715
+F8.416666666666666
 tp360
-a(S'computational linguistics       acl'
+a(S'topic-specific scenario tend'
 p361
-F8.4
+F8.414285714285715
 tp362
-a(S'mine frequent       combinations'
+a(S'computational linguistics       acl'
 p363
 F8.4
 tp364
-a(S'implicit       contingency relationships'
+a(S'mine frequent       combinations'
 p365
-F8.39397406559878
+F8.4
 tp366
-a(S'gale       group       http'
+a(S'implicit       contingency relationships'
 p367
-F8.375
+F8.39397406559878
 tp368
-a(S'investigating causal relations'
+a(S'gale       group       http'
 p369
-F8.350649350649352
+F8.375
 tp370
-a(S'iraq war collections'
+a(S'investigating causal relations'
 p371
-F8.337037037037037
+F8.350649350649352
 tp372
-a(S'top 100 ranked       relationships'
+a(S'iraq war collections'
 p373
-F8.309178743961352
+F8.337037037037037
 tp374
-a(S'top 100       ranked relationships'
+a(S'top 100 ranked       relationships'
 p375
 F8.309178743961352
 tp376
-a(S'causal discourse relations'
+a(S'top 100       ranked relationships'
 p377
-F8.291825821237587
+F8.309178743961352
 tp378
-a(S'statistical methods applied'
+a(S'causal discourse relations'
 p379
-F8.25
+F8.291825821237587
 tp380
-a(S'human judg-       ments'
+a(S'statistical methods applied'
 p381
 F8.25
 tp382
-a(S'news archives websites'
+a(S'human judg-       ments'
 p383
 F8.25
 tp384
-a(S'topic specific scenarios'
+a(S'news archives websites'
 p385
-F8.214285714285714
+F8.25
 tp386
-a(S'identifying scenario-specific events'
+a(S'topic specific scenarios'
 p387
-F8.188311688311689
+F8.214285714285714
 tp388
-a(S'statis-       tical approach'
+a(S'identifying scenario-specific events'
 p389
-F8.166666666666666
+F8.188311688311689
 tp390
-a(S'mining frequent patterns       [10]'
+a(S'statis-       tical approach'
 p391
-F8.161904761904761
+F8.166666666666666
 tp392
-a(S'implicit discourse relations'
+a(S'mining frequent patterns       [10]'
 p393
-F8.15546218487395
+F8.161904761904761
 tp394
-a(S'[       ]verb obj       subj'
+a(S'implicit discourse relations'
 p395
-F8.142857142857142
+F8.15546218487395
 tp396
-a(S'< subj verb obj >'
+a(S'[       ]verb obj       subj'
 p397
 F8.142857142857142
 tp398
-a(S'make good candidates'
+a(S'< subj verb obj >'
 p399
-F8.125
+F8.142857142857142
 tp400
-a(S'giving higher       weights'
+a(S'make good candidates'
 p401
-F8.076923076923077
+F8.125
 tp402
-a(S'mining causal structures'
+a(S'giving higher       weights'
 p403
-F8.064935064935064
+F8.076923076923077
 tp404
-a(S'broader causal relationships'
+a(S'mining causal structures'
 p405
-F8.0566534914361
+F8.064935064935064
 tp406
-a(S'iraq war instances'
+a(S'broader causal relationships'
 p407
-F8.037037037037038
+F8.0566534914361
 tp408
-a(S'higher inter-annotator       agreement'
+a(S'iraq war instances'
 p409
-F8.025641025641026
+F8.037037037037038
 tp410
-a(S'advanced topic model'
+a(S'higher inter-annotator       agreement'
 p411
-F8.019047619047619
+F8.025641025641026
 tp412
-a(S'damage       global warming'
+a(S'advanced topic model'
 p413
-F8.0
+F8.019047619047619
 tp414
-a(S'semantic role labeler'
+a(S'damage       global warming'
 p415
 F8.0
 tp416
-a(S'buy hard drives'
+a(S'semantic role labeler'
 p417
 F8.0
 tp418
-a(S'human-       agreed data'
+a(S'buy hard drives'
 p419
 F8.0
 tp420
-a(S'north-holland publishing company'
+a(S'human-       agreed data'
 p421
 F8.0
 tp422
-a(S'semantic role labeling'
+a(S'north-holland publishing company'
 p423
 F8.0
 tp424
-a(S'statistical measure       effect-control-dependency'
+a(S'semantic role labeling'
 p425
 F8.0
 tp426
-a(S'interpo-       lated precision'
+a(S'statistical measure       effect-control-dependency'
 p427
 F8.0
 tp428
-a(S'complete syntactic analysis'
+a(S'interpo-       lated precision'
 p429
 F8.0
 tp430
-a(S'people perceive       causal'
+a(S'complete syntactic analysis'
 p431
-F7.969696969696969
+F8.0
 tp432
-a(S'explicit discourse connectives'
+a(S'people perceive       causal'
 p433
-F7.9411764705882355
+F7.969696969696969
 tp434
-a(S'identify contingency relationships'
+a(S'explicit discourse connectives'
 p435
-F7.89397406559878
+F7.9411764705882355
 tp436
-a(S'identify       contingency relationships'
+a(S'identify contingency relationships'
 p437
 F7.89397406559878
 tp438
-a(S'combining local context       [11]'
+a(S'identify       contingency relationships'
 p439
-F7.875
+F7.89397406559878
 tp440
-a(S'table iv       shows'
+a(S'combining local context       [11]'
 p441
-F7.85
+F7.875
 tp442
-a(S'table iv shows'
+a(S'table iv       shows'
 p443
 F7.85
 tp444
-a(S'intelligent       text processing'
+a(S'table iv shows'
 p445
-F7.809523809523808
+F7.85
 tp446
-a(S'frequently purchase       laptops'
+a(S'intelligent       text processing'
 p447
-F7.8
+F7.809523809523808
 tp448
-a(S'contingency annotation task'
+a(S'frequently purchase       laptops'
 p449
-F7.7593984962406015
+F7.8
 tp450
-a(S'proposed approaches depend'
+a(S'contingency annotation task'
 p451
-F7.75
+F7.7593984962406015
 tp452
-a(S'temporal query logs'
+a(S'proposed approaches depend'
 p453
 F7.75
 tp454
-a(S'spe-       cial datasets'
+a(S'temporal query logs'
 p455
 F7.75
 tp456
-a(S'discover causal relationships'
+a(S'spe-       cial datasets'
 p457
-F7.7233201581027675
+F7.75
 tp458
-a(S'ecr shows reasonable performance'
+a(S'discover causal relationships'
 p459
-F7.69047619047619
+F7.7233201581027675
 tp460
-a(S'online encyclo-       causation'
+a(S'ecr shows reasonable performance'
 p461
-F7.666666666666667
+F7.69047619047619
 tp462
-a(S'6th international workshop'
+a(S'online encyclo-       causation'
 p463
-F7.666666666666666
+F7.666666666666667
 tp464
-a(S'structured mixture models'
+a(S'6th international workshop'
 p465
 F7.666666666666666
 tp466
-a(S'scenario learning task'
+a(S'structured mixture models'
 p467
-F7.664285714285715
+F7.666666666666666
 tp468
-a(S'effect roles assignment'
+a(S'scenario learning task'
 p469
-F7.638888888888889
+F7.664285714285715
 tp470
-a(S'causal knowledge extraction'
+a(S'effect roles assignment'
 p471
-F7.636363636363637
+F7.638888888888889
 tp472
-a(S'precision-recall performance       curves'
+a(S'causal knowledge extraction'
 p473
-F7.607142857142858
+F7.636363636363637
 tp474
-a(S'roxana girju       department'
+a(S'precision-recall performance       curves'
 p475
-F7.571428571428571
+F7.607142857142858
 tp476
-a(S'relatedness task shows'
+a(S'roxana girju       department'
 p477
-F7.541666666666666
+F7.571428571428571
 tp478
-a(S'iraq war dataset'
+a(S'relatedness task shows'
 p479
-F7.537037037037037
+F7.541666666666666
 tp480
-a(S'iraq war       word-types'
+a(S'iraq war dataset'
 p481
 F7.537037037037037
 tp482
-a(S'parameters set manually'
+a(S'iraq war       word-types'
 p483
-F7.5
+F7.537037037037037
 tp484
-a(S'search queries extracted'
+a(S'parameters set manually'
 p485
 F7.5
 tp486
-a(S'resulting event groups'
+a(S'search queries extracted'
 p487
-F7.495098039215686
+F7.5
 tp488
-a(S'event causality       test'
+a(S'resulting event groups'
 p489
-F7.436007130124778
+F7.495098039215686
 tp490
-a(S'topic-specific       scenarios'
+a(S'event causality       test'
 p491
-F7.428571428571429
+F7.436007130124778
 tp492
-a(S'iraq war collection'
+a(S'topic-specific       scenarios'
 p493
-F7.425925925925926
+F7.428571428571429
 tp494
-a(S'iraq war test-sets'
+a(S'iraq war collection'
 p495
-F7.412037037037037
+F7.425925925925926
 tp496
-a(S'tie put event'
+a(S'iraq war test-sets'
 p497
-F7.411764705882353
+F7.412037037037037
 tp498
-a(S'{       }       inter-sentential contingency relationship'
+a(S'tie put event'
 p499
-F7.407017543859649
+F7.411764705882353
 tp500
-a(S'{       } \xe2\x86\x92       {       intra-sentential contingency relationship'
+a(S'{       }       inter-sentential contingency relationship'
 p501
 F7.407017543859649
 tp502
-a(S'annotators needed knowledge'
+a(S'{       } \xe2\x86\x92       {       intra-sentential contingency relationship'
 p503
-F7.375
+F7.407017543859649
 tp504
-a(S'semantic entailment       relation'
+a(S'annotators needed knowledge'
 p505
-F7.333333333333334
+F7.375
 tp506
-a(S'capture contingency relations'
+a(S'semantic entailment       relation'
 p507
-F7.271303258145363
+F7.333333333333334
 tp508
-a(S'machine learning research'
+a(S'capture contingency relations'
 p509
-F7.250000000000001
+F7.271303258145363
 tp510
-a(S'interesting cognitive       study'
+a(S'machine learning research'
 p511
-F7.25
+F7.250000000000001
 tp512
-a(S'english sentence entails'
+a(S'interesting cognitive       study'
 p513
-F7.214285714285714
+F7.25
 tp514
-a(S'advanced domain knowledge'
+a(S'english sentence entails'
 p515
 F7.214285714285714
 tp516
-a(S'scenario-specific       events tend'
+a(S'advanced domain knowledge'
 p517
-F7.188311688311688
+F7.214285714285714
 tp518
-a(S'learn-       ing methods'
+a(S'scenario-specific       events tend'
 p519
-F7.166666666666666
+F7.188311688311688
 tp520
-a(S'web news articles'
+a(S'learn-       ing methods'
 p521
 F7.166666666666666
 tp522
-a(S'single text document'
+a(S'web news articles'
 p523
-F7.142857142857142
+F7.166666666666666
 tp524
-a(S'input text units'
+a(S'single text document'
 p525
 F7.142857142857142
 tp526
-a(S'manipulation theory adopted'
+a(S'input text units'
 p527
-F7.111111111111111
+F7.142857142857142
 tp528
-a(S'wordnet sense similarity'
+a(S'manipulation theory adopted'
 p529
-F7.085714285714285
+F7.111111111111111
 tp530
-a(S'scenario generation task'
+a(S'wordnet sense similarity'
 p531
-F7.080952380952381
+F7.085714285714285
 tp532
-a(S'pam generates'
+a(S'scenario generation task'
 p533
-F7.0
+F7.080952380952381
 tp534
-a(S'emergency       session'
+a(S'pam generates'
 p535
 F7.0
 tp536
-a(S'calculate average cosine-similarity'
+a(S'emergency       session'
 p537
 F7.0
 tp538
-a(S'model assigns sentence'
+a(S'calculate average cosine-similarity'
 p539
-F6.947619047619048
+F7.0
 tp540
-a(S'people perceive causality'
+a(S'model assigns sentence'
 p541
-F6.933333333333334
+F6.947619047619048
 tp542
-a(S'grouping events procedure'
+a(S'people perceive causality'
 p543
-F6.888311688311688
+F6.933333333333334
 tp544
-a(S'identified contingency       dependencies'
+a(S'grouping events procedure'
 p545
-F6.807017543859649
+F6.888311688311688
 tp546
-a(S'randomly selected 80 test'
+a(S'identified contingency       dependencies'
 p547
-F6.757575757575758
+F6.807017543859649
 tp548
-a(S'context-poor statistical measures'
+a(S'randomly selected 80 test'
 p549
-F6.75
+F6.757575757575758
 tp550
-a(S'potential candidates'
+a(S'context-poor statistical measures'
 p551
 F6.75
 tp552
-a(S'maximum median distance'
+a(S'potential candidates'
 p553
-F6.708333333333334
+F6.75
 tp554
-a(S'annotators disagreed       contingency'
+a(S'maximum median distance'
 p555
-F6.682017543859649
+F6.708333333333334
 tp556
-a(S'inspection post-'
+a(S'annotators disagreed       contingency'
 p557
-F6.666666666666667
+F6.682017543859649
 tp558
-a(S'statistical measure effect-control-ratio'
+a(S'inspection post-'
 p559
 F6.666666666666667
 tp560
-a(S'distance penalization       measure'
+a(S'statistical measure effect-control-ratio'
 p561
-F6.625
+F6.666666666666667
 tp562
-a(S'automatic sense pre-       [16]'
+a(S'distance penalization       measure'
 p563
-F6.619047619047619
+F6.625
 tp564
-a(S'general dependency measures'
+a(S'automatic sense pre-       [16]'
 p565
-F6.6
+F6.619047619047619
 tp566
-a(S'inspection       scenario'
+a(S'general dependency measures'
 p567
-F6.5809523809523816
+F6.6
 tp568
-a(S'human-agreed       annotated test-sets'
+a(S'inspection       scenario'
 p569
-F6.541666666666667
+F6.5809523809523816
 tp570
-a(S'find       meaningful order'
+a(S'human-agreed       annotated test-sets'
 p571
-F6.5
+F6.541666666666667
 tp572
-a(S'transaction database records'
+a(S'find       meaningful order'
 p573
 F6.5
 tp574
-a(S'katrina disaster'
+a(S'transaction database records'
 p575
 F6.5
 tp576
-a(S'rank contingent pairs'
+a(S'katrina disaster'
 p577
-F6.487012987012987
+F6.5
 tp578
-a(S'pair probabilities'
+a(S'rank contingent pairs'
 p579
-F6.454545454545455
+F6.487012987012987
 tp580
-a(S'clusters semantically related'
+a(S'pair probabilities'
 p581
-F6.433333333333334
+F6.454545454545455
 tp582
-a(S'collections       agreement'
+a(S'clusters semantically related'
 p583
-F6.415384615384616
+F6.433333333333334
 tp584
-a(S'scenario cluster discovered'
+a(S'collections       agreement'
 p585
-F6.414285714285715
+F6.415384615384616
 tp586
-a(S'frequent pair'
+a(S'scenario cluster discovered'
 p587
-F6.3545454545454545
+F6.414285714285715
 tp588
-a(S'table iii'
+a(S'frequent pair'
 p589
-F6.35
+F6.3545454545454545
 tp590
-a(S'causality notion proposed'
+a(S'table iii'
 p591
 F6.35
 tp592
-a(S'semantically       dependent events'
+a(S'causality notion proposed'
 p593
-F6.3421578421578415
+F6.35
 tp594
-a(S'learn associations'
+a(S'semantically       dependent events'
 p595
-F6.333333333333334
+F6.3421578421578415
 tp596
-a(S'data sets'
+a(S'learn associations'
 p597
-F6.25
+F6.333333333333334
 tp598
-a(S'strongly related events'
+a(S'data sets'
 p599
-F6.242857142857143
+F6.25
 tp600
 a.

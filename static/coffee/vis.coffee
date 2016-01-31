@@ -185,7 +185,15 @@ Network = () ->
 
     # always show links in force layout
     if layout == "force"
-      force.links(curLinksData)
+      # ADDED BY MAXL:  add extra links for closeness:
+      weightedLinksData = curLinksData
+      # for l in curLinksData
+      #   for index in [1...parseInt(l.closeness, 10)] by 1
+      #     weightedLinksData.push l
+      # for l in weightedLinksData
+      #   alert(l.source)
+
+      force.links(weightedLinksData)
       updateLinks()
     else
       # reset links so they do not interfere with
@@ -252,8 +260,8 @@ Network = () ->
     data.nodes.forEach (n) ->
       # set initial x/y to values within the width/height
       # of the visualization
-      n.x = randomnumber=Math.floor(Math.random()*width)
-      n.y = randomnumber=Math.floor(Math.random()*height)
+      n.x = randomnumber= Math.floor(Math.random()*width)
+      n.y = randomnumber= Math.floor(Math.random()*height)
       # add radius to the node so we can use it later
       n.radius = circleRadius(n.playcount)
 
@@ -374,8 +382,11 @@ Network = () ->
     node.exit().remove()
 
   # handle node clicks:
-  nodeClickHandler = () ->
-    window.parent.document.getElementById('if2').src = "http://arxiv.org"
+  nodeClickHandler = (d,i) ->
+    # window.parent.document.getElementById('if2').src = "http://arxiv.org"
+    url = d.name
+    console.log(url)
+    window.parent.document.getElementById('if2').src = url
 
   # enter/exit display for links
   updateLinks = () ->
@@ -450,6 +461,10 @@ Network = () ->
   # particular node.
   strokeFor = (d) ->
     d3.rgb(nodeColors(d.artist)).darker().toString()
+
+  # get the URL associated with a given node:
+  getURL = (d,i) ->
+    return d.name
 
   # Mouseover tooltip function
   showDetails = (d,i) ->
@@ -527,5 +542,5 @@ $ ->
     searchTerm = $(this).val()
     myNetwork.updateSearch(searchTerm)
 
-  d3.json "/static/data/call_me_al.json", (json) ->
+  d3.json "/static/data/test_papers.json", (json) ->
     myNetwork("#vis", json)
