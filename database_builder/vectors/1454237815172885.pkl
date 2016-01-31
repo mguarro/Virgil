@@ -1,0 +1,1202 @@
+(lp0
+(S'challenges confronting        modern day humanities scholars'
+p1
+F25.666666666666668
+tp2
+a(S'relations face significant error rates'
+p3
+F21.684210526315788
+tp4
+a(S'lengthy processing time significantly increases'
+p5
+F19.284615384615385
+tp6
+a(S'25th australian computer        science conference'
+p7
+F18.795454545454547
+tp8
+a(S'removing nodes representing        commonly occurring'
+p9
+F17.2
+tp10
+a(S'simplified regular expression syntax works'
+p11
+F16.0
+tp12
+a(S'free-form informal text analysis tools'
+p13
+F15.77529761904762
+tp14
+a(S'advanced free-text input field'
+p15
+F14.5
+tp16
+a(S'phrase nets                 frank van ham'
+p17
+F14.433333333333334
+tp18
+a(S'original        topological information remains'
+p19
+F14.0625
+tp20
+a(S'avoids obvious        problems inherent'
+p21
+F14.0
+tp22
+a(S'bottom detail image        shows'
+p23
+F13.974358974358974
+tp24
+a(S'historical        researcher untold time'
+p25
+F13.884615384615385
+tp26
+a(S'ieee computer society                       ieee transactions'
+p27
+F13.843248663101605
+tp28
+a(S'full regular        expression syntax'
+p29
+F13.75
+tp30
+a(S'nicely flush-left vertical column'
+p31
+F13.5
+tp32
+a(S'basic regular        expression syntax'
+p33
+F13.107142857142858
+tp34
+a(S'seemingly        superficial methods produce'
+p35
+F12.6
+tp36
+a(S'linear time        filtering operation'
+p37
+F12.509615384615385
+tp38
+a(S'require unreliable artificial intelligence'
+p39
+F12.5
+tp40
+a(S'sets form equivalence classes'
+p41
+F12.142857142857142
+tp42
+a(S'near-       random spatial layout'
+p43
+F12.138461538461538
+tp44
+a(S'extract basic genitive relationships'
+p45
+F11.857142857142858
+tp46
+a(S'time reading endless pamphlet'
+p47
+F11.717948717948719
+tp48
+a(S'phrase net user interface applied'
+p49
+F11.702199046002102
+tp50
+a(S'phrase net color        coding'
+p51
+F11.675883256528419
+tp52
+a(S'neural        information processing systems 15'
+p53
+F11.629166666666666
+tp54
+a(S'phrase net technique consists'
+p55
+F11.425883256528419
+tp56
+a(S'conventional tag clouds display'
+p57
+F11.4
+tp58
+a(S'visualization handle legibility concerns'
+p59
+F11.23913043478261
+tp60
+a(S'standard graph layout engine'
+p61
+F10.86604774535809
+tp62
+a(S'phrase nets                 1175                 thth       fig 6'
+p63
+F10.842296918767508
+tp64
+a(S'king james bible indicating'
+p65
+F10.6
+tp66
+a(S'phrase net patterns        work'
+p67
+F10.568040119273515
+tp68
+a(S'phrase net immediately shows'
+p69
+F10.483575564220725
+tp70
+a(S'high-dimensional numeric data set'
+p71
+F10.461538461538462
+tp72
+a(S'network representation potentially        makes'
+p73
+F10.423076923076923
+tp74
+a(S'basic phrase net technique'
+p75
+F10.283026113671275
+tp76
+a(S'daughter         women possess things'
+p77
+F10.25
+tp78
+a(S'simple text-based pattern matching'
+p79
+F10.205642633228841
+tp80
+a(S'top        phrase net shows'
+p81
+F10.150242230887393
+tp82
+a(S'left image shows relationships'
+p83
+F10.107692307692307
+tp84
+a(S'personalized search engine'
+p85
+F9.5
+tp86
+a(S'wandering historical eye'
+p87
+F9.5
+tp88
+a(S'simple pattern matching techniques'
+p89
+F9.455642633228841
+tp90
+a(S'themes multiple                         ieee transactions'
+p91
+F9.430147058823529
+tp92
+a(S'future text visualization work'
+p93
+F9.395380434782608
+tp94
+a(S'typical graph layout        algorithm'
+p95
+F9.36604774535809
+tp96
+a(S'eleventh international        conference'
+p97
+F9.25
+tp98
+a(S'fourteenth international conference'
+p99
+F9.25
+tp100
+a(S'frank van ham'
+p101
+F9.238095238095237
+tp102
+a(S'perform directed edge compression'
+p103
+F9.166666666666666
+tp104
+a(S'index terms text visualization'
+p105
+F9.128713768115942
+tp106
+a(S'full parse-based methods'
+p107
+F9.1
+tp108
+a(S'windows thinkpad t60'
+p109
+F9.0
+tp110
+a(S'handle label typography'
+p111
+F9.0
+tp112
+a(S'fast exact inference'
+p113
+F9.0
+tp114
+a(S'master        standard notations'
+p115
+F9.0
+tp116
+a(S'xample        se        ases       4'
+p117
+F9.0
+tp118
+a(S'text-based input method'
+p119
+F9.0
+tp120
+a(S'complex regular expression'
+p121
+F8.916666666666666
+tp122
+a(S'interactive training mechanism'
+p123
+F8.75
+tp124
+a(S'western institutional knowledge'
+p125
+F8.666666666666666
+tp126
+a(S'generating visual overviews'
+p127
+F8.583333333333334
+tp128
+a(S'illuminating visual overview'
+p129
+F8.583333333333334
+tp130
+a(S'technical linguistics terminology'
+p131
+F8.5
+tp132
+a(S'typed dependency parse'
+p133
+F8.5
+tp134
+a(S'main exploratory processes'
+p135
+F8.5
+tp136
+a(S'diverging color scheme'
+p137
+F8.5
+tp138
+a(S'cleaner visual representation'
+p139
+F8.416666666666668
+tp140
+a(S'coherent visual representation'
+p141
+F8.416666666666668
+tp142
+a(S'powerful matching capabilities'
+p143
+F8.40909090909091
+tp144
+a(S'simple word-order approaches'
+p145
+F8.4
+tp146
+a(S'edge-compression        saves time'
+p147
+F8.384615384615385
+tp148
+a(S'ieee cs press'
+p149
+F8.367647058823529
+tp150
+a(S'interactive visual        concordance'
+p151
+F8.333333333333334
+tp152
+a(S'careful        typographic choices'
+p153
+F8.333333333333334
+tp154
+a(S'image shows relationships'
+p155
+F8.307692307692308
+tp156
+a(S'layout phase        includes'
+p157
+F8.288461538461538
+tp158
+a(S'natural language        processing'
+p159
+F8.285714285714286
+tp160
+a(S'natural language processing'
+p161
+F8.285714285714286
+tp162
+a(S'semantic classification services'
+p163
+F8.285714285714285
+tp164
+a(S'phase        involves laying'
+p165
+F8.25
+tp166
+a(S'existing geometric techniques'
+p167
+F8.25
+tp168
+a(S'orthographical parser        ignores'
+p169
+F8.222222222222221
+tp170
+a(S'orthographical parser finished'
+p171
+F8.222222222222221
+tp172
+a(S'removing        overlapping nodes'
+p173
+F8.2
+tp174
+a(S'comparing phrase nets'
+p175
+F8.195238095238095
+tp176
+a(S'phrase net extracts'
+p177
+F8.175883256528419
+tp178
+a(S'building phrase net'
+p179
+F8.175883256528417
+tp180
+a(S'regular expression templates'
+p181
+F8.166666666666666
+tp182
+a(S'manuscript received 31 march 2009'
+p183
+F8.166666666666666
+tp184
+a(S'clear visual organization'
+p185
+F8.083333333333334
+tp186
+a(S'makes interactive exploration'
+p187
+F8.05
+tp188
+a(S'people possessing things'
+p189
+F8.0
+tp190
+a(S'good relevance measure'
+p191
+F8.0
+tp192
+a(S'sequential palette running'
+p193
+F8.0
+tp194
+a(S'fine-       grained control'
+p195
+F8.0
+tp196
+a(S'general clustering procedure'
+p197
+F8.0
+tp198
+a(S'clouds [2] enhance        readability'
+p199
+F8.0
+tp200
+a(S'posted online       11 october 2009'
+p201
+F8.0
+tp202
+a(S'wikipedia articles ranging'
+p203
+F8.0
+tp204
+a(S'historian jo guldi'
+p205
+F8.0
+tp206
+a(S'finds alliterative phrases'
+p207
+F8.0
+tp208
+a(S'cryptic regular expression'
+p209
+F7.916666666666666
+tp210
+a(S'call edge compression'
+p211
+F7.916666666666666
+tp212
+a(S'interrelated conceptual networks'
+p213
+F7.9
+tp214
+a(S'simple textual search'
+p215
+F7.9
+tp216
+a(S'long time required'
+p217
+F7.884615384615385
+tp218
+a(S'continuously varying locations'
+p219
+F7.833333333333333
+tp220
+a(S'singe clustered node'
+p221
+F7.7272727272727275
+tp222
+a(S'document collections change'
+p223
+F7.7
+tp224
+a(S'extracting hypernym relations'
+p225
+F7.684210526315789
+tp226
+a(S'wikipedia articles related'
+p227
+F7.666666666666667
+tp228
+a(S'book quickly runs'
+p229
+F7.666666666666666
+tp230
+a(S'solitary major character'
+p231
+F7.666666666666666
+tp232
+a(S'text friendly        manner'
+p233
+F7.65625
+tp234
+a(S'orthographical parser matching'
+p235
+F7.6313131313131315
+tp236
+a(S'simple        syntactic constructions'
+p237
+F7.622222222222222
+tp238
+a(S'obeys spatial        constraints'
+p239
+F7.6
+tp240
+a(S'reveals stark differences'
+p241
+F7.6
+tp242
+a(S'accessible        user experience'
+p243
+F7.526315789473684
+tp244
+a(S'method generalizes naturally'
+p245
+F7.5
+tp246
+a(S'actions taking place'
+p247
+F7.5
+tp248
+a(S'analyzing walt whitman'
+p249
+F7.5
+tp250
+a(S'electronic lexical database'
+p251
+F7.5
+tp252
+a(S'post-processing step removes'
+p253
+F7.5
+tp254
+a(S'discourse fights occurred'
+p255
+F7.5
+tp256
+a(S'stress        majorization algorithm        [8]'
+p257
+F7.5
+tp258
+a(S'node-       link diagram'
+p259
+F7.5
+tp260
+a(S'short cut direct'
+p261
+F7.5
+tp262
+a(S'edges evenly spread'
+p263
+F7.5
+tp264
+a(S'fairly        good list'
+p265
+F7.5
+tp266
+a(S'large        document collections'
+p267
+F7.5
+tp268
+a(S'identical network neighborhoods'
+p269
+F7.423076923076923
+tp270
+a(S'visual representation stages'
+p271
+F7.416666666666667
+tp272
+a(S'edge compression algorithm'
+p273
+F7.416666666666666
+tp274
+a(S'popover hints        provide'
+p275
+F7.4
+tp276
+a(S'quickly spot        terms'
+p277
+F7.3999999999999995
+tp278
+a(S'main pattern receiver'
+p279
+F7.396551724137931
+tp280
+a(S'identical        neighbor sets {'
+p281
+F7.392857142857142
+tp282
+a(S'standard graph layout'
+p283
+F7.36604774535809
+tp284
+a(S'semantic information storage'
+p285
+F7.348214285714286
+tp286
+a(S'extract high-level meaning'
+p287
+F7.333333333333333
+tp288
+a(S'pattern matching stage'
+p289
+F7.305642633228841
+tp290
+a(S'sufficiently large        bodies'
+p291
+F7.3
+tp292
+a(S'nets give hints'
+p293
+F7.266666666666667
+tp294
+a(S'university-industry knowledge relationship'
+p295
+F7.266666666666666
+tp296
+a(S'specific edge weights'
+p297
+F7.25
+tp298
+a(S'latent space approach'
+p299
+F7.25
+tp300
+a(S'single perfect view'
+p301
+F7.222222222222222
+tp302
+a(S'open-source        stanford parser        [13]'
+p303
+F7.222222222222222
+tp304
+a(S'natural language parsing'
+p305
+F7.21904761904762
+tp306
+a(S'actual        textual matches'
+p307
+F7.2
+tp308
+a(S'main focal points'
+p309
+F7.166666666666667
+tp310
+a(S'matching regular expressions'
+p311
+F7.166666666666667
+tp312
+a(S'simple regular expressions'
+p313
+F7.157575757575757
+tp314
+a(S'collapsing networks based'
+p315
+F7.15
+tp316
+a(S'israel loom large'
+p317
+F7.1
+tp318
+a(S'find verb-noun        patterns'
+p319
+F7.0588235294117645
+tp320
+a(S'patterns simultaneously serves'
+p321
+F7.0588235294117645
+tp322
+a(S'pattern matching phase'
+p323
+F7.055642633228841
+tp324
+a(S'matching template methods'
+p325
+F7.00909090909091
+tp326
+a(S'draw quantitative        conclusions'
+p327
+F7.0
+tp328
+a(S'competing scientific ideas'
+p329
+F6.933333333333334
+tp330
+a(S'opencalais        central actors'
+p331
+F6.916666666666667
+tp332
+a(S'news stories [1] based'
+p333
+F6.916666666666666
+tp334
+a(S'visualization systems attack'
+p335
+F6.905797101449275
+tp336
+a(S'potentially interesting patterns'
+p337
+F6.8921568627450975
+tp338
+a(S'applying phrase nets'
+p339
+F6.861904761904762
+tp340
+a(S'resulting layout matches'
+p341
+F6.849572649572649
+tp342
+a(S'phrase nets                 1173                 fig 3'
+p343
+F6.842296918767508
+tp344
+a(S'combine maximum flexibility'
+p345
+F6.833333333333334
+tp346
+a(S'standard        graph layouts'
+p347
+F6.827586206896552
+tp348
+a(S'orthographic pattern matching'
+p349
+F6.80564263322884
+tp350
+a(S'phrase net displays'
+p351
+F6.775883256528418
+tp352
+a(S'flat-       earth theory'
+p353
+F6.75
+tp354
+a(S'simple        pattern matching'
+p355
+F6.70564263322884
+tp356
+a(S'simple pattern matching'
+p357
+F6.70564263322884
+tp358
+a(S'eyes        [19] web site'
+p359
+F6.7
+tp360
+a(S'understanding        power relations'
+p361
+F6.684210526315789
+tp362
+a(S'mapping        unstructured text'
+p363
+F6.584821428571429
+tp364
+a(S'perform syntactic parsing'
+p365
+F6.555555555555555
+tp366
+a(S'text visualizations offered'
+p367
+F6.53125
+tp368
+a(S'main questions defined'
+p369
+F6.5
+tp370
+a(S'analyzed jane austen'
+p371
+F6.5
+tp372
+a(S'two-dimensional space based'
+p373
+F6.5
+tp374
+a(S'identify major locations'
+p375
+F6.499999999999999
+tp376
+a(S'single edge drawn'
+p377
+F6.472222222222222
+tp378
+a(S'enter matching        patterns'
+p379
+F6.467914438502674
+tp380
+a(S'text        analysis stage'
+p381
+F6.441964285714286
+tp382
+a(S'graph layout method'
+p383
+F6.36604774535809
+tp384
+a(S'text mapping technique'
+p385
+F6.334821428571429
+tp386
+a(S'expect novice users'
+p387
+F6.333333333333333
+tp388
+a(S'define complex patterns'
+p389
+F6.331550802139037
+tp390
+a(S'november/december 2009                 1169                 mapping text'
+p391
+F6.284821428571428
+tp392
+a(S'document content visualization'
+p393
+F6.272463768115942
+tp394
+a(S'single large node'
+p395
+F6.24949494949495
+tp396
+a(S'peter cho created'
+p397
+F6.166666666666667
+tp398
+a(S'individual connected components'
+p399
+F6.166666666666667
+tp400
+a(S'text involves        legibility'
+p401
+F6.15625
+tp402
+a(S'vi\xc3\xa9gas                   fig'
+p403
+F6.147058823529411
+tp404
+a(S'news story maps'
+p405
+F6.083333333333333
+tp406
+a(S'choose syntactic relationships'
+p407
+F6.055555555555555
+tp408
+a(S'artificial intelligence'
+p409
+F6.0
+tp410
+a(S'future work'
+p411
+F6.0
+tp412
+a(S'large text        corpora'
+p413
+F5.95625
+tp414
+a(S'topologically equivalent nodes'
+p415
+F5.95
+tp416
+a(S'resulting graph illustrates'
+p417
+F5.938697318007663
+tp418
+a(S'themeriver display        typically'
+p419
+F5.916666666666667
+tp420
+a(S'regular expression'
+p421
+F5.916666666666666
+tp422
+a(S'interesting usage        scenarios'
+p423
+F5.916666666666666
+tp424
+a(S'ieee        conference'
+p425
+F5.867647058823529
+tp426
+a(S'compare multiple texts'
+p427
+F5.845238095238095
+tp428
+a(S'graph drawing cases'
+p429
+F5.827586206896552
+tp430
+a(S'directed       representing'
+p431
+F5.75
+tp432
+a(S'common problem involved'
+p433
+F5.678571428571429
+tp434
+a(S'book titles showing'
+p435
+F5.666666666666667
+tp436
+a(S'dozen text visualizations'
+p437
+F5.53125
+tp438
+a(S'humanities scholar'
+p439
+F5.5
+tp440
+a(S'american society'
+p441
+F5.5
+tp442
+a(S'lengthy        genealogies'
+p443
+F5.5
+tp444
+a(S'4        visual representation'
+p445
+F5.416666666666667
+tp446
+a(S'compare neighbors connected'
+p447
+F5.416666666666667
+tp448
+a(S'processing power'
+p449
+F5.4
+tp450
+a(S'tag clouds'
+p451
+F5.4
+tp452
+a(S'van ham'
+p453
+F5.238095238095238
+tp454
+a(S'phrase        nets'
+p455
+F5.195238095238095
+tp456
+a(S'phrase nets                 1171'
+p457
+F5.195238095238095
+tp458
+a(S'phrase nets'
+p459
+F5.195238095238095
+tp460
+a(S'ieee transactions'
+p461
+F5.180147058823529
+tp462
+a(S'ieee        transactions'
+p463
+F5.180147058823529
+tp464
+a(S'mapping techniques'
+p465
+F5.178571428571429
+tp466
+a(S'phrase net'
+p467
+F5.175883256528418
+tp468
+a(S'phrase        net'
+p469
+F5.175883256528418
+tp470
+a(S'news stories'
+p471
+F5.166666666666666
+tp472
+a(S'information science'
+p473
+F5.0625
+tp474
+a(S'layout procedure'
+p475
+F5.038461538461538
+tp476
+a(S'science base'
+p477
+F5.0
+tp478
+a(S'james joyce'
+p479
+F5.0
+tp480
+a(S'high-dimensional data'
+p481
+F5.0
+tp482
+a(S'walt whitman'
+p483
+F5.0
+tp484
+a(S'advanced forms'
+p485
+F5.0
+tp486
+a(S'immediately        revealing'
+p487
+F5.0
+tp488
+a(S'essentially random'
+p489
+F5.0
+tp490
+a(S'stress        majorization'
+p491
+F5.0
+tp492
+a(S'endless reams'
+p493
+F5.0
+tp494
+a(S'basic information'
+p495
+F4.919642857142858
+tp496
+a(S'edge compression'
+p497
+F4.916666666666666
+tp498
+a(S'3        edge compression'
+p499
+F4.916666666666666
+tp500
+a(S'filtering phase'
+p501
+F4.875
+tp502
+a(S'semantic net'
+p503
+F4.8663594470046085
+tp504
+a(S'semantic net        [18]'
+p505
+F4.8663594470046085
+tp506
+a(S'basic description'
+p507
+F4.857142857142858
+tp508
+a(S'basic zoom'
+p509
+F4.857142857142858
+tp510
+a(S'edge-compressed representation'
+p511
+F4.833333333333334
+tp512
+a(S'careful typography'
+p513
+F4.833333333333334
+tp514
+a(S'standard graph'
+p515
+F4.827586206896552
+tp516
+a(S'2        regular expressions'
+p517
+F4.757575757575758
+tp518
+a(S'regular expressions'
+p519
+F4.757575757575758
+tp520
+a(S'regular        expressions'
+p521
+F4.757575757575758
+tp522
+a(S'simplified form'
+p523
+F4.75
+tp524
+a(S'interactive        speeds'
+p525
+F4.75
+tp526
+a(S'two-dimensional space'
+p527
+F4.75
+tp528
+a(S'mit press'
+p529
+F4.75
+tp530
+a(S'textual matches'
+p531
+F4.7
+tp532
+a(S'interface        challenge'
+p533
+F4.666666666666667
+tp534
+a(S'established knowledge'
+p535
+F4.666666666666666
+tp536
+a(S'future research'
+p537
+F4.666666666666666
+tp538
+a(S'major controversies'
+p539
+F4.666666666666666
+tp540
+a(S'existing systems'
+p541
+F4.666666666666666
+tp542
+a(S'matching templates'
+p543
+F4.659090909090909
+tp544
+a(S'resulting layout'
+p545
+F4.649572649572649
+tp546
+a(S'ieee symposium'
+p547
+F4.617647058823529
+tp548
+a(S'resulting diagram'
+p549
+F4.611111111111111
+tp550
+a(S'finer-grained methods'
+p551
+F4.6
+tp552
+a(S'spatial position'
+p553
+F4.6
+tp554
+a(S'visual display'
+p555
+F4.583333333333334
+tp556
+a(S'visual guide'
+p557
+F4.583333333333334
+tp558
+a(S'visual perspective'
+p559
+F4.583333333333334
+tp560
+a(S'net consisting'
+p561
+F4.580645161290322
+tp562
+a(S'van wijk'
+p563
+F4.571428571428571
+tp564
+a(S'computer graphics'
+p565
+F4.545454545454545
+tp566
+a(S'tvcg@computer'
+p567
+F4.545454545454545
+tp568
+a(S'computer        graphics'
+p569
+F4.545454545454545
+tp570
+a(S'5        user interface'
+p571
+F4.526315789473684
+tp572
+a(S'computational linguistics'
+p573
+F4.5
+tp574
+a(S'analyzing patents'
+p575
+F4.5
+tp576
+a(S'algorithm valuable'
+p577
+F4.5
+tp578
+a(S'long dreamed'
+p579
+F4.5
+tp580
+a(S'2        orthographic linking'
+p581
+F4.5
+tp582
+a(S'actual reduction'
+p583
+F4.5
+tp584
+a(S'purely conceptual'
+p585
+F4.5
+tp586
+a(S'questions mentioned'
+p587
+F4.5
+tp588
+a(S'typed-dependency parse'
+p589
+F4.5
+tp590
+a(S'revealing        change'
+p591
+F4.5
+tp592
+a(S'vertical list'
+p593
+F4.5
+tp594
+a(S'vi\xc3\xa9gas'
+p595
+F4.5
+tp596
+a(S'great flexibility'
+p597
+F4.5
+tp598
+a(S'darker color'
+p599
+F4.5
+tp600
+a.

@@ -1,0 +1,1202 @@
+(lp0
+(S'cloud        classification        keywords        related news        related pages        semantic entities        related pictures                  points        35        28        25        22        21        19        17        16        15         8                  xperiments'
+p1
+F56.348966379781324
+tp2
+a(S'22001100 1144tthh iinntteerrnnaattiiinoofnnoaarllm ccaootinnoffnee rrveennisccueea iilnnisffaootrrimmonaattiioonn vviissuuaalliissaattiioonn                 visualization'
+p3
+F44.45454545454545
+tp4
+a(S'222887448                        22001100 1144tthh iinntteerrnnaattiiinoofnnoaarllm ccaootinnoffnee rrveennisccueea iilnnisffaootrrimmonaattiioonn vviissuuaalliissaattiioonn                 visualization'
+p5
+F44.45454545454545
+tp6
+a(S'knowledge technologies        jo\xc5\xbeef stefan institute        ljubljana'
+p7
+F42.9
+tp8
+a(S'7th international multi-       conference information society'
+p9
+F28.81372549019608
+tp10
+a(S'finding related news articles        finding pictures'
+p11
+F25.015933528836754
+tp12
+a(S'open directory project                  mplementation etails'
+p13
+F23.2
+tp14
+a(S'section ii briefly        describes related work'
+p15
+F22.874807987711215
+tp16
+a(S'13th international conference information visualisation'
+p17
+F22.81372549019608
+tp18
+a(S'open        1       directory project       summarization        showing'
+p19
+F20.575
+tp20
+a(S'open data cloud       [8] web        display'
+p21
+F19.73903903903904
+tp22
+a(S'arts \xe2\x86\x92 television \xe2\x86\x92 programs \xe2\x86\x92        talk shows'
+p23
+F19.666666666666668
+tp24
+a(S'figure 4 semantic entities                  onclusions       vi'
+p25
+F19.623015873015873
+tp26
+a(S'semantic technologies                  lorand dali        department'
+p27
+F17.92857142857143
+tp28
+a(S'system finds additional information        related'
+p29
+F17.81551760489142
+tp30
+a(S'service oriented architecture increases'
+p31
+F15.666666666666666
+tp32
+a(S'net/                  222887226                       figure 3 semantic graph visualization'
+p33
+F15.410894660894662
+tp34
+a(S'ibm almaden research center'
+p35
+F15.0
+tp36
+a(S'importance        finding web pages'
+p37
+F14.612138454243716
+tp38
+a(S'open        data cloud                  1                 2        http'
+p39
+F14.452136752136752
+tp40
+a(S'si                  dunja mladeni\xc4\x87        department'
+p41
+F14.166666666666666
+tp42
+a(S'semantic web providing intuitive'
+p43
+F13.773166023166024
+tp44
+a(S'headup annotates semantic entities'
+p45
+F13.178571428571429
+tp46
+a(S'service oriented text enrychment'
+p47
+F13.14942528735632
+tp48
+a(S'visualizations                  visualization        summary        semantic graph        triplets'
+p49
+F13.03008658008658
+tp50
+a(S'subject \xe2\x86\x92 verb \xe2\x86\x92        object triplet'
+p51
+F12.666666666666666
+tp52
+a(S'language independent extractive summarization'
+p53
+F12.208333333333334
+tp54
+a(S'yellow nodes represent verbs'
+p55
+F12.166666666666666
+tp56
+a(S'system recommending related pages'
+p57
+F11.852669307677797
+tp58
+a(S'ntroductioni       understanding information provided'
+p59
+F11.813725490196077
+tp60
+a(S'10th        international multiconference'
+p61
+F10.666666666666668
+tp62
+a(S'technologies        instantly accessible'
+p63
+F10.5
+tp64
+a(S'semantic web        technologies'
+p65
+F10.273166023166024
+tp66
+a(S'related news stories'
+p67
+F10.249266862170089
+tp68
+a(S'semantic entities didn'
+p69
+F10.178571428571429
+tp70
+a(S'current web page        classification'
+p71
+F10.054077353215284
+tp72
+a(S'unsupervised        graph based method'
+p73
+F9.9
+tp74
+a(S'semantic entities form'
+p75
+F9.845238095238095
+tp76
+a(S'textrank[4]        keyword extraction algorithm'
+p77
+F9.678571428571429
+tp78
+a(S'extracting        named entities'
+p79
+F9.5
+tp80
+a(S'edges show subject \xe2\x86\x92 predicate'
+p81
+F9.25
+tp82
+a(S'important        named entities'
+p83
+F9.125
+tp84
+a(S'web service provided'
+p85
+F8.927927927927927
+tp86
+a(S'related information provided'
+p87
+F8.92662871600253
+tp88
+a(S'related web pages'
+p89
+F8.891708346716836
+tp90
+a(S'unctionality escriptiond       iii'
+p91
+F8.666666666666666
+tp92
+a(S'javascript event        handlers'
+p93
+F8.5
+tp94
+a(S'apparently        unrelated topics'
+p95
+F8.5
+tp96
+a(S'learning sub-       structures'
+p97
+F8.5
+tp98
+a(S'social network sites'
+p99
+F8.5
+tp100
+a(S'wordle       cloud images'
+p101
+F8.444444444444445
+tp102
+a(S'section iii describes'
+p103
+F8.428571428571429
+tp104
+a(S'news        6        search services'
+p105
+F8.411363636363635
+tp106
+a(S'summarization approach adopted'
+p107
+F8.375
+tp108
+a(S'news article        describing'
+p109
+F8.303030303030303
+tp110
+a(S'integrates state-of-the-art        technology'
+p111
+F8.25
+tp112
+a(S'related pictures'
+p113
+F8.212903225806452
+tp114
+a(S'open directory'
+p115
+F8.2
+tp116
+a(S'natural language processing'
+p117
+F8.190476190476192
+tp118
+a(S'top ranked keywords'
+p119
+F8.166666666666666
+tp120
+a(S'find related content'
+p121
+F7.812903225806452
+tp122
+a(S'suggest related content'
+p123
+F7.812903225806452
+tp124
+a(S'similar web pages'
+p125
+F7.778805120910384
+tp126
+a(S'week guest list'
+p127
+F7.75
+tp128
+a(S'favorite        visualization        methods'
+p129
+F7.704545454545455
+tp130
+a(S'visual content enhancement'
+p131
+F7.7
+tp132
+a(S'semantic technologies'
+p133
+F7.678571428571429
+tp134
+a(S'blog post making'
+p135
+F7.583333333333334
+tp136
+a(S'document semantic graphs'
+p137
+F7.578571428571428
+tp138
+a(S'newly focused page'
+p139
+F7.5344827586206895
+tp140
+a(S'content enrichment        systems[8]'
+p141
+F7.533333333333333
+tp142
+a(S'semantic graph        annotation'
+p143
+F7.511904761904762
+tp144
+a(S'node ranking model'
+p145
+F7.5
+tp146
+a(S'show similar information'
+p147
+F7.313725490196077
+tp148
+a(S'important nodes        disappear'
+p149
+F7.291666666666666
+tp150
+a(S'http web services'
+p151
+F7.277286902286902
+tp152
+a(S'document visualization based'
+p153
+F7.254545454545454
+tp154
+a(S'current web page'
+p155
+F7.254077353215284
+tp156
+a(S'related news'
+p157
+F7.249266862170088
+tp158
+a(S'user interface matters'
+p159
+F7.229166666666666
+tp160
+a(S'large topic        ontology'
+p161
+F7.2
+tp162
+a(S'semantic entities'
+p163
+F7.178571428571429
+tp164
+a(S'triplet extraction        triplets[2]'
+p165
+F7.155844155844156
+tp166
+a(S'current page        extraction'
+p167
+F7.088054187192117
+tp168
+a(S'web page content'
+p169
+F6.829077353215284
+tp170
+a(S'text mining recipes'
+p171
+F6.732758620689655
+tp172
+a(S'yahoo        web search'
+p173
+F6.661261261261261
+tp174
+a(S'information society'
+p175
+F6.647058823529411
+tp176
+a(S'rating points'
+p177
+F6.5
+tp178
+a(S'finer points'
+p179
+F6.5
+tp180
+a(S'slide select events'
+p181
+F6.416666666666667
+tp182
+a(S'important sentences form'
+p183
+F6.391666666666667
+tp184
+a(S'related pages'
+p185
+F6.297113752122241
+tp186
+a(S'222887337                       related pages'
+p187
+F6.297113752122241
+tp188
+a(S'information        related'
+p189
+F6.259962049335863
+tp190
+a(S'information related'
+p191
+F6.259962049335863
+tp192
+a(S'relevant        topic categories'
+p193
+F6.2
+tp194
+a(S'news articles'
+p195
+F6.136363636363637
+tp196
+a(S'firefox user interface'
+p197
+F6.086309523809524
+tp198
+a(S'news search'
+p199
+F6.036363636363636
+tp200
+a(S'ork       ii'
+p201
+F6.0
+tp202
+a(S'related systems'
+p203
+F5.946236559139785
+tp204
+a(S'web        slidebar       page'
+p205
+F5.879077353215284
+tp206
+a(S'related content'
+p207
+F5.812903225806451
+tp208
+a(S'important keywords'
+p209
+F5.791666666666666
+tp210
+a(S'related tweets'
+p211
+F5.612903225806452
+tp212
+a(S'semantic graph'
+p213
+F5.511904761904762
+tp214
+a(S'annotated entities'
+p215
+F5.5
+tp216
+a(S'triplet extraction'
+p217
+F5.428571428571429
+tp218
+a(S'object form'
+p219
+F5.333333333333333
+tp220
+a(S'news article'
+p221
+F5.303030303030303
+tp222
+a(S'details related'
+p223
+F5.279569892473118
+tp224
+a(S'related videos'
+p225
+F5.279569892473118
+tp226
+a(S'web pages'
+p227
+F5.278805120910384
+tp228
+a(S'figure 2 classification'
+p229
+F5.2444444444444445
+tp230
+a(S'document classification[5]'
+p231
+F5.199999999999999
+tp232
+a(S'semantic        graphs[3][6]'
+p233
+F5.178571428571429
+tp234
+a(S'semantic annotation'
+p235
+F5.178571428571429
+tp236
+a(S'semantic graphs'
+p237
+F5.178571428571429
+tp238
+a(S'semantic entity'
+p239
+F5.178571428571429
+tp240
+a(S'visualization method'
+p241
+F5.121212121212121
+tp242
+a(S'section iii'
+p243
+F5.095238095238095
+tp244
+a(S'keyword extraction'
+p245
+F5.095238095238095
+tp246
+a(S'keyword        extraction'
+p247
+F5.095238095238095
+tp248
+a(S'textrank[4]method'
+p249
+F5.0
+tp250
+a(S'predicate \xe2\x86\x92 object'
+p251
+F5.0
+tp252
+a(S'web services'
+p253
+F4.969594594594595
+tp254
+a(S'keywords extracted'
+p255
+F4.916666666666666
+tp256
+a(S'slovenia        lorand'
+p257
+F4.9
+tp258
+a(S'information        technology'
+p259
+F4.897058823529411
+tp260
+a(S'systems similar'
+p261
+F4.833333333333334
+tp262
+a(S'show information'
+p263
+F4.813725490196078
+tp264
+a(S'simple classification'
+p265
+F4.8
+tp266
+a(S'figure 4 shows'
+p267
+F4.777777777777779
+tp268
+a(S'figure 1 shows'
+p269
+F4.777777777777779
+tp270
+a(S'figure 2 shows'
+p271
+F4.777777777777779
+tp272
+a(S'cloud software'
+p273
+F4.777777777777778
+tp274
+a(S'document        summarization'
+p275
+F4.775
+tp276
+a(S'graph based'
+p277
+F4.733333333333333
+tp278
+a(S'visualization        methods'
+p279
+F4.704545454545455
+tp280
+a(S'long        pages'
+p281
+F4.684210526315789
+tp282
+a(S'boss       provided'
+p283
+F4.666666666666666
+tp284
+a(S'si                 abstract'
+p285
+F4.666666666666666
+tp286
+a(S'si        11        https'
+p287
+F4.666666666666666
+tp288
+a(S'current page'
+p289
+F4.6594827586206895
+tp290
+a(S'main        information'
+p291
+F4.647058823529411
+tp292
+a(S'information contained'
+p293
+F4.647058823529411
+tp294
+a(S'graph                  7                 8        http'
+p295
+F4.6410256410256405
+tp296
+a(S'web page'
+p297
+F4.629077353215284
+tp298
+a(S'pictures'
+p299
+F4.6
+tp300
+a(S'web documents'
+p301
+F4.594594594594595
+tp302
+a(S'blog post'
+p303
+F4.583333333333334
+tp304
+a(S'topics covered'
+p305
+F4.5
+tp306
+a(S'social networks'
+p307
+F4.5
+tp308
+a(S'node ranking'
+p309
+F4.5
+tp310
+a(S'12       javascript apis'
+p311
+F4.5
+tp312
+a(S'visual role'
+p313
+F4.5
+tp314
+a(S'5 points'
+p315
+F4.5
+tp316
+a(S'supervised learning'
+p317
+F4.5
+tp318
+a(S'visualization option'
+p319
+F4.454545454545455
+tp320
+a(S'required visualization'
+p321
+F4.454545454545455
+tp322
+a(S'section draws'
+p323
+F4.428571428571429
+tp324
+a(S'document ready'
+p325
+F4.4
+tp326
+a(S'image search'
+p327
+F4.4
+tp328
+a(S'slovenia        dunja'
+p329
+F4.4
+tp330
+a(S'summarization purposes'
+p331
+F4.375
+tp332
+a(S'research experiments'
+p333
+F4.375
+tp334
+a(S'visualizations provided'
+p335
+F4.366666666666666
+tp336
+a(S'directed graph'
+p337
+F4.333333333333334
+tp338
+a(S'table 1 shows'
+p339
+F4.333333333333334
+tp340
+a(S'directly provided'
+p341
+F4.333333333333333
+tp342
+a(S'net        9        http'
+p343
+F4.3076923076923075
+tp344
+a(S'org/        10        http'
+p345
+F4.3076923076923075
+tp346
+a(S'straightforward methods'
+p347
+F4.25
+tp348
+a(S'pagerank[9] algorithm'
+p349
+F4.25
+tp350
+a(S'blog posts'
+p351
+F4.25
+tp352
+a(S'popular methods'
+p353
+F4.25
+tp354
+a(S'user interface'
+p355
+F4.229166666666666
+tp356
+a(S'extracting triplets'
+p357
+F4.2272727272727275
+tp358
+a(S'topic categories'
+p359
+F4.2
+tp360
+a(S'original        content'
+p361
+F4.2
+tp362
+a(S'textual content'
+p363
+F4.2
+tp364
+a(S'single topic'
+p365
+F4.2
+tp366
+a(S'diverse content'
+p367
+F4.2
+tp368
+a(S'textual        content'
+p369
+F4.2
+tp370
+a(S'focused tab'
+p371
+F4.166666666666667
+tp372
+a(S'similar videos'
+p373
+F4.166666666666667
+tp374
+a(S'consecutive nodes'
+p375
+F4.166666666666666
+tp376
+a(S'tonight        show'
+p377
+F4.166666666666666
+tp378
+a(S'important parts'
+p379
+F4.125
+tp380
+a(S'important lesson'
+p381
+F4.125
+tp382
+a(S'visualization options'
+p383
+F4.121212121212121
+tp384
+a(S'web development'
+p385
+F4.094594594594595
+tp386
+a(S'page fits'
+p387
+F4.0344827586206895
+tp388
+a(S'difficult page'
+p389
+F4.0344827586206895
+tp390
+a(S'lazy manner'
+p391
+F4.0
+tp392
+a(S'popular browsers'
+p393
+F4.0
+tp394
+a(S'interactive nature'
+p395
+F4.0
+tp396
+a(S'wide variety'
+p397
+F4.0
+tp398
+a(S'october        16th'
+p399
+F4.0
+tp400
+a(S'main task'
+p401
+F4.0
+tp402
+a(S'clear winner'
+p403
+F4.0
+tp404
+a(S'demonstration        sessions'
+p405
+F4.0
+tp406
+a(S'sarah palin'
+p407
+F4.0
+tp408
+a(S'pagerank        computation'
+p409
+F4.0
+tp410
+a(S'higher ranking'
+p411
+F4.0
+tp412
+a(S'silverlight widget'
+p413
+F4.0
+tp414
+a(S'table 1 rating'
+p415
+F4.0
+tp416
+a(S'totally guessed'
+p417
+F4.0
+tp418
+a(S'stock market'
+p419
+F4.0
+tp420
+a(S'high coverage'
+p421
+F4.0
+tp422
+a(S'222000111000 iiieeeeeeeee       dddoooiii 111000'
+p423
+F4.0
+tp424
+a(S'interactive poster'
+p425
+F4.0
+tp426
+a(S'org/                  222887004                 111555555000---666000333777///111000 $$$222666'
+p427
+F4.0
+tp428
+a(S'closest idea'
+p429
+F4.0
+tp430
+a(S'french nobleman'
+p431
+F4.0
+tp432
+a(S'phrases occurring'
+p433
+F4.0
+tp434
+a(S'technical report'
+p435
+F4.0
+tp436
+a(S'processed completely'
+p437
+F4.0
+tp438
+a(S'java applet'
+p439
+F4.0
+tp440
+a(S'jay leno'
+p441
+F4.0
+tp442
+a(S'small        experiment'
+p443
+F4.0
+tp444
+a(S'carefully        prepared'
+p445
+F4.0
+tp446
+a(S'wide        variety'
+p447
+F4.0
+tp448
+a(S'assume familiarity'
+p449
+F4.0
+tp450
+a(S'single focus'
+p451
+F4.0
+tp452
+a(S'xml format'
+p453
+F4.0
+tp454
+a(S'short statements'
+p455
+F4.0
+tp456
+a(S'october        2007        [3] leskovec'
+p457
+F4.0
+tp458
+a(S'/                   http'
+p459
+F3.9743589743589745
+tp460
+a(S'/        3        http'
+p461
+F3.9743589743589745
+tp462
+a(S'/        4        http'
+p463
+F3.9743589743589745
+tp464
+a(S'444999                       figure 1 screenshot'
+p465
+F3.9444444444444446
+tp466
+a(S'text visualization'
+p467
+F3.93730407523511
+tp468
+a(S'text        visualization'
+p469
+F3.93730407523511
+tp470
+a(S'section iv'
+p471
+F3.9285714285714284
+tp472
+a(S'ajax technology'
+p473
+F3.916666666666667
+tp474
+a(S'dali@ijs'
+p475
+F3.916666666666667
+tp476
+a(S'search results'
+p477
+F3.9
+tp478
+a(S'computed based'
+p479
+F3.9
+tp480
+a(S'enrycher       services'
+p481
+F3.875
+tp482
+a(S'user         http'
+p483
+F3.8701923076923075
+tp484
+a(S'information displayed'
+p485
+F3.8470588235294114
+tp486
+a(S'visualization type'
+p487
+F3.787878787878788
+tp488
+a(S'user content'
+p489
+F3.7625
+tp490
+a(S'jetpack        platform'
+p491
+F3.75
+tp492
+a(S'slide bar'
+p493
+F3.75
+tp494
+a(S'server side'
+p495
+F3.75
+tp496
+a(S'hierarchical algorithm'
+p497
+F3.75
+tp498
+a(S'jetpack supports'
+p499
+F3.75
+tp500
+a(S'visualization functionality'
+p501
+F3.7402597402597406
+tp502
+a(S'visualization        functionality'
+p503
+F3.7402597402597406
+tp504
+a(S'text        mining'
+p505
+F3.7327586206896552
+tp506
+a(S'text mining'
+p507
+F3.7327586206896552
+tp508
+a(S'obtain        visualizations'
+p509
+F3.7
+tp510
+a(S'wikipedia article'
+p511
+F3.666666666666667
+tp512
+a(S'jquery       library'
+p513
+F3.666666666666667
+tp514
+a(S'faster understand'
+p515
+F3.666666666666667
+tp516
+a(S'implementation details'
+p517
+F3.666666666666667
+tp518
+a(S'textgarden[7]library'
+p519
+F3.666666666666667
+tp520
+a(S'wikipedia        article'
+p521
+F3.666666666666667
+tp522
+a(S'preprocessing algorithms'
+p523
+F3.666666666666667
+tp524
+a(S'directly        proportional'
+p525
+F3.666666666666667
+tp526
+a(S'tab        focus'
+p527
+F3.666666666666667
+tp528
+a(S'keywords'
+p529
+F3.6666666666666665
+tp530
+a(S'put        summary'
+p531
+F3.6363636363636367
+tp532
+a(S'related'
+p533
+F3.6129032258064515
+tp534
+a(S'sentences reduced'
+p535
+F3.6
+tp536
+a(S'user        selects'
+p537
+F3.5625
+tp538
+a(S'system aiming'
+p539
+F3.5555555555555554
+tp540
+a(S'system doesn'
+p541
+F3.5555555555555554
+tp542
+a(S'system implements'
+p543
+F3.5555555555555554
+tp544
+a(S'processing algorithms'
+p545
+F3.5238095238095237
+tp546
+a(S'work'
+p547
+F3.5
+tp548
+a(S'established        taxonomy'
+p549
+F3.5
+tp550
+a(S'paper presented'
+p551
+F3.5
+tp552
+a(S'features consist'
+p553
+F3.5
+tp554
+a(S'stock trading'
+p555
+F3.5
+tp556
+a(S'playing blackjack'
+p557
+F3.5
+tp558
+a(S'/search/boss/                  222887115                       features'
+p559
+F3.5
+tp560
+a(S'solid conclusions'
+p561
+F3.5
+tp562
+a(S'subsections        explain'
+p563
+F3.5
+tp564
+a(S'size decreases'
+p565
+F3.5
+tp566
+a(S'plain text'
+p567
+F3.4827586206896552
+tp568
+a(S'original text'
+p569
+F3.4827586206896552
+tp570
+a(S'analyzing text'
+p571
+F3.4827586206896552
+tp572
+a(S'cloud'
+p573
+F3.4444444444444446
+tp574
+a(S'firefox extension'
+p575
+F3.428571428571429
+tp576
+a(S'green nodes'
+p577
+F3.4166666666666665
+tp578
+a(S'selected entity'
+p579
+F3.4
+tp580
+a(S'ljubljana'
+p581
+F3.4
+tp582
+a(S'experiments        andalgorithms'
+p583
+F3.375
+tp584
+a(S'firefox extensions'
+p585
+F3.357142857142857
+tp586
+a(S'processing results'
+p587
+F3.357142857142857
+tp588
+a(S'describes'
+p589
+F3.3333333333333335
+tp590
+a(S'jetpack extension'
+p591
+F3.321428571428571
+tp592
+a(S'bringing order'
+p593
+F3.25
+tp594
+a(S'browser side'
+p595
+F3.25
+tp596
+a(S'list ordered'
+p597
+F3.25
+tp598
+a(S'sentence ranking'
+p599
+F3.25
+tp600
+a.
