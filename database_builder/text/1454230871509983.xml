@@ -1,0 +1,1659 @@
+<?xml version="1.0"?>
+<pdf>
+  <page width="612" height="792" number="1">
+    <region x="168.5" y="737.85" width="274.99" height="9.08" line_height="9.08" font="GDISFE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">220011220000 II11EE00EE IIEEEE EEFFooEEuu IIrrnntthhttee IIrrnnnnttaaeettrriinnooaannttaaiilloo nnCCaaoollnn CCffeeoorrnneeffnneeccrreeee nnooccnnee SSooeennmm SSaaeennmmttiiaaccnn CCttiiooccmm CCppoouummttiippnnuuggttiinngg</line>
+    </region>
+    <region x="95.88" y="681.02" width="418.66" height="29.31" line_height="12.51" font="CBIAAF+Times-Bold">
+      <line x_offset="0.0" y_offset="16.8" spacing="0.0">Another Look at Causality: Discovering Scenario-Specific Contingency</line>
+      <line x_offset="107.72" y_offset="0.0" spacing="4.29">Relationships with No Supervision</line>
+    </region>
+    <region x="178.3" y="586.9" width="252.88" height="57.61" line_height="9.96" font="CBIAAG+Times-Roman">
+      <line x_offset="52.71" y_offset="47.65" spacing="0.0">Mehwish Riaz and Roxana Girju</line>
+      <line x_offset="0.0" y_offset="34.44" spacing="3.25">Department of Computer Science and Beckman Institute</line>
+      <line x_offset="29.28" y_offset="21.24" spacing="3.25">University of Illinois at Urbana Champaign</line>
+      <line x_offset="63.09" y_offset="0.0" spacing="2.46">{</line>
+      <line x_offset="68.5" y_offset="8.03" spacing="-17.99">mriaz2, girju @illinois.edu</line>
+      <line x_offset="125.74" y_offset="0.0" spacing="-10.75">}</line>
+    </region>
+    <region x="54.76" y="383.54" width="241.07" height="182.14" line_height="8.04" font="CBIAAF+Times-Bold">
+      <line x_offset="9.88" y_offset="174.1" spacing="0.0">Abstract-Contingency discourse relations play an important</line>
+      <line x_offset="0.0" y_offset="164.22" spacing="1.84">role in natural language understanding. In this paper we pro-</line>
+      <line x_offset="0.0" y_offset="154.34" spacing="1.83">pose an unsupervised learning model to automatically identify</line>
+      <line x_offset="0.0" y_offset="144.46" spacing="1.84">contingency relationships between scenario-specific events in</line>
+      <line x_offset="0.0" y_offset="134.58" spacing="1.84">web news articles (on the Iraq war and on hurricane Katrina).</line>
+      <line x_offset="0.0" y_offset="124.69" spacing="1.84">The model generates ranked contingency relationships by</line>
+      <line x_offset="0.0" y_offset="114.81" spacing="1.84">identifying appropriate candidate event pairs for each scenario</line>
+      <line x_offset="0.0" y_offset="104.93" spacing="1.84">of a particular domain. Scenario-specific events, contributing</line>
+      <line x_offset="0.0" y_offset="95.04" spacing="1.84">towards the same objectives in a domain, are likely to be</line>
+      <line x_offset="0.0" y_offset="85.16" spacing="1.84">dependent on each other, and thus form good candidates for</line>
+      <line x_offset="0.0" y_offset="75.27" spacing="1.84">contingency relationships. In order to evaluate the ranked</line>
+      <line x_offset="0.0" y_offset="65.39" spacing="1.84">contingency relationships, we rely on the manipulation theory</line>
+      <line x_offset="0.0" y_offset="55.51" spacing="1.84">of causation and a comparison of precision-recall performance</line>
+      <line x_offset="0.0" y_offset="45.62" spacing="1.84">curves. We also perform various tests which bring insights into</line>
+      <line x_offset="0.0" y_offset="35.74" spacing="1.84">how people perceive causality. For example, our findings show</line>
+      <line x_offset="0.0" y_offset="25.86" spacing="1.84">that the larger the distance between two events, the more likely</line>
+      <line x_offset="0.0" y_offset="15.97" spacing="1.84">it becomes for the annotators to identify them as non-causal.</line>
+      <line x_offset="9.88" y_offset="0.0" spacing="7.93">Keywords-causality; contingency; scenario; topics;</line>
+    </region>
+    <region x="136.73" y="356.92" width="77.22" height="9.05" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">I. INTRODUCTION</line>
+    </region>
+    <region x="54.76" y="159.92" width="241.07" height="187.53" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="178.48" spacing="0.0">Unlike computers, people are very good at perceiving</line>
+      <line x_offset="0.0" y_offset="166.62" spacing="2.8">and inferring the causal, reason, purpose and explanation</line>
+      <line x_offset="0.0" y_offset="154.77" spacing="2.8">relationships between events in a discourse context. De-</line>
+      <line x_offset="0.0" y_offset="142.9" spacing="2.81">tecting such relations helps them make sense of the con-</line>
+      <line x_offset="0.0" y_offset="131.05" spacing="2.8">stantly changing flow of events in their daily activities and</line>
+      <line x_offset="0.0" y_offset="119.19" spacing="2.8">interactions. Thus, causal reasoning enables people to find</line>
+      <line x_offset="0.0" y_offset="107.32" spacing="2.81">meaningful order in events, which in turn helps them plan</line>
+      <line x_offset="0.0" y_offset="95.47" spacing="2.8">and even predict the future [13].</line>
+      <line x_offset="223.5" y_offset="83.13" spacing="3.4">con-</line>
+      <line x_offset="9.88" y_offset="83.01" spacing="-8.93">In linguistics, these relations form a class known as</line>
+      <line x_offset="0.0" y_offset="71.28" spacing="2.8">tingency discourse relations</line>
+      <line x_offset="115.82" y_offset="71.16" spacing="-8.93">(cause-consequence, argument-</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">claim, instrument-goal, purpose and reason/explanation)</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">which are different from additive relations (list, opposition,</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">exception, enumeration, temporal, and concession) [18],</line>
+      <line x_offset="233.37" y_offset="11.86" spacing="14.67">in</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="-20.92">[14]. Since they are very related semantically, contingency</line>
+      <line x_offset="166.66" y_offset="11.98" spacing="2.81">causal relations</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="-8.93">relations can be identified as the class of</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">a broader sense [7]. Examples of such relations are:</line>
+    </region>
+    <region x="283.01" y="139.63" width="12.81" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">are</line>
+    </region>
+    <region x="167.1" y="139.52" width="112.32" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">to work today because they</line>
+    </region>
+    <region x="54.76" y="127.65" width="108.76" height="20.92" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="53.66" y_offset="11.98" spacing="0.0">are not going</line>
+      <line x_offset="0.0" y_offset="0.12" spacing="2.93">on strike</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="-20.8">(1) Teachers</line>
+      <line x_offset="38.66" y_offset="0.0" spacing="2.81">(explanation).</line>
+    </region>
+    <region x="172.02" y="108.8" width="28.08" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">repairs</line>
+    </region>
+    <region x="126.99" y="108.8" width="24.58" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">makes</line>
+    </region>
+    <region x="203.2" y="108.68" width="92.61" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cell phones (temporal).</line>
+    </region>
+    <region x="154.67" y="108.68" width="14.26" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">and</line>
+    </region>
+    <region x="54.76" y="108.68" width="69.12" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(2) The company</line>
+    </region>
+    <region x="54.76" y="71.08" width="241.06" height="20.91" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="11.86" spacing="0.0">Thus, two events are contingent if the occurrence of one</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">event enables the occurrence of the other - i.e., they are</line>
+    </region>
+    <region x="313.95" y="71.01" width="241.08" height="495.29" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="486.23" spacing="0.0">linked by one of the contingency relations in the dicourse</line>
+      <line x_offset="0.0" y_offset="474.38" spacing="2.8">context.</line>
+      <line x_offset="9.88" y_offset="462.79" spacing="2.54">Identifying contingency relations is very important for a</line>
+      <line x_offset="0.0" y_offset="450.93" spacing="2.8">number of natural language understanding tasks, such as</line>
+      <line x_offset="0.0" y_offset="439.08" spacing="2.8">textual entailment and explanation question answering [6].</line>
+      <line x_offset="0.0" y_offset="427.21" spacing="2.81">In the PASCAL Recognizing Textual Entailment (RTE)</line>
+      <line x_offset="0.0" y_offset="415.35" spacing="2.8">Challenge [5], for example, a computer system is presented</line>
+      <line x_offset="0.0" y_offset="403.5" spacing="2.8">with a series of yes-no questions concerning whether one</line>
+      <line x_offset="0.0" y_offset="391.63" spacing="2.81">English sentence entails another. The semantic entailment</line>
+      <line x_offset="0.0" y_offset="379.78" spacing="2.8">relation is defined in a broad sense, whether the meaning of</line>
+      <line x_offset="0.0" y_offset="367.92" spacing="2.8">a given text snippet (text T) logically entails that of another</line>
+      <line x_offset="0.0" y_offset="356.05" spacing="2.81">(hypothesis H) or whether they paraphrase each other. For</line>
+      <line x_offset="0.0" y_offset="344.2" spacing="2.8">example, "Google files for its long awaited IPO" entails that</line>
+      <line x_offset="0.0" y_offset="332.34" spacing="2.8">"Google goes public". Explanation question answering deals</line>
+      <line x_offset="0.0" y_offset="320.48" spacing="2.81">with questions asking for particular explanations, like "Why</line>
+      <line x_offset="0.0" y_offset="308.62" spacing="2.8">did the Dallas-based Southwest airlines cancel more than</line>
+      <line x_offset="0.0" y_offset="296.75" spacing="2.81">250 flights last week?".</line>
+      <line x_offset="9.88" y_offset="285.17" spacing="2.53">In what concerns causality, in natural language processing</line>
+      <line x_offset="0.0" y_offset="273.31" spacing="2.81">the focus has been mainly on causal knowledge extraction.</line>
+      <line x_offset="0.0" y_offset="261.45" spacing="2.8">Most of the proposed approaches depend either on small</line>
+      <line x_offset="0.0" y_offset="249.6" spacing="2.8">lists of predefined linguistic patterns employed in supervised</line>
+      <line x_offset="0.0" y_offset="237.73" spacing="2.81">learning models [6], [4], or on special data sets [21], [1].</line>
+      <line x_offset="9.88" y_offset="226.15" spacing="2.53">In this paper we propose a novel unsupervised approach</line>
+      <line x_offset="0.0" y_offset="214.28" spacing="2.81">to automatically identify contingency relationships between</line>
+      <line x_offset="0.0" y_offset="202.43" spacing="2.8">events in web news articles both within (intra-sentential)</line>
+      <line x_offset="0.0" y_offset="190.57" spacing="2.8">and between sentences (inter-sentential) without relying on</line>
+      <line x_offset="0.0" y_offset="178.71" spacing="2.81">a deep processing of contextual information. Our approach</line>
+      <line x_offset="0.0" y_offset="166.85" spacing="2.8">focuses on a simple context which consists of two events,</line>
+      <line x_offset="0.0" y_offset="154.99" spacing="2.8">which if contingent, represent the Cause (independent) event</line>
+      <line x_offset="3.29" y_offset="143.25" spacing="2.81">a</line>
+      <line x_offset="156.88" y_offset="143.25" spacing="-8.93">b</line>
+      <line x_offset="212.87" y_offset="143.25" spacing="-8.93">a b</line>
+      <line x_offset="0.0" y_offset="143.13" spacing="-8.93">( ) and the Effect (dependent) event ( ), such that</line>
+      <line x_offset="221.75" y_offset="135.78" spacing="-9.8">&#x2192;</line>
+      <line x_offset="21.74" y_offset="131.39" spacing="-4.54">a</line>
+      <line x_offset="48.75" y_offset="131.39" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="131.27" spacing="-8.93">(i.e., and encode a contingency relation either directly</line>
+      <line x_offset="209.72" y_offset="119.41" spacing="2.81">[</line>
+      <line x_offset="233.38" y_offset="119.41" spacing="-9.05">]"</line>
+      <line x_offset="0.0" y_offset="119.41" spacing="-9.05">or indirectly). Here events are "[</line>
+      <line x_offset="171.2" y_offset="119.09" spacing="-9.12">]verb Obj</line>
+      <line x_offset="146.35" y_offset="119.08" spacing="-9.43">Subj</line>
+      <line x_offset="166.95" y_offset="118.35" spacing="-6.18">e</line>
+      <line x_offset="199.35" y_offset="118.35" spacing="-6.92">e</line>
+      <line x_offset="229.14" y_offset="118.35" spacing="-6.92">e</line>
+      <line x_offset="0.0" y_offset="107.56" spacing="1.74">instances, where the subject or the object can be missing.</line>
+      <line x_offset="9.89" y_offset="95.97" spacing="2.54">Our contribution is as follows:</line>
+      <line x_offset="9.89" y_offset="83.01" spacing="3.9">1) Our approach is totally unsupervised and depends</line>
+      <line x_offset="24.05" y_offset="71.16" spacing="2.8">neither on predefined linguistic patterns nor on spe-</line>
+      <line x_offset="24.05" y_offset="59.3" spacing="2.8">cial datasets where the events are already temporally</line>
+      <line x_offset="24.05" y_offset="47.43" spacing="2.81">ordered. Approaches relying on linguistic patterns aim</line>
+      <line x_offset="24.05" y_offset="35.58" spacing="2.8">at higher precision but have low recall. Our model does</line>
+      <line x_offset="24.05" y_offset="23.72" spacing="2.8">not have this limitation. Moreover, this approach saves</line>
+      <line x_offset="24.05" y_offset="11.86" spacing="2.81">us the trouble of annotating large text collections, a</line>
+      <line x_offset="24.05" y_offset="0.0" spacing="2.8">prerequisite for training supervised models.</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366661111</line>
+    </region>
+    <region x="50.0" y="33.28" width="142.25" height="17.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="10.0" spacing="0.0">999977778888----0000----7777666699995555----4444111155554444----9999////11110000 $$$$22226666....00000000 '''' 2222000011110000 IIIIEEEEEEEEEEEE</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.74">DDDDOOOOIIII 11110000....1111111100009999////IIIICCCCSSSSCCCC....2222000011110000....11119999</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="2">
+    <region x="54.67" y="364.1" width="241.07" height="355.07" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="346.02" spacing="0.0">2) We introduce two novel measures - Effect-Control-</line>
+      <line x_offset="24.04" y_offset="334.15" spacing="2.81">Dependency (ECD) and Effect-Control-Ratio (ECR) -</line>
+      <line x_offset="24.04" y_offset="322.29" spacing="2.8">which not only find dependencies but also identify the</line>
+      <line x_offset="24.04" y_offset="310.44" spacing="2.8">Cause and the Effect roles without relying on hard-to-</line>
+      <line x_offset="24.04" y_offset="298.57" spacing="2.81">build temporal classifiers.</line>
+      <line x_offset="9.88" y_offset="286.72" spacing="2.8">3) This is a flexible and feasible approach which brings</line>
+      <line x_offset="24.04" y_offset="274.86" spacing="2.8">new insights into how much a knowledge-poor, statis-</line>
+      <line x_offset="24.04" y_offset="262.99" spacing="2.81">tical approach can help in the automatic identification</line>
+      <line x_offset="24.04" y_offset="251.14" spacing="2.8">of contingency relationships in text.</line>
+      <line x_offset="9.88" y_offset="239.27" spacing="2.81">4) We also perform various tests which bring insights into</line>
+      <line x_offset="24.04" y_offset="227.42" spacing="2.8">the cognitive aspects of this challenging task - i.e., how</line>
+      <line x_offset="24.04" y_offset="215.56" spacing="2.8">people perceive such broader causal relationships in</line>
+      <line x_offset="24.04" y_offset="203.69" spacing="2.81">context. Specifically, our findings show that the larger</line>
+      <line x_offset="24.04" y_offset="191.84" spacing="2.8">the distance between two events, the more likely it</line>
+      <line x_offset="24.04" y_offset="179.98" spacing="2.8">becomes for the annotators to identify them as non-</line>
+      <line x_offset="24.04" y_offset="168.12" spacing="2.81">causal.</line>
+      <line x_offset="9.88" y_offset="154.03" spacing="5.04">We test our model on two domain-specific data sets</line>
+      <line x_offset="0.0" y_offset="142.17" spacing="2.8">collected from the web: one on the Iraq war and one on</line>
+      <line x_offset="0.0" y_offset="130.31" spacing="2.81">hurricane Katrina. For each collection, the model identifies</line>
+      <line x_offset="0.0" y_offset="118.45" spacing="2.8">scenario-specific event pairs that are potential candidates</line>
+      <line x_offset="0.0" y_offset="106.59" spacing="2.8">for contingency relations. We rely here on the hypothesis</line>
+      <line x_offset="0.0" y_offset="94.73" spacing="2.81">that natural language events contributing to one particular</line>
+      <line x_offset="0.0" y_offset="82.87" spacing="2.8">scenario tend to be strongly dependent on each other, and</line>
+      <line x_offset="0.0" y_offset="71.01" spacing="2.8">thus make good candidates for this task (Examples of such</line>
+      <line x_offset="0.0" y_offset="59.15" spacing="2.81">contingent/causal event pairs are shown in Table I ).</line>
+      <line x_offset="9.88" y_offset="47.43" spacing="2.66">The paper is structured as follows. In the next section</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">we present relevant previous work, while in Section 3</line>
+      <line x_offset="0.0" y_offset="23.71" spacing="2.81">we describe the model and introduce its components. The</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.8">system evaluation is presented in Section 4, followed by</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">discussions and conclusion in Section 5.</line>
+    </region>
+    <region x="102.29" y="346.67" width="2.2" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">:</line>
+    </region>
+    <region x="68.04" y="328.88" width="34.25" height="25.03" line_height="7.15" font="CBIAAF+Times-Bold">
+      <line x_offset="0.0" y_offset="17.88" spacing="0.0">Collection</line>
+      <line x_offset="0.0" y_offset="8.99" spacing="1.74">Scenario</line>
+      <line x_offset="29.43" y_offset="8.89" spacing="-7.15">:</line>
+      <line x_offset="0.0" y_offset="0.09" spacing="1.65">Example</line>
+      <line x_offset="29.87" y_offset="0.0" spacing="-7.15">:</line>
+    </region>
+    <region x="68.04" y="302.29" width="33.05" height="7.15" line_height="7.15" font="CBIAAF+Times-Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Cont. Rel</line>
+    </region>
+    <region x="101.09" y="302.2" width="2.2" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">:</line>
+    </region>
+    <region x="68.04" y="284.51" width="16.55" height="7.15" line_height="7.15" font="CBIAAF+Times-Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Type</line>
+    </region>
+    <region x="113.64" y="284.41" width="168.73" height="69.5" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="62.25" spacing="0.0">Hurricane Katrina</line>
+      <line x_offset="0.0" y_offset="53.36" spacing="1.65">Hurricane Katrina disaster and damage.</line>
+      <line x_offset="0.0" y_offset="44.47" spacing="1.65">Katrina hit Florida late last week. Since Friday,</line>
+      <line x_offset="27.24" y_offset="38.64" spacing="-7.87">{ }</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="-4.18">Dallas-based Southwest airlines canceled more</line>
+      <line x_offset="111.58" y_offset="29.74" spacing="-7.87">{</line>
+      <line x_offset="143.43" y_offset="29.74" spacing="-13.71">}</line>
+      <line x_offset="0.0" y_offset="26.68" spacing="-4.18">than 250 flights.</line>
+      <line x_offset="0.0" y_offset="17.78" spacing="1.65">"Katrina hit Florida" "Dallas-based Southwest</line>
+      <line x_offset="31.46" y_offset="11.95" spacing="-7.87">{ }</line>
+      <line x_offset="78.8" y_offset="11.95" spacing="-13.71">&#x2192;</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="-4.18">airlines canceled more than 250 flights"</line>
+      <line x_offset="26.04" y_offset="3.06" spacing="-7.87">{</line>
+      <line x_offset="57.89" y_offset="3.06" spacing="-13.71">}</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-4.18">Inter-sentential contingency relationship.</line>
+    </region>
+    <region x="84.59" y="284.41" width="2.2" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">:</line>
+    </region>
+    <region x="113.64" y="220.71" width="168.72" height="43.53" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="36.29" spacing="0.0">Iraq War</line>
+      <line x_offset="0.0" y_offset="27.4" spacing="1.65">US accusations and the UN inspections.</line>
+      <line x_offset="0.0" y_offset="18.51" spacing="1.65">Bush criticized UN for being ineffective .</line>
+      <line x_offset="19.03" y_offset="12.67" spacing="-7.87">{</line>
+      <line x_offset="52.63" y_offset="12.67" spacing="-13.71">}</line>
+      <line x_offset="85.79" y_offset="12.67" spacing="-13.71">{</line>
+      <line x_offset="143.62" y_offset="12.67" spacing="-13.71">}</line>
+      <line x_offset="147.06" y_offset="3.06" spacing="-4.09">}</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="-13.08">"UN being ineffective " "Bush criticized UN"</line>
+      <line x_offset="17.46" y_offset="3.06" spacing="-7.87">{</line>
+      <line x_offset="75.04" y_offset="3.06" spacing="-13.71">} &#x2192;</line>
+      <line x_offset="113.46" y_offset="3.06" spacing="-13.71">{</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-4.18">Intra-sentential contingency relationship.</line>
+    </region>
+    <region x="68.04" y="220.71" width="36.46" height="43.53" line_height="7.15" font="CBIAAF+Times-Bold">
+      <line x_offset="34.26" y_offset="36.29" spacing="0.0">:</line>
+      <line x_offset="33.05" y_offset="8.89" spacing="20.16">:</line>
+      <line x_offset="0.0" y_offset="36.39" spacing="-34.64">Collection</line>
+      <line x_offset="0.0" y_offset="27.49" spacing="1.74">Scenario</line>
+      <line x_offset="29.43" y_offset="27.4" spacing="-7.15">:</line>
+      <line x_offset="0.0" y_offset="18.6" spacing="1.65">Example</line>
+      <line x_offset="29.87" y_offset="18.51" spacing="-7.15">:</line>
+      <line x_offset="0.0" y_offset="0.09" spacing="11.27">Type</line>
+      <line x_offset="0.0" y_offset="8.99" spacing="-16.04">Cont. Rel</line>
+      <line x_offset="16.55" y_offset="0.0" spacing="1.74">:</line>
+    </region>
+    <region x="61.34" y="181.88" width="4.83" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">E</line>
+    </region>
+    <region x="66.56" y="172.99" width="222.5" height="25.03" line_height="5.79" font="CBIAAG+Times-Roman">
+      <line x_offset="97.25" y_offset="17.78" spacing="0.0">Table I</line>
+      <line x_offset="0.0" y_offset="9.24" spacing="2.76">XAMPLES OF CONTINGENCY RELATIONS</line>
+      <line x_offset="25.28" y_offset="0.34" spacing="3.1">CONTINGENCY RELATIONSHIP BETWEEN EVENTS</line>
+      <line x_offset="134.99" y_offset="8.89" spacing="-15.79">. "C . R "ONT EL REFERS TO</line>
+      <line x_offset="190.03" y_offset="0.0" spacing="1.65">.</line>
+    </region>
+    <region x="314.76" y="161.34" width="241.08" height="557.61" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="548.56" spacing="0.0">causality [24]. This theory identifies two necessary condi-</line>
+      <line x_offset="0.0" y_offset="536.69" spacing="2.81">tions for causality: (1) the temporal precedence of the Cause</line>
+      <line x_offset="3.29" y_offset="524.96" spacing="2.8">a</line>
+      <line x_offset="88.54" y_offset="524.96" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="524.84" spacing="-8.93">( ) over the Effect ( ), and (2) their causal dependency</line>
+      <line x_offset="0.0" y_offset="512.98" spacing="2.8">(i.e., the effect can occur only with the Cause). Since this</line>
+      <line x_offset="0.0" y_offset="501.12" spacing="2.81">theory was proven to provide an easy and objective notion</line>
+      <line x_offset="0.0" y_offset="489.26" spacing="2.8">of causality on some language tasks [1], we also employ it</line>
+      <line x_offset="0.0" y_offset="477.4" spacing="2.8">here for annotation and evaluation purposes.</line>
+      <line x_offset="9.88" y_offset="464.79" spacing="3.56">In natural language processing, the focus has been mainly</line>
+      <line x_offset="0.0" y_offset="452.92" spacing="2.81">on the analysis of causal lexico-syntactic patterns (e.g.</line>
+      <line x_offset="4.38" y_offset="441.18" spacing="2.8">mosquitoes cause malaria</line>
+      <line x_offset="0.0" y_offset="441.07" spacing="-8.93">"</line>
+      <line x_offset="108.4" y_offset="441.07" spacing="-9.05">" - "NP-Cause verb NP-Effect"),</line>
+      <line x_offset="0.0" y_offset="429.21" spacing="2.8">which are employed most of the time in supervised learning</line>
+      <line x_offset="0.0" y_offset="417.34" spacing="2.81">models [6], [4]. The patterns are identified either manually</line>
+      <line x_offset="0.0" y_offset="405.49" spacing="2.8">or semi-automatically and most of them are ambiguous,</line>
+      <line x_offset="0.0" y_offset="393.63" spacing="2.8">making the system difficult to port to different domains.</line>
+      <line x_offset="0.0" y_offset="381.77" spacing="2.81">Girju (2003)'s pattern-based approach, for example, achieves</line>
+      <line x_offset="0.0" y_offset="369.91" spacing="2.8">a precision of 73.91%.</line>
+      <line x_offset="9.88" y_offset="357.29" spacing="3.56">Causality can also be expressed implicitly with no causal</line>
+      <line x_offset="0.0" y_offset="345.44" spacing="2.8">markers, especially at the discourse level. One such example</line>
+      <line x_offset="0.0" y_offset="333.58" spacing="2.8">is "Katrina</line>
+      <line x_offset="47.69" y_offset="333.58" spacing="-9.05">hitFlorida late last week. Since Friday, Dallas-</line>
+      <line x_offset="105.58" y_offset="321.83" spacing="2.81">canceled</line>
+      <line x_offset="0.0" y_offset="321.72" spacing="-8.93">based Southwest airlines</line>
+      <line x_offset="145.23" y_offset="321.72" spacing="-9.05">more than 250 flights."</line>
+      <line x_offset="0.0" y_offset="309.86" spacing="2.8">In such contexts, the causal discourse relations need to be</line>
+      <line x_offset="0.0" y_offset="298.0" spacing="2.8">inferred which is quite a challenging task [8], [20], [16],</line>
+      <line x_offset="0.0" y_offset="286.14" spacing="2.81">[17]. In this paper we focus on both explicit and implicit</line>
+      <line x_offset="0.0" y_offset="274.28" spacing="2.8">contingency relationships at the sentence level, but also</line>
+      <line x_offset="0.0" y_offset="262.41" spacing="2.81">between sentences. We try to approximate the context by</line>
+      <line x_offset="0.0" y_offset="250.56" spacing="2.8">identifying scenario-specific strongly related events which</line>
+      <line x_offset="0.0" y_offset="238.7" spacing="2.8">can form good candidates for causal relationships in a</line>
+      <line x_offset="0.0" y_offset="226.84" spacing="2.81">domain.</line>
+      <line x_offset="9.88" y_offset="214.23" spacing="3.55">Other approaches [1], [21] do not rely on cue phrases,</line>
+      <line x_offset="0.0" y_offset="202.36" spacing="2.81">but make use of statistical methods applied on special data</line>
+      <line x_offset="0.0" y_offset="190.51" spacing="2.8">sets. Beamer &amp; Girju (2009), for example use a statistical</line>
+      <line x_offset="0.0" y_offset="178.65" spacing="2.8">measure, Causal Potential, on a text corpus of screen plays</line>
+      <line x_offset="0.0" y_offset="166.79" spacing="2.81">where the verb events are already temporally ordered. They</line>
+      <line x_offset="0.0" y_offset="154.93" spacing="2.8">report a good correlation of the results with the human judg-</line>
+      <line x_offset="0.0" y_offset="143.07" spacing="2.8">ments (a Spearman's rank correlation of 0.497). Sun et al.</line>
+      <line x_offset="0.0" y_offset="131.21" spacing="2.81">(2007) have proposed another measure, the Event Causality</line>
+      <line x_offset="0.0" y_offset="119.35" spacing="2.8">Test (ECT), to discover causal relationships between events</line>
+      <line x_offset="0.0" y_offset="107.49" spacing="2.8">in search queries extracted from temporal query logs. The</line>
+      <line x_offset="0.0" y_offset="95.63" spacing="2.81">model achieves an accumulated precision from 32% to 21%</line>
+      <line x_offset="0.0" y_offset="83.77" spacing="2.8">for instances ranked 1 to 99.</line>
+      <line x_offset="9.88" y_offset="71.16" spacing="3.56">In this paper we introduce two novel statistical measures</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">(ECD and ECR) to capture contingency relations rather</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">than use general dependency measures such as Pearson's</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">correlation coefficient and Chi-square. These measures have</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">been employed in previous data mining approaches to learn</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">causal chains of events in structured datasets (e.g., census</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">data) [19].</line>
+    </region>
+    <region x="429.5" y="136.84" width="38.53" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">PPROACH</line>
+    </region>
+    <region x="402.6" y="136.4" width="26.4" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">III. A</line>
+    </region>
+    <region x="54.67" y="81.56" width="241.06" height="59.46" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="97.49" y_offset="50.84" spacing="1.38">REVIOUS ORK</line>
+      <line x_offset="76.03" y_offset="50.41" spacing="-8.62">II. P</line>
+      <line x_offset="137.64" y_offset="50.41" spacing="-9.05">W</line>
+      <line x_offset="9.88" y_offset="35.58" spacing="5.78">Causality has been a popular subject of study in philoso-</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">phy, logic, linguistics, data-mining, and economics [8], [9],</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">[19], [24], [15]. In philosophy and logic, for example, one</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">of the most influential theories is the manipulation theory of</line>
+    </region>
+    <region x="314.76" y="81.34" width="241.05" height="44.63" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="35.58" spacing="0.0">In this section we propose a three-layer unsupervised</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">statistical system (shown in Figure 1) which automatically</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">identifies contingency information in domain-specific text</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">collections. These layers are (1) Identifying Topic-Specific</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366662222</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="3">
+    <region x="68.07" y="690.28" width="36.01" height="16.13" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="11.1" y_offset="8.89" spacing="0.0">Text</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.65">Documents</line>
+    </region>
+    <region x="128.25" y="682.17" width="124.87" height="33.83" line_height="7.15" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="26.69" spacing="0.0">Layer-1: Identifying Topic-Specific</line>
+      <line x_offset="0.0" y_offset="17.79" spacing="1.74">Scenarios and their Events</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="1.75">1. Discovering topic-specific scenarios</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.74">2. Identifying scenario-specific events</line>
+    </region>
+    <region x="128.25" y="634.36" width="109.54" height="33.83" line_height="7.15" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="26.69" spacing="0.0">Layer-2: Generating Event Pair</line>
+      <line x_offset="0.0" y_offset="17.79" spacing="1.74">Candidates</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="1.75">1. Grouping events</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.74">2. Identifying frequent event pairs</line>
+    </region>
+    <region x="64.55" y="592.61" width="43.05" height="16.13" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="1.38" y_offset="8.89" spacing="0.0">Contingency</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.65">Relationships</line>
+    </region>
+    <region x="128.25" y="586.56" width="118.75" height="33.83" line_height="7.15" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="26.69" spacing="0.0">Layer-3: Learning Contingency</line>
+      <line x_offset="0.0" y_offset="17.79" spacing="1.74">Relations</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="1.75">1. Causal dependency</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.74">2. Cause and effect roles assignment</line>
+    </region>
+    <region x="78.35" y="563.96" width="194.62" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 1. The Contingency Learning System Architecture.</line>
+    </region>
+    <region x="313.97" y="520.26" width="241.08" height="198.9" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="189.85" spacing="0.0">Since statistical models such as PAM require large data</line>
+      <line x_offset="0.0" y_offset="177.98" spacing="2.81">sets as input, we run it on words rather than events because</line>
+      <line x_offset="0.0" y_offset="166.12" spacing="2.8">they are less frequent than simple words. We then extract the</line>
+      <line x_offset="0.0" y_offset="154.27" spacing="2.8">events corresponding to each identified scenario as explained</line>
+      <line x_offset="0.0" y_offset="142.4" spacing="2.81">next.</line>
+      <line x_offset="9.88" y_offset="130.58" spacing="2.89">1) Discovering Topic-Specific Scenarios:</line>
+      <line x_offset="181.66" y_offset="130.46" spacing="-8.93">Using as input</line>
+      <line x_offset="0.0" y_offset="118.6" spacing="2.8">a text collection, PAM generates an n-level Directed Acyclic</line>
+      <line x_offset="0.0" y_offset="106.74" spacing="2.8">Graph (DAG) - a fully connected tree structure, with topics</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.81">at intermediate levels. The leaves are clusters of words.</line>
+      <line x_offset="0.0" y_offset="83.02" spacing="2.8">This structure helps finding correlations between topics as</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">well as correlations between words given a topic. Here we</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">are interested only in the words corresponding to topics</line>
+      <line x_offset="0.0" y_offset="47.44" spacing="2.8">(leaves) and leave the correlations between topics for future</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.81">work. The topics learned by PAM represent topic-specific</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">scenarios. Table II shows the 10 most representative words</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="2.8">for each of the three topic-specific scenarios identified for</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">the Iraq war collection.</line>
+    </region>
+    <region x="55.12" y="505.06" width="241.05" height="32.77" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="23.71" spacing="0.0">Scenarios and their Events; (2) Generating event pair candi-</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.8">dates; and (3) Learning Contingency Relations. The data and</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">system components are presented in the next subsections.</line>
+    </region>
+    <region x="55.12" y="407.63" width="241.05" height="84.66" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="75.73" spacing="0.0">A. Data</line>
+      <line x_offset="9.88" y_offset="59.29" spacing="7.39">In this research we employ two text collections to identify</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.8">contingency relationships between events. In particular, we</line>
+      <line x_offset="237.09" y_offset="40.42" spacing="0.68">1</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="-4.21">crawled a set of 447 news articles on hurricane Katrina</line>
+      <line x_offset="0.0" y_offset="23.71" spacing="2.81">(189,840 word-tokens and 14,996 word-types) and 556 news</line>
+      <line x_offset="96.08" y_offset="16.09" spacing="1.29">2</line>
+      <line x_offset="103.77" y_offset="11.86" spacing="-4.82">(304,481 word-tokens and 20,629</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="-9.05">articles on the Iraq war</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">word-types) from various news archives websites.</line>
+    </region>
+    <region x="372.35" y="401.68" width="124.29" height="105.48" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="22.44" y_offset="98.24" spacing="0.0">Topic-Specific Scenarios</line>
+      <line x_offset="7.13" y_offset="89.34" spacing="1.66">Topic-1</line>
+      <line x_offset="56.98" y_offset="89.34" spacing="-7.24">Topic-2</line>
+      <line x_offset="99.8" y_offset="89.34" spacing="-7.24">Topic-3</line>
+      <line x_offset="5.72" y_offset="80.06" spacing="2.04">America</line>
+      <line x_offset="55.66" y_offset="80.06" spacing="-7.24">Officials</line>
+      <line x_offset="104.98" y_offset="80.06" spacing="-7.24">Free</line>
+      <line x_offset="12.96" y_offset="71.16" spacing="1.65">Iran</line>
+      <line x_offset="50.51" y_offset="71.16" spacing="-7.24">Intelligence Enemy</line>
+      <line x_offset="7.25" y_offset="62.26" spacing="1.66">Control</line>
+      <line x_offset="60.83" y_offset="62.26" spacing="-7.24">Mass</line>
+      <line x_offset="100.58" y_offset="62.26" spacing="-7.24">Marine</line>
+      <line x_offset="11.64" y_offset="53.37" spacing="1.65">Help</line>
+      <line x_offset="62.49" y_offset="53.37" spacing="-7.24">U.N</line>
+      <line x_offset="99.7" y_offset="53.37" spacing="-7.24">Happen</line>
+      <line x_offset="5.28" y_offset="44.48" spacing="1.65">Freedom Resolution Police</line>
+      <line x_offset="1.11" y_offset="35.58" spacing="1.66">Occupation</line>
+      <line x_offset="54.91" y_offset="35.58" spacing="-7.24">Question</line>
+      <line x_offset="103.22" y_offset="35.58" spacing="-7.24">Israel</line>
+      <line x_offset="3.3" y_offset="26.69" spacing="1.65">Economic</line>
+      <line x_offset="57.54" y_offset="26.69" spacing="-7.24">Disarm Corps</line>
+      <line x_offset="0.89" y_offset="17.79" spacing="1.65">Democratic</line>
+      <line x_offset="57.55" y_offset="17.79" spacing="-7.24">Accuse</line>
+      <line x_offset="100.95" y_offset="17.79" spacing="-7.24">Troops</line>
+      <line x_offset="4.62" y_offset="8.9" spacing="1.65">Elections</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.66">Opportunity Inspection</line>
+      <line x_offset="55.13" y_offset="8.9" spacing="-16.14">Uranium Tactics</line>
+      <line x_offset="106.73" y_offset="0.0" spacing="1.66">Air</line>
+    </region>
+    <region x="333.35" y="369.51" width="202.29" height="25.03" line_height="5.79" font="CBIAAG+Times-Roman">
+      <line x_offset="88.44" y_offset="17.78" spacing="0.0">Table II</line>
+      <line x_offset="60.86" y_offset="8.89" spacing="1.65">-</line>
+      <line x_offset="166.93" y_offset="8.89" spacing="-7.24">I</line>
+      <line x_offset="186.11" y_offset="8.89" spacing="-7.24">W</line>
+      <line x_offset="78.35" y_offset="0.34" spacing="2.76">COLLECTION</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="-15.79">THE THREE TOPIC SPECIFIC SCENARIOS FOR THE RAQ AR</line>
+      <line x_offset="122.01" y_offset="0.0" spacing="1.65">.</line>
+    </region>
+    <region x="471.26" y="194.77" width="29.52" height="14.06" line_height="6.92" font="CBIAFN+CMR7">
+      <line x_offset="7.13" y_offset="6.16" spacing="0.99">N 2</line>
+      <line x_offset="0.0" y_offset="2.02" spacing="-7.9">&#x3A3;</line>
+      <line x_offset="20.44" y_offset="2.02" spacing="-9.44">v</line>
+      <line x_offset="7.13" y_offset="0.0" spacing="-4.9">i=1 i</line>
+    </region>
+    <region x="313.97" y="194.77" width="241.08" height="149.58" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="140.65" spacing="0.0">2) Identifying Scenario-specific Events:</line>
+      <line x_offset="175.29" y_offset="140.53" spacing="-8.93">We identify first</line>
+      <line x_offset="0.0" y_offset="128.67" spacing="2.8">the sentences which correspond to the scenario clusters and</line>
+      <line x_offset="0.0" y_offset="116.82" spacing="2.8">then from these sentences, we recover the events contributing</line>
+      <line x_offset="0.0" y_offset="104.95" spacing="2.81">to a particular scenario. We represent each cluster as a</line>
+      <line x_offset="194.88" y_offset="93.1" spacing="2.8">(the word's</line>
+      <line x_offset="0.0" y_offset="93.1" spacing="-9.05">vector of words. Each word has a weight</line>
+      <line x_offset="27.63" y_offset="92.77" spacing="-9.11">(v</line>
+      <line x_offset="180.05" y_offset="92.77" spacing="-9.44">p</line>
+      <line x_offset="185.02" y_offset="92.03" spacing="-6.18">w</line>
+      <line x_offset="0.0" y_offset="81.24" spacing="1.74">assignment probability given a scenario cluster discovered</line>
+      <line x_offset="190.12" y_offset="80.91" spacing="-9.11">(v</line>
+      <line x_offset="0.0" y_offset="69.37" spacing="2.49">by PAM). Each sentence (the weight for each word in</line>
+      <line x_offset="104.86" y_offset="69.05" spacing="-9.11">(s</line>
+      <line x_offset="236.06" y_offset="69.05" spacing="-9.44">(s</line>
+      <line x_offset="0.0" y_offset="57.52" spacing="2.48">is its probability of occurrence in sentence) is assigned to a</line>
+      <line x_offset="188.49" y_offset="10.71" spacing="37.76">.</line>
+      <line x_offset="0.0" y_offset="45.66" spacing="-44.01">cluster based on the standard normalized cosine similarity</line>
+      <line x_offset="28.96" y_offset="45.34" spacing="-9.11">(v</line>
+      <line x_offset="9.88" y_offset="10.38" spacing="22.91">Cosine Sim((s, (v) =</line>
+      <line x_offset="43.21" y_offset="3.37" spacing="-10.13">&#x2212;</line>
+      <line x_offset="0.0" y_offset="33.8" spacing="-39.48">score (N is the vocabulary size).</line>
+      <line x_offset="138.84" y_offset="17.07" spacing="7.29">(s (v</line>
+      <line x_offset="146.03" y_offset="10.05" spacing="-10.13">&#xB7;</line>
+      <line x_offset="125.05" y_offset="6.16" spacing="-3.03">N 2</line>
+      <line x_offset="117.91" y_offset="2.02" spacing="-7.9">&#x3A3;</line>
+      <line x_offset="138.34" y_offset="2.02" spacing="-9.44">s</line>
+      <line x_offset="108.03" y_offset="1.69" spacing="-11.54"></line>
+      <line x_offset="125.05" y_offset="0.0" spacing="-5.22">i=1 i</line>
+    </region>
+    <region x="55.12" y="108.2" width="241.08" height="286.67" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="277.74" spacing="0.0">B. Identifying Topic-Specific Scenarios and their Events</line>
+      <line x_offset="9.88" y_offset="261.3" spacing="7.39">This module clusters the input text units (i.e., sentences)</line>
+      <line x_offset="0.0" y_offset="249.44" spacing="2.8">according to their probability distributions into topic-specific</line>
+      <line x_offset="0.0" y_offset="237.58" spacing="2.81">scenarios. The idea is that a single text document can</line>
+      <line x_offset="0.0" y_offset="225.72" spacing="2.8">contain multiple topics, and thus can identify multiple sce-</line>
+      <line x_offset="0.0" y_offset="213.86" spacing="2.8">narios (e.g., a news article about the Iraq war can refer</line>
+      <line x_offset="35.62" y_offset="202.12" spacing="2.81">US accusations and the UN inspection post-</line>
+      <line x_offset="0.0" y_offset="202.0" spacing="-8.93">to the "</line>
+      <line x_offset="204.29" y_offset="202.0" spacing="-9.05">", "</line>
+      <line x_offset="0.0" y_offset="190.26" spacing="2.8">war developments</line>
+      <line x_offset="74.08" y_offset="190.14" spacing="-8.93">", etc). Our intuition is that the events</line>
+      <line x_offset="0.0" y_offset="178.28" spacing="2.8">describing a particular topic-specific scenario tend to be</line>
+      <line x_offset="229.53" y_offset="166.54" spacing="2.81">(a)</line>
+      <line x_offset="0.0" y_offset="166.42" spacing="-8.93">dependent on each other. For example, events such as</line>
+      <line x_offset="4.38" y_offset="154.68" spacing="2.8">Iraq might have developed chemical weapons</line>
+      <line x_offset="228.98" y_offset="154.68" spacing="-8.93">(b)</line>
+      <line x_offset="0.0" y_offset="154.56" spacing="-8.93">"</line>
+      <line x_offset="199.49" y_offset="154.56" spacing="-9.05">" and</line>
+      <line x_offset="4.39" y_offset="142.82" spacing="2.8">the UN team inspecting Iraqi scientists</line>
+      <line x_offset="0.0" y_offset="142.71" spacing="-8.93">"</line>
+      <line x_offset="173.46" y_offset="142.71" spacing="-9.05">" belong to the</line>
+      <line x_offset="40.2" y_offset="130.96" spacing="2.81">US accusations and the UN inspection</line>
+      <line x_offset="0.0" y_offset="130.84" spacing="-8.93">scenario "</line>
+      <line x_offset="194.65" y_offset="130.84" spacing="-9.05">" where the</line>
+      <line x_offset="86.67" y_offset="119.1" spacing="2.8">b</line>
+      <line x_offset="0.0" y_offset="118.98" spacing="-8.93">occurrence of event</line>
+      <line x_offset="96.85" y_offset="118.98" spacing="-9.05">is dependent on the occurrence of</line>
+      <line x_offset="24.47" y_offset="107.25" spacing="2.8">a</line>
+      <line x_offset="0.0" y_offset="107.13" spacing="-8.93">event .</line>
+      <line x_offset="9.89" y_offset="94.88" spacing="3.2">In order to learn strongly dependent scenario events, we</line>
+      <line x_offset="0.0" y_offset="83.02" spacing="2.8">rely on topic modeling [2], [12] assuming that semantically</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">dependent events will have higher generative probabilities</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">conditioned on a particular topic-specific scenario. We em-</line>
+      <line x_offset="0.0" y_offset="47.44" spacing="2.8">ploy an advanced topic model, the Pachinko Allocation</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.81">Topic Model (PAM) [12] for discovering topic-specific</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">scenario events. This model captures not only correlations</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="2.8">between words to determine topics but also identifies rela-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">tionships between topics.</line>
+    </region>
+    <region x="313.97" y="80.48" width="241.07" height="105.11" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="187.53" y_offset="96.0" spacing="0.06">( is the total</line>
+      <line x_offset="9.88" y_offset="96.0" spacing="-9.05">The model assigns sentence to cluster</line>
+      <line x_offset="190.83" y_offset="95.67" spacing="-9.11">i</line>
+      <line x_offset="126.3" y_offset="95.67" spacing="-9.44">(s</line>
+      <line x_offset="175.53" y_offset="95.67" spacing="-9.44">(v</line>
+      <line x_offset="180.71" y_offset="94.93" spacing="-6.18">i</line>
+      <line x_offset="0.0" y_offset="84.14" spacing="1.74">number of scenario clusters) with which it has the maximum</line>
+      <line x_offset="0.0" y_offset="72.29" spacing="2.8">cosine measure. In case of a tie, the model assigns the</line>
+      <line x_offset="0.0" y_offset="60.42" spacing="2.81">sentence to all clusters with the same maximum cosine</line>
+      <line x_offset="0.0" y_offset="48.56" spacing="2.8">measure.</line>
+      <line x_offset="9.88" y_offset="36.64" spacing="2.87">From these scenario-specific sentences we identify their</line>
+      <line x_offset="123.16" y_offset="24.79" spacing="2.8">[</line>
+      <line x_offset="146.82" y_offset="24.79" spacing="-9.05">]" instances). We rely</line>
+      <line x_offset="0.0" y_offset="24.79" spacing="-9.05">events (i.e., "[</line>
+      <line x_offset="86.06" y_offset="24.46" spacing="-9.11">]verb Obj</line>
+      <line x_offset="61.22" y_offset="24.46" spacing="-9.44">Subj</line>
+      <line x_offset="81.82" y_offset="23.72" spacing="-6.18">e</line>
+      <line x_offset="113.49" y_offset="23.72" spacing="-6.92">e</line>
+      <line x_offset="142.58" y_offset="23.72" spacing="-6.92">e</line>
+      <line x_offset="63.38" y_offset="1.07" spacing="13.6">) and the object (</line>
+      <line x_offset="148.63" y_offset="1.07" spacing="-9.05">). Table I shows some</line>
+      <line x_offset="0.0" y_offset="1.07" spacing="-9.05">the subject (</line>
+      <line x_offset="51.53" y_offset="0.74" spacing="-9.11">A</line>
+      <line x_offset="58.94" y_offset="0.0" spacing="-6.18">0</line>
+      <line x_offset="0.0" y_offset="12.92" spacing="-21.98">here on a semantic role labeler, SWiRL [23], to identify</line>
+      <line x_offset="136.79" y_offset="0.74" spacing="2.74">A</line>
+      <line x_offset="144.2" y_offset="0.0" spacing="-6.18">1</line>
+    </region>
+    <region x="63.03" y="80.09" width="2.96" height="15.21" line_height="5.43" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="9.78" spacing="0.0">1</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.34">2</line>
+    </region>
+    <region x="66.49" y="76.87" width="144.23" height="17.03" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="9.79" spacing="0.0">http://websearch.archive.org/katrina/list.html/</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.54">http://www.comw.org/warreport/</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366663333</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="4">
+    <region x="54.58" y="558.64" width="241.06" height="160.52" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="151.46" spacing="0.0">of the scenario-specific sentences and their events from the</line>
+      <line x_offset="0.0" y_offset="139.6" spacing="2.81">hurricane Katrina and the Iraq war collections.</line>
+      <line x_offset="0.0" y_offset="121.62" spacing="9.04">C. Generating Event Pair Candidates</line>
+      <line x_offset="9.88" y_offset="106.6" spacing="5.97">This module generates event pair candidates following the</line>
+      <line x_offset="0.0" y_offset="94.74" spacing="2.81">steps described below.</line>
+      <line x_offset="9.88" y_offset="83.14" spacing="2.66">1) Grouping Events:</line>
+      <line x_offset="101.6" y_offset="83.02" spacing="-8.93">Similar events identified for each</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">scenario by the previous module need to be grouped to-</line>
+      <line x_offset="137.23" y_offset="59.42" spacing="2.8">"The UN council suspects</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="-8.93">gether. For example, the instances</line>
+      <line x_offset="0.0" y_offset="47.56" spacing="2.8">Iraq"</line>
+      <line x_offset="46.46" y_offset="47.56" spacing="-8.93">"The UN Security Council suspects Iraq"</line>
+      <line x_offset="27.28" y_offset="47.44" spacing="-8.93">and</line>
+      <line x_offset="228.99" y_offset="47.44" spacing="-9.05">are</line>
+      <line x_offset="179.03" y_offset="35.7" spacing="2.81">US accusations</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="-8.93">referring to the same event in the scenario "</line>
+      <line x_offset="0.0" y_offset="23.84" spacing="2.8">and the UN inspection</line>
+      <line x_offset="95.44" y_offset="23.72" spacing="-8.93">". The grouping is done using the</line>
+      <line x_offset="228.85" y_offset="11.92" spacing="2.75">&#xA8;</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="-9.0">following basic clustering procedure based on the na&#x131;ve</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">lexical similarity between events:</line>
+    </region>
+    <region x="314.5" y="556.03" width="241.07" height="163.23" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="154.17" spacing="0.0">words. Here we are using the FP-Growth algorithm to</line>
+      <line x_offset="0.0" y_offset="142.31" spacing="2.81">generate frequent event group pairs which appear in at least</line>
+      <line x_offset="0.0" y_offset="130.45" spacing="2.8">5 documents (i.e., news articles). In our approach, each</line>
+      <line x_offset="59.97" y_offset="118.6" spacing="2.8">contains a set of events</line>
+      <line x_offset="211.87" y_offset="118.6" spacing="-9.05">. Since</line>
+      <line x_offset="0.0" y_offset="118.59" spacing="-9.05">document</line>
+      <line x_offset="165.15" y_offset="118.27" spacing="-9.12">e , e , .., e</line>
+      <line x_offset="43.74" y_offset="118.27" spacing="-9.43">D</line>
+      <line x_offset="51.92" y_offset="117.53" spacing="-6.18">i</line>
+      <line x_offset="169.75" y_offset="117.53" spacing="-6.92">1 2</line>
+      <line x_offset="206.46" y_offset="117.53" spacing="-6.92">n</line>
+      <line x_offset="0.0" y_offset="106.73" spacing="1.75">some of these events are similar and thus, belong to the same</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.8">event group, we generalize the representation by replacing</line>
+      <line x_offset="0.0" y_offset="83.02" spacing="2.8">the events with the groups they are part of, as shown in</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">the Grouping events procedure. Next, we apply FP-Growth</line>
+      <line x_offset="181.44" y_offset="59.3" spacing="2.8">with minimum</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="-9.05">which generates event group pairs</line>
+      <line x_offset="157.67" y_offset="58.97" spacing="-11.72">, G )</line>
+      <line x_offset="142.76" y_offset="58.97" spacing="-12.05">(G</line>
+      <line x_offset="154.37" y_offset="58.23" spacing="-6.18">i</line>
+      <line x_offset="169.82" y_offset="58.23" spacing="-6.92">j</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="1.75">support of 5. One such example of frequent event group pair</line>
+      <line x_offset="59.24" y_offset="35.7" spacing="2.8">US suspects Iraq Iraq develops chemical</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="-8.93">instances is ("</line>
+      <line x_offset="129.87" y_offset="35.58" spacing="-9.05">", "</line>
+      <line x_offset="0.0" y_offset="23.84" spacing="2.8">weapons</line>
+      <line x_offset="34.57" y_offset="23.72" spacing="-8.93">") occurring at least 5 times (minimum support) in</line>
+      <line x_offset="147.15" y_offset="11.98" spacing="2.81">US accusations and the</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="-8.93">the dataset assigned to the scenario "</line>
+      <line x_offset="0.0" y_offset="0.12" spacing="2.8">UN inspection</line>
+      <line x_offset="57.8" y_offset="0.0" spacing="-8.93">".</line>
+    </region>
+    <region x="314.5" y="87.79" width="241.08" height="458.76" line_height="8.53" font="CBIAIE+CMR9">
+      <line x_offset="0.0" y_offset="449.82" spacing="0.0">D. Learning Contingency Relations</line>
+      <line x_offset="9.88" y_offset="434.72" spacing="6.05">This module has two objectives: (1) to determine if the</line>
+      <line x_offset="138.85" y_offset="422.99" spacing="2.8">a b</line>
+      <line x_offset="0.0" y_offset="422.87" spacing="-8.93">events of a frequent event pair ( , ) are contingent (i.e.,</line>
+      <line x_offset="0.0" y_offset="411.01" spacing="2.8">encode a contingency relation), and if yes, (2) to assign the</line>
+      <line x_offset="0.0" y_offset="399.14" spacing="2.81">Cause and the Effect roles to such events. These steps are</line>
+      <line x_offset="0.0" y_offset="387.29" spacing="2.8">presented in detail below.</line>
+      <line x_offset="9.88" y_offset="375.54" spacing="2.81">1) Causal Dependency:</line>
+      <line x_offset="110.61" y_offset="375.42" spacing="-8.93">In order to identify if two events</line>
+      <line x_offset="0.0" y_offset="363.57" spacing="2.8">are contingent, we propose a novel statistical measure</line>
+      <line x_offset="3.29" y_offset="351.83" spacing="2.8">Effect-Control-Dependency</line>
+      <line x_offset="0.0" y_offset="351.71" spacing="-8.93">(</line>
+      <line x_offset="117.92" y_offset="351.71" spacing="-9.05">- ECD), to measure contin-</line>
+      <line x_offset="125.27" y_offset="339.96" spacing="2.81">a</line>
+      <line x_offset="153.85" y_offset="339.96" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="339.84" spacing="-8.93">gency between two variables and . For this, we need</line>
+      <line x_offset="0.0" y_offset="327.99" spacing="2.8">to take into account the following issues:</line>
+      <line x_offset="0.0" y_offset="312.67" spacing="6.38">(1)</line>
+      <line x_offset="16.57" y_offset="312.55" spacing="-8.93">One important contingency condition is the temporal</line>
+      <line x_offset="0.0" y_offset="300.7" spacing="2.8">precedence of the causing event over the effect. However,</line>
+      <line x_offset="0.0" y_offset="288.84" spacing="2.8">our data is not temporally ordered. Instead of relying on</line>
+      <line x_offset="0.0" y_offset="276.97" spacing="2.81">temporal classifiers which are hard to build [3], we also</line>
+      <line x_offset="0.0" y_offset="265.12" spacing="2.8">introduce here a statistical measure Effect-Control-Ratio</line>
+      <line x_offset="0.0" y_offset="253.26" spacing="2.8">(ECR) derived from ECD to identify the Cause and the</line>
+      <line x_offset="0.0" y_offset="241.39" spacing="2.81">Effect roles once causality is decided between them.</line>
+      <line x_offset="0.0" y_offset="226.09" spacing="6.37">(2)</line>
+      <line x_offset="14.87" y_offset="225.97" spacing="-8.93">The Causing event can appear independently with other</line>
+      <line x_offset="0.0" y_offset="214.1" spacing="2.81">events, while the Effect event is expected to have a high</line>
+      <line x_offset="0.0" y_offset="202.25" spacing="2.8">likelihood of occurrence in the presence of the causing event</line>
+      <line x_offset="0.0" y_offset="190.39" spacing="2.8">(this condition is similar to the causality notion proposed by</line>
+      <line x_offset="0.0" y_offset="178.52" spacing="2.81">Suppes, 1970 [22]).</line>
+      <line x_offset="0.0" y_offset="163.22" spacing="6.37">(3)</line>
+      <line x_offset="16.14" y_offset="163.1" spacing="-8.93">Since we work with domain- or topic-specific collec-</line>
+      <line x_offset="0.0" y_offset="151.23" spacing="2.81">tions, we assume that in a scenario specific to a domain</line>
+      <line x_offset="0.0" y_offset="139.37" spacing="2.8">or topic, highly dependent frequent event pairs should be</line>
+      <line x_offset="0.0" y_offset="127.52" spacing="2.8">given priority over less frequent ones because they are more</line>
+      <line x_offset="0.0" y_offset="115.65" spacing="2.81">important than less frequent pairs.</line>
+      <line x_offset="0.0" y_offset="100.34" spacing="6.37">(4)</line>
+      <line x_offset="15.09" y_offset="100.23" spacing="-8.93">The Contingent events can be in direct or indirect rela-</line>
+      <line x_offset="0.0" y_offset="88.36" spacing="2.81">tionships. We hypothesize here that the larger the distance</line>
+      <line x_offset="0.0" y_offset="76.5" spacing="2.8">between the events, the lower their degree of dependency.</line>
+      <line x_offset="235.68" y_offset="35.98" spacing="32.03">,</line>
+      <line x_offset="9.88" y_offset="66.62" spacing="-39.69">The proposed measure of contingency (ECD(a,b)) is de-</line>
+      <line x_offset="0.0" y_offset="56.74" spacing="0.83">fined as follows:</line>
+      <line x_offset="174.66" y_offset="42.11" spacing="6.1">( )</line>
+      <line x_offset="66.75" y_offset="41.74" spacing="-8.53">P a, b( )</line>
+      <line x_offset="167.55" y_offset="41.74" spacing="-8.49">P a, b</line>
+      <line x_offset="39.15" y_offset="36.35" spacing="-3.14">(</line>
+      <line x_offset="21.08" y_offset="35.98" spacing="-8.13">max</line>
+      <line x_offset="51.0" y_offset="30.31" spacing="-2.86">( )</line>
+      <line x_offset="80.32" y_offset="30.31" spacing="-8.53">( ) +</line>
+      <line x_offset="127.65" y_offset="30.31" spacing="-8.53">max ( ) ( ) +</line>
+      <line x_offset="64.07" y_offset="23.65" spacing="-8.77">&#x2212;</line>
+      <line x_offset="52.69" y_offset="18.46" spacing="-3.34">( )</line>
+      <line x_offset="45.59" y_offset="18.09" spacing="-8.13">P a, b</line>
+      <line x_offset="59.6" y_offset="6.66" spacing="2.9">( ) +</line>
+      <line x_offset="22.27" y_offset="6.3" spacing="-8.53">P a P a, b &#x3B3;( )</line>
+      <line x_offset="43.36" y_offset="0.0" spacing="-9.13">&#x2212;</line>
+      <line x_offset="43.89" y_offset="29.95" spacing="-38.44">P b P a, b &#x3B3;</line>
+      <line x_offset="149.52" y_offset="29.95" spacing="-8.49">P a, b</line>
+      <line x_offset="214.97" y_offset="12.69" spacing="8.73">)</line>
+      <line x_offset="191.05" y_offset="29.95" spacing="-25.75">P a, b &#x3B3;</line>
+      <line x_offset="144.67" y_offset="29.7" spacing="-5.68">t</line>
+      <line x_offset="173.0" y_offset="29.7" spacing="-5.93">t</line>
+      <line x_offset="119.87" y_offset="29.69" spacing="-15.42">&#x2217;</line>
+      <line x_offset="181.91" y_offset="23.65" spacing="-9.4">&#x2212;</line>
+      <line x_offset="153.95" y_offset="18.46" spacing="-3.34">( )</line>
+      <line x_offset="146.85" y_offset="18.09" spacing="-8.13">P a, b</line>
+      <line x_offset="128.8" y_offset="6.3" spacing="3.3">P a , b P a, b &#x3B3;</line>
+      <line x_offset="123.96" y_offset="6.05" spacing="-5.68">t</line>
+      <line x_offset="144.3" y_offset="6.05" spacing="-5.93">t</line>
+      <line x_offset="99.16" y_offset="6.03" spacing="-15.41">&#x2217;max ( ) ( ) +</line>
+      <line x_offset="161.2" y_offset="0.0" spacing="-9.41">&#x2212;</line>
+    </region>
+    <region x="54.58" y="81.54" width="241.07" height="464.79" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="456.75" spacing="0.0">Procedure:</line>
+      <line x_offset="45.28" y_offset="456.64" spacing="-8.04">Grouping events</line>
+      <line x_offset="0.0" y_offset="446.87" spacing="1.74">Input:</line>
+      <line x_offset="27.33" y_offset="446.76" spacing="-8.04">Events</line>
+      <line x_offset="97.02" y_offset="446.76" spacing="-8.15">( = [</line>
+      <line x_offset="154.81" y_offset="446.76" spacing="-8.15">]</line>
+      <line x_offset="188.42" y_offset="446.76" spacing="-8.15">[</line>
+      <line x_offset="213.36" y_offset="446.76" spacing="-8.15">] )</line>
+      <line x_offset="54.53" y_offset="446.47" spacing="-8.2">e</line>
+      <line x_offset="58.77" y_offset="446.22" spacing="-8.49">1 2, ,...,e e e &lt; Subj verb Obj &gt;</line>
+      <line x_offset="88.85" y_offset="446.22" spacing="-5.93">n i</line>
+      <line x_offset="147.71" y_offset="446.22" spacing="-5.93">e</line>
+      <line x_offset="178.19" y_offset="446.22" spacing="-5.93">e</line>
+      <line x_offset="206.25" y_offset="446.22" spacing="-5.93">e</line>
+      <line x_offset="151.2" y_offset="445.21" spacing="-3.94">i</line>
+      <line x_offset="181.68" y_offset="445.21" spacing="-4.94">i</line>
+      <line x_offset="209.74" y_offset="445.21" spacing="-4.94">i</line>
+      <line x_offset="0.0" y_offset="436.98" spacing="0.19">Output:</line>
+      <line x_offset="98.06" y_offset="436.88" spacing="-8.04">,</line>
+      <line x_offset="114.67" y_offset="436.88" spacing="-8.15">,...,</line>
+      <line x_offset="146.15" y_offset="436.88" spacing="-8.15">(</line>
+      <line x_offset="176.03" y_offset="436.88" spacing="-8.15">)</line>
+      <line x_offset="33.76" y_offset="436.88" spacing="-8.15">Event Groups</line>
+      <line x_offset="103.4" y_offset="436.58" spacing="-8.2">G G m n</line>
+      <line x_offset="86.78" y_offset="436.58" spacing="-8.49">G</line>
+      <line x_offset="93.94" y_offset="436.33" spacing="-5.68">1 2</line>
+      <line x_offset="136.06" y_offset="436.33" spacing="-5.93">m</line>
+      <line x_offset="160.29" y_offset="430.29" spacing="-9.38">&#x2264;</line>
+      <line x_offset="133.79" y_offset="421.21" spacing="0.93">into its own group</line>
+      <line x_offset="9.88" y_offset="421.21" spacing="-8.15">[1.] Initially place every event</line>
+      <line x_offset="123.29" y_offset="420.66" spacing="-8.2">ei</line>
+      <line x_offset="24.17" y_offset="411.4" spacing="1.12">(</line>
+      <line x_offset="40.53" y_offset="411.4" spacing="-8.15">= )</line>
+      <line x_offset="27.13" y_offset="411.1" spacing="-8.2">G</line>
+      <line x_offset="53.24" y_offset="411.1" spacing="-8.49">e</line>
+      <line x_offset="34.29" y_offset="410.85" spacing="-5.68">i</line>
+      <line x_offset="57.49" y_offset="410.85" spacing="-5.93">i</line>
+      <line x_offset="48.67" y_offset="404.81" spacing="-9.38">{ }</line>
+      <line x_offset="9.88" y_offset="401.58" spacing="-4.93">[2.] For each event</line>
+      <line x_offset="82.36" y_offset="401.29" spacing="-8.2">e</line>
+      <line x_offset="102.07" y_offset="401.29" spacing="-8.49">G</line>
+      <line x_offset="86.61" y_offset="401.04" spacing="-5.68">i</line>
+      <line x_offset="109.23" y_offset="401.04" spacing="-8.69">i:</line>
+      <line x_offset="92.86" y_offset="394.99" spacing="-9.38">&#x2208;</line>
+      <line x_offset="32.74" y_offset="391.77" spacing="-4.93">For each</line>
+      <line x_offset="90.48" y_offset="391.77" spacing="-8.15">where</line>
+      <line x_offset="174.75" y_offset="391.77" spacing="-8.15">=</line>
+      <line x_offset="67.48" y_offset="391.48" spacing="-8.2">G</line>
+      <line x_offset="115.32" y_offset="391.48" spacing="-8.49">G</line>
+      <line x_offset="74.64" y_offset="391.17" spacing="-5.62">k=i</line>
+      <line x_offset="122.48" y_offset="390.84" spacing="-5.6">k.Lemma(verb)</line>
+      <line x_offset="78.68" y_offset="387.03" spacing="-6.47"></line>
+      <line x_offset="90.77" y_offset="381.96" spacing="-3.08">:</line>
+      <line x_offset="32.74" y_offset="381.67" spacing="-8.2">G</line>
+      <line x_offset="39.9" y_offset="381.02" spacing="-5.29">i.Lemma(verb)</line>
+      <line x_offset="45.6" y_offset="372.15" spacing="0.73">Calculate average cosine-similarity(</line>
+      <line x_offset="198.65" y_offset="372.15" spacing="-8.15">) (for</line>
+      <line x_offset="175.52" y_offset="371.86" spacing="-8.2">e</line>
+      <line x_offset="182.9" y_offset="371.86" spacing="-8.49">, G</line>
+      <line x_offset="179.77" y_offset="371.61" spacing="-5.68">i</line>
+      <line x_offset="194.12" y_offset="371.54" spacing="-5.87">k</line>
+      <line x_offset="45.6" y_offset="362.34" spacing="1.06">each event</line>
+      <line x_offset="98.26" y_offset="362.34" spacing="-8.15">in</line>
+      <line x_offset="123.1" y_offset="362.34" spacing="-8.15">find cosine-similarity</line>
+      <line x_offset="87.03" y_offset="362.04" spacing="-8.2">e</line>
+      <line x_offset="108.3" y_offset="362.04" spacing="-8.49">G</line>
+      <line x_offset="91.28" y_offset="361.79" spacing="-5.68">j</line>
+      <line x_offset="115.46" y_offset="361.73" spacing="-5.87">k</line>
+      <line x_offset="45.6" y_offset="352.53" spacing="1.06">(</line>
+      <line x_offset="68.13" y_offset="352.53" spacing="-8.15">) and take the average).</line>
+      <line x_offset="48.56" y_offset="352.23" spacing="-8.2">e</line>
+      <line x_offset="55.94" y_offset="352.23" spacing="-8.49">, e</line>
+      <line x_offset="52.81" y_offset="351.98" spacing="-5.68">i j</line>
+      <line x_offset="32.74" y_offset="342.71" spacing="1.12">Add event</line>
+      <line x_offset="83.69" y_offset="342.71" spacing="-8.15">to</line>
+      <line x_offset="108.53" y_offset="342.71" spacing="-8.15">s.t. the average cosine-</line>
+      <line x_offset="73.19" y_offset="342.42" spacing="-8.2">e</line>
+      <line x_offset="93.73" y_offset="342.42" spacing="-8.49">G</line>
+      <line x_offset="77.44" y_offset="342.17" spacing="-5.68">i</line>
+      <line x_offset="100.89" y_offset="342.11" spacing="-5.87">k</line>
+      <line x_offset="32.74" y_offset="332.9" spacing="1.06">similarity(</line>
+      <line x_offset="92.95" y_offset="332.9" spacing="-8.15">) is maximum (also above some threshold</line>
+      <line x_offset="69.81" y_offset="332.61" spacing="-8.2">e</line>
+      <line x_offset="77.19" y_offset="332.61" spacing="-8.49">, G</line>
+      <line x_offset="74.06" y_offset="332.36" spacing="-5.68">i</line>
+      <line x_offset="88.41" y_offset="332.3" spacing="-5.87">k</line>
+      <line x_offset="32.74" y_offset="323.09" spacing="1.06">value) and discard original</line>
+      <line x_offset="132.19" y_offset="322.8" spacing="-8.2">G</line>
+      <line x_offset="233.68" y_offset="322.8" spacing="-8.49">e</line>
+      <line x_offset="139.35" y_offset="322.55" spacing="-8.44">i. In case of tie put event</line>
+      <line x_offset="237.92" y_offset="322.55" spacing="-5.93">i</line>
+      <line x_offset="32.74" y_offset="313.28" spacing="1.12">randomly in any of the groups on tie.</line>
+      <line x_offset="178.38" y_offset="301.49" spacing="3.64">,...,</line>
+      <line x_offset="203.63" y_offset="301.49" spacing="-8.15">.</line>
+      <line x_offset="9.88" y_offset="301.49" spacing="-8.15">[3.] Return the resulting event groups</line>
+      <line x_offset="161.77" y_offset="301.2" spacing="-8.2">,G G</line>
+      <line x_offset="157.65" y_offset="300.95" spacing="-5.68">1 2</line>
+      <line x_offset="196.66" y_offset="300.95" spacing="-5.93">m</line>
+      <line x_offset="150.5" y_offset="301.2" spacing="-8.74">G</line>
+      <line x_offset="9.88" y_offset="284.67" spacing="7.59">2) Identifying Frequent Event Pairs:</line>
+      <line x_offset="161.65" y_offset="284.56" spacing="-8.93">Once similar events</line>
+      <line x_offset="0.0" y_offset="272.7" spacing="2.8">are grouped together, frequent candidate event group pairs</line>
+      <line x_offset="30.68" y_offset="260.84" spacing="2.8">) are generated based on the FP-Growth algo-</line>
+      <line x_offset="0.0" y_offset="260.84" spacing="-9.05">(</line>
+      <line x_offset="14.35" y_offset="260.52" spacing="-9.11">, G</line>
+      <line x_offset="3.3" y_offset="260.52" spacing="-9.44">G</line>
+      <line x_offset="11.06" y_offset="259.78" spacing="-6.18">i</line>
+      <line x_offset="26.5" y_offset="259.78" spacing="-6.92">j</line>
+      <line x_offset="0.0" y_offset="248.98" spacing="1.75">rithm [10] with minimum support of 5. These are the event</line>
+      <line x_offset="0.0" y_offset="237.12" spacing="2.8">group pairs which appear in at least 5 documents (i.e., news</line>
+      <line x_offset="0.0" y_offset="225.26" spacing="2.8">articles).</line>
+      <line x_offset="9.88" y_offset="213.47" spacing="2.74">FP-Growth is a very popular algorithm in data mining</line>
+      <line x_offset="0.0" y_offset="201.61" spacing="2.8">[10], usually used to generate frequent combinations of items</line>
+      <line x_offset="0.0" y_offset="189.76" spacing="2.8">to learn associations between them. Frequent combinations</line>
+      <line x_offset="0.0" y_offset="177.89" spacing="2.81">of items are those appearing at least</line>
+      <line x_offset="171.52" y_offset="177.89" spacing="-9.05">number of times</line>
+      <line x_offset="160.74" y_offset="177.57" spacing="-9.11">n</line>
+      <line x_offset="109.07" y_offset="166.15" spacing="2.48">minimum support</line>
+      <line x_offset="0.0" y_offset="166.04" spacing="-8.93">in a database where is</line>
+      <line x_offset="180.43" y_offset="166.04" spacing="-9.05">. For example,</line>
+      <line x_offset="87.78" y_offset="165.71" spacing="-9.11">n</line>
+      <line x_offset="0.0" y_offset="154.18" spacing="2.48">transaction database records might contain information about</line>
+      <line x_offset="0.0" y_offset="142.31" spacing="2.81">what items people are frequently purchasing together .</line>
+      <line x_offset="0.0" y_offset="130.46" spacing="2.8">Transaction records may contain frequent combination of</line>
+      <line x_offset="88.5" y_offset="118.6" spacing="2.8">with minimum support</line>
+      <line x_offset="203.79" y_offset="118.6" spacing="-9.05">- i.e.,</line>
+      <line x_offset="0.0" y_offset="118.27" spacing="-11.72">(laptop, harddrive)</line>
+      <line x_offset="191.94" y_offset="118.27" spacing="-9.44">n</line>
+      <line x_offset="235.13" y_offset="118.27" spacing="-9.44">n</line>
+      <line x_offset="0.0" y_offset="106.74" spacing="2.49">records contain this combination. This shows that people</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.8">tend to buy hard drives when they frequently purchase</line>
+      <line x_offset="0.0" y_offset="83.01" spacing="2.81">laptops or vice-versa depending on which conditional prob-</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.8">abilities</line>
+      <line x_offset="128.77" y_offset="71.16" spacing="-9.05">or</line>
+      <line x_offset="234.47" y_offset="71.16" spacing="-9.05">is</line>
+      <line x_offset="35.71" y_offset="70.83" spacing="-11.72">P (harddrive laptop) P (laptop harddrive)</line>
+      <line x_offset="91.1" y_offset="63.81" spacing="-10.13">|</line>
+      <line x_offset="179.65" y_offset="63.81" spacing="-17.15">|</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="-4.54">higher. In order to identify such frequent combinations of</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">items from a database by using the FP-Growth algorithm,</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">one has to specify the minimum support . Silverstein et</line>
+      <line x_offset="174.6" y_offset="35.25" spacing="-9.11">n</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.48">al (2000) have also used this algorithm to mine frequent</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">combinations of items as a preliminary step in identify-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">ing causal associations between census variables and text</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366664444</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="5">
+    <region x="445.41" y="704.7" width="11.68" height="8.53" line_height="8.53" font="CBIAIE+CMR9">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">log</line>
+    </region>
+    <region x="544.65" y="704.63" width="10.37" height="8.15" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(1)</line>
+    </region>
+    <region x="383.49" y="704.34" width="42.13" height="8.89" line_height="8.49" font="CBIAFO+CMMI9">
+      <line x_offset="22.18" y_offset="0.36" spacing="0.0">( )</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-8.13">ECD a, b</line>
+    </region>
+    <region x="329.18" y="704.34" width="51.77" height="8.89" line_height="8.49" font="CBIAFO+CMMI9">
+      <line x_offset="22.18" y_offset="0.36" spacing="0.0">( ) =</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-8.13">ECD a, b</line>
+    </region>
+    <region x="459.93" y="698.68" width="4.57" height="8.53" line_height="8.53" font="CBIAIE+CMR9">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">2</line>
+    </region>
+    <region x="473.14" y="698.31" width="55.1" height="20.69" line_height="8.49" font="CBIAFO+CMMI9">
+      <line x_offset="17.05" y_offset="12.16" spacing="0.0">( )</line>
+      <line x_offset="4.93" y_offset="11.79" spacing="-8.13">dis a, b</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.3">maxDistance</line>
+    </region>
+    <region x="427.64" y="698.04" width="16.25" height="15.43" line_height="15.43" font="CBIAHC+CMSY9">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#xD7; &#x2212;</line>
+    </region>
+    <region x="466.53" y="692.01" width="4.57" height="15.43" line_height="15.43" font="CBIAHC+CMSY9">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">&#x2217;</line>
+    </region>
+    <region x="55.14" y="366.14" width="241.07" height="353.02" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="343.96" spacing="0.0">This measure computes the maximum contingency score</line>
+      <line x_offset="0.0" y_offset="332.1" spacing="2.81">based on which event is the Cause and which is the Effect.</line>
+      <line x_offset="9.88" y_offset="319.57" spacing="3.47">ECD is an improvement over Point-Wise Mutual In-</line>
+      <line x_offset="0.0" y_offset="307.71" spacing="2.8">formation (PMI), a measure frequently used to capture</line>
+      <line x_offset="189.98" y_offset="295.97" spacing="2.81">a</line>
+      <line x_offset="218.73" y_offset="295.97" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="295.85" spacing="-8.93">dependencies between variables. Two events and are</line>
+      <line x_offset="0.0" y_offset="283.99" spacing="2.8">strongly dependent when at least one of them appears more</line>
+      <line x_offset="0.0" y_offset="272.14" spacing="2.8">frequently in the presence of the other than alone (i.e.,</line>
+      <line x_offset="108.69" y_offset="260.27" spacing="2.81">or</line>
+      <line x_offset="226.59" y_offset="260.27" spacing="-9.05">, or</line>
+      <line x_offset="0.0" y_offset="259.94" spacing="-11.72">P (b) P (a, b) &lt; P (a, b) P (a) P (a, b) &lt; P (a, b)</line>
+      <line x_offset="22.06" y_offset="252.93" spacing="-10.13">&#x2212;</line>
+      <line x_offset="143.72" y_offset="252.93" spacing="-17.15">&#x2212;</line>
+      <line x_offset="0.0" y_offset="248.41" spacing="-4.54">both). Unlike PMI, ECD captures not only the dependency</line>
+      <line x_offset="0.0" y_offset="236.55" spacing="2.81">between two events, but also its importance (relevancy) in a</line>
+      <line x_offset="0.0" y_offset="224.69" spacing="2.8">given scenario. PMI has the disadvantage of giving higher</line>
+      <line x_offset="0.0" y_offset="212.84" spacing="2.8">weights to strongly dependent but rare events. This problem</line>
+      <line x_offset="0.0" y_offset="200.97" spacing="2.81">is addressed by ECD which gives higher scores to more</line>
+      <line x_offset="0.0" y_offset="189.11" spacing="2.8">frequent pairs.</line>
+      <line x_offset="235.57" y_offset="176.71" spacing="3.47">b</line>
+      <line x_offset="9.89" y_offset="176.59" spacing="-8.93">The first fraction of the first argument assumes that if</line>
+      <line x_offset="192.65" y_offset="164.84" spacing="2.81">a</line>
+      <line x_offset="0.0" y_offset="164.72" spacing="-8.93">is the Effect event then its probability given is greater</line>
+      <line x_offset="45.92" y_offset="152.99" spacing="2.8">a</line>
+      <line x_offset="0.0" y_offset="152.87" spacing="-8.93">than when does not occur. Thus, if this condition is true</line>
+      <line x_offset="0.0" y_offset="141.01" spacing="2.8">then the value of the fraction will be greater than when this</line>
+      <line x_offset="0.0" y_offset="129.14" spacing="2.81">condition is false. This fraction determines the dependency</line>
+      <line x_offset="0.0" y_offset="117.29" spacing="2.8">between events and also gives higher score to more frequent</line>
+      <line x_offset="0.0" y_offset="105.43" spacing="2.8">(important) pairs than less frequent (unimportant) pairs. The</line>
+      <line x_offset="0.0" y_offset="93.57" spacing="2.81">second fraction indicates that</line>
+      <line x_offset="125.08" y_offset="93.57" spacing="-9.05">acan be the cause of other</line>
+      <line x_offset="0.0" y_offset="81.71" spacing="2.8">events as well. However, if it is very strongly correlated</line>
+      <line x_offset="88.09" y_offset="69.97" spacing="2.8">b</line>
+      <line x_offset="0.0" y_offset="69.85" spacing="-8.93">with the Effect event , then it will appear most often with</line>
+      <line x_offset="0.0" y_offset="58.11" spacing="2.81">b</line>
+      <line x_offset="9.67" y_offset="57.99" spacing="-8.93">than with any other event. If this condition is true then</line>
+      <line x_offset="0.0" y_offset="46.13" spacing="2.8">the second fraction will have a higher score than when it</line>
+      <line x_offset="0.0" y_offset="34.27" spacing="2.81">is false. We use (a small value 0, say 0.01) in both</line>
+      <line x_offset="71.36" y_offset="33.94" spacing="-9.11">&#x3B3;</line>
+      <line x_offset="144.91" y_offset="33.94" spacing="-9.44">&gt;</line>
+      <line x_offset="0.0" y_offset="22.41" spacing="2.48">fractions to avoid score for the two pairs when they are</line>
+      <line x_offset="74.36" y_offset="15.07" spacing="-9.8">&#x221E;</line>
+      <line x_offset="9.89" y_offset="0.0" spacing="6.01">An example of such event pairs</line>
+      <line x_offset="0.0" y_offset="10.55" spacing="-19.61">not equally important in a particular scenario.</line>
+      <line x_offset="148.81" y_offset="0.0" spacing="1.5">(a,b)is given below:</line>
+    </region>
+    <region x="55.14" y="303.71" width="224.44" height="53.77" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="45.62" spacing="0.0">Pair-1 = ("US accused Iraq of developing chemical</line>
+      <line x_offset="12.03" y_offset="35.07" spacing="2.41">weapons" [92], "UN inspected Iraqi scientists" [51]) [50]</line>
+      <line x_offset="0.0" y_offset="23.09" spacing="3.83">Pair-2 = ("UN Security Council held an emergency</line>
+      <line x_offset="12.03" y_offset="12.54" spacing="2.41">session" [55], "Security Council closed emergency</line>
+      <line x_offset="12.03" y_offset="0.0" spacing="4.39">session" [6]) [5]</line>
+    </region>
+    <region x="313.97" y="177.52" width="241.08" height="501.53" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="48.33" y_offset="492.6" spacing="0.0">a b</line>
+      <line x_offset="9.88" y_offset="492.48" spacing="-8.93">Here dis( , ) is the average (median) distance between</line>
+      <line x_offset="29.21" y_offset="480.73" spacing="2.81">a</line>
+      <line x_offset="57.13" y_offset="480.73" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="480.61" spacing="-8.93">events and in a particular scenario. If the two events</line>
+      <line x_offset="0.0" y_offset="468.76" spacing="2.8">appear in same sentence, then the distance is 1.0; if they</line>
+      <line x_offset="0.0" y_offset="456.9" spacing="2.8">appear in consecutive sentences, then distance is 2.0, and so</line>
+      <line x_offset="0.0" y_offset="445.04" spacing="2.81">on. MaxDistance is the maximum median distance between</line>
+      <line x_offset="0.0" y_offset="433.18" spacing="2.8">any two events in a scenario.</line>
+      <line x_offset="9.88" y_offset="421.23" spacing="2.89">We rank contingent pairs according to their scores and</line>
+      <line x_offset="0.0" y_offset="409.38" spacing="2.8">evaluate contingency relationships ranked by both PMI and</line>
+      <line x_offset="0.0" y_offset="397.51" spacing="2.81">ECD using the interpolated precision-recall curve (explained</line>
+      <line x_offset="0.0" y_offset="385.66" spacing="2.8">in Section 4).</line>
+      <line x_offset="9.88" y_offset="373.78" spacing="2.94">2) Cause and Effect Roles Assignment:</line>
+      <line x_offset="185.33" y_offset="373.67" spacing="-8.93">We introduce</line>
+      <line x_offset="0.0" y_offset="361.81" spacing="2.8">a new metric, ECR (Effect-Control-Ratio), to identify the</line>
+      <line x_offset="0.0" y_offset="349.95" spacing="2.8">Cause and Effect roles.</line>
+      <line x_offset="109.25" y_offset="333.21" spacing="8.21">( )</line>
+      <line x_offset="174.54" y_offset="333.21" spacing="-8.53">( )</line>
+      <line x_offset="102.14" y_offset="332.85" spacing="-8.13">P a, b</line>
+      <line x_offset="167.44" y_offset="332.85" spacing="-8.49">P a, b</line>
+      <line x_offset="94.59" y_offset="321.42" spacing="2.9">( )</line>
+      <line x_offset="123.9" y_offset="321.42" spacing="-8.53">( ) max ( )</line>
+      <line x_offset="87.49" y_offset="321.05" spacing="-8.13">P b P a, b</line>
+      <line x_offset="176.7" y_offset="321.05" spacing="-8.49">P a, b</line>
+      <line x_offset="171.85" y_offset="320.8" spacing="-5.68">t</line>
+      <line x_offset="200.18" y_offset="320.8" spacing="-5.93">t</line>
+      <line x_offset="147.05" y_offset="320.79" spacing="-15.42">&#x2217;</line>
+      <line x_offset="52.53" y_offset="315.66" spacing="-3.4">( ) =</line>
+      <line x_offset="230.68" y_offset="315.59" spacing="-8.08">(2)</line>
+      <line x_offset="31.16" y_offset="315.3" spacing="-8.2">ECR a, b</line>
+      <line x_offset="107.65" y_offset="314.76" spacing="-14.89">&#x2212;</line>
+      <line x_offset="109.25" y_offset="309.9" spacing="-3.67">( )</line>
+      <line x_offset="175.0" y_offset="309.9" spacing="-8.53">( )</line>
+      <line x_offset="102.14" y_offset="309.54" spacing="-8.13">P a, b</line>
+      <line x_offset="167.89" y_offset="309.54" spacing="-8.49">P a, b</line>
+      <line x_offset="94.14" y_offset="298.11" spacing="2.9">( )</line>
+      <line x_offset="124.37" y_offset="298.11" spacing="-8.53">( ) max ( )</line>
+      <line x_offset="87.03" y_offset="297.74" spacing="-8.13">P a P a, b</line>
+      <line x_offset="177.16" y_offset="297.74" spacing="-8.49">P a , b</line>
+      <line x_offset="172.32" y_offset="297.49" spacing="-5.68">t</line>
+      <line x_offset="192.66" y_offset="297.49" spacing="-5.93">t</line>
+      <line x_offset="147.52" y_offset="297.47" spacing="-15.41">&#x2217;</line>
+      <line x_offset="108.12" y_offset="291.45" spacing="-9.41">&#x2212;</line>
+      <line x_offset="9.88" y_offset="276.6" spacing="5.79">Similar to ECD, the first fractions of the numerator and</line>
+      <line x_offset="0.0" y_offset="264.74" spacing="2.8">the denominator capture the dependency of the Effect with</line>
+      <line x_offset="0.0" y_offset="252.88" spacing="2.81">respect to the Causing event. Since we need to capture only</line>
+      <line x_offset="0.0" y_offset="241.02" spacing="2.8">the dependency of the Effect event on the Causing event and</line>
+      <line x_offset="0.0" y_offset="229.17" spacing="2.8">not their importance (tackled by ECD), we have removed</line>
+      <line x_offset="10.41" y_offset="217.3" spacing="2.81">from both fractions and have tried to reduce the scale</line>
+      <line x_offset="0.0" y_offset="216.97" spacing="-9.11">&#x3B3;</line>
+      <line x_offset="0.0" y_offset="205.44" spacing="2.48">of the second fraction such that the decision is made only</line>
+      <line x_offset="0.0" y_offset="193.59" spacing="2.8">by the first fraction. The first fractions of the numerator</line>
+      <line x_offset="0.0" y_offset="181.72" spacing="2.81">and denomenator have values within the range (0, ], while</line>
+      <line x_offset="200.42" y_offset="174.38" spacing="-9.8">&#x221E;</line>
+      <line x_offset="0.0" y_offset="169.87" spacing="-4.54">the second fractions of the numerator and denominator have</line>
+      <line x_offset="0.0" y_offset="158.01" spacing="2.8">values in (0,1]. When the first fraction can not identify the</line>
+      <line x_offset="0.0" y_offset="146.14" spacing="2.81">Cause and the Effect (i.e., its value for the numerator and</line>
+      <line x_offset="0.0" y_offset="134.29" spacing="2.8">denominator are the same or very close), the decision is</line>
+      <line x_offset="0.0" y_offset="122.42" spacing="2.81">made by the second fraction which considers how strongly</line>
+      <line x_offset="0.0" y_offset="110.56" spacing="2.8">the Causing Event is related to the Effect as compared</line>
+      <line x_offset="0.0" y_offset="98.71" spacing="2.8">with other events. The decision about the causal roles is</line>
+      <line x_offset="0.0" y_offset="86.84" spacing="2.81">as follows:</line>
+      <line x_offset="56.05" y_offset="75.03" spacing="2.88">a b</line>
+      <line x_offset="13.45" y_offset="74.91" spacing="-8.93">a) Predict</line>
+      <line x_offset="83.28" y_offset="74.91" spacing="-9.05">, if ECR(a,b) 1.0</line>
+      <line x_offset="144.67" y_offset="74.58" spacing="-9.11">&gt;</line>
+      <line x_offset="64.45" y_offset="67.56" spacing="-10.13">&#x2192;</line>
+      <line x_offset="56.61" y_offset="63.08" spacing="-4.45">b a</line>
+      <line x_offset="13.46" y_offset="62.96" spacing="-8.93">b) Predict</line>
+      <line x_offset="83.84" y_offset="62.96" spacing="-9.05">, if ECR(a,b) 1.0</line>
+      <line x_offset="145.23" y_offset="62.63" spacing="-9.11">&lt;</line>
+      <line x_offset="65.56" y_offset="55.62" spacing="-10.13">&#x2192;</line>
+      <line x_offset="9.89" y_offset="47.44" spacing="-0.88">In this research we do not deal with the case when ECR</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.81">is 1.0, since we need a deeper temporal or semantic analysis</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">for such pairs to decide their causal roles. However, this does</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="2.8">not affect our predictions much since only 1% of the event</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">pairs in each scenario on average had a ratio of 1.0.</line>
+    </region>
+    <region x="313.97" y="95.35" width="241.05" height="71.98" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="66.44" y_offset="63.35" spacing="1.38">XPERIMENTS AND VALUATION</line>
+      <line x_offset="144.49" y_offset="62.93" spacing="-8.62">E</line>
+      <line x_offset="41.87" y_offset="62.92" spacing="-9.05">IV. E</line>
+      <line x_offset="9.88" y_offset="47.43" spacing="6.43">In this section we present the experiments and their</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">evaluation. The parameters set manually in our system for</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">each dataset are:</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">(1) PAM Dirichlet parameters same as used by Li and Mc-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">Callum, (2006) including super-topics=2, and sub-topics=3</line>
+    </region>
+    <region x="55.14" y="81.55" width="241.07" height="212.09" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="179.49" y_offset="202.4" spacing="0.75">a b</line>
+      <line x_offset="9.88" y_offset="202.28" spacing="-8.93">Here both pairs are identified as causal (</line>
+      <line x_offset="207.8" y_offset="202.28" spacing="-9.05">) by the</line>
+      <line x_offset="188.43" y_offset="194.94" spacing="-9.8">&#x2192;</line>
+      <line x_offset="0.0" y_offset="190.43" spacing="-4.54">manipulation theory - i.e., if the US had not accused Iraq of</line>
+      <line x_offset="0.0" y_offset="178.56" spacing="2.81">developing chemical weapons, one can necessarily infer that</line>
+      <line x_offset="0.0" y_offset="166.7" spacing="2.8">UN would not have inspected Iraqi scientists regarding this.</line>
+      <line x_offset="0.0" y_offset="154.85" spacing="2.8">The numbers in brackets indicate the frequency of events</line>
+      <line x_offset="0.0" y_offset="142.98" spacing="2.81">and pairs. It can be noticed that the events are strongly</line>
+      <line x_offset="136.34" y_offset="131.24" spacing="2.8">b</line>
+      <line x_offset="0.0" y_offset="131.13" spacing="-8.93">dependent since in each example has a higher probability</line>
+      <line x_offset="80.91" y_offset="119.39" spacing="2.8">a</line>
+      <line x_offset="0.0" y_offset="119.27" spacing="-8.93">of occurrence with than alone. Here PMI gives a higher</line>
+      <line x_offset="0.0" y_offset="107.4" spacing="2.81">score to Pair-2 because it is a less frequent pair with lower</line>
+      <line x_offset="0.0" y_offset="95.55" spacing="2.8">frequency events. The ECD test gives Pair-1 a higher score</line>
+      <line x_offset="0.0" y_offset="83.68" spacing="2.81">than to Pair-2 because the denominator of the first fraction</line>
+      <line x_offset="0.0" y_offset="71.83" spacing="2.8">(P(b) - P(a,b) + ) in the ECD's first argument is the same</line>
+      <line x_offset="66.86" y_offset="71.5" spacing="-9.11">&#x3B3;</line>
+      <line x_offset="0.0" y_offset="59.97" spacing="2.48">for both pairs. Thus, P(a,b) will decide which dependent pair</line>
+      <line x_offset="0.0" y_offset="48.1" spacing="2.81">is more important.</line>
+      <line x_offset="9.88" y_offset="35.58" spacing="3.47">In order to discover more direct and stronger causal rela-</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">tionships, we also penalize pairs by multiplying ECD with</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">the Leacock and Chodorow, (1998) distance penalization</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">measure used to find similarity between concepts:</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366665555</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="6">
+    <region x="55.17" y="614.88" width="241.06" height="104.23" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="95.17" spacing="0.0">for DAG tree (2) minimum support of 5 for the FP-Growth</line>
+      <line x_offset="0.0" y_offset="83.31" spacing="2.81">algorithm (3)</line>
+      <line x_offset="96.74" y_offset="83.31" spacing="-9.05">for ECD.</line>
+      <line x_offset="56.88" y_offset="82.98" spacing="-11.72">&#x3B3; = 0.01</line>
+      <line x_offset="9.88" y_offset="71.16" spacing="2.77">During the experiments we observed that a 4-level DAG</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">with 3 subtopics performs well on the scenario learning task</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">on both data sets. This number of subtopics is reasonable</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">since we noticed that any domain can have between 3 to 10</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">major scenarios on average. A larger number of subtopics</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">generates noisy scenarios for our domains of the Iraq war</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">and Hurricane Katrina.</line>
+    </region>
+    <region x="313.93" y="484.79" width="241.08" height="234.37" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="225.44" spacing="0.0">1) Human Annotation:</line>
+      <line x_offset="109.81" y_offset="225.32" spacing="-8.93">Since contingency (causality, in</line>
+      <line x_offset="0.0" y_offset="213.45" spacing="2.81">a broader sense) is to some extent a matter of perception,</line>
+      <line x_offset="0.0" y_offset="201.6" spacing="2.8">we performed a study which looks at how people perceive</line>
+      <line x_offset="0.0" y_offset="189.74" spacing="2.8">causal and non-causal relationships between two events at</line>
+      <line x_offset="0.0" y_offset="177.87" spacing="2.81">different distances. For this, we selected the top-two clusters</line>
+      <line x_offset="0.0" y_offset="166.02" spacing="2.8">for hurricane Katrina (i.e., C1 and C3) and the Iraq war</line>
+      <line x_offset="0.0" y_offset="154.16" spacing="2.8">(i.e., C1 and C2) as given by the relatedness task. Then</line>
+      <line x_offset="224.86" y_offset="142.41" spacing="2.81">a b</line>
+      <line x_offset="0.0" y_offset="142.3" spacing="-8.93">we randomly selected 80 test examples of event pairs ( , )</line>
+      <line x_offset="0.0" y_offset="130.44" spacing="2.8">from each cluster. Each of the four test-sets were selected</line>
+      <line x_offset="118.57" y_offset="118.69" spacing="2.81">a</line>
+      <line x_offset="143.56" y_offset="118.69" spacing="-8.93">b</line>
+      <line x_offset="0.0" y_offset="118.57" spacing="-8.93">in such a way that the events and in a pair can be at any</line>
+      <line x_offset="0.0" y_offset="106.72" spacing="2.8">distance from 1 to 4 (i.e., 1 to 4 other events can separate</line>
+      <line x_offset="0.0" y_offset="94.86" spacing="2.8">them) and the event pairs were evenly distributed over these</line>
+      <line x_offset="0.0" y_offset="83.0" spacing="2.81">distances (i.e., 20 examples for each distance: 20 x 4 = 80</line>
+      <line x_offset="0.0" y_offset="71.14" spacing="2.8">test-examples).</line>
+      <line x_offset="9.88" y_offset="59.3" spacing="2.79">We presented these random test examples to two judges</line>
+      <line x_offset="0.0" y_offset="47.44" spacing="2.8">who annotated them as contingent or not-contingent ac-</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.81">cording to the manipulation theory adopted from [1] (i.e.,</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">keeping constant as many other states of affairs of the world</line>
+      <line x_offset="236.12" y_offset="11.98" spacing="2.8">a</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="-8.93">in the given text context as possible, modifying event</line>
+      <line x_offset="145.42" y_offset="0.12" spacing="2.81">b</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-8.93">entails predictably modifying event ). Table IV shows that</line>
+    </region>
+    <region x="329.78" y="400.88" width="211.2" height="71.49" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="31.54" y_offset="63.58" spacing="0.0">Dist</line>
+      <line x_offset="71.08" y_offset="63.58" spacing="-7.91">Dist</line>
+      <line x_offset="110.61" y_offset="63.58" spacing="-7.91">Dist</line>
+      <line x_offset="150.14" y_offset="63.58" spacing="-7.91">Dist</line>
+      <line x_offset="48.44" y_offset="62.98" spacing="-5.33">1</line>
+      <line x_offset="87.98" y_offset="62.98" spacing="-5.93">2</line>
+      <line x_offset="127.51" y_offset="62.98" spacing="-5.93">3</line>
+      <line x_offset="167.04" y_offset="62.98" spacing="-5.93">4</line>
+      <line x_offset="0.0" y_offset="54.94" spacing="0.79">Test-</line>
+      <line x_offset="31.54" y_offset="54.94" spacing="-7.24">Y N Y N Y N Y N Causal</line>
+      <line x_offset="0.0" y_offset="46.05" spacing="1.65">set</line>
+      <line x_offset="189.67" y_offset="46.05" spacing="-7.24">rela-</line>
+      <line x_offset="189.67" y_offset="37.16" spacing="1.65">tions</line>
+      <line x_offset="0.0" y_offset="27.86" spacing="2.05">HK:C1 55 40 40 30 35 35 25 30 53.4</line>
+      <line x_offset="0.0" y_offset="18.58" spacing="2.04">HK:C3 30 20 15 60 25 55 25 50 33.9</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="11.34">IW:C2 35 25 10 65 5</line>
+      <line x_offset="130.38" y_offset="0.0" spacing="-7.24">50 5</line>
+      <line x_offset="0.0" y_offset="9.29" spacing="-16.53">IW:C1 40 25 10 60 10 60 15 50 27.7</line>
+      <line x_offset="169.91" y_offset="0.0" spacing="2.04">55 22.0</line>
+    </region>
+    <region x="55.17" y="399.95" width="241.08" height="202.95" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="194.02" spacing="0.0">A. Evaluating the Scenario Generation Task</line>
+      <line x_offset="9.88" y_offset="177.89" spacing="7.07">We evaluated each of the three topic-specific scenario</line>
+      <line x_offset="0.0" y_offset="166.04" spacing="2.8">clusters obtained on each text collection through blind</line>
+      <line x_offset="0.0" y_offset="154.17" spacing="2.81">judgments of cluster quality. Two human annotators were</line>
+      <line x_offset="0.0" y_offset="142.31" spacing="2.8">presented with each of the scenarios' top-50 ranked words</line>
+      <line x_offset="0.0" y_offset="130.46" spacing="2.8">to label them for the "relatedness" task. The relatedness task</line>
+      <line x_offset="0.0" y_offset="118.59" spacing="2.81">for a scenario's top words list requires annotators to label a</line>
+      <line x_offset="0.0" y_offset="106.74" spacing="2.8">word as "YES" if it is semantically similar to other words in</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.8">that scenario cluster, otherwise "NO". In this annotation task,</line>
+      <line x_offset="0.0" y_offset="83.01" spacing="2.81">the annotators were asked to judge the semantic coherence</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.8">of each scenario cluster as a whole (i.e., are the words</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">in the clusters semantically related, identifying a particular</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">scenario?). The evaluation using the relatedness task shows</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">that for hurricane Katrina, clusters 1 (66% related words)</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">and 3 (65% related words) are less noisy as compared</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">with cluster 2 (57% related words) (Table III). Similarly,</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">clusters 1 and 2 in the Iraq war collection were good. At</line>
+    </region>
+    <region x="96.53" y="342.61" width="158.33" height="43.61" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="36.46" spacing="0.0">Test</line>
+      <line x_offset="49.63" y_offset="36.46" spacing="-7.15">Data</line>
+      <line x_offset="87.62" y_offset="36.46" spacing="-7.15">C1</line>
+      <line x_offset="113.97" y_offset="36.46" spacing="-7.15">C2</line>
+      <line x_offset="143.29" y_offset="36.46" spacing="-7.15">C3</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="20.32">Annotator-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.65">Agreement</line>
+      <line x_offset="0.0" y_offset="27.08" spacing="-34.32">Relatedness Katrina 66% 57% 65%</line>
+      <line x_offset="49.63" y_offset="18.18" spacing="1.66">Iraq</line>
+      <line x_offset="85.2" y_offset="18.18" spacing="-7.24">90% 83% 39.5%</line>
+      <line x_offset="49.63" y_offset="0.0" spacing="10.94">Iraq</line>
+      <line x_offset="49.63" y_offset="8.89" spacing="-16.13">Katrina 86% 94% 92%</line>
+      <line x_offset="85.2" y_offset="0.0" spacing="1.65">80% 96% 86%</line>
+    </region>
+    <region x="70.25" y="295.6" width="210.95" height="33.93" line_height="5.79" font="CBIAAG+Times-Roman">
+      <line x_offset="91.42" y_offset="26.69" spacing="0.0">Table III</line>
+      <line x_offset="0.0" y_offset="17.79" spacing="1.65">EVALUATION OF WORD RELATEDNESS AND INTER ANNOTATOR</line>
+      <line x_offset="167.05" y_offset="17.79" spacing="-7.24">-</line>
+      <line x_offset="80.7" y_offset="0.34" spacing="11.66">COLLECTIONS</line>
+      <line x_offset="5.33" y_offset="9.24" spacing="-14.7">AGREEMENT FOR ALL THREE SCENARIO CLUSTERS IN BOTH</line>
+      <line x_offset="128.27" y_offset="0.0" spacing="2.0">.</line>
+    </region>
+    <region x="314.13" y="282.72" width="240.68" height="105.08" line_height="5.79" font="CBIAAG+Times-Roman">
+      <line x_offset="106.09" y_offset="97.84" spacing="0.0">Table IV</line>
+      <line x_offset="6.79" y_offset="89.29" spacing="2.76">HE PERCENTAGE OF CONTINGENT AND NON CONTINGENT EXAMPLES</line>
+      <line x_offset="1.57" y_offset="88.95" spacing="-6.9">T</line>
+      <line x_offset="153.34" y_offset="88.95" spacing="-7.24">-</line>
+      <line x_offset="171.93" y_offset="80.4" spacing="2.76">AND</line>
+      <line x_offset="218.61" y_offset="80.4" spacing="-5.79">AND</line>
+      <line x_offset="7.57" y_offset="80.4" spacing="-5.79">IN TEST</line>
+      <line x_offset="33.04" y_offset="80.06" spacing="-6.9">-SETS OF URRICANE ATRINA</line>
+      <line x_offset="65.19" y_offset="80.06" spacing="-7.24">H</line>
+      <line x_offset="108.71" y_offset="80.06" spacing="-7.24">K</line>
+      <line x_offset="142.11" y_offset="80.06" spacing="-7.24">(HK:C1</line>
+      <line x_offset="188.78" y_offset="80.06" spacing="-7.24">HK:C3)</line>
+      <line x_offset="6.74" y_offset="71.5" spacing="2.76">RAQ AR</line>
+      <line x_offset="69.66" y_offset="71.5" spacing="-5.79">AND</line>
+      <line x_offset="114.72" y_offset="71.5" spacing="-5.79">WITH RESPECT TO DISTANCES</line>
+      <line x_offset="3.71" y_offset="71.16" spacing="-6.9">I</line>
+      <line x_offset="22.9" y_offset="71.16" spacing="-7.24">W (IW:C1</line>
+      <line x_offset="86.5" y_offset="71.16" spacing="-7.24">IW:C2)</line>
+      <line x_offset="217.1" y_offset="70.9" spacing="-7.65">Dist</line>
+      <line x_offset="234.0" y_offset="70.18" spacing="-5.22">i</line>
+      <line x_offset="4.21" y_offset="62.61" spacing="1.78">BETWEEN EVENTS RANGES FROM TO</line>
+      <line x_offset="171.4" y_offset="62.61" spacing="-5.79">AND REFER TO</line>
+      <line x_offset="67.68" y_offset="62.26" spacing="-6.9">(</line>
+      <line x_offset="126.38" y_offset="62.26" spacing="-7.24">1 4). "Y" "N"</line>
+      <line x_offset="70.51" y_offset="62.0" spacing="-7.65">i</line>
+      <line x_offset="0.0" y_offset="53.71" spacing="2.49">CONTINGENT AND NOT</line>
+      <line x_offset="76.67" y_offset="53.37" spacing="-6.9">-CONTINGENT EXAMPLES RESPECTIVELY AFTER</line>
+      <line x_offset="162.8" y_offset="53.37" spacing="-7.24">,</line>
+      <line x_offset="87.82" y_offset="44.82" spacing="2.76">E G</line>
+      <line x_offset="130.55" y_offset="44.82" spacing="-5.79">HAS</line>
+      <line x_offset="179.9" y_offset="44.82" spacing="-5.79">AND</line>
+      <line x_offset="12.74" y_offset="44.82" spacing="-5.79">HUMAN AGREEMENT</line>
+      <line x_offset="84.79" y_offset="44.48" spacing="-6.9">( . . HK:C1</line>
+      <line x_offset="146.34" y_offset="44.48" spacing="-7.24">55% "Y" 40% "N"</line>
+      <line x_offset="5.84" y_offset="35.92" spacing="2.76">EXAMPLES WITH REMAINING DISAGREEMENT FOR</line>
+      <line x_offset="226.0" y_offset="35.92" spacing="-5.79">HE</line>
+      <line x_offset="106.05" y_offset="35.58" spacing="-6.9">5%</line>
+      <line x_offset="211.42" y_offset="35.58" spacing="-7.24">) . T</line>
+      <line x_offset="190.2" y_offset="35.32" spacing="-7.65">Dist</line>
+      <line x_offset="207.11" y_offset="34.71" spacing="-5.33">1</line>
+      <line x_offset="0.91" y_offset="27.03" spacing="1.89">LAST COLUMN SHOWS THE PERCENTAGE OF CONTINGENCY RELATIONS</line>
+      <line x_offset="225.81" y_offset="18.14" spacing="3.1">HAS</line>
+      <line x_offset="5.77" y_offset="8.9" spacing="1.99">53.4%</line>
+      <line x_offset="1.42" y_offset="18.14" spacing="-15.03">IN EACH TEST</line>
+      <line x_offset="47.38" y_offset="17.79" spacing="-6.9">-SET AFTER ANNOTATORS AGREEMENT E G</line>
+      <line x_offset="180.06" y_offset="17.79" spacing="-7.24">( . . HK:C1</line>
+      <line x_offset="62.05" y_offset="0.34" spacing="11.66">WHICH ANNOTATORS DISAGREED</line>
+      <line x_offset="30.14" y_offset="9.24" spacing="-14.7">CONTINGENCY EXAMPLES AFTER EXCLUDING EXAMPLES ON</line>
+      <line x_offset="173.65" y_offset="0.0" spacing="2.0">).</line>
+    </region>
+    <region x="55.17" y="177.83" width="241.07" height="92.08" line_height="8.93" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="83.02" spacing="0.0">the end of this process, the annotators discussed and agreed</line>
+      <line x_offset="194.39" y_offset="71.28" spacing="2.8">"Hurricane</line>
+      <line x_offset="0.0" y_offset="71.17" spacing="-8.93">on appropriate scenario labels: Katrina - (C1)</line>
+      <line x_offset="0.0" y_offset="59.42" spacing="2.81">Katrina disaster and damage</line>
+      <line x_offset="155.59" y_offset="59.42" spacing="-8.93">Global Warming and</line>
+      <line x_offset="118.9" y_offset="59.3" spacing="-8.93">", (C2) "</line>
+      <line x_offset="0.0" y_offset="47.56" spacing="2.8">climate change issues</line>
+      <line x_offset="126.48" y_offset="47.56" spacing="-8.93">Rescue efforts and criticism</line>
+      <line x_offset="89.07" y_offset="47.44" spacing="-8.93">", (C3) "</line>
+      <line x_offset="0.0" y_offset="35.7" spacing="2.81">of government rescue plans</line>
+      <line x_offset="118.68" y_offset="35.58" spacing="-8.93">"; and the Iraq war - (C1)</line>
+      <line x_offset="4.38" y_offset="23.84" spacing="2.8">War effects-economic progress in Iraq and side effects on</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="-8.93">"</line>
+      <line x_offset="0.0" y_offset="11.98" spacing="2.8">the world's economy</line>
+      <line x_offset="85.81" y_offset="11.87" spacing="-8.93">", (C2) "</line>
+      <line x_offset="0.0" y_offset="0.12" spacing="2.81">inspection</line>
+      <line x_offset="40.61" y_offset="0.0" spacing="-8.93">, (C3) "</line>
+      <line x_offset="72.51" y_offset="0.12" spacing="-9.05">Pre-war: War strategies and planning</line>
+      <line x_offset="124.02" y_offset="11.98" spacing="-20.8">US accusations and the UN</line>
+      <line x_offset="226.17" y_offset="0.0" spacing="2.93">".</line>
+    </region>
+    <region x="313.93" y="81.55" width="241.08" height="175.07" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="166.02" spacing="0.0">for all test-sets more contingency examples were observed at</line>
+      <line x_offset="0.0" y_offset="154.15" spacing="2.81">distance 1 than non-contingency and that for some test-sets</line>
+      <line x_offset="0.0" y_offset="142.3" spacing="2.8">(HK:C1 and IW:C2) the percentage of contingency examples</line>
+      <line x_offset="0.0" y_offset="130.43" spacing="2.81">decreases with the increase in distance on the human-agreed</line>
+      <line x_offset="0.0" y_offset="118.57" spacing="2.8">annotated test-sets. For IW:C2, the annotators agreed on</line>
+      <line x_offset="0.0" y_offset="106.72" spacing="2.8">only 5% contingency examples at distances 3 and 4. For</line>
+      <line x_offset="0.0" y_offset="94.85" spacing="2.81">three test-sets (HK:C3, IW:C1 and IW:C2) the annotators</line>
+      <line x_offset="0.0" y_offset="83.0" spacing="2.8">identified at least 50% non-contingency and at most 25%</line>
+      <line x_offset="0.0" y_offset="71.14" spacing="2.8">contingency examples for distances greater than 1 on human-</line>
+      <line x_offset="0.0" y_offset="59.27" spacing="2.81">agreed data. This leads to the conclusion that the smaller the</line>
+      <line x_offset="0.0" y_offset="47.42" spacing="2.8">distance between two events, the more likely it is for people</line>
+      <line x_offset="0.0" y_offset="35.56" spacing="2.8">to identify them as contingent and vice versa. This means</line>
+      <line x_offset="0.0" y_offset="23.7" spacing="2.81">that events appearing in the same sentences (i.e., distance 1)</line>
+      <line x_offset="0.0" y_offset="11.84" spacing="2.8">are more likely to be perceived in a causal relationship.</line>
+      <line x_offset="9.88" y_offset="0.0" spacing="2.79">We can also relate the scenario clusters' quality to the</line>
+    </region>
+    <region x="55.17" y="81.5" width="241.09" height="84.35" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="75.42" spacing="0.0">B. Evaluating the Contingency Relations Detection Task</line>
+      <line x_offset="9.88" y_offset="59.3" spacing="7.06">Due to time constraints, we considered here only the</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">ranked list of contingency relationships for the best cluster of</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">each collection according to the relatedness test (Table III).</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">Before evaluation, we performed an interesting cognitive</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">study of how people identify contingency discourse rela-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">tions. This is presented in detail next.</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366666666</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="7">
+    <region x="98.44" y="574.05" width="154.85" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 2. Interpolated Precision-Recall Curve.</line>
+    </region>
+    <region x="314.36" y="472.74" width="241.08" height="246.34" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="237.29" spacing="0.0">precisions from 1 to 0.52 at 11 recall levels for the Katrina</line>
+      <line x_offset="0.0" y_offset="225.42" spacing="2.81">test-set (Figure 2). However, the PMI performance on the</line>
+      <line x_offset="0.0" y_offset="213.57" spacing="2.8">Katrina test-set is rather constant. It remains lower for almost</line>
+      <line x_offset="0.0" y_offset="201.71" spacing="2.8">all recall levels. At 0.60 recall level, ECD balances the</line>
+      <line x_offset="0.0" y_offset="189.85" spacing="2.81">precision and recall.</line>
+      <line x_offset="9.88" y_offset="177.95" spacing="2.85">For the Iraq war test-sets ECD is also better than PMI</line>
+      <line x_offset="0.0" y_offset="166.08" spacing="2.81">up to recall 0.60 after which the measures converge. The</line>
+      <line x_offset="0.0" y_offset="154.22" spacing="2.8">Figure also shows that the performance on hurricane Katrina</line>
+      <line x_offset="0.0" y_offset="142.37" spacing="2.8">is higher than the one on the Iraq war, due to its complexity.</line>
+      <line x_offset="0.0" y_offset="130.5" spacing="2.81">PMI also remains quite stable and its precison does not go</line>
+      <line x_offset="0.0" y_offset="118.65" spacing="2.8">below 40%.</line>
+      <line x_offset="9.88" y_offset="106.74" spacing="2.85">Considering that we do not perform any context analysis,</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.81">these measures work quite reasonably on the contingency</line>
+      <line x_offset="0.0" y_offset="83.02" spacing="2.8">detection task. ECR shows reasonable performance for the</line>
+      <line x_offset="0.0" y_offset="71.17" spacing="2.8">contingency roles assignment task with the best accuracy</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.81">of 72.5% achieved on IW:ECD test-set (Table V shows</line>
+      <line x_offset="0.0" y_offset="47.44" spacing="2.8">the Roles accuracy and the inter-annotator agreement) with-</line>
+      <line x_offset="0.0" y_offset="35.59" spacing="2.8">out using any temporal classifier. A higher inter-annotator</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.81">agreement on the contingency annotation task (Table V) is</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="2.8">achieved on all four test-sets because now annotators label</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">distance 1 and 2 examples only.</line>
+    </region>
+    <region x="376.91" y="433.85" width="155.94" height="25.82" line_height="7.15" font="CBIAAF+Times-Bold">
+      <line x_offset="5.61" y_offset="9.29" spacing="9.29">63.4%</line>
+      <line x_offset="48.44" y_offset="9.29" spacing="-7.24">71.0%</line>
+      <line x_offset="90.38" y_offset="9.29" spacing="-7.24">72.5%</line>
+      <line x_offset="8.57" y_offset="0.0" spacing="2.05">98%</line>
+      <line x_offset="51.4" y_offset="0.0" spacing="-7.24">93%</line>
+      <line x_offset="93.34" y_offset="0.0" spacing="-7.24">90%</line>
+      <line x_offset="0.0" y_offset="18.67" spacing="-25.82">HK:ECD HK:PMI IW:ECD IW:PMI</line>
+      <line x_offset="131.45" y_offset="9.29" spacing="2.14">66.6%</line>
+      <line x_offset="134.41" y_offset="0.0" spacing="2.05">85%</line>
+    </region>
+    <region x="511.32" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">94%</line>
+    </region>
+    <region x="470.25" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">95%</line>
+    </region>
+    <region x="428.31" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">97%</line>
+    </region>
+    <region x="383.5" y="415.67" width="18.45" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100%</line>
+    </region>
+    <region x="336.93" y="406.77" width="32.93" height="52.9" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="45.75" spacing="0.0">Task</line>
+      <line x_offset="0.0" y_offset="36.37" spacing="2.14">RA</line>
+      <line x_offset="0.0" y_offset="27.08" spacing="2.05">CA-</line>
+      <line x_offset="0.0" y_offset="18.19" spacing="1.65">agreement</line>
+      <line x_offset="0.0" y_offset="8.89" spacing="2.05">RA-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.65">agreement</line>
+    </region>
+    <region x="316.53" y="341.98" width="236.79" height="51.72" line_height="5.79" font="CBIAAG+Times-Roman">
+      <line x_offset="105.44" y_offset="44.48" spacing="0.0">Table V</line>
+      <line x_offset="8.32" y_offset="35.92" spacing="2.76">OLES CCURACY</line>
+      <line x_offset="88.32" y_offset="35.92" spacing="-5.79">FOR ALL TEST SETS OLES ACCURACY</line>
+      <line x_offset="2.94" y_offset="35.58" spacing="-6.9">R</line>
+      <line x_offset="27.67" y_offset="35.58" spacing="-7.24">A</line>
+      <line x_offset="68.52" y_offset="35.58" spacing="-7.24">(RA)</line>
+      <line x_offset="154.19" y_offset="35.58" spacing="-7.24">. R</line>
+      <line x_offset="222.99" y_offset="35.58" spacing="-7.24">= #</line>
+      <line x_offset="9.91" y_offset="27.03" spacing="2.76">OF CORRECT ROLES PREDICTED OF CONTINGENCY EXAMPLES</line>
+      <line x_offset="116.67" y_offset="26.69" spacing="-6.9">/#</line>
+      <line x_offset="224.86" y_offset="26.69" spacing="-7.24">.</line>
+      <line x_offset="14.79" y_offset="18.14" spacing="2.76">AGREEMENT AND AGREEMENT SHOW THE INTER ANNOTATOR</line>
+      <line x_offset="0.0" y_offset="17.79" spacing="-6.9">CA-</line>
+      <line x_offset="75.88" y_offset="17.79" spacing="-7.24">RA-</line>
+      <line x_offset="192.89" y_offset="17.79" spacing="-7.24">-</line>
+      <line x_offset="71.75" y_offset="0.34" spacing="11.66">ROLES ANNOTATION TASKS</line>
+      <line x_offset="0.32" y_offset="9.24" spacing="-14.7">AGREEMENT ON THE CONTINGENCY ANNOTATION AND CONTINGENCY</line>
+      <line x_offset="163.01" y_offset="0.0" spacing="2.0">.</line>
+    </region>
+    <region x="314.36" y="202.58" width="241.08" height="107.32" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="66.33" y_offset="98.69" spacing="1.38">ISCUSSION AND ONCLUSIONS</line>
+      <line x_offset="44.43" y_offset="98.26" spacing="-8.62">V. D</line>
+      <line x_offset="135.09" y_offset="98.26" spacing="-9.05">C</line>
+      <line x_offset="9.88" y_offset="83.02" spacing="6.19">In this paper we presented a system which makes con-</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">tingency predictions based on two novel knowledge- and</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">context-poor statistical measures. Even though our system</line>
+      <line x_offset="0.0" y_offset="47.44" spacing="2.8">obtains good results, it has also a number of limitations.</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.81">For example, a small number of the identified contingency</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">dependencies indicate other discourse relationships (e.g.,</line>
+      <line x_offset="0.0" y_offset="11.87" spacing="2.8">elaboration or similar events). Consider the following ex-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.81">ample:</line>
+    </region>
+    <region x="314.36" y="136.02" width="241.07" height="55.88" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="3.95" y_offset="47.84" spacing="0.0">A decade of tourism development in Mississippi was wiped out in</line>
+      <line x_offset="0.0" y_offset="47.73" spacing="-8.04">"</line>
+      <line x_offset="0.0" y_offset="35.98" spacing="3.71">a few hours as the full extent of</line>
+      <line x_offset="125.5" y_offset="35.98" spacing="-8.04">Hurricane Katrina's destructive</line>
+      <line x_offset="118.39" y_offset="35.58" spacing="-8.09">&lt;</line>
+      <line x_offset="0.0" y_offset="24.11" spacing="3.42">force emerged . A casino barge sits among residential homes north</line>
+      <line x_offset="50.23" y_offset="23.71" spacing="-8.09">&gt;</line>
+      <line x_offset="193.51" y_offset="0.29" spacing="15.27">"</line>
+      <line x_offset="0.0" y_offset="12.26" spacing="-20.0">of highway 90, bottom, in Biloxi, Miss., Tuesday, Aug. 30, 2005</line>
+      <line x_offset="19.92" y_offset="0.0" spacing="3.76">&lt;</line>
+      <line x_offset="0.0" y_offset="0.4" spacing="-8.44">after hurricane Katrina passed through the area.</line>
+      <line x_offset="120.23" y_offset="0.0" spacing="-8.09">&gt;</line>
+    </region>
+    <region x="314.36" y="81.47" width="241.08" height="44.69" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="87.63" y_offset="35.7" spacing="0.06">Hurricane Katrina's destructive force</line>
+      <line x_offset="9.88" y_offset="35.58" spacing="-8.93">Here, the events</line>
+      <line x_offset="79.94" y_offset="35.25" spacing="-9.11">&lt;</line>
+      <line x_offset="4.94" y_offset="23.84" spacing="2.48">emerged</line>
+      <line x_offset="80.76" y_offset="23.84" spacing="-8.93">hurricane Katrina passed</line>
+      <line x_offset="54.97" y_offset="23.72" spacing="-8.93">and</line>
+      <line x_offset="206.49" y_offset="23.72" spacing="-9.05">co-occur</line>
+      <line x_offset="43.42" y_offset="23.4" spacing="-9.11">&gt; &lt;</line>
+      <line x_offset="194.95" y_offset="23.4" spacing="-9.44">&gt;</line>
+      <line x_offset="0.0" y_offset="16.38" spacing="-10.13">{</line>
+      <line x_offset="38.48" y_offset="16.38" spacing="-17.15">}</line>
+      <line x_offset="158.18" y_offset="16.38" spacing="-17.15">{</line>
+      <line x_offset="190.01" y_offset="16.38" spacing="-17.15">}</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="-4.53">very often and are thus, strongly dependent. However this</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">these events are similar rather than causally related.</line>
+    </region>
+    <region x="55.32" y="79.95" width="241.09" height="463.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="454.0" spacing="0.0">percentages of contingency and non-contingency pairs iden-</line>
+      <line x_offset="0.0" y_offset="442.14" spacing="2.8">tified on the human-agreed test sets. It can be easily noticed</line>
+      <line x_offset="0.0" y_offset="430.28" spacing="2.81">that the occurrence of contingency pairs is higher in the</line>
+      <line x_offset="0.0" y_offset="418.42" spacing="2.8">scenarios HK:C1 and IW:C1 ranked best by the relatedness</line>
+      <line x_offset="0.0" y_offset="406.56" spacing="2.8">task than non-contingency pairs (the last column of Table IV</line>
+      <line x_offset="0.0" y_offset="394.7" spacing="2.81">shows the percentage of contingency relations). Moreover,</line>
+      <line x_offset="0.0" y_offset="382.84" spacing="2.8">for the Iraq war test-sets, the annotators labeled more exam-</line>
+      <line x_offset="0.0" y_offset="370.98" spacing="2.8">ples as non-contingency (27.7% and 22.0% causal relations</line>
+      <line x_offset="0.0" y_offset="359.12" spacing="2.81">in IW:C1 and IW:C2, respectively). A quick analysis of the</line>
+      <line x_offset="0.0" y_offset="347.26" spacing="2.8">annotators' comments on the disagreed examples shows that</line>
+      <line x_offset="0.0" y_offset="335.41" spacing="2.8">they found the Iraq war instances much more difficult to</line>
+      <line x_offset="0.0" y_offset="323.54" spacing="2.81">annotate. In addition, there were cases where the annotators</line>
+      <line x_offset="0.0" y_offset="311.68" spacing="2.8">had to have some advanced domain knowledge in order to</line>
+      <line x_offset="0.0" y_offset="299.83" spacing="2.8">annotate the examples. For example, for the Iraq war dataset,</line>
+      <line x_offset="0.0" y_offset="287.96" spacing="2.81">the annotators needed knowledge about the main participants</line>
+      <line x_offset="0.0" y_offset="276.11" spacing="2.8">and the government policies in each country involved. More-</line>
+      <line x_offset="0.0" y_offset="264.25" spacing="2.8">over, for those examples where the contingency relation was</line>
+      <line x_offset="0.0" y_offset="252.38" spacing="2.81">implicit (i.e., no discourse marker), the annotators had to</line>
+      <line x_offset="0.0" y_offset="240.53" spacing="2.8">read the entire document before deciding on the relationship</line>
+      <line x_offset="0.0" y_offset="228.67" spacing="2.8">between the events.</line>
+      <line x_offset="9.88" y_offset="213.59" spacing="6.15">2) Evaluation of Contingency Measures:</line>
+      <line x_offset="185.62" y_offset="213.47" spacing="-8.93">Based on the</line>
+      <line x_offset="0.0" y_offset="201.61" spacing="2.8">observations obtained from the annotation experiments, we</line>
+      <line x_offset="0.0" y_offset="189.75" spacing="2.8">decided to evaluate the system only on distance 1 and 2</line>
+      <line x_offset="0.0" y_offset="177.89" spacing="2.81">examples. Thus, the two judges also annotated the following</line>
+      <line x_offset="0.0" y_offset="166.03" spacing="2.8">collected testsets: (1) for Hurricane Katrina: the top 100</line>
+      <line x_offset="0.0" y_offset="154.18" spacing="2.8">ranked relationships for cluster 1 using ECD (HK:ECD) and</line>
+      <line x_offset="0.0" y_offset="142.31" spacing="2.81">PMI (HK:PMI); and (2) for the Iraq war: the top 100 ranked</line>
+      <line x_offset="0.0" y_offset="130.45" spacing="2.8">relationships for cluster 1 using ECD (IW:ECD) and PMI</line>
+      <line x_offset="0.0" y_offset="118.6" spacing="2.8">(IW:PMI). The inter-annotator agreement on the four test-</line>
+      <line x_offset="0.0" y_offset="106.73" spacing="2.81">sets are shown in Table V. In order to judge the performance</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.8">of the contingency detection task, we computed the interpo-</line>
+      <line x_offset="0.0" y_offset="83.01" spacing="2.81">lated precision at 11 recall levels (Figure 2), method of eval-</line>
+      <line x_offset="0.0" y_offset="71.15" spacing="2.8">uation used frequently in Information Retrieval. The interpo-</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">lated precision at recall level</line>
+      <line x_offset="119.14" y_offset="58.97" spacing="-9.11">r(Interpolated-Precision(r)) is</line>
+      <line x_offset="127.62" y_offset="47.43" spacing="2.48">. The precision-recall curve</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="-9.05">given by</line>
+      <line x_offset="73.05" y_offset="47.11" spacing="-11.72">P recision(i)</line>
+      <line x_offset="39.66" y_offset="47.11" spacing="-12.04">max</line>
+      <line x_offset="58.05" y_offset="46.37" spacing="-6.18">i r</line>
+      <line x_offset="60.85" y_offset="41.52" spacing="-7.14">&#x2265;</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="-3.11">shows the system's performance at different recall levels</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">for the ECD and PMI measures. The idea is to choose the</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">measure which has good precision at all recall levels. The</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">ECD outperforms PMI by achieving maximum interpolated-</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366667777</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="8">
+    <region x="313.67" y="691.16" width="241.07" height="27.92" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="205.08" y_offset="19.87" spacing="0.0">Discourse</line>
+      <line x_offset="73.97" y_offset="9.88" spacing="1.84">Annual Review of Psychology, 1997, 48: 163-</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-18.03">[8] A. C. Graesser, K. K. Millis, and R. A. Zwaan,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">Comprehension</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">189.</line>
+    </region>
+    <region x="313.67" y="653.31" width="241.06" height="27.91" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="82.48" y_offset="19.86" spacing="0.0">Investigating causal relations by economet-</line>
+      <line x_offset="0.0" y_offset="19.76" spacing="-8.04">[9] C. W. J. Granger,</line>
+      <line x_offset="157.57" y_offset="9.87" spacing="1.74">, Econometricia, 1969,</line>
+      <line x_offset="15.31" y_offset="9.98" spacing="-8.15">ric models and cross-spectral methods</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.83">37:424-438.</line>
+    </region>
+    <region x="313.67" y="605.57" width="241.07" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="148.24" y_offset="29.76" spacing="0.0">Mining Frequent Patterns</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[10] J. Han, J. Pei, Y. Yin, and R. Mao</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">without Candidate Generation: A Frequent-Pattern Tree Ap-</line>
+      <line x_offset="39.97" y_offset="9.88" spacing="1.84">, Data Mining and Knowledge Discovery, 2004, 8(1):53-</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="-8.15">proach</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">87.</line>
+    </region>
+    <region x="313.67" y="557.84" width="241.07" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="144.12" y_offset="29.76" spacing="0.0">Combining Local Context</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[11] C. Leacock and M. Chodorow,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">and WordNet Sense Similarity for Word Sense Identification</line>
+      <line x_offset="238.83" y_offset="19.77" spacing="-8.04">,</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">WordNet: An Electronic Lexical Database (Language, Speech,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">and Communication), 1998.</line>
+    </region>
+    <region x="313.67" y="510.11" width="241.06" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="135.73" y_offset="29.76" spacing="0.0">Pachinko allocation: DAG-</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[12] W. Lei and A. McCallum,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">structured mixture models of topic correlations</line>
+      <line x_offset="189.73" y_offset="19.77" spacing="-8.04">, International</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">Conference on Machine Learning, ICML, Pittsburgh, Pennsyl-</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">vania, 2006.</line>
+    </region>
+    <region x="313.67" y="462.38" width="241.06" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="216.85" y_offset="29.76" spacing="0.0">Learn-</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[13] J.</line>
+      <line x_offset="47.77" y_offset="29.65" spacing="-8.15">Magliano</line>
+      <line x_offset="104.2" y_offset="29.65" spacing="-8.15">and</line>
+      <line x_offset="139.38" y_offset="29.65" spacing="-8.15">B. Pillow,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">ing:</line>
+      <line x_offset="48.26" y_offset="19.87" spacing="-8.04">Causal</line>
+      <line x_offset="92.08" y_offset="19.87" spacing="-8.04">Reasoning</line>
+      <line x_offset="129.64" y_offset="19.77" spacing="-8.04">,</line>
+      <line x_offset="150.48" y_offset="19.77" spacing="-8.15">The</line>
+      <line x_offset="182.92" y_offset="19.77" spacing="-8.15">Gale</line>
+      <line x_offset="218.34" y_offset="19.77" spacing="-8.15">Group</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">http://www.education.com/reference/article/learning-causal-</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">reasoning/, 2006-2009.</line>
+    </region>
+    <region x="313.67" y="424.54" width="241.06" height="27.91" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="141.89" y_offset="19.87" spacing="0.0">Rhetorical structure theory:</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[14] W. C. Mann and S. A. Thompson,</line>
+      <line x_offset="193.24" y_offset="9.88" spacing="1.74">, Text, 1988,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="-8.15">Toward a functional theory of text organization</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">8(3):243281.</line>
+    </region>
+    <region x="55.31" y="413.47" width="241.09" height="305.58" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="9.88" y_offset="296.53" spacing="0.0">Our approach based on scenario-specific events allows us</line>
+      <line x_offset="0.0" y_offset="284.66" spacing="2.81">to analyze and identify contingency relationships between</line>
+      <line x_offset="0.0" y_offset="272.81" spacing="2.8">strongly related events. We noticed that scenario-specific</line>
+      <line x_offset="0.0" y_offset="260.95" spacing="2.8">events tend to be strongly related and our approach captures</line>
+      <line x_offset="0.0" y_offset="249.08" spacing="2.81">the information flow through sequences of scenario-specific</line>
+      <line x_offset="0.0" y_offset="237.23" spacing="2.8">events within a scenario. This approach generates suitable</line>
+      <line x_offset="0.0" y_offset="225.37" spacing="2.8">event pair candidates for the contingency detection task</line>
+      <line x_offset="0.0" y_offset="213.51" spacing="2.81">which reduces the chance for noisy relationships.</line>
+      <line x_offset="9.88" y_offset="201.61" spacing="2.84">Unlike previous works [16], [17], our approach was to</line>
+      <line x_offset="0.0" y_offset="189.76" spacing="2.8">build a knowledge- and context-poor, yet fast and easily</line>
+      <line x_offset="0.0" y_offset="177.89" spacing="2.81">domain portable model which constitutes an informative</line>
+      <line x_offset="0.0" y_offset="166.04" spacing="2.8">baseline for this task. The rationale was to narrow down</line>
+      <line x_offset="0.0" y_offset="154.18" spacing="2.8">the search space of causal information and to see how much</line>
+      <line x_offset="0.0" y_offset="142.31" spacing="2.81">performance such a system can achieve without any syntatic,</line>
+      <line x_offset="0.0" y_offset="130.46" spacing="2.8">semantic, or discourse analysis. Moreover, the datasets thus</line>
+      <line x_offset="0.0" y_offset="118.6" spacing="2.8">obtained would allow researchers to get new insights into</line>
+      <line x_offset="0.0" y_offset="106.74" spacing="2.81">the causality problem. Identifying causal relationships at the</line>
+      <line x_offset="0.0" y_offset="94.88" spacing="2.8">discourse level is a very challenging task since it requires a</line>
+      <line x_offset="0.0" y_offset="83.02" spacing="2.8">deep discourse and temporal analysis of the text, as well</line>
+      <line x_offset="0.0" y_offset="71.16" spacing="2.81">as extra-linguistic information such as world knowledge.</line>
+      <line x_offset="0.0" y_offset="59.3" spacing="2.8">We believe that our baseline model will provide a better</line>
+      <line x_offset="0.0" y_offset="47.43" spacing="2.81">framework for any context- and knowledge-rich system</line>
+      <line x_offset="0.0" y_offset="35.58" spacing="2.8">which employes such features. Moreover, comprehending</line>
+      <line x_offset="0.0" y_offset="23.72" spacing="2.8">discourse relations is also a matter of perception. Thus, such</line>
+      <line x_offset="0.0" y_offset="11.86" spacing="2.81">datasets would be very important for a deeper study of inter-</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.8">annotator agreement.</line>
+    </region>
+    <region x="313.67" y="396.57" width="241.06" height="18.03" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="209.99" y_offset="9.88" spacing="0.0">, Online</line>
+      <line x_offset="67.58" y_offset="9.99" spacing="-8.15">Counterfactual Theories of Causation</line>
+      <line x_offset="0.0" y_offset="9.88" spacing="-8.04">[15] P. Menzies,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Encyclopedia of Philosophy, 2008.</line>
+    </region>
+    <region x="55.31" y="358.94" width="241.06" height="44.76" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="92.86" y_offset="35.71" spacing="0.0">REFERENCES</line>
+      <line x_offset="106.91" y_offset="19.87" spacing="7.8">Using a Bigram Event Model to Pre-</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[1] B. Beamer and R. Girju,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">dict Causal Potential</line>
+      <line x_offset="92.76" y_offset="9.88" spacing="-8.04">Computational Linguistics and intelligent</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Text Processing (CICLING), 2009.</line>
+    </region>
+    <region x="313.67" y="358.72" width="241.07" height="27.91" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="161.41" y_offset="19.87" spacing="0.0">Automatic Sense Pre-</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[16] E. Pitler, A. Louis, and A. Nenkova,</line>
+      <line x_offset="185.31" y_offset="9.88" spacing="1.74">, ACL-IJCNLP,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="-8.15">diction for Implicit Discourse Relations in Text</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">2009.</line>
+    </region>
+    <region x="313.67" y="330.76" width="241.06" height="18.03" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="125.33" y_offset="9.99" spacing="0.0">Using Syntax to Disambiguate</line>
+      <line x_offset="0.0" y_offset="9.88" spacing="-8.04">[17] E. Pitler and A. Nenkova,</line>
+      <line x_offset="15.31" y_offset="0.11" spacing="1.74">Explicit Discourse Connectives in Text</line>
+      <line x_offset="156.13" y_offset="0.0" spacing="-8.04">, ACL-IJCNLP, 2009.</line>
+    </region>
+    <region x="55.31" y="319.31" width="241.06" height="27.91" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="169.65" y_offset="19.87" spacing="0.0">Latent Dirichlet al-</line>
+      <line x_offset="44.46" y_offset="9.88" spacing="1.84">, Journal of Machine Learning Research, 2003, 3:993-</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-18.03">[2] D. M. Blei, A. N. Ng, and M. I. Jordan,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">location</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">1022.</line>
+    </region>
+    <region x="313.67" y="292.91" width="241.08" height="27.92" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="19.77" spacing="0.0">[18] T. J. M. Sanders, W. P. M. S. Spooren, L. G. M. Noord-</line>
+      <line x_offset="37.14" y_offset="9.99" spacing="1.74">Toward a taxonomy of coherence relations. Discourse</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="-8.04">man,</line>
+      <line x_offset="15.31" y_offset="0.11" spacing="1.74">Processes</line>
+      <line x_offset="50.49" y_offset="0.0" spacing="-8.04">, 1992, 15(1): 1-35.</line>
+    </region>
+    <region x="55.31" y="269.8" width="241.06" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="141.15" y_offset="29.76" spacing="0.0">Jointly combining implicit</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[3] N. Chambers and D. Jurafsky,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">constraints improves temporal ordering</line>
+      <line x_offset="163.42" y_offset="19.77" spacing="-8.04">, Empirical Methods</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">in Natural Language Processing (EMNLP), Association for</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Computational Linguistics, Morristown, NJ, 2008.</line>
+    </region>
+    <region x="313.67" y="255.06" width="241.06" height="27.91" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="210.43" y_offset="19.87" spacing="0.0">Scalable</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[19] C. Silverstein, S. Brin, R. Motwani, and J. Ullman,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">Techniques for Mining Causal Structures</line>
+      <line x_offset="169.9" y_offset="9.88" spacing="-8.04">, Data Mining and</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Knowledge Discovery, 2000, 4(2-3):163-192.</line>
+    </region>
+    <region x="55.31" y="220.3" width="241.07" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="115.48" y_offset="29.76" spacing="0.0">Incremental cue phrase learning</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[4] D. Chang and K. Choi,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">and bootstrapping method for causality extraction using cue</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.84">phrase and word pair probabilities</line>
+      <line x_offset="138.81" y_offset="9.88" spacing="-8.04">, Information Processing and</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Management, 2006, 24(3):662-678.</line>
+    </region>
+    <region x="313.67" y="217.21" width="241.06" height="27.91" line_height="8.04" font="CBIABJ+Times-Italic">
+      <line x_offset="219.9" y_offset="9.88" spacing="9.88">, Nat-</line>
+      <line x_offset="138.86" y_offset="19.87" spacing="-18.03">Using automatically labeled</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[20] C. Sporleder and A. Lascarides,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">examples to classify rhetorical relations: An assessment</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.84">ural Language Engineering, 2008, 14(3): 369-416.</line>
+    </region>
+    <region x="55.31" y="170.79" width="241.06" height="37.79" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="120.22" y_offset="29.75" spacing="0.0">Probabilistic Textual Entailment:</line>
+      <line x_offset="0.0" y_offset="29.64" spacing="-8.04">[5] I. Dagan and O. Glickman,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.73">Generic Applied Modeling of Language Variability</line>
+      <line x_offset="210.22" y_offset="19.77" spacing="-8.04">, Learn-</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">ing Methods for Text Understanding and Mining, Grenoble,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">France, 2004.</line>
+    </region>
+    <region x="313.67" y="169.48" width="241.07" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="215.86" y_offset="29.76" spacing="0.0">Causal</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[21] Y. Sun, K. Xie, N. Liu, S. Yan, B. Zhang, and Z. Chen,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">relation of queries from temporal logs</line>
+      <line x_offset="158.32" y_offset="19.77" spacing="-8.04">, International Confer-</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">ence on World Wide Web WWW, Banff, Alberta, Canada,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">2007.</line>
+    </region>
+    <region x="505.2" y="151.4" width="49.53" height="8.15" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">, Amsterdam:</line>
+    </region>
+    <region x="313.66" y="141.52" width="191.53" height="18.03" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="60.52" y_offset="9.99" spacing="0.0">A Probabilistic Theory of Causality</line>
+      <line x_offset="0.0" y_offset="9.88" spacing="-8.04">[22] P. Suppes,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">North-Holland Publishing Company, 1970.</line>
+    </region>
+    <region x="55.31" y="121.28" width="241.08" height="37.8" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="53.11" y_offset="29.76" spacing="0.0">Automatic detection of causal relations for Ques-</line>
+      <line x_offset="0.0" y_offset="29.65" spacing="-8.04">[6] R. Girju,</line>
+      <line x_offset="15.31" y_offset="19.87" spacing="1.74">tion Answering</line>
+      <line x_offset="72.59" y_offset="19.77" spacing="-8.04">, Association for Computational Linguistics</line>
+      <line x_offset="15.31" y_offset="9.88" spacing="1.74">ACL, Workshop on Multilingual Summarization and Question</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Answering-Machine Learning and Beyond, 2003.</line>
+    </region>
+    <region x="313.66" y="113.56" width="241.07" height="18.03" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="127.57" y_offset="9.99" spacing="0.0">Semantic Role Labeling Using</line>
+      <line x_offset="0.0" y_offset="9.88" spacing="-8.04">[23] M. Surdeanu and J. Turmo,</line>
+      <line x_offset="15.31" y_offset="0.11" spacing="1.74">Complete Syntactic Analysis</line>
+      <line x_offset="118.39" y_offset="0.0" spacing="-8.04">, CoNLL, Shared Task, 2005.</line>
+    </region>
+    <region x="313.66" y="85.59" width="241.05" height="18.03" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="176.67" y_offset="9.88" spacing="0.0">, Online Encyclo-</line>
+      <line x_offset="72.35" y_offset="9.99" spacing="-8.15">Causation and Manipulation</line>
+      <line x_offset="0.0" y_offset="9.88" spacing="-8.04">[24] J. Woodward,</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">pedia of Philosophy, 2008.</line>
+    </region>
+    <region x="55.31" y="81.66" width="241.07" height="27.91" line_height="8.15" font="CBIAAG+Times-Roman">
+      <line x_offset="114.86" y_offset="19.87" spacing="0.0">Exploring Contingency Discourse</line>
+      <line x_offset="0.0" y_offset="19.77" spacing="-8.04">[7] R. Girju and K. Woods,</line>
+      <line x_offset="15.31" y_offset="9.99" spacing="1.74">Relations</line>
+      <line x_offset="48.92" y_offset="9.88" spacing="-8.04">, The 6th International Workshop on Computational</line>
+      <line x_offset="15.31" y_offset="0.0" spacing="1.74">Semantics(IWCS-6), Harry Bunt (ed.), The Netherlands, 2005.</line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="TQKPZE+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">333366668888</line>
+    </region>
+  </page>
+</pdf>

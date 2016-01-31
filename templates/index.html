@@ -23,10 +23,22 @@
         <input name="pdf_file" id="pdf_file" type="file" data-allowed-file-extensions='["pdf"]' class="file">
         OR
         <div class="form-group">
-            <label for="inputlg">Enter title/author</label>
-            <input class="form-control input-lg" id="inputlg" type="text">
+            <label for="inputlg">Enter title/author/doi</label>
+            <div id="prefetch">
+                <input style="color:white" class="typeahead" class="form-control input-lg" id="inputlg" type="text">
+            </div>
+            <div class="query_results">
+
+            </div>
         </div>        
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
 </div>
+<!--div id="prefetch">
+  <input class="typeahead" type="text" placeholder="Countries">
+</div!-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/typeahead.bundle.js"></script>
+    <script src="/static/js/my-typeahead.js"></script>
 </body>

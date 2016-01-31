@@ -54,6 +54,7 @@ def extract_title(source,dest):
 #source is source of pdf, destination is save location
 def extract_bibtex(source,dest):
         command = " ".join(["pdf-extract extract-bib --resolved_references",source,"--output",dest])
+        print(command)
         if os.system(command)!= 0:
                 print("Error in shell")
                 f = open(dest,'a')
@@ -88,7 +89,12 @@ def get_DOI_from_title(title):
                         return a[3]
         return None
 
-def process_and_add_one(pdf_path,title_dir,bib_dir,text_dir,db_loc):
+title_dir = 'database_builder/titles'
+bib_dir = 'database_builder/bibs'
+text_dir = 'database_builder/text'
+db_loc = 'database_builder/master-db/master-db.json' 
+
+def process_and_add_one(pdf_path):
         pdf_name = pdf_path.split('/')
         pdf_name = pdf_name[-1]
         directory = pdf_path[0: -len(pdf_name)]
