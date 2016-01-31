@@ -4,8 +4,13 @@ from tinydb import TinyDB, Query
 import urllib2
 from lxml import etree
 
+cur_dir = os.path.dirname(__file__)
+title_dir = cur_dir+'/titles'
+bib_dir = cur_dir+'/bibs'
+text_dir = cur_dir+'/text'
+db_loc = cur_dir+'/master-db.json' 
 
-def query_citations_by_DOI(db_loc,DOI):
+def query_citations_by_DOI(DOI):
         db = TinyDB(db_loc)
         #make sure the paper isnt in the db already
         paper = Query()
@@ -23,10 +28,10 @@ def query_citations_by_DOI(db_loc,DOI):
 #txt with all the markup stripped in dest_txt
 def extract_text(source,dest,dest_txt):
         command = " ".join(["pdf-extract extract --regions --no-linestles", source,"--output",dest])
+        print command
         if os.system(command)!= 0:
                 print("Error in shell")
                 return False
-        print "title extracted"
         tree = etree.parse(dest)
         notags = etree.tostring(tree,encoding = 'utf8',method ='text')
         f = open(dest_txt,'a')
@@ -89,10 +94,7 @@ def get_DOI_from_title(title):
                         return a[3]
         return None
 
-title_dir = 'database_builder/titles'
-bib_dir = 'database_builder/bibs'
-text_dir = 'database_builder/text'
-db_loc = 'database_builder/master-db/master-db.json' 
+
 
 def process_and_add_one(pdf_path):
         pdf_name = pdf_path.split('/')
@@ -150,18 +152,18 @@ def process_and_add_one(pdf_path):
 
         refDOIs = get_ref_list_DOIs(bib_path)
         
-        new_dict = {"ownDOI":currDOI,"refDOIs":refDOIs}   
+        new_dict = {"ownDOI":currDOI,"refDOIs":refDOIs,"filename":stripped_name}   
         db.insert(new_dict)
         return currDOI 
 
 #test code for process_and_add_one
-#process_and_add_one('pdfs/test.pdf','titles','bibs','text','master-db/master-db.json')
+#process_and_add_one('pdfs/1454230197210673.pdf')
                
-def process_folder_of_pdfs(fpath,path_titles,path_bibs,path_text):
+def process_folder_of_pdfs(fpath):
         files = os.listdir(fpath)
         for line in files:
                 path = fpath+"/"+ line
                 print path
-                process_and_add_one(path,path_titles,path_bibs,path_text)
+                process_and_add_one(path)
 
 
