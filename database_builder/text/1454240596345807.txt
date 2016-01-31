@@ -1,0 +1,728 @@
+
+  
+    
+      Blue-Phase Liquid Crystal Display with Contrast Ratio over 1000:1 
+    
+    
+      Manabu Kobayashi, Yasuhiro Niikura, Akio Yamashita, Yuko Oe, Makoto Ikenaga, Takahiro Yamamoto, 
+      Momoko Kato, Masaru Nakano, Daisuke Kubota, Tsudoi Nagi, Hideaki Shishido, 
+      Tetsuji Ishitani, Yoshiharu Hirakata, Jun Koyama, 
+      Shunpei Yamazaki, 
+      1
+      2
+      Daisuke Kurosaki and Tadashi Akahane 
+    
+    
+      Semiconductor Energy Laboratory Co.,Ltd. 
+      398 Hase, Atsugi-shi, Kanagawa, 243-0036, Japan 
+      Phone: +81-46-248-1131 Fax: +81-46-248-1132 E-mail: mk1162@sel.co.jp 
+      1
+       Advanced Film Device Inc. 
+      161-2 Masuzuka, Tsuga-machi, Tochigi-shi, Tochigi, 328-0114, Japan
+      2
+       Nagaoka University of Technology 
+      1603-1 kamitomiokamati, Nagaoka-shi, Niigata, 940-2188, Japan 
+    
+    
+      With the purpose of enhancement in the contrast ratio of a cholesteric-blue-phase liquid crystal display by reducing driving vltoage and light 
+      leakage, we made a prototype of a 3.4-inch polymer-stabilized blue-phase (PS-BP) liquid crystal display including highly reliable crystalline 
+      oxide semiconductor. As a result, the contrast ratio over 1000:1 was achieved in a dark place. 
+    
+    
+      1. Introduction 
+       was 
+      In 1985, a crystalline structure of InGaZnO
+      4
+      1-4)
+      reported by Kimizuka et al
+      . In addition to application of oxide 
+      5)
+      6-8)
+      semiconductor (OS) to organic EL
+       panels or LCD panels in 
+      which In-Ga-Zn-oxide (IGZO) is used for driving transistors, our 
+      development includes application to a variety of products that can 
+      9, 10)
+      5-8, 
+      make use of characteristics of OS FET
+       as shown in Figure 1
+      11-16)
+      . In particular, development of c-axis aligned crystal (CAAC) 
+      1-4, 9, 10, 17, 18)
+      (Figure 2)
+      , which will enable high performance and 
+      high reliability, opens up the possibility of application. 
+    
+    
+      5)
+    
+    
+      6-8)
+    
+    
+      11)
+    
+    
+      12)
+    
+    
+      13)
+    
+    
+      19, 20)
+      The PS-BP liquid crystal
+       is generally driven by a 
+      lateral electric field as in an in-plane-switching (IPS) mode. For its 
+      electrode structure, various types of structures which enable high 
+      electric-field intensity and low driving voltage have been proposed 
+      7), 21-25)
+       because driving voltage of blue-phase liquid crystal is high 
+      and a high white luminance is not easily obtained, and thus to 
+      obtain high contrast ratio is difficult. In addition, light leakage 
+      occurs due to Bragg diffraction in the blue-phase liquid crystal. It is 
+      necessary to solve these problems in order to improve the contrast 
+      ratio. 
+      Thus, a blue-phase material was optimized to lower the 
+      driving voltage and to make diffraction wavelength have a peak in 
+      the ultraviolet region, and light leakage from a pixel electrode was 
+      suppressed. As a result, the contrast ratio over 1000:1 of a liquid 
+      crystal display was achieved without using a black matrix (BM) 
+      for the first time in the world. 
+    
+    
+      12)
+      14)
+    
+    
+      15, 16)
+      Fig. 1. Product development in OS tronics. 
+    
+    
+      1-4)
+    
+    
+      18)
+    
+    
+      17)
+    
+    
+      2. Optimization of Blue-Phase Material 
+      Selection of Chiral Material 
+      For low-voltage driving of PS-BP liquid crystal, it is 
+      important to employ a chiral material with high helical twisting 
+      power (HTP) and reduce the amount of added chiral material. The 
+      HTPs of Chiral Material A and Chiral Material B were measured 
+      using a wedge-shaped cell. Table I shows the measurement results. 
+      From Table I, Chiral Material B has higher HTP than 
+      Chiral Material A, so Chiral Material B is suitable for a blue-phase 
+    
+    
+      9, 10)
+      Fig. 2. Classification by crystallinity in OS tronics. 
+    
+  
+  
+    
+      material. 
+    
+    
+      Table I. HTP of Chiral Material.
+    
+    
+      light leakage was markedly observed in the vicinity of a source 
+      wiring and a gate wiring, and at a pixel electrode having a rib 
+      which is made for decreasing the driving voltage of a blue phase 
+      liquid crystal. 
+      Further, the state of light leakage changed as the 
+      polarizers rotated, i.e., anisotropy was confirmed. Light leakage, 
+      particularly light leakage due to the electrode having a rib is 
+      probably caused by not only a difference between refractive 
+      indices but also another factor, and this factor might be derived 
+      from form birefringence. 
+      Thus, the factors of anisotropic light leakage were 
+      divided into a factor due to a pixel electrode and a factor due to a 
+      source wiring and a gate wiring, and the panel layout and the pixel 
+      electrode structure were reconsidered, so that a reduction in light 
+      leakage was verified(Fig. 4-(2)). 
+    
+    
+      Polarizer directions 
+    
+    
+      (2) 
+    
+    
+      (1) 
+    
+    
+      Fig. 4. Micrograph of electrode having a rib. 
+    
+    
+      Characteristics of PS-BP Liquid Crystal 
+      Chiral Material B, a monomer, and polymerization 
+      initiator were added into liquid crystal, the mixture was injected 
+      into cells
+      to which lateral electric field is applied, and 
+      polymer-stabilization treatment was performed, so that PS-BP 
+      liquid crystal was obtained. 
+      Figure 3 shows the results of V-T characteristics of the 
+      obtained PS-BP liquid crystal. The cell used here was an IPS cell 
+      with a protrusion electrode having a rib. The rib is made of a 
+      photosensitive resin and covered with a transparent electrode. The 
+      width of the rib was 2 m and the interval of ribs was 3 m. The 
+      μ
+      μ
+      width of the transparent electrode was 3 m and the interval of 
+      μ
+      transparent electrodes was 2 m. PS-BP with this structure 
+      μ
+      containing Chiral Material B enabled low voltage driving. The 
+      voltage V
+       at which the normalized transmittance is 100 was 
+      %
+      100
+       at which the normalized 
+      as low as 31 V, and the voltageV 
+      90
+      transmittance is 90 was as low as 22 V. 
+      %
+      In addition, the peak of the diffraction wavelength of 
+      the PS-BP is 367 nm when no voltage is applied, which means that 
+      the amount of light leakage due to Bragg diffraction is small. 
+    
+    
+      (1) Structure on which countermeasure against light leakage is not 
+      performed (2) Structure on which countermeasure against light leakage is 
+      performed (micrographs surrounded by dashed lines are contrast 
+      enhancement images)
+    
+    
+      ]
+    
+    
+      %
+    
+    
+      [
+    
+    
+      e
+    
+    
+      c
+    
+    
+      n
+    
+    
+      a
+    
+    
+      t
+    
+    
+      t
+    
+    
+      i
+    
+    
+      m
+    
+    
+      s
+    
+    
+      n
+    
+    
+      a
+    
+    
+      r
+    
+    
+      T
+    
+    
+      d
+    
+    
+      e
+    
+    
+      z
+    
+    
+      i
+    
+    
+      l
+    
+    
+      a
+    
+    
+      m
+    
+    
+      r
+    
+    
+      o
+    
+    
+      N
+    
+    
+      100
+      90
+      80
+      70
+      60
+      50
+      40
+      30
+      20
+      10
+      0
+    
+    
+      35
+    
+    
+      0
+    
+    
+      5
+      10
+      15
+      20
+      25
+      30
+      Applied Voltage [V]
+      Fig.3. Measurement results of V-T characteristics.
+    
+    
+      Panel Layout 
+      In a general liquid crystal display, light leakage is 
+      reduced by blocking light with BM. In the case of PS-BP, uniform 
+      light irradiation on the entire surface of a panel is needed for 
+      polymer stabilization treatment, which makes it difficult to provide 
+      BM on a counter substrate. 
+      As a countermeasure to this problem, wirings such as a 
+      source wiring and a gate wiring are arranged to be parallel or 
+      vertical to the absorption axis direction of polarizers, and only pixel 
+      electrodes are arranged at an angle of 45 to the absorption axis 
+      °
+      direction of polarizers. Thus, light leakage caused by the source 
+      wiring and the drain wiring can be reduced without using BM .
+    
+    
+      3. Panel Structure 
+      A lateral electric field driving mode such as an IPS 
+      mode is used for driving a blue-phase liquid crystal. The angle 
+      formed by the absorption axis direction of the polarizers and the 
+      pixel electrode direction needs to be 45. However, with this 
+      °
+      arrangement structure, light leakage occurred (Fig. 4-(1)). Such 
+    
+    
+      Pixel Electrode Structure 
+      Form birefringence is caused by phase difference 
+      generated between a direction where the periodic structure exists 
+    
+  
+  
+    
+      Substrate 
+    
+    
+      Electrode
+    
+    
+      Rib 
+    
+    
+      Fig. 6. Schematic view of rib electrode structure. 
+    
+    
+      and a direction perpendicular to the direction. The electrode 
+      structure with a linear rib has a periodic structure formed by liquid 
+      crystal, a transparent electrode, and a rib. In such a structure, the 
+      phase difference is probably generated to break the polarization 
+      state and thus light leakage occurs. 
+      In order to reduce light leakage due to form 
+      birefringence, we focused on the thickness of the transparent 
+      electrode and made the experimental cells of PS-BP in which the 
+      thicknesses of the transparent electrodes with a linear rib are 20 nm, 
+      40 nm, 60 nm, 80 nm, and 100 nm. 
+      Figure 5 shows the relation between the black 
+      luminance when no voltage is applied and the thickness of the 
+      transparent electrode. In Fig. 5, ref. represents a state where 
+      polarizers are arranged in crossed Nicols without an experimental 
+      cell. The black luminance was measured using polarizers arranged 
+      in crossed Nicols with incidence of diffusion light. The absorption 
+      °
+      axis direction of polarizers was arranged at an angle of 45 to the 
+      pixel electrode direction. 
+    
+    
+      1
+    
+    
+      The experimental cells of PS-BP were manufactured 
+      with the use of a substrate with this electrode structure. 
+      Figure 7 shows relation between the black luminance 
+      when no voltage is applied and the electrode structure (the rib 
+      shape-thickness of the electrode). Two types of rib shapes, a 
+      square-pyramid rib and a linear rib were used. In Fig. 7, ref. 
+      represents a state where polarizers are arranged in crossed Nicols 
+      without an experimental cell. The black luminance was measured 
+      using polarizers arranged in crossed Nicols with incidence of 
+      diffusion light. The absorption axis direction of polarizers was 
+      arranged at an angle of 45 to the pixel electrode direction. 
+      °
+    
+    
+      ]
+    
+    
+      .
+    
+    
+      u
+    
+    
+      .
+    
+    
+      a
+    
+    
+      [
+    
+    
+      e
+    
+    
+      1
+    
+    
+      c
+    
+    
+      n
+    
+    
+      ]
+    
+    
+      .
+    
+    
+      a
+    
+    
+      u
+    
+    
+      n
+    
+    
+      .
+    
+    
+      i
+    
+    
+      a
+    
+    
+      m
+    
+    
+      [
+    
+    
+      u
+    
+    
+      e
+    
+    
+      l
+    
+    
+      c
+    
+    
+      0.1
+    
+    
+      k
+    
+    
+      n
+    
+    
+      c
+    
+    
+      a
+    
+    
+      a
+    
+    
+      n
+    
+    
+      l
+    
+    
+      i
+    
+    
+      b
+    
+    
+      m
+    
+    
+      d
+    
+    
+      u
+    
+    
+      e
+    
+    
+      l
+    
+    
+      z
+    
+    
+      i
+    
+    
+      k
+    
+    
+      l
+    
+    
+      0.1
+    
+    
+      c
+    
+    
+      a
+    
+    
+      a
+    
+    
+      l
+    
+    
+      m
+    
+    
+      r
+    
+    
+      b
+    
+    
+      o
+    
+    
+      d
+    
+    
+      N
+    
+    
+      e
+    
+    
+      z
+    
+    
+      i
+    
+    
+      l
+    
+    
+      0.01
+    
+    
+      a
+    
+    
+      m
+    
+    
+      r
+    
+    
+      o
+    
+    
+      N
+    
+    
+      ref.20
+      40
+      6080100
+      Electrode thickness [nm]
+    
+    
+      0.01
+    
+    
+      ref.
+    
+    
+      Fig. 5. Relation between black luminance and electrode thickness.
+    
+    
+      Squ.-20nm Line-20nm Line-100nm
+      Rib shape-thickness of electrode.
+    
+    
+      Fig. 7. Relation between black luminance and rib electrode structure.
+    
+    
+      The data of the black luminance indicates that light 
+      leakage increases as the electrode becomes thicker. 
+      The black luminance of the electrode having a rib is 
+      higher than that of the polarizers arranged in crossed Nicols 
+      without an experimental cell, so that light leakage cannot be 
+      satisfactorily suppressed by only a reduction in thickness of the 
+      electrode. Therefore, as an additional countermeasure against light 
+      leakage, a rib electrode in which square pyramids are arranged as 
+      illustrated in Fig. 6 was made. 
+    
+    
+      The data of the black luminance indicates that light 
+      leakage is reduced due to the square-pyramid rib. 
+      The probable reason of this is that the rib region which 
+      is at an angle of 45 to the absorption axis direction of polarizer is 
+      °
+      reduced by employing a rib electrode in which square pyramids 
+      are arranged and thus light leakage caused by form birefringence is 
+      also reduced. 
+    
+    
+      4. Display Characteristics 
+      We made a prototype of a 3.4-inch blue-phase liquid 
+      crystal display (Table II). The FETs used here include crystalline 
+      IGZO with a CAAC structure. Figure 8 shows TEM images of an 
+    
+  
+  
+    
+      IGZO thin film we fabricated. In this film, c-axes are aligned in a 
+      direction perpendicular to a substrate, and the a-b planes of IGZO 
+      crystals are formed in mosaic arrangements. The crystal grain 
+      boundaries are unclear. The pixels and driver circuits are formed in 
+      an integrated manner with FETs including crystalline IGZO. 
+    
+    
+      5. Conclusion 
+      With the use of the optimized blue-phase material and 
+      electrode structure, a prototype of a 3.4-inch blue-phase liquid 
+      crystal display including a highly reliable crystalline oxide 
+      semiconductor was manufactured, so that the contrast ratio 1100:1 
+      was achieved in a dark place. 
+    
+    
+      Transmissive 
+      3.4 inch 
+      540 (H) 960 (V) 
+      ×
+       m (H) 78 m (V)
+      78 μ
+      × μ 
+      326 ppi 
+      Field sequential 
+      Integrated 
+      Integrated 
+      Blue phase mode 
+      4 m 
+      μ
+      50% 
+      1000:1
+      Table II. Specifications of the LCD.
+      Display Type 
+      Screen Diagonal 
+      Resolution 
+      Pixel Pitch 
+      Pixel Density 
+      Color System 
+      Data Driver 
+      Scan Driver 
+      Liquid Crystal Mode 
+      Cell Gap 
+      Aperture Ratio 
+      Contrast Ratio 
+    
+    
+      c axis
+    
+    
+      C-axis alignment
+    
+    
+      Fig. 8. Planar TEM image (left) and cross-sectional TEM image (right) of 
+      In-Ga-Zn-oxide film showing c-axis alignment. 
+    
+    
+      Fig. 9 is a photograph of an image displayed on the 
+      panel. The contrast ratio 1100:1 of the liquid crystal display without 
+      using BM can be achieved in a dark place. 
+    
+    
+      References 
+      1) N. Kimizuka et al.: J. Solid State. Chem. 60 (1985) 382. 
+      2) M. Nakamura: NIRIM NEWSLETTER1 50 (1995) 1. 
+      3) M. Nakamura et al.: J. Solid State Chem.9 3 (1991) 298. 
+      4) N. Kimizuka and T. Mohri: Japanese Patent S63-210022 (1988), 
+      Japanese Patent S63-210023 (1988), Japanese Patent S63-210024 (1988), 
+      Japanese Patent S63-215519 (1988), Japanese Patent S63-239117 (1988), 
+      Japanese Patent S63-265818 (1988). 
+      5) N. Sugisawa et al.: SID Int. Symp. Dig. Tech. Pap. 42 (2011) 722. 
+      6) Y. Hirakata et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 32. 
+      7) D. Kubota et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 125. 
+      8) H. Shishido et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 369. 
+      9) K. Nomura et al.: Science 300 (2003) 1269. 
+      10) K. Nomura et al.: Nature 432 (2004) 488. 
+      11) S. Amano et al.: SID Int. Symp. Dig. Tech. Pap4. 1 (2010) 626. 
+      12) T. Matsuzaki et al.: 3rd IEEE Int. Memory Workshop (2011) 185. 
+      13) T. Atsumi et al.: to be published in 4th IEEE Int. Memory Workshop. 
+      14) H. Tamura et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 729. 
+      15) T. Nishijima et al.: to be published in SID Int. Symp. Dig. Tech. Pap.. 
+      16) S. Yamazaki: "To Promote the Spirit of Inventing", presented at the Int. 
+      Workshop Private Sector - Academia Interactions (2011). 
+      17) M. Takahashi et al.: Proc. AM-FPD (2011) 271. 
+      18) Y. Terai et al. : Proc. IDW (2011) 61. 
+      19) H. Kikuchi et al.: Nat. Mater. 1 (2002) 64. 
+      Symp. Dig. Tech. Pap. 38 (2007) 1737. 
+      20) H. Kikuchi et al.: SID Int. 
+      21) L. Rao et al.: Appl. Phys. Lett.9 5 (2009) 231101. 
+      22) M. S. Kim et al.: SID Int. Symp. Dig. Tech. Pap4. 0 (2009) 1615. 
+      23) S. Yoon et al.: Liq. Cryst.3 7 [2] (2010) 201. 
+      24) L. Rao et al.: J. Disp. Technol.6 [8] (2010) 287. 
+      25) H. Lee et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 121. 
+    
+    
+      Fig. 9. Image displayed on the panel .
+    
+  

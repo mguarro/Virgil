@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<pdf>
+  <page width="612" height="792" number="1">
+    <region x="182.11" y="737.85" width="247.78" height="9.08" line_height="9.08" font="GWFIBK+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">22001100 1144tthh IInntteerrnnaattIiinoofnnoaarllm CCaootinnoffnee rrVeennisccueea IIlnnisffaootrrimmonaattiioonn VViissuuaalliissaattiioonn</line>
+    </region>
+    <region x="121.31" y="700.68" width="371.56" height="12.7" line_height="12.7" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Visualization of Web Page Content Using Semantic Technologies </line>
+    </region>
+    <region x="346.19" y="604.96" width="164.66" height="57.75" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="45.73" y_offset="47.77" spacing="0.0">Dunja Mladeni&#x107; </line>
+      <line x_offset="0.0" y_offset="34.39" spacing="4.37">Department of Knowledge Technologies </line>
+      <line x_offset="39.04" y_offset="22.92" spacing="2.45">Jo&#x17E;ef Stefan Institute </line>
+      <line x_offset="42.15" y_offset="11.46" spacing="2.45">Ljubljana, Slovenia </line>
+      <line x_offset="36.77" y_offset="0.0" spacing="2.45">dunja.mladenic@ijs.si</line>
+    </region>
+    <region x="85.73" y="604.96" width="164.65" height="57.75" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="54.56" y_offset="47.77" spacing="0.0">Lorand Dali </line>
+      <line x_offset="0.0" y_offset="34.39" spacing="4.37">Department of Knowledge Technologies </line>
+      <line x_offset="39.04" y_offset="22.92" spacing="2.45">Jo&#x17E;ef Stefan Institute </line>
+      <line x_offset="42.14" y_offset="11.46" spacing="2.45">Ljubljana, Slovenia </line>
+      <line x_offset="45.85" y_offset="0.0" spacing="2.45">lorand.dali@ijs.si </line>
+    </region>
+    <region x="54.54" y="447.88" width="244.63" height="134.78" line_height="7.85" font="IAMKCK+TimesNewRomanPS-BoldMT">
+      <line x_offset="0.0" y_offset="123.61" spacing="0.0">Abstract This paper presents a system for visualizing the </line>
+      <line x_offset="30.95" y_offset="122.79" spacing="-11.11">-</line>
+      <line x_offset="0.0" y_offset="113.34" spacing="1.59">information contained in the text of a web page. The goal of the </line>
+      <line x_offset="0.0" y_offset="103.07" spacing="2.42">visualization is to help the users better and faster understand </line>
+      <line x_offset="0.0" y_offset="92.69" spacing="2.53">the text on a web page and/or find related content on the </line>
+      <line x_offset="0.0" y_offset="82.39" spacing="2.44">internet. These visualizations are possible due to the use of text </line>
+      <line x_offset="0.0" y_offset="72.12" spacing="2.42">mining, natural language processing and semantic web </line>
+      <line x_offset="0.0" y_offset="61.85" spacing="2.42">technologies. Our system tries to make these technologies </line>
+      <line x_offset="0.0" y_offset="51.46" spacing="2.53">instantly accessible to a wide variety of users reading a wide </line>
+      <line x_offset="0.0" y_offset="41.19" spacing="2.42">variety of web pages. This high coverage of both users and </line>
+      <line x_offset="0.0" y_offset="30.93" spacing="2.42">content can be achieved because the system is implemented as </line>
+      <line x_offset="0.0" y_offset="20.66" spacing="2.42">an extension to Firefox, one of the most popular browsers, and </line>
+      <line x_offset="0.0" y_offset="10.27" spacing="2.53">because the visualizations are computed on the fly for any page </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.42">the user happens to be reading at a given moment. </line>
+    </region>
+    <region x="314.29" y="447.44" width="244.31" height="132.26" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="17.93" y_offset="123.25" spacing="0.0">Figure 1 shows a screenshot of the system which </line>
+      <line x_offset="0.0" y_offset="111.79" spacing="2.45">contains the slidebar with the visualization options on the </line>
+      <line x_offset="0.0" y_offset="100.33" spacing="2.45">left, and the page being analyzed on the right. Currently the </line>
+      <line x_offset="0.0" y_offset="88.98" spacing="2.33">view which shows the summary of the web page, is </line>
+      <line x_offset="0.0" y_offset="77.49" spacing="2.48">selected. The visualization options in the slidebar on the left </line>
+      <line x_offset="0.0" y_offset="66.03" spacing="2.45">are represented by icons each corresponding to one of the </line>
+      <line x_offset="0.0" y_offset="54.57" spacing="2.45">functionality from the list above. </line>
+      <line x_offset="14.35" y_offset="43.46" spacing="2.1">The paper is structured as follows. Section II briefly </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">describes related work., Section III describes the features of </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">the system, while the implementation details are given in </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">Section IV. Section V describes the experiments, and the last </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">section draws the conclusions. </line>
+    </region>
+    <region x="54.54" y="417.32" width="243.88" height="21.55" line_height="11.17" font="IAMKDM+TimesNewRomanPS-BoldItalicMT">
+      <line x_offset="14.35" y_offset="10.39" spacing="0.0">Visual content enhancement, semantic technologies, text </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-0.78">mining </line>
+    </region>
+    <region x="314.29" y="119.64" width="244.37" height="317.59" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="141.9" y_offset="308.58" spacing="0.0">W ORK</line>
+      <line x_offset="79.9" y_offset="308.58" spacing="-9.01">II.</line>
+      <line x_offset="102.35" y_offset="308.58" spacing="-9.01">RELATED </line>
+      <line x_offset="14.35" y_offset="293.54" spacing="6.04">In this section we mention three systems similar to ours: </line>
+      <line x_offset="25.09" y_offset="287.95" spacing="-0.28">2</line>
+      <line x_offset="66.76" y_offset="287.95" spacing="-5.86">3</line>
+      <line x_offset="139.63" y_offset="287.95" spacing="-5.86">4</line>
+      <line x_offset="28.8" y_offset="282.67" spacing="-3.73">, Headup and SimilarWeb ; all three of which are </line>
+      <line x_offset="0.0" y_offset="282.67" spacing="-9.01">Glydo</line>
+      <line x_offset="0.0" y_offset="271.81" spacing="1.86">available as Firefox extensions. </line>
+      <line x_offset="14.35" y_offset="260.94" spacing="1.86">Glydo is a toolbar which provides information related to </line>
+      <line x_offset="0.0" y_offset="250.06" spacing="1.88">the current web page. Its features consist of: </line>
+      <line x_offset="0.0" y_offset="239.19" spacing="1.86">recommendation of similar web pages, similar videos on </line>
+      <line x_offset="0.0" y_offset="228.33" spacing="1.86">youtube, related news stories, information about important </line>
+      <line x_offset="0.0" y_offset="217.46" spacing="1.86">named entities. </line>
+      <line x_offset="14.35" y_offset="206.59" spacing="1.86">Headup annotates semantic entities on a page by </line>
+      <line x_offset="0.0" y_offset="195.73" spacing="1.86">underlining them. The system finds additional information </line>
+      <line x_offset="0.0" y_offset="184.86" spacing="1.86">related to the annotated entities, and presents it in a </line>
+      <line x_offset="0.0" y_offset="174.0" spacing="1.86">silverlight widget. It is also possible for the user to select a </line>
+      <line x_offset="0.0" y_offset="163.13" spacing="1.86">piece of text which is not annotated and get information </line>
+      <line x_offset="0.0" y_offset="152.27" spacing="1.86">related to the selection. The related information provided for </line>
+      <line x_offset="0.0" y_offset="141.4" spacing="1.86">a semantic entity is the following: summary of the wikipedia </line>
+      <line x_offset="0.0" y_offset="130.54" spacing="1.86">article about the selected entity, related pages, related news </line>
+      <line x_offset="0.0" y_offset="119.67" spacing="1.86">and blog posts, videos from youtube, pictures from flickr, </line>
+      <line x_offset="0.0" y_offset="108.8" spacing="1.86">search results for the selected entity. </line>
+      <line x_offset="14.35" y_offset="97.94" spacing="1.86">SimilarWeb is a system recommending related pages, </line>
+      <line x_offset="0.0" y_offset="87.07" spacing="1.86">related news and related tweets for any web page the user is </line>
+      <line x_offset="0.0" y_offset="76.18" spacing="1.89">visiting. Similarly to our system, the information is displayed </line>
+      <line x_offset="0.0" y_offset="65.31" spacing="1.86">in the sidebar of the browser. </line>
+      <line x_offset="14.35" y_offset="54.33" spacing="1.98">In our opinion all three of the related systems are very </line>
+      <line x_offset="0.0" y_offset="43.46" spacing="1.86">good and useful, but none of them provides as much </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">functionality as our system, which in addition provides a </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">summary[1]of the current page, triplets[2], semantic </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">graphs[3][6], word cloud, and classification[5]. According to </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">our experiments these features are the most helpful for </line>
+    </region>
+    <region x="54.54" y="95.17" width="246.75" height="306.12" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="83.0" y_offset="297.11" spacing="0.0">I.</line>
+      <line x_offset="103.78" y_offset="297.11" spacing="-9.01"> NTRODUCTIONI</line>
+      <line x_offset="17.93" y_offset="281.71" spacing="6.39">Understanding information provided at Web pages is </line>
+      <line x_offset="0.0" y_offset="270.23" spacing="2.47">often non-trivial, especially if the pages are not carefully </line>
+      <line x_offset="0.0" y_offset="258.89" spacing="2.33">prepared or are taken out of the context. For instance, long </line>
+      <line x_offset="0.0" y_offset="247.42" spacing="2.45">pages with poor structure or, pages that assume familiarity </line>
+      <line x_offset="0.0" y_offset="235.96" spacing="2.45">with some related content not directly provided. In this </line>
+      <line x_offset="0.0" y_offset="224.5" spacing="2.45">paper we propose a system that integrates state-of-the-art </line>
+      <line x_offset="0.0" y_offset="213.04" spacing="2.45">technology of text mining, natural language processing and </line>
+      <line x_offset="0.0" y_offset="201.57" spacing="2.45">semantic web providing intuitive and easy to use extension </line>
+      <line x_offset="0.0" y_offset="190.23" spacing="2.33">of </line>
+      <line x_offset="92.48" y_offset="190.23" spacing="-9.01">internet </line>
+      <line x_offset="207.3" y_offset="190.23" spacing="-9.01">browser. </line>
+      <line x_offset="17.93" y_offset="166.54" spacing="11.55">x</line>
+      <line x_offset="17.93" y_offset="142.9" spacing="11.5">x</line>
+      <line x_offset="17.93" y_offset="119.38" spacing="11.38">x</line>
+      <line x_offset="17.93" y_offset="107.17" spacing="0.07">x</line>
+      <line x_offset="17.93" y_offset="83.53" spacing="11.5">x</line>
+      <line x_offset="17.93" y_offset="60.0" spacing="11.38">x</line>
+      <line x_offset="17.93" y_offset="47.83" spacing="0.04">x</line>
+      <line x_offset="17.93" y_offset="35.65" spacing="0.04">x</line>
+      <line x_offset="17.93" y_offset="23.47" spacing="0.04">x</line>
+      <line x_offset="17.93" y_offset="11.29" spacing="0.04">x</line>
+      <line x_offset="0.0" y_offset="178.77" spacing="-176.49">The functionality of the system is the following: </line>
+      <line x_offset="35.84" y_offset="166.59" spacing="3.17">Presenting the keywords extracted from the text as a </line>
+      <line x_offset="34.89" y_offset="155.13" spacing="2.45">list ordered by importance </line>
+      <line x_offset="35.84" y_offset="142.95" spacing="3.17">Finding web pages which are related to the current </line>
+      <line x_offset="34.89" y_offset="131.61" spacing="2.33">one </line>
+      <line x_offset="35.84" y_offset="119.43" spacing="3.17">Finding related news articles </line>
+      <line x_offset="35.84" y_offset="107.22" spacing="3.2">Finding pictures which are related to the text of the </line>
+      <line x_offset="34.89" y_offset="95.76" spacing="2.45">current web page </line>
+      <line x_offset="35.84" y_offset="83.58" spacing="3.17">Classification of the current web page into the open </line>
+      <line x_offset="100.08" y_offset="77.4" spacing="0.32">1</line>
+      <line x_offset="34.89" y_offset="72.12" spacing="-3.73">directory project</line>
+      <line x_offset="35.84" y_offset="60.05" spacing="3.05">Summarization </line>
+      <line x_offset="35.84" y_offset="47.88" spacing="3.17">Showing a word cloud for the current page </line>
+      <line x_offset="35.84" y_offset="35.7" spacing="3.17">Extraction of triplets from text </line>
+      <line x_offset="35.84" y_offset="23.52" spacing="3.17">Visualization as a semantic graph </line>
+      <line x_offset="35.84" y_offset="11.34" spacing="3.17">Annotation with semantic entities form the open </line>
+      <line x_offset="34.89" y_offset="0.0" spacing="2.33">data cloud </line>
+    </region>
+    <region x="54.54" y="77.17" width="3.22" height="5.86" line_height="5.86" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="314.29" y="71.88" width="122.62" height="33.94" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="28.08" spacing="0.0">2</line>
+      <line x_offset="3.22" y_offset="22.81" spacing="-3.73"> http://www.glydo.com/ </line>
+      <line x_offset="0.0" y_offset="16.74" spacing="0.2">3</line>
+      <line x_offset="3.22" y_offset="11.46" spacing="-3.73"> http://www.headup.com/ </line>
+      <line x_offset="0.0" y_offset="5.28" spacing="0.32">4</line>
+      <line x_offset="3.22" y_offset="0.0" spacing="-3.73"> http://www.similarweb.com/ </line>
+    </region>
+    <region x="57.77" y="71.88" width="93.46" height="9.01" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0"> http://www.dmoz.org/ </line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">222887004</line>
+    </region>
+    <region x="50.0" y="33.28" width="114.26" height="17.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="10.0" spacing="0.0">111555555000---666000333777///111000 $$$222666...000000 ''' 222000111000 IIIEEEEEEEEE</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.74">DDDOOOIII 111000...111111000999///IIIVVV...222000111000...444999</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="2">
+    <region x="62.03" y="446.46" width="489.25" height="16.47" line_height="7.27" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="9.19" spacing="0.0">Figure 1 Screenshot. On the right is the page being analyzed, on the left is the slidebar with the visualization options. In this picture the summary view is </line>
+      <line x_offset="230.61" y_offset="0.0" spacing="1.92">selected</line>
+    </region>
+    <region x="54.75" y="414.65" width="243.89" height="19.87" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="10.87" spacing="0.0">better understanding a given page. What our system doesn't </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">have is related videos and related tweets. </line>
+    </region>
+    <region x="54.75" y="143.8" width="244.43" height="260.63" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="80.5" y_offset="251.63" spacing="0.0">UNCTIONALITY ESCRIPTIOND</line>
+      <line x_offset="50.88" y_offset="251.63" spacing="-9.01">III. F</line>
+      <line x_offset="14.35" y_offset="236.56" spacing="6.06">The system is a Firefox extension and offers in the </line>
+      <line x_offset="31.07" y_offset="230.98" spacing="-0.28">5</line>
+      <line x_offset="34.29" y_offset="225.7" spacing="-3.73"> several options for visualizing the text of the web </line>
+      <line x_offset="0.0" y_offset="225.7" spacing="-9.01">slidebar</line>
+      <line x_offset="0.0" y_offset="214.83" spacing="1.86">page in the currently focused tab. The following subsections </line>
+      <line x_offset="0.0" y_offset="203.97" spacing="1.86">explain what these options are and how they work. </line>
+      <line x_offset="0.0" y_offset="186.77" spacing="8.14">A. Keyword extraction </line>
+      <line x_offset="14.35" y_offset="172.68" spacing="5.08">One of the most common and straightforward methods of </line>
+      <line x_offset="0.0" y_offset="161.82" spacing="1.86">analyzing text is the extraction of the most important words </line>
+      <line x_offset="0.0" y_offset="150.95" spacing="1.86">as keywords. Our system implements the TextRank[4] </line>
+      <line x_offset="0.0" y_offset="140.09" spacing="1.86">keyword extraction algorithm which is an unsupervised </line>
+      <line x_offset="0.0" y_offset="129.22" spacing="1.86">graph based method. The text is represented as a graph </line>
+      <line x_offset="0.0" y_offset="118.35" spacing="1.86">having where the nodes are the words from the text. The </line>
+      <line x_offset="0.0" y_offset="107.49" spacing="1.86">weights of the edges are computed based on how many times </line>
+      <line x_offset="0.0" y_offset="96.5" spacing="1.98">two words co-occur and how close they are to each other. </line>
+      <line x_offset="0.0" y_offset="85.64" spacing="1.86">Finally the PageRank[9] algorithm is used to rank the words </line>
+      <line x_offset="0.0" y_offset="74.77" spacing="1.86">and extract the higher ranking ones as keywords. </line>
+      <line x_offset="0.0" y_offset="57.55" spacing="8.17">B. Related web pages, news articles and pictures </line>
+      <line x_offset="14.35" y_offset="43.58" spacing="4.96">This feature tries to suggest to the user content which is </line>
+      <line x_offset="0.0" y_offset="32.71" spacing="1.86">relevant to the current Web page. Related web pages, news </line>
+      <line x_offset="174.97" y_offset="27.01" spacing="-0.16">6</line>
+      <line x_offset="178.43" y_offset="21.73" spacing="-3.73"> search services </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="-9.01">and articles are found by using the BOSS</line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">provided by Yahoo. First, the important keywords are </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">extracted from the current page using functionality described </line>
+    </region>
+    <region x="314.49" y="123.74" width="244.56" height="310.78" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="301.78" spacing="0.0">in Section III.A, then, with the top ranked keywords, Yahoo </line>
+      <line x_offset="0.0" y_offset="290.91" spacing="1.86">web search, news search and image search is performed. </line>
+      <line x_offset="0.0" y_offset="273.72" spacing="8.14">C. Classification </line>
+      <line x_offset="14.35" y_offset="259.63" spacing="5.08">When doing classification we try to find the relevant </line>
+      <line x_offset="0.0" y_offset="248.74" spacing="1.88">topic categories into which the given page fits best. We are </line>
+      <line x_offset="0.0" y_offset="237.88" spacing="1.86">using DMoz (Open directory) taxonomy of topic categories </line>
+      <line x_offset="0.0" y_offset="227.01" spacing="1.86">with associated Web pages, as a large, well established </line>
+      <line x_offset="0.0" y_offset="216.15" spacing="1.86">taxonomy that is commonly used in research experiments of </line>
+      <line x_offset="0.0" y_offset="205.28" spacing="1.86">document classification[5]. Figure 2 shows the results. </line>
+      <line x_offset="0.0" y_offset="194.3" spacing="1.98">Because dmoz is a hierarchy of categories, the classification </line>
+      <line x_offset="0.0" y_offset="183.43" spacing="1.86">is also hierarchical, e.g. arts &#x2192; television &#x2192; programs &#x2192; </line>
+      <line x_offset="0.0" y_offset="172.56" spacing="1.86">talk shows. For classifying we have used the </line>
+      <line x_offset="0.0" y_offset="161.7" spacing="1.86">TextGarden[7]library, and the hierarchical algorithm is </line>
+      <line x_offset="0.0" y_offset="150.83" spacing="1.86">described in detail in[5] </line>
+      <line x_offset="0.0" y_offset="133.64" spacing="8.14">D. Summarization </line>
+      <line x_offset="14.35" y_offset="119.55" spacing="5.08">From summarization in general we expect to reduce the </line>
+      <line x_offset="0.0" y_offset="108.69" spacing="1.86">amount of text to be read; so we eliminate much of the </line>
+      <line x_offset="0.0" y_offset="97.82" spacing="1.86">textual content while still retaining the most important parts. </line>
+      <line x_offset="0.0" y_offset="86.92" spacing="1.89">The summarization approach adopted is extractive; so the </line>
+      <line x_offset="0.0" y_offset="76.06" spacing="1.86">main task is to of the algorithm is to select the most </line>
+      <line x_offset="0.0" y_offset="65.19" spacing="1.86">important sentences form the original text.Hence we have a </line>
+      <line x_offset="0.0" y_offset="54.33" spacing="1.86">problem of sentence ranking which we solve by the </line>
+      <line x_offset="0.0" y_offset="43.46" spacing="1.86">TextRank[4]method, which is unsupervised and graph based. </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">Once the ranking of the sentences is obtained, the user can </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">adjust with a slider the number of sentences he would like to </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">have in the summary. A summary example can be seen in </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">Figure 1. </line>
+    </region>
+    <region x="54.75" y="84.94" width="236.82" height="45.41" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="39.55" spacing="0.0">5</line>
+      <line x_offset="3.22" y_offset="34.26" spacing="-3.73"> The slidebar is a piece of user interface in Firefox which </line>
+      <line x_offset="0.0" y_offset="22.81" spacing="2.45">can show information at the side of the browser and can be </line>
+      <line x_offset="0.0" y_offset="5.28" spacing="11.66">6</line>
+      <line x_offset="0.0" y_offset="11.46" spacing="-15.19">hidden or shown at the will of the user </line>
+      <line x_offset="3.22" y_offset="0.0" spacing="2.45"> http://developer.yahoo.com/search/boss/ </line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">222887115</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="3">
+    <region x="314.26" y="580.89" width="244.38" height="138.1" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="129.09" spacing="0.0">features and text features. More details about node ranking </line>
+      <line x_offset="0.0" y_offset="118.21" spacing="1.88">and how to build and use semantic graphs can be found in[6] </line>
+      <line x_offset="14.35" y_offset="107.34" spacing="1.86">The semantic graph is displayed as a Java applet. For </line>
+      <line x_offset="0.0" y_offset="96.48" spacing="1.86">computing the layout and displaying the semantic graph, we </line>
+      <line x_offset="105.81" y_offset="90.89" spacing="-0.28">8</line>
+      <line x_offset="109.03" y_offset="85.61" spacing="-3.73"> library. </line>
+      <line x_offset="0.0" y_offset="85.61" spacing="-9.01">have used the TouchGraph</line>
+      <line x_offset="0.0" y_offset="68.42" spacing="8.13">H. Semantic annotation </line>
+      <line x_offset="14.35" y_offset="54.33" spacing="5.08">By annotation of semantic entities we mean extracting </line>
+      <line x_offset="0.0" y_offset="43.46" spacing="1.86">named entities (people, locations and organization) and </line>
+      <line x_offset="139.75" y_offset="37.88" spacing="-0.28">9</line>
+      <line x_offset="142.97" y_offset="32.6" spacing="-3.73">. Figure 4 shows how we </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="-9.01">linking them to the open data cloud</line>
+      <line x_offset="211.27" y_offset="10.87" spacing="12.72">[8] web </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="-19.87">display the semantic entities and their links in the slidebar. </line>
+      <line x_offset="204.82" y_offset="16.15" spacing="-0.28">10</line>
+      <line x_offset="0.0" y_offset="10.87" spacing="-3.73">The annotations are obtained by using the Enrycher</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">services. </line>
+    </region>
+    <region x="90.32" y="542.79" width="173.32" height="7.27" line_height="7.27" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 2 Classification into the open directory project </line>
+    </region>
+    <region x="314.26" y="159.81" width="244.34" height="410.86" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="84.32" y_offset="402.27" spacing="1.33">MPLEMENTATION ETAILS</line>
+      <line x_offset="154.79" y_offset="401.86" spacing="-8.6">D </line>
+      <line x_offset="56.62" y_offset="401.86" spacing="-9.01">IV. I</line>
+      <line x_offset="0.0" y_offset="386.45" spacing="6.39">We have implemented the system as a Firefox extension on </line>
+      <line x_offset="71.66" y_offset="380.24" spacing="0.35">11</line>
+      <line x_offset="0.0" y_offset="374.96" spacing="-3.73">top of the jetpack</line>
+      <line x_offset="78.11" y_offset="374.96" spacing="-9.01"> platform. Jetpack is a Firefox extension </line>
+      <line x_offset="0.0" y_offset="363.5" spacing="2.45">which facilitates the development of other extensions by </line>
+      <line x_offset="0.0" y_offset="352.16" spacing="2.33">exposing much of the Firefox user interface through </line>
+      <line x_offset="235.39" y_offset="345.98" spacing="0.32">12</line>
+      <line x_offset="0.0" y_offset="340.69" spacing="-3.73">JavaScript APIs. Moreover, jetpack supports the jQuery</line>
+      <line x_offset="0.0" y_offset="329.23" spacing="2.45">library which is a very useful tool for web development </line>
+      <line x_offset="0.0" y_offset="317.77" spacing="2.45">because it enables the usage of the AJAX technology. </line>
+      <line x_offset="0.0" y_offset="306.31" spacing="2.45">Hence the jetpack extension is a prerequisite to run our </line>
+      <line x_offset="0.0" y_offset="294.85" spacing="2.45">extension. On the browser side, the document ready, tab </line>
+      <line x_offset="0.0" y_offset="283.5" spacing="2.33">focus and slide select events are handled. In other words, </line>
+      <line x_offset="0.0" y_offset="272.04" spacing="2.45">when a page is (re)loaded the plain text is extracted from the </line>
+      <line x_offset="0.0" y_offset="260.58" spacing="2.45">html and HTTP web services are called to do the necessary </line>
+      <line x_offset="0.0" y_offset="249.12" spacing="2.45">processing on the server side. The necessary processing i.e. </line>
+      <line x_offset="0.0" y_offset="237.65" spacing="2.45">the web services which must be called is determined by the </line>
+      <line x_offset="0.0" y_offset="226.19" spacing="2.45">slide which is currently selected in the slide bar. If the user </line>
+      <line x_offset="0.0" y_offset="214.85" spacing="2.33">selects another slide (i.e. another visualization option), then </line>
+      <line x_offset="0.0" y_offset="203.37" spacing="2.47">new web services, which generate the required visualization, </line>
+      <line x_offset="0.0" y_offset="191.9" spacing="2.45">are called. If the user focuses another tab, then the </line>
+      <line x_offset="0.0" y_offset="180.44" spacing="2.45">information displayed in the slidebar is updated in order to </line>
+      <line x_offset="0.0" y_offset="168.98" spacing="2.45">show the visualization of the newly focused page. All the </line>
+      <line x_offset="0.0" y_offset="157.52" spacing="2.45">HTTP web services are called from the JavaScript event </line>
+      <line x_offset="0.0" y_offset="146.17" spacing="2.33">handlers using the AJAX technology. </line>
+      <line x_offset="17.93" y_offset="134.71" spacing="2.45">On the server side, the processing algorithms </line>
+      <line x_offset="0.0" y_offset="123.25" spacing="2.45">(classification, </line>
+      <line x_offset="73.28" y_offset="123.25" spacing="-9.01">summarization, </line>
+      <line x_offset="149.71" y_offset="123.25" spacing="-9.01">keyword </line>
+      <line x_offset="199.3" y_offset="123.25" spacing="-9.01">extraction, </line>
+      <line x_offset="0.0" y_offset="111.79" spacing="2.45">semantic graph etc.) are implemented as HTTP web services </line>
+      <line x_offset="0.0" y_offset="100.33" spacing="2.45">which when called from AJAX get the text as input and </line>
+      <line x_offset="0.0" y_offset="88.98" spacing="2.33">send the processing results in JSON or XML format as a </line>
+      <line x_offset="0.0" y_offset="77.52" spacing="2.45">response. This service oriented architecture increases the </line>
+      <line x_offset="0.0" y_offset="66.06" spacing="2.45">modularity of the system and makes it easy to replace or </line>
+      <line x_offset="0.0" y_offset="54.6" spacing="2.45">improve any of the preprocessing algorithms. </line>
+      <line x_offset="14.35" y_offset="43.46" spacing="2.13">The processing is done in a lazy manner, i.e. the text is </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">not processed completely at the beginning, instead the </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">services are called only when needed. For instance if the user </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">does not request to see a summary then the text is never </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">summarized.</line>
+    </region>
+    <region x="54.84" y="112.82" width="244.7" height="411.85" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="402.79" spacing="0.0">E. Word Cloud </line>
+      <line x_offset="14.35" y_offset="388.7" spacing="5.08">A word cloud is a type of text visualization where the </line>
+      <line x_offset="0.0" y_offset="377.83" spacing="1.86">words of the text are displayed, and their sizes are directly </line>
+      <line x_offset="0.0" y_offset="366.97" spacing="1.86">proportional with their frequency of occurrence. We have </line>
+      <line x_offset="64.02" y_offset="361.38" spacing="-0.28">7</line>
+      <line x_offset="67.24" y_offset="356.1" spacing="-3.73"> word cloud software to generate the word </line>
+      <line x_offset="0.0" y_offset="356.1" spacing="-9.01">used the wordle</line>
+      <line x_offset="0.0" y_offset="345.24" spacing="1.86">cloud images which are displayed. </line>
+      <line x_offset="0.0" y_offset="328.04" spacing="8.14">F. Triplet extraction </line>
+      <line x_offset="14.35" y_offset="313.96" spacing="5.08">Triplets[2]are like short statements or facts. They are </line>
+      <line x_offset="0.0" y_offset="303.09" spacing="1.86">extracted from each sentence and are usually made of the </line>
+      <line x_offset="0.0" y_offset="292.22" spacing="1.86">subject the predicate and an object form the sentence. </line>
+      <line x_offset="0.0" y_offset="281.36" spacing="1.86">Examples of triplets would be (Jay Leno - has - tonight </line>
+      <line x_offset="0.0" y_offset="270.49" spacing="1.86">show) or (week guest list - includes - Sarah Palin). We </line>
+      <line x_offset="0.0" y_offset="259.63" spacing="1.86">believe that it is useful to show such triplets to the user </line>
+      <line x_offset="0.0" y_offset="248.74" spacing="1.88">because they are sentences reduced to their essence and the </line>
+      <line x_offset="0.0" y_offset="237.88" spacing="1.86">user can see at a glance who did what to whom. We have </line>
+      <line x_offset="0.0" y_offset="227.01" spacing="1.86">used a Web service provided as a part of content enrichment </line>
+      <line x_offset="0.0" y_offset="216.15" spacing="1.86">systems[8]. The algorithms for extracting triplets from a </line>
+      <line x_offset="0.0" y_offset="205.28" spacing="1.86">sentence are described in detail in[2] </line>
+      <line x_offset="0.0" y_offset="188.09" spacing="8.14">G. Semantic Graph </line>
+      <line x_offset="14.35" y_offset="174.0" spacing="5.08">This type of visualization allows the user to see the text </line>
+      <line x_offset="0.0" y_offset="163.13" spacing="1.86">as a directed graph as shown in Figure 3. The nodes are </line>
+      <line x_offset="0.0" y_offset="152.27" spacing="1.86">important words and phrases occurring in the text. In our </line>
+      <line x_offset="0.0" y_offset="141.4" spacing="1.86">visualization, the yellow nodes represent verbs while the </line>
+      <line x_offset="0.0" y_offset="130.54" spacing="1.86">green nodes are nouns. The edges show subject &#x2192; predicate </line>
+      <line x_offset="0.0" y_offset="119.67" spacing="1.86">(from green to yellow) and predicate &#x2192; object (from yellow </line>
+      <line x_offset="0.0" y_offset="108.8" spacing="1.86">to green) relations. The orientation of the edges is </line>
+      <line x_offset="0.0" y_offset="97.82" spacing="1.98">determined by the fact that the edges are wider at the start </line>
+      <line x_offset="0.0" y_offset="86.92" spacing="1.89">than at the end. Three consecutive nodes where both the first </line>
+      <line x_offset="0.0" y_offset="76.06" spacing="1.86">and the last are nouns (green) make up a subject &#x2192; verb &#x2192; </line>
+      <line x_offset="0.0" y_offset="65.19" spacing="1.86">object triplet. These are the same triplets described </line>
+      <line x_offset="0.0" y_offset="54.33" spacing="1.86">previously. </line>
+      <line x_offset="14.35" y_offset="43.46" spacing="1.86">Apart from the visual role, the semantic graph also has </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">summarization purposes. The user can adjust the size of the </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">graph, and when the size decreases, the less important nodes </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">disappear. To achieve this, a node ranking model has been </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">learned using supervised learning. The features are graph </line>
+    </region>
+    <region x="54.84" y="79.18" width="3.22" height="5.86" line_height="5.86" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7</line>
+    </region>
+    <region x="314.26" y="76.23" width="140.95" height="56.87" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="51.01" spacing="0.0">8</line>
+      <line x_offset="3.22" y_offset="45.73" spacing="-3.73"> http://touchgraph.sourceforge.net </line>
+      <line x_offset="0.0" y_offset="39.55" spacing="0.32">9</line>
+      <line x_offset="3.22" y_offset="34.26" spacing="-3.73"> http://linkeddata.org/ </line>
+      <line x_offset="0.0" y_offset="28.08" spacing="0.32">10</line>
+      <line x_offset="6.45" y_offset="22.81" spacing="-3.73"> http://enrycher.ijs.si </line>
+      <line x_offset="0.0" y_offset="16.74" spacing="0.2">11</line>
+      <line x_offset="6.45" y_offset="11.46" spacing="-3.73"> https://jetpack.mozillalabs.com </line>
+      <line x_offset="0.0" y_offset="5.28" spacing="0.32">12</line>
+      <line x_offset="6.45" y_offset="0.0" spacing="-3.73"> http://jquery.com/ </line>
+    </region>
+    <region x="58.06" y="73.9" width="97.88" height="9.01" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0"> http://www.wordle.net/ </line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">222887226</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="4">
+    <region x="199.5" y="376.68" width="211.32" height="7.27" line_height="7.27" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 3 Semantic graph visualization of an article about Jay Leno</line>
+    </region>
+    <region x="314.37" y="266.59" width="244.18" height="98.15" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="89.14" spacing="0.0">come to some solid conclusions from such a small </line>
+      <line x_offset="0.0" y_offset="78.27" spacing="1.86">experiment, but nevertheless here is what we have observed. </line>
+      <line x_offset="0.0" y_offset="67.41" spacing="1.86">The users were able to guess what the web pages were about, </line>
+      <line x_offset="0.0" y_offset="56.54" spacing="1.86">but they often missed the finer points and details related to </line>
+      <line x_offset="0.0" y_offset="45.68" spacing="1.86">the story. The most difficult page was the news article </line>
+      <line x_offset="0.0" y_offset="34.81" spacing="1.86">describing the effects on social networks on television. </line>
+      <line x_offset="0.0" y_offset="23.95" spacing="1.86">Based on the feedback from the users we think this is due to </line>
+      <line x_offset="0.0" y_offset="13.08" spacing="1.86">the diversity of topics covered in the article. </line>
+      <line x_offset="64.14" y_offset="0.0" spacing="5.81">Table 1 Rating of the visualizations </line>
+    </region>
+    <region x="320.29" y="115.4" width="72.48" height="138.15" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="129.46" spacing="0.0">Visualization </line>
+      <line x_offset="0.0" y_offset="117.76" spacing="2.69">Summary </line>
+      <line x_offset="0.0" y_offset="104.62" spacing="4.13">Semantic Graph </line>
+      <line x_offset="0.0" y_offset="91.58" spacing="4.04">Triplets </line>
+      <line x_offset="0.0" y_offset="78.45" spacing="4.13">Word Cloud </line>
+      <line x_offset="0.0" y_offset="65.31" spacing="4.13">Classification </line>
+      <line x_offset="0.0" y_offset="52.3" spacing="4.01">Keywords </line>
+      <line x_offset="0.0" y_offset="39.16" spacing="4.13">Related News </line>
+      <line x_offset="0.0" y_offset="26.15" spacing="4.01">Related Pages </line>
+      <line x_offset="0.0" y_offset="13.01" spacing="4.13">Semantic Entities </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.01">Related Pictures </line>
+    </region>
+    <region x="508.39" y="114.22" width="28.99" height="139.34" line_height="9.99" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="130.65" spacing="0.0">Points </line>
+      <line x_offset="0.0" y_offset="117.76" spacing="2.9">35 </line>
+      <line x_offset="0.0" y_offset="104.62" spacing="3.15">28 </line>
+      <line x_offset="0.0" y_offset="91.58" spacing="3.06">25 </line>
+      <line x_offset="0.0" y_offset="78.45" spacing="3.15">22 </line>
+      <line x_offset="0.0" y_offset="65.31" spacing="3.15">21 </line>
+      <line x_offset="0.0" y_offset="52.3" spacing="3.03">19 </line>
+      <line x_offset="0.0" y_offset="39.16" spacing="3.15">17 </line>
+      <line x_offset="0.0" y_offset="26.15" spacing="3.03">16 </line>
+      <line x_offset="0.0" y_offset="13.01" spacing="3.15">15 </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.03"> 8 </line>
+    </region>
+    <region x="54.62" y="85.86" width="244.28" height="270.52" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="113.33" y_offset="261.92" spacing="1.33">XPERIMENTS</line>
+      <line x_offset="84.44" y_offset="261.51" spacing="-8.6">V. E</line>
+      <line x_offset="17.93" y_offset="246.23" spacing="6.28">In the experiments we want to see how much </line>
+      <line x_offset="0.0" y_offset="234.77" spacing="2.45">information about the text on the web page our visualization </line>
+      <line x_offset="0.0" y_offset="223.3" spacing="2.45">methods are giving. We have designed the experiments to </line>
+      <line x_offset="0.0" y_offset="211.84" spacing="2.45">estimate how well the users can understand the main </line>
+      <line x_offset="0.0" y_offset="200.38" spacing="2.45">information of a Web page without seeing the original </line>
+      <line x_offset="0.0" y_offset="189.04" spacing="2.33">content and relying on using our software to obtain </line>
+      <line x_offset="0.0" y_offset="177.57" spacing="2.45">visualizations for web pages whose content was removed. In </line>
+      <line x_offset="0.0" y_offset="166.11" spacing="2.45">other words they are trying to find out what a web page is </line>
+      <line x_offset="0.0" y_offset="154.65" spacing="2.45">about by only looking at the visualizations and not seeing </line>
+      <line x_offset="0.0" y_offset="143.19" spacing="2.45">the page itself. After the users formulated their assumptions </line>
+      <line x_offset="0.0" y_offset="131.73" spacing="2.45">and were told what the web page is actually about, they </line>
+      <line x_offset="0.0" y_offset="120.35" spacing="2.36">were asked to rate each of the visualization functionality of </line>
+      <line x_offset="0.0" y_offset="108.89" spacing="2.45">the system. </line>
+      <line x_offset="14.35" y_offset="97.79" spacing="2.1">We have used three pages for evaluation, one Wikipedia </line>
+      <line x_offset="0.0" y_offset="86.92" spacing="1.86">article about a French nobleman, a news article about the </line>
+      <line x_offset="0.0" y_offset="76.05" spacing="1.86">effect of social network sites on television and a blog post </line>
+      <line x_offset="0.0" y_offset="65.19" spacing="1.86">which makes a parallel between playing blackjack and </line>
+      <line x_offset="0.0" y_offset="54.32" spacing="1.86">trading on the stock market. Seven users were involved in </line>
+      <line x_offset="0.0" y_offset="43.46" spacing="1.86">the experiments., After trying to guess the content of these </line>
+      <line x_offset="0.0" y_offset="32.59" spacing="1.86">articles from their visualizations, rated each visualization </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.85">functionality according to how helpful it was from 1(not </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">helpful) to 5(very helpful). The users were asked to spend </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">about three minutes for each article. We cannot claim to have </line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">222887337</line>
+    </region>
+  </page>
+  <page width="612" height="792" number="5">
+    <region x="314.56" y="666.44" width="244.3" height="52.49" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="14.35" y_offset="43.48" spacing="0.0">Related pages, related news and related pictures were of </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.88">quite poor value to the users, maybe also because they are </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">more suited to suggest related content than to explain the </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">given one. The list of semantic entities didn't give the users </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">much insight either. </line>
+    </region>
+    <region x="133.4" y="503.25" width="86.65" height="7.27" line_height="7.27" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Figure 4 Semantic Entities </line>
+    </region>
+    <region x="314.56" y="490.89" width="244.37" height="165.34" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="113.21" y_offset="156.74" spacing="1.33">ONCLUSIONS</line>
+      <line x_offset="82.29" y_offset="156.33" spacing="-8.6">VI. C</line>
+      <line x_offset="14.35" y_offset="141.28" spacing="6.04">The paper presented a system aiming to help the users </line>
+      <line x_offset="0.0" y_offset="130.42" spacing="1.86">better and faster understand the text on a web page and/or </line>
+      <line x_offset="0.0" y_offset="119.55" spacing="1.86">find related content on the internet. In order to evaluate how </line>
+      <line x_offset="0.0" y_offset="108.69" spacing="1.86">helpful each visualization method is, we have performed </line>
+      <line x_offset="0.0" y_offset="97.82" spacing="1.86">experiments with several users who tried to guess the textual </line>
+      <line x_offset="0.0" y_offset="86.95" spacing="1.86">content of pages only looking at the visualizations provided. </line>
+      <line x_offset="0.0" y_offset="76.09" spacing="1.86">It turned out that the summary, the graphs and the triplets </line>
+      <line x_offset="0.0" y_offset="65.22" spacing="1.86">were of real help, the other visualizations being of </line>
+      <line x_offset="0.0" y_offset="54.36" spacing="1.86">questionable value. We also found out that the visualizations </line>
+      <line x_offset="0.0" y_offset="43.46" spacing="1.89">our software provides (especially the semantic graph) are </line>
+      <line x_offset="0.0" y_offset="32.6" spacing="1.86">most effective if applied to a text with a single focus in its </line>
+      <line x_offset="0.0" y_offset="21.73" spacing="1.86">topic. Additionally, it turned out that the order of the </line>
+      <line x_offset="0.0" y_offset="10.87" spacing="1.86">visualization options in the user interface matters, and that </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.86">the more popular methods should come first. </line>
+    </region>
+    <region x="314.56" y="178.9" width="244.46" height="301.78" line_height="7.27" font="IAMKDL+Times New Roman">
+      <line x_offset="101.75" y_offset="293.18" spacing="1.32">EFERENCES</line>
+      <line x_offset="95.18" y_offset="292.77" spacing="-8.6">R</line>
+      <line x_offset="0.0" y_offset="279.57" spacing="5.93">[1] Mihalcea, R., Language independent extractive summarization. </line>
+      <line x_offset="17.93" y_offset="270.61" spacing="1.68">Proceedings of the ACL 2005 on Interactive poster and demonstration </line>
+      <line x_offset="17.93" y_offset="261.78" spacing="1.56">sessions. p. 52, 2005 </line>
+      <line x_offset="0.0" y_offset="250.2" spacing="4.31">[2] Rusu, D., Dali, L., Fortuna, B., Grobelnik, M. and Mladenic, D. </line>
+      <line x_offset="17.93" y_offset="241.24" spacing="1.68">Triplet Extraction from Sentences. In Proceedings of the 10th </line>
+      <line x_offset="17.93" y_offset="232.29" spacing="1.68">International Multiconference "Information Society - IS 2007". </line>
+      <line x_offset="17.93" y_offset="223.33" spacing="1.68">Ljubljana, Slovenia. pp. 218 -- 222. Ljubljana, Slovenia, October </line>
+      <line x_offset="17.93" y_offset="214.49" spacing="1.56">2007 </line>
+      <line x_offset="0.0" y_offset="202.91" spacing="4.31">[3] Leskovec, J., Grobelnik, M., Milic-Frayling, N.. Learning Sub-</line>
+      <line x_offset="17.93" y_offset="193.94" spacing="1.7">structures of Document Semantic Graphs for Document </line>
+      <line x_offset="17.93" y_offset="184.98" spacing="1.68">Summarization. In Proceedings of the 7th International Multi-</line>
+      <line x_offset="17.93" y_offset="176.15" spacing="1.56">Conference Information Society IS 2004, Volume B. pp. 18-25, 2004. </line>
+      <line x_offset="0.0" y_offset="164.56" spacing="4.31">[4] Mihalcea, R. and Tarau, P. TextRank: Bringing order into texts. In </line>
+      <line x_offset="17.93" y_offset="155.73" spacing="1.56">Proceedings of EMNLP, vol. 4, pp. 404 -- 411, Barcelona 2004. </line>
+      <line x_offset="0.0" y_offset="144.15" spacing="4.31">[5] Grobelnik, M. and Mladenic, D. Simple classification into large topic </line>
+      <line x_offset="17.93" y_offset="135.19" spacing="1.68">ontology of Web documents. Journal of Computing and Information </line>
+      <line x_offset="17.93" y_offset="126.36" spacing="1.56">Technology. nr. 4, vol. 13, p. 279, 2005 </line>
+      <line x_offset="0.0" y_offset="114.89" spacing="4.19">[6] Rusu, D., Fortuna, B., Mladenic, D., Grobelnik, M. and Sipos, R. </line>
+      <line x_offset="17.93" y_offset="105.94" spacing="1.68">Document Visualization Based on Semantic Graphs. In Proceedings </line>
+      <line x_offset="17.93" y_offset="96.98" spacing="1.68">of the 13th International Conference Information Visualisation </line>
+      <line x_offset="17.93" y_offset="88.15" spacing="1.56">(IV09). Barcelona, Spain. pp. 292 -- 297. July 2009. </line>
+      <line x_offset="0.0" y_offset="76.57" spacing="4.31">[7] Grobelnik, M., Mladenic, D. Text Mining Recipes,Springer-Verlag</line>
+      <line x_offset="239.57" y_offset="75.69" spacing="-9.77">, </line>
+      <line x_offset="17.93" y_offset="67.73" spacing="0.68">Berlin; Heidelberg; New York, 2006 </line>
+      <line x_offset="0.0" y_offset="56.15" spacing="4.31">[8] T. Stajner, D. Rusu, L. Dali, B. Fortuna, D.Mladenic, M. Grpbelnik, </line>
+      <line x_offset="17.93" y_offset="47.19" spacing="1.68">Enrycher - service oriented text enrychment, SiKDD2009, October </line>
+      <line x_offset="17.93" y_offset="38.36" spacing="1.56">16th, 2009, Ljubljana, Slovenia </line>
+      <line x_offset="0.0" y_offset="26.75" spacing="4.34">[9] A. Arasu, J. Novak, A. Tomkins and J. Tomlin, "PageRank </line>
+      <line x_offset="17.93" y_offset="17.79" spacing="1.68">Computation and the Structure of the Web: Experiments </line>
+      <line x_offset="17.93" y_offset="8.84" spacing="1.68">andAlgorithms", Technical Report, IBM Almaden Research Center, </line>
+      <line x_offset="17.93" y_offset="0.0" spacing="1.56">Nov. 2001. </line>
+    </region>
+    <region x="54.81" y="178.14" width="244.29" height="313.17" line_height="9.01" font="IAMKCJ+TimesNewRomanPSMT">
+      <line x_offset="14.35" y_offset="304.16" spacing="0.0">The Wikipedia article about the French nobleman was </line>
+      <line x_offset="0.0" y_offset="293.29" spacing="1.86">the one about which the users got the closest idea. This </line>
+      <line x_offset="0.0" y_offset="282.43" spacing="1.86">article is a descriptive one focusing on this French nobleman. </line>
+      <line x_offset="14.35" y_offset="271.56" spacing="1.86">For the blog post making a parallel between blackjack </line>
+      <line x_offset="0.0" y_offset="260.7" spacing="1.86">and stock trading the results were quite opposing. Three of </line>
+      <line x_offset="0.0" y_offset="249.83" spacing="1.86">the users observed this parallel and totally guessed what the </line>
+      <line x_offset="0.0" y_offset="238.97" spacing="1.86">blog post is about while the others were rather confused and </line>
+      <line x_offset="0.0" y_offset="228.1" spacing="1.86">skeptical about the appearance of the two apparently </line>
+      <line x_offset="0.0" y_offset="217.23" spacing="1.86">unrelated topics. </line>
+      <line x_offset="17.93" y_offset="206.01" spacing="2.21">Table 1 shows each visualization type and how many </line>
+      <line x_offset="0.0" y_offset="194.55" spacing="2.45">rating points it got, ordered from best to worst (maximum is </line>
+      <line x_offset="0.0" y_offset="183.07" spacing="2.47">35 - getting 5 points from each of the seven users, while the </line>
+      <line x_offset="0.0" y_offset="171.61" spacing="2.45">minimum is 7). Not only was the summary the clear winner </line>
+      <line x_offset="0.0" y_offset="160.26" spacing="2.33">but it also was favored by all the users. Triplets and </line>
+      <line x_offset="0.0" y_offset="148.8" spacing="2.45">semantic graphs, the runners-up, show similar information </line>
+      <line x_offset="0.0" y_offset="137.34" spacing="2.45">but the users preferred either one or the other. Some liked </line>
+      <line x_offset="0.0" y_offset="125.88" spacing="2.45">the interactive nature of the graph while others found the </line>
+      <line x_offset="0.0" y_offset="114.41" spacing="2.45">simplicity of the triplets more readable, An observation is </line>
+      <line x_offset="0.0" y_offset="102.95" spacing="2.45">that the users found the semantic graph very useful for the </line>
+      <line x_offset="0.0" y_offset="91.61" spacing="2.33">page which focuses on a single topic; for the pages with </line>
+      <line x_offset="0.0" y_offset="80.15" spacing="2.45">diverse content, like the second one, the graph was not </line>
+      <line x_offset="0.0" y_offset="68.68" spacing="2.45">much help. Another important lesson which we learned is </line>
+      <line x_offset="0.0" y_offset="57.22" spacing="2.45">that most of the users, although they had one or two favorite </line>
+      <line x_offset="0.0" y_offset="45.76" spacing="2.45">visualization </line>
+      <line x_offset="63.71" y_offset="45.76" spacing="-9.01">methods, </line>
+      <line x_offset="112.64" y_offset="45.76" spacing="-9.01">checked all the available </line>
+      <line x_offset="0.0" y_offset="34.42" spacing="2.33">visualizations in turn from top to bottom. Only two users </line>
+      <line x_offset="0.0" y_offset="22.92" spacing="2.48">went directly to what they found the most helpful. This tells </line>
+      <line x_offset="0.0" y_offset="11.46" spacing="2.45">us that we should reorder the tabs in the slidebar and put </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.45">summary as the most useful functionality at the top. </line>
+    </region>
+    <region x="300.0" y="43.28" width="12.0" height="7.26" line_height="7.26" font="CQKRVV+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">222887448</line>
+    </region>
+  </page>
+</pdf>

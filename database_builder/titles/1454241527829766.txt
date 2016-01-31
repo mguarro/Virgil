@@ -1,0 +1,1 @@
+Slide KWIC: Snippet Generation for Browsing Slides based on Conceptual Relationship and Presentational Structure

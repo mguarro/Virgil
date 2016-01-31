@@ -1,0 +1,465 @@
+<!DOCTYPE html><html>
+<head>
+<title></title>
+<style type="text/css">
+<!--
+.xflip {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph;
+}
+.yflip {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv;
+}
+.xyflip {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+    filter: fliph + flipv;
+}
+-->
+</style>
+</head>
+<body>
+<a name=1></a><img src="05290726-1_1.png"/><br/>
+<img src="05290726-1_2.png"/><br/>
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009<br/>
+1169<br/>
+Mapping Text with Phrase Nets&#160;<br/>
+Frank van Ham, Martin Wattenberg, and Fernanda B. Viégas&#160;<br/>
+&#160; &#160;&#160;&#160; &#160;&#160; &#160;&#160;<br/>
+&#160;<br/>
+&#160;<br/>&#160; &#160; &#160; &#160; &#160; &#160;Fig. 1. Scanning the bible for textual matches to the pattern&#160;<i>X begat Y</i>&#160;reveals a network of family&#160;relations.<br/>
+<b>Abstract</b>We&#160;present a new&#160;technique, the&#160;<i>phrase net</i>, for generating visual overviews&#160;of&#160;unstructured&#160;text.&#160;A&#160;phrase&#160;net&#160;displays&#160;<br/>a&#160;graph&#160;whose nodes&#160;are words and whose edges&#160;indicate&#160;that&#160;two&#160;words are&#160;linked&#160;by&#160;a&#160;user-specified&#160;relation.&#160;These&#160;relations&#160;<br/>may&#160;be defined either at the syntactic or&#160;lexical&#160;level; different relations often produce very&#160;different&#160;perspectives on the same text.&#160;<br/>Taken together,&#160;these perspectives often provide an&#160;illuminating visual overview&#160;of&#160;the key&#160;concepts and relations in a document or&#160;<br/>set of documents.&#160;<br/>
+<b>Index Terms</b>Text visualization,&#160;tag cloud, natural&#160;language processing, semantic net.&#160;<br/>
+&#160;<br/>
+<b>1 INTRODUCTION&#160;<br/></b>Scholars have&#160;long dreamed of&#160;turning&#160;textfrom books to entire&#160;&#160;reliability&#160;and&#160;validity. On one end of the scale,&#160;computers can&#160;<br/>librariesinto&#160;maps. A visual perspective on&#160;a text has many&#160;&#160;reliably&#160;pick out the individual&#160;words in a book, leaving the task of&#160;<br/>potential uses.&#160;A map can serve as a summary&#160;and provide&#160;a&#160;&#160;putting the words together to a human. &#160;On the other end, programs&#160;<br/>
+jumping-off point for close reading. Mapping techniques may&#160;also be&#160;&#160;that aim&#160;to extract high-level&#160;meaning from&#160;textsay a semantic&#160;<br/>used to&#160;compare multiple texts,&#160;whether books&#160;by&#160;different&#160;authors&#160;&#160;network of people and their relationsface significant&#160;error rates&#160;<br/>or speeches by&#160;different&#160;politicians.&#160;<br/>
+and are&#160;easily&#160;misunderstood by&#160;their users.&#160;<br/>
+Unfortunately,&#160;anyone who sets&#160;out to map a book quickly&#160;runs&#160;<br/>
+The second problem in the visual display&#160;of text involves&#160;<br/>
+into two problems. The first is purely conceptual: most interesting&#160;&#160;legibility. In most visualizations, one wants to use spatial position as&#160;<br/>texts are large&#160;(a typical novel&#160;has more than&#160;100,000 words) so&#160;&#160;a meaningful variable.&#160;Yet a readable set&#160;of&#160;words obeys&#160;spatial&#160;<br/>
+some kind of analysis and&#160;summarization&#160;is necessary&#160;to make them&#160;&#160;constraints&#160;on alignment,&#160;grouping, and&#160;type&#160;size. The conflict&#160;<br/>amenable to visualization.&#160;The key issue is to define an effective unit&#160;&#160;between&#160;positioning and&#160;legibility&#160;can lead&#160;to displays&#160;that are hard&#160;<br/>of analysis; such&#160;a unit could range from&#160;letters to&#160;words to general&#160;&#160;to read or&#160;where&#160;spatial&#160;position&#160;is&#160;essentially random.&#160;<br/>
+concepts and ideas. Due to&#160;the current state of&#160;natural language&#160;<br/>
+In this paper we&#160;introduce a new text mapping&#160;technique, the&#160;<br/>
+processing, choosing the right unit involves a tradeoff between&#160;&#160;<i>phrase net</i>, which seeks a balance both in&#160;analysis and display. Our&#160;<br/>
+unit of analysis&#160;is&#160;a&#160;phrase,&#160;i.e.,&#160;a particular relationship between&#160;<br/>
+<i>&#160;</i><br/>
+words that can&#160;be defined using either simple&#160;pattern matching&#160;or&#160;<br/>
+x&#160;&#160;<i>Frank van Ham is&#160;with IBM&#160;Research, E-Mail: fvanham@us.ibm.com.&#160;</i><br/>
+syntactic analysis. This unit provides&#160;a higher level of analysis than&#160;<br/>
+x&#160;&#160;<i>Martin&#160;Wattenberg&#160;is with IBM Research, E-Mail: mwatten@us.ibm.com.&#160;</i><br/>
+individual words, but is&#160;easily&#160;understood by&#160;users and does&#160;not&#160;<br/>
+x&#160;&#160;<i>Fernanda B.&#160;Viégas is with IBM&#160;Research, E-Mail:&#160;viegasf@us.ibm.com.&#160;</i><br/>
+require unreliable artificial intelligence.&#160;Our visual displays&#160;use a&#160;<br/>
+<i>&#160;</i><br/>
+standard graph layout engine&#160;that has been modified to ensure that&#160;<br/>
+<i>Manuscript received 31 March 2009; accepted 27 July 2009; posted online</i><br/>
+text is readable via&#160;constraints on&#160;alignment and grouping.&#160;<br/>
+<i>11&#160;October 2009;&#160;mailed on 5 October 2009.&#160;</i><br/>
+In addition&#160;to describing&#160;the design and implementation of&#160;the&#160;<br/>
+<i>For information on obtaining reprints&#160;of this article, please send &#160;</i><br/>
+phrase net, we&#160;also provide a series of sample&#160;use cases. Some of&#160;<br/>
+<i>email to: tvcg@computer.org</i>&#160;<i>.&#160;</i><br/>
+these were derived from our own exploration.&#160;To find others, we&#160;<br/>deployed&#160;a simplified&#160;version&#160;of the phrase net on the Many&#160;Eyes&#160;<br/>
+&#160; &#160; &#160; &#160; &#160;1077-2626/09/$25.00 © 2009 IEEE &#160; &#160; &#160; &#160;Published by the IEEE Computer Society<br/>
+&#160;<br/>
+<hr/>
+<a name=2></a>&#160;<br/>
+1170<br/>
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009<br/>
+site, where any user could create their own visualizations of text.&#160;&#160;any&#160;complicated&#160;text there are&#160;more specific relationships: agents&#160;<br/>While the period&#160;of deployment was too short to&#160;draw quantitative&#160;&#160;acting&#160;on objects, people possessing things, actions taking place at&#160;<br/>conclusions about usage, it resulted in several&#160;interesting usage&#160;&#160;locations. Simply&#160;looking&#160;at co-occurrence gives&#160;no way&#160;of&#160;focusing&#160;<br/>
+scenarios&#160;that&#160;had not occurred to&#160;us.&#160;<br/>
+on a&#160;type of relation.&#160;<br/>
+The technique presented in this paper attempts to address these&#160;<br/>
+<b>2 RELATED&#160;WORK&#160;</b><br/>
+shortcomings. We analyze&#160;text&#160;at&#160;the level of&#160;relations between&#160;<br/>
+words, rather than individual words, and allow users to specify&#160;those&#160;<br/>
+To place the phrase net&#160;in context, we review some&#160;existing systems&#160;&#160;relations in&#160;a variety of&#160;ways.&#160;We&#160;also tune&#160;a&#160;standard graph layout&#160;<br/>
+that&#160;create maps&#160;of text. We focus&#160;on the two questions mentioned&#160;in&#160;&#160;to create&#160;a more&#160;legible&#160;arrangement of&#160;words. &#160;<br/>
+the introduction: What is the unit of textual analysis?&#160;How does&#160;the&#160;<br/>
+visualization&#160;handle legibility concerns?&#160;<br/>
+At the simplest&#160;level of analysis, many&#160;visualizations focus on&#160;&#160;<b>3 HOW THE&#160;PHRASE&#160;NET WORKS&#160;</b><br/>
+individual words. The simplest example&#160;is&#160;the tag&#160;cloud.&#160;&#160;The phrase net&#160;extracts and then visualizes networks of terms&#160;from&#160;<br/>
+Conventional tag clouds display&#160;up&#160;to several hundred words,&#160;&#160;bodies of text. In&#160;this section we&#160;give a basic description of&#160;these&#160;two&#160;<br/>typically&#160;aligning them in rows for readability. This method of&#160;&#160;steps and the ideas behind them. We do this&#160;by&#160;conceptually&#160;<br/>alignment, however, means that the only&#160;use of&#160;the spatial dimension&#160;&#160;separating the visualization&#160;into&#160;different&#160;stages that map directly to&#160;<br/>
+is the order of&#160;words (typically alphabetical).&#160;More advanced&#160;forms&#160;&#160;the two main&#160;questions defined in the introduction.&#160;In the&#160;<i>text&#160;<br/></i>of tag clouds,&#160;such as Wordle&#160;[6]&#160;or&#160;Word&#160;Clouds [2] enhance&#160;&#160;<i>analysis</i>&#160;stage we&#160;define&#160;the unit&#160;of analysis and&#160;extract a network&#160;of&#160;<br/>readability&#160;through careful typographyat the expense of a near-<br/>
+terms&#160;from the raw text. Subsequently, in the&#160;<i>network abstraction</i>&#160;<br/>
+random spatial layout.&#160;<br/>
+and&#160;&#160;<i>visual representation</i>&#160;stages we deal with&#160;the problem&#160;of&#160;<br/>
+Not all visualizations that are based on single words dispense&#160;&#160;rendering&#160;this network effectively. This section&#160;discusses each&#160;of&#160;<br/>
+with space as a&#160;variable, however. The TextArc tool&#160;[5]&#160;uses a&#160;&#160;these stages&#160;separately.&#160;<br/>
+projection that&#160;places words in a two-dimensional space based&#160;on&#160;<br/>where they&#160;occur in the text.&#160;This method adds another layer&#160;of&#160;&#160;<b>3.1 Text&#160;</b><br/>
+<b>analysis&#160;</b><br/>
+information, letting&#160;viewers see which words&#160;are only&#160;used&#160;in&#160;&#160;To convert&#160;a&#160;text into&#160;a network &#160;we define&#160;the nodes to be&#160;a subset&#160;<br/>
+specific sections, and&#160;ensuring that two words that consistently&#160;occur&#160;&#160;of words occurring in the text, and&#160;edges to&#160;represent&#160;certain&#160;<br/>
+in the same passages will be&#160;near each other onscreen.&#160;The&#160;&#160;relations between these words. There&#160;are many&#160;ways&#160;to&#160;choose&#160;these&#160;<br/>
+downside,&#160;however, is legibility: the&#160;number of words shown,&#160;&#160;node and edge sets. For example, one straightforward method is to&#160;<br/>
+coupled with their continuously&#160;varying locations, means that letters&#160;&#160;take the nodes to be all words,&#160;and link two terms&#160;if they&#160;appear in&#160;<br/>
+overlap&#160;and&#160;there are often&#160;no clear groupings.&#160;<br/>
+immediate succession in the&#160;text&#160;without punctuation between them.&#160;<br/>
+This legibility problem is shared&#160;by&#160;other systems that perform&#160;&#160;We now discuss two finer-grained methods,&#160;each based of&#160;which&#160;<br/>
+some type of multidimensional scaling.&#160;In the algorithm of Sarkar&#160;<i>et&#160;</i><br/>
+uses a certain kind of template&#160;to&#160;define&#160;connections between words.&#160;<br/>
+<i>al</i>.&#160;&#160;[17], for example, word co-occurrence relations&#160;are analyzed&#160;&#160;The first method uses syntactic patterns to define word relations,&#160;<br/>
+instead of simple word frequency.&#160;Based on this co-occurrence data,&#160;&#160;while&#160;the second&#160;relies on&#160;orthographic pattern&#160;matching.&#160;<br/>
+words are mapped to points in two-dimensional space. As&#160;with&#160;<br/>TextArc, the result may&#160;be intriguing, but the resulting display&#160;has&#160;&#160;3.1.1 Syntactic&#160;<br/>
+linking&#160;<br/>
+no clear&#160;visual&#160;organization&#160;and&#160;can be&#160;hard to&#160;read&#160;<br/>
+A natural thought is to use patterns based on the syntactic structure&#160;<br/>
+Some visualization systems attack the problem by&#160;using&#160;semantic&#160;&#160;of English sentences.&#160;To explore this idea, we used the open-source&#160;<br/>
+analysis. ThemeRiver&#160;[10], for example, displays&#160;the ebb and flow&#160;of&#160;&#160;Stanford Parser&#160;[13]. Conveniently, one of the output formats of&#160;this&#160;<br/>
+themes&#160;over time&#160;in&#160;a&#160;large&#160;body&#160;of text. The&#160;ThemeRiver&#160;display&#160;&#160;system&#160;is&#160;a&#160;typed dependency&#160;parse,&#160;which&#160;breaks a&#160;sentence&#160;into&#160;<br/>
+typically only tracks&#160;a few themes&#160;at a time (published examples&#160;&#160;pairs of words&#160;connected by&#160;relations. The relations can&#160;be&#160;any of&#160;<br/>
+show at most a few dozen)&#160;and&#160;therefore can handle label typography&#160;&#160;several dozen types, ranging from common types like&#160;conjunct&#160;(as&#160;<br/>
+in the same way&#160;as a standard&#160;graph.&#160;<br/>
+in&#160;&#160;A and B) to very&#160;specific, such as&#160;element of compound&#160;<br/>
+The Docuburst technique&#160;[3]&#160;and&#160;Gist Icons [4]&#160;use a pre-existing&#160;&#160;number.&#160;&#160;<br/>
+ontology,&#160;Wordnet&#160;[7], to group words that have related meanings.&#160;<br/>
+Given a text that has been parsed&#160;in this way, our&#160;software allows&#160;<br/>
+While this&#160;allows for a natural summary,&#160;it is&#160;not without problems.&#160;&#160;the user to specify&#160;one or more of these relations&#160;and then creates a&#160;<br/>
+Words with&#160;multiple meanings can only&#160;occur in&#160;one location. The&#160;&#160;graph where nodes correspond&#160;to words, and&#160;edges indicate pairs of&#160;<br/>
+categories in&#160;Wordnet, like&#160;most ontologies, are not&#160;completely&#160;&#160;words that are&#160;connected by&#160;the specified&#160;relations. There&#160;are two&#160;<br/>
+intuitivee.g.,&#160;few users will naturally&#160;understand the distinction&#160;&#160;advantages of using these dependencies rather&#160;than relying on&#160;a&#160;<br/>
+between an&#160;entity&#160;and an&#160;object,&#160;or expect&#160;to see&#160;laryngitis&#160;&#160;simple method such as word adjacency. First, it&#160;gives far more fine-<br/>
+listed as a&#160;type of&#160;psychological feature.&#160;Both systems rely&#160;on&#160;&#160;grained&#160;control&#160;over the network, allowing the&#160;user to spotlight only&#160;<br/>
+radial-style&#160;visualizations that&#160;present a&#160;typographical challenge.&#160;&#160;certain types of&#160;relationships in&#160;the text. Second, it avoids obvious&#160;<br/>
+Gist Icons&#160;[4]&#160;for instance, shows over a hundred word frequencies&#160;&#160;problems inherent in simple word-order approaches: in a sentence&#160;<br/>
+at once, literally&#160;leaving&#160;no room for any&#160;text. The Docuburst system&#160;&#160;like&#160;the keys&#160;were found,&#160;a typed-dependency&#160;parse will know that&#160;<br/>
+uses interaction&#160;to&#160;tackle this&#160;problem. &#160;<br/>
+keys&#160;and&#160;found&#160;are related.&#160;<br/>
+Another common approachone that we follow as wellis to&#160;<br/>
+Unfortunately, this increased sophistication comes at the price of&#160;<br/>
+depict relationships in&#160;a text using a network. The analogy&#160;is with&#160;&#160;an unwieldy&#160;amount of processing power. For example, running&#160;the&#160;<br/>
+the idea&#160;of&#160;a&#160;semantic net&#160;&#160;[18], which has&#160;often been&#160;used&#160;to&#160;&#160;parser on the novel&#160;<i>Pride and Prejudice</i>&#160;(about 1 MB of text, and&#160;<br/>
+represent&#160;relations between&#160;concepts. Often these nets&#160;are based&#160;on&#160;&#160;slightly&#160;under 6,000 sentences) requires more&#160;than 24 hours of CPU&#160;<br/>
+co-occurrence relations. For&#160;example&#160;[14]&#160;creates a network of&#160;&#160;time on a Windows Thinkpad T60 with 2GB of&#160;RAM. This is more&#160;<br/>
+related&#160;terms from patent filings. Peter&#160;Cho&#160;created a network of&#160;&#160;time than&#160;it would take an&#160;average human to read the whole book.&#160;<br/>
+words from news stories [1]&#160;based on information about which&#160;&#160;Such a lengthy&#160;processing time significantly increases the upfront&#160;<br/>
+words often followed which&#160;other words. &#160;<br/>
+cost&#160;&#160;[21]&#160;of the&#160;visualization,&#160;and makes interactive&#160;exploration of&#160;<br/>
+These systems can be beautiful and informative,&#160;but the approach&#160;&#160;different&#160;corpora a&#160;challenge.&#160;<br/>
+suffers from two drawbacks. First, when a typical graph layout&#160;<br/>algorithm&#160;is used to arrange words, it can lead to a set of jumbled&#160;<br/>text,&#160;much as in the case of&#160;multidimensional scaling.&#160;(The&#160;Cho&#160;<br/>example is beautiful, but was adjusted by&#160;hand.) Second, simply&#160;<br/>looking at&#160;co-occurrence shows only&#160;one generic type&#160;of relation.&#160;In&#160;<br/>
+<hr/>
+<a name=3></a>VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS<br/>
+1171<br/>
+<b>F K&#160;</b><br/>
+<b>H</b><br/>
+<b>E&#160;</b><br/>
+<b>G&#160;</b><br/>
+<b>A&#160;</b><br/>
+<b>L</b><br/>
+<b>M&#160;</b><br/>
+<b>N</b><br/>
+<b>I</b><br/>
+<b>J</b><br/>
+<b>D B&#160;</b><br/>
+<b>C&#160;</b><br/>
+<b>O&#160;</b><br/>
+<b>B&#160;<br/>C&#160;</b><br/>
+<b>H&#160;</b><br/>
+<b>L&#160;</b><br/>
+<b>D&#160;</b><br/>
+<b>K&#160;</b><br/>
+<b>A&#160;</b><br/>
+<b>I&#160;</b><br/>
+<b>M&#160;</b><br/>
+<b>E&#160;</b><br/>
+<b>J</b><br/>
+<b>O&#160;</b><br/>
+<b>N&#160;</b><br/>
+<b>F&#160;</b><br/>
+<b>G&#160;</b><br/>
+&#160;<br/>
+<b>&#160; &#160;</b><br/>
+<b>(a)&#160;</b><br/>
+<b>&#160;</b><br/>
+<b>&#160;</b><br/>
+<b>&#160; &#160; &#160;</b><br/>
+<b>&#160; &#160; &#160;&#160;&#160;(b)&#160;</b><br/>
+<b>&#160;</b><br/>
+<b>&#160;</b><br/>
+<b>&#160; &#160; &#160; &#160; &#160; &#160;(c)&#160;</b><br/>
+Fig 1.&#160;<b>Edge&#160;compression</b>: Collapsing networks based on identical&#160;network neighborhoods. The darker nodes in&#160;<b>(a)</b>&#160;all have identical&#160;<br/>neighbor sets {a} and can be collapsed into a&#160;singe clustered node.&#160;Although the nodes in&#160;<b>(b)</b>&#160;are all structurally&#160;interchangeable they&#160;have&#160;<br/>different neighbor sets {i,j}, {h,j}&#160;and {h,i}&#160;respectively;&#160;we&#160;can still merge them if&#160;we&#160;consider Nself&#160;set {h,i,j} instead. The graph in&#160;<b>(c)</b>&#160;has&#160;<br/>neighbor sets {l,m,n} for&#160;both K and O&#160;(dark blue)&#160;and Nself&#160;set&#160;{k,l,m,n,o} (light blue) for L, M&#160;and N.&#160;<br/>
+&#160;<br/>
+step, we provide the user the option of removing nodes representing&#160;<br/>
+commonly&#160;occurring words&#160;in the English&#160;language. These&#160;<br/>
+3.1.2 Orthographic&#160;<br/>
+linking&#160;<br/>
+stopwords&#160;often do not add&#160;useful&#160;information&#160;content and greatly&#160;<br/>
+To allow more rapid exploration, we investigated a second&#160;&#160;increase the density&#160;of&#160;the&#160;graph&#160;as they&#160;occur&#160;in&#160;combinations with&#160;<br/>
+method: simple text-based pattern matching. For example, instead&#160;of&#160;&#160;many&#160;other words.&#160;&#160;<br/>using a parser to&#160;look for&#160;possessive relations between nouns, we&#160;can&#160;<br/>
+The next step is&#160;to rank words&#160;by&#160;relevance. There are several&#160;<br/>
+define an edge&#160;(X,Y) for each literal occurrence of&#160;&#160;&#160;Xs Y&#160;&#160;simple possible relevance measures. One is degree in the network;&#160;<br/>which allows us to extract basic&#160;genitive relationships from&#160;the text.&#160;&#160;another is overall frequency&#160;in the text. In our&#160;prototype we found&#160;<br/>Similarly&#160;we can look at occurrences&#160;of&#160;&#160;X at&#160;Y&#160;&#160;which might&#160;&#160;that overall frequency&#160;was a good relevance measure, with&#160;the&#160;<br/>hint&#160;at relationships between objects and&#160;places. &#160;<br/>
+additional benefit that the resulting display&#160;was directly&#160;analogous&#160;to&#160;<br/>
+Using regular&#160;expressions we can define&#160;a&#160;wide variety&#160;of&#160;&#160;a word cloud view. Given a relevance&#160;rating, we allow the user to set&#160;<br/>
+potentially&#160;interesting patterns.&#160;For example, we might require&#160;that&#160;&#160;a maximum number&#160;<i>N</i>&#160;of nodes to display. Our software then looks&#160;<br/>both X and Y start with a&#160;capital letter,&#160;that&#160;either one is a number,&#160;&#160;at the induced subgraph for the&#160;<i>N</i>&#160;most relevant&#160;nodes, discards&#160;any&#160;<br/>
+or define complex patterns such&#160;as&#160;&#160;because X (is|are|was|were)&#160;&#160;degree-zero nodes, and displays&#160;the resulting graph, Both&#160;this step&#160;<br/>Y&#160;&#160;. Matching regular expressions can be&#160;done at interactive&#160;&#160;and the stopword filtering&#160;can&#160;be&#160;executed&#160;efficiently;&#160;stopword&#160;<br/>speeds (a few seconds for&#160;a text&#160;of a million words).&#160;<br/>
+filtering is easily&#160;integrated with&#160;the pattern matching stage, while&#160;<br/>
+We often found these simple pattern matching techniques as&#160;&#160;the second step involves a single sort of the terms and a linear&#160;time&#160;<br/>
+useful as full parse-based methods when applied to&#160;sufficiently&#160;large&#160;&#160;filtering operation.&#160;<br/>bodies of text. The basic idea is reminiscent of&#160;Hearst patterns&#160;[11]&#160;<br/>for extracting hypernym&#160;relationswith enough data, seemingly&#160;&#160;<b>3.3 Edge&#160;</b><br/>
+<b>compression&#160;</b><br/>
+superficial&#160;methods produce useful&#160;results. A bonus is that simple&#160;<br/>
+Despite the simplification&#160;induced&#160;by&#160;node&#160;filtering, standard&#160;<br/>
+pattern matching can be&#160;explained to users&#160;without resorting to&#160;&#160;graph layouts&#160;often produced&#160;busy&#160;and confusing graphs.&#160;One&#160;<br/>
+technical linguistics terminology.&#160;&#160;<br/>
+common problem involved a node with many&#160;degree-one neighbors.&#160;<br/>
+Figure 2 shows a comparison of&#160;two networks generated by&#160;these&#160;&#160;Most graph layouts, when applied to&#160;such a node, will produce a&#160;<br/>
+two different&#160;methods (with filtering as described below). Although&#160;&#160;starburst&#160;of edges evenly&#160;spread across different angles and&#160;<br/>
+the main terms&#160;are very&#160;similar,&#160;the syntactical&#160;parser also picks up&#160;&#160;distances.&#160;This&#160;can be effective when nodes are drawn as points or&#160;<br/>
+occurrences such as&#160;looked at the time. The orthographical parser&#160;&#160;circles, but creates an unreadable&#160;mass of overlapping text when the&#160;<br/>
+ignores the&#160;looked at&#160;the&#160;match, since&#160;the&#160;is&#160;classified as a stop&#160;&#160;nodes are words.&#160;<br/>
+word. &#160;<br/>
+To address this problem and draw the graph in a&#160;text friendly&#160;<br/>
+&#160;<br/>
+manner, we perform a step we call&#160;<i>edge compression</i>. To motivate&#160;<br/>this step, note that all the degree-one nodes in a starburst&#160;are&#160;<br/>
+<b>3.2 Network&#160;</b><br/>
+<b>filtering&#160;</b><br/>
+<i>topologically equivalent,</i>&#160;in&#160;the&#160;sense that permuting two of&#160;them&#160;<br/>
+After parsing the text, we&#160;are&#160;left with&#160;a graph where nodes&#160;&#160;will result&#160;in&#160;an&#160;isomorphic graph. Since they&#160;are equivalent in&#160;this&#160;<br/>
+represent words&#160;in the source&#160;text and&#160;edges represent&#160;a particular&#160;&#160;sense, we collapse them to&#160;a single large node,&#160;and draw&#160;them in a&#160;<br/>connection between those words. The edges are directed<br/>
+nicely&#160;flush-left vertical column,&#160;with&#160;a&#160;single&#160;edge&#160;drawn&#160;between&#160;<br/>
+representing the&#160;order the words&#160;occurred&#160;in&#160;the slots in&#160;the pattern<br/>
+this column&#160;and the central node of the starburst (Fig. 1a). While&#160;<br/>
+and weighted&#160;according to&#160;the number of times the pattern&#160;was&#160;&#160;information is lost about the specific&#160;edge weights, all the original&#160;<br/>matched. This&#160;graph is potentially&#160;too large to render&#160;legibly on&#160;&#160;topological information remains&#160;available.&#160;<br/>screen, so we include a filtering&#160;phase to reduce its size. As a first&#160;<br/>
+<hr/>
+<a name=4></a><img src="05290726-4_1.png"/><br/>
+<img src="05290726-4_2.png"/><br/>
+<img src="05290726-4_3.png"/><br/>
+&#160;<br/>
+1172<br/>
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009<br/>
+Fig 2. Comparing phrase nets of Pride and Prejudice. The left network was generated&#160;by&#160;an orthographical parser matching&#160;X at&#160;Y, while&#160;<br/>the right network&#160;was generated&#160;by&#160;a syntactical parser looking for the preposition&#160;at. Both manage to&#160;identify&#160;major locations in the novel.,&#160;<br/>yet the orthographical parser finished in under a second,&#160;whereas the syntactical parser took over 24&#160;hours.&#160;<br/>
+This method generalizes naturally: whenever we&#160;have&#160;a set of&#160;&#160;terms&#160;in a vertical list,&#160;scaling each of them&#160;individually&#160;based&#160;on&#160;<br/>
+nodes that are topologically&#160;equivalent, we can collapse them into a&#160;&#160;frequency&#160;of&#160;occurrence. Layouts are computed using a stress&#160;<br/>single supernode. These sets form&#160;equivalence classes, so the&#160;&#160;majorization algorithm&#160;[8]. A post-processing&#160;step removes&#160;any&#160;<br/>
+supernodes&#160;are well-defined.&#160;Furthermore, it&#160;is immediate&#160;that sets&#160;&#160;remaining overlaps using an&#160;algorithm based on&#160;the Force-Transfer&#160;<br/>of equivalent nodes must either be completely disconnected from&#160;&#160;approach&#160;[12],&#160;and enforces a&#160;minimum distance between words.&#160;<br/>each other,&#160;or&#160;must form&#160;a clique. We indicate&#160;the difference by&#160;&#160;Individual&#160;connected components in the network are laid out using&#160;<br/>
+drawing a small&#160;self-loop for&#160;cliques as in Fig 1b. Edge-compression&#160;&#160;an incremental&#160;approach that tries to minimize the total area&#160;of the&#160;<br/>saves time in the layout procedure, improves&#160;the quality&#160;of the&#160;&#160;layout, while avoiding overlap.&#160;In a final step,&#160;node coordinates in&#160;<br/>resulting layout, and creates a cleaner visual representation.&#160;&#160;the layout are scaled so&#160;that&#160;the&#160;resulting layout&#160;matches&#160;the aspect&#160;<br/>
+Fortunately,&#160;it&#160;is&#160;also straightforward to perform this calculation&#160;&#160;ratio&#160;of the screen. &#160;<br/>efficiently. For each node&#160;<i>x</i>, with&#160;neighbor set&#160;<i>N</i>(<i>x</i>), define&#160;<i>N</i>self(<i>x</i>)&#160;&#160;:=&#160;&#160;<br/>
+<i>N</i>(<i>x</i>) + {<i>x</i>}. Nodes&#160;<i>x</i>&#160;and&#160;<i>y</i>&#160;are topologically&#160;equivalent if&#160;<i>N</i>(<i>x</i>) =&#160;<i>N</i>(<i>y</i>)&#160;<br/>
+3.4.2 Encoding&#160;<br/>
+or&#160;&#160;<i>N</i>self(<i>x</i>) =&#160;<i>N</i>self(<i>y</i>). Note&#160;that&#160;this computation&#160;can&#160;be applied&#160;to&#160;&#160;Since connections between&#160;clusters are&#160;typically directional&#160;(i.e.&#160;<br/>
+both directed&#160;and undirected&#160;graphs. For undirected graphs we&#160;can&#160;&#160;there is a match&#160;for&#160;cold and strange&#160;in Fig.&#160;3, but&#160;strange and&#160;<br/>directly&#160;compare the set of neighbors, while for&#160;directed&#160;graphs&#160;we&#160;&#160;cold&#160;never&#160;occurs in the text)&#160;we indicate them&#160;with arrows, where&#160;<br/>
+need to compare neighbors connected by&#160;an in-edge and neighbors&#160;&#160;the thickness of an arrow is proportional to&#160;the&#160;weight of an edge.&#160;<br/>connected by&#160;an&#160;out-edge separately. In our particular case direction&#160;&#160;Every&#160;term is rendered in&#160;a heavy&#160;font with compressed spacing,&#160;for&#160;<br/>is relevant, so we&#160;perform directed edge&#160;compression.&#160;<br/>
+a compact&#160;and&#160;coherent visual&#160;representation.&#160;As an&#160;additional&#160;<br/>
+For simple (i.e.&#160;no self loops, no&#160;multi-edges) unweighted graphs,&#160;&#160;encoding, we decided to encode&#160;the ratio of out-degree to in-degree&#160;<br/>
+the edge-compressed representation is&#160;lossless, meaning that&#160;all&#160;&#160;for a node and&#160;render&#160;terms with a high ratio (i.e. more out-edges&#160;<br/>basic information can still&#160;be&#160;extracted from&#160;the resulting diagram&#160;&#160;than in-edges) in&#160;a darker color.&#160;This allows the user to quickly&#160;spot&#160;<br/>(Fig. 1c). The actual reduction in the number of edges depends on&#160;&#160;terms&#160;that only&#160;occur in&#160;the first&#160;or last part of&#160;the matching pattern.&#160;<br/>the structure&#160;and&#160;density&#160;of the graph, but we the low complexity&#160;and&#160;&#160;The colors follow a sequential&#160;palette running&#160;from light to dark&#160;<br/>often&#160;lossless compression of the network representation&#160;potentially&#160;&#160;blue; an early&#160;version of the system used a diverging color scheme&#160;<br/>
+makes this algorithm valuable to&#160;other graph drawing cases.&#160;&#160;<br/>
+that seemed to&#160;lead to a cluttered display. Basic zoom&#160;and pan&#160;<br/>controls allow the user modify the viewport,&#160;while popover hints&#160;<br/>
+<b>3.4 Visual&#160;</b><br/>
+<b>Representation&#160;</b><br/>
+provide more contextual information on demand,&#160;such as the&#160;actual&#160;<br/>
+After data&#160;extraction and network filtering we are&#160;left with&#160;a network&#160;&#160;textual matches&#160;for a relationship.&#160;<br/>
+containing several clusters,&#160;some composed of&#160;a single node and&#160;<br/>others made up of a collection of&#160;topologically&#160;equivalent nodes.&#160;The&#160;&#160;<b>3.5&#160;</b><br/>
+<b>User Interface and Many&#160;Eyes deployment&#160;</b><br/>
+clusters are connected by&#160;edges&#160;where the weight&#160;of an edge depends&#160;&#160;We developed several versions of the phrase net.&#160;The first two&#160;were&#160;<br/>
+on the number times a matching&#160;pattern was found between&#160;the term&#160;&#160;aimed at&#160;experts, and&#160;allowed&#160;users either&#160;to&#160;type&#160;in regular&#160;<br/>or terms&#160;in&#160;the two clusters.&#160;<br/>
+expressions as&#160;matching templates orif a parsed text had&#160;been&#160;<br/>loadedto&#160;choose syntactic relationships from a menu. While these&#160;<br/>
+3.4.1&#160;Layout&#160;<br/>
+simple interfaces were effective for our own experimentation,&#160;we&#160;<br/>
+We render each&#160;connected component&#160;in this network using a node-<br/>
+discovered they&#160;were confusing for users who were unfamiliar with&#160;<br/>
+link diagram, where individual&#160;nodes are replaced with a rendered&#160;&#160;the software.&#160;<br/>version of the term(s) they represent.&#160;Each term&#160;is&#160;scaled&#160;<br/>
+To better understand how people&#160;might spontaneously&#160;use phrase&#160;<br/>
+proportionally&#160;to&#160;the total number of&#160;occurrences&#160;in the&#160;text, as in a&#160;&#160;nets, we deployed&#160;a version&#160;on the Many&#160;Eyes&#160;[19]&#160;web site.&#160;<br/>tag cloud. For clusters containing multiple terms, we render all the&#160;&#160;Because of&#160;the long time required to perform&#160;syntactic parsing, this&#160;<br/>
+<hr/>
+<a name=5></a><img src="05290726-5_1.png"/><br/>
+VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS<br/>
+1173<br/>
+Fig 3. The Phrase&#160;Net user interface applied to James Joyces Portrait of the Artist as&#160;a&#160;Young Man.&#160;The user can select a predefined&#160;<br/>pattern from the list of patterns on&#160;the left or define&#160;a custom pattern&#160;in the box below. This list of patterns simultaneously&#160;serves as a&#160;<br/>legend, a list of presets and an interactive training mechanism for regular expressions. Here the user&#160;has selected&#160;X and&#160;Y, revealing&#160;<br/>two&#160;main clusters, one almost exclusively&#160;consisting of adjectives,&#160;the other of&#160;verbs and nouns. The highlighted clusters of terms have&#160;<br/>been aggregated&#160;by&#160;our edge compression algorithm.&#160;<br/>
+version used regular expression templates as&#160;a matching&#160;device.&#160;Of&#160;&#160;change the maximum number of words on the graph&#160;and&#160;choose&#160;<br/>course,&#160;it would&#160;be unreasonable to&#160;expect novice users to master&#160;&#160;whether&#160;to include stop words&#160;in&#160;the network.&#160;<br/>standard notations for regular expressions. This posed an interface&#160;<br/>challenge: how&#160;to combine maximum&#160;flexibility&#160;with an&#160;accessible&#160;&#160;<b>4 EXAMPLE&#160;USE&#160;CASES&#160;</b><br/>
+user experience. To that end, we&#160;iterated over&#160;several UI options,&#160;<br/>testing&#160;them&#160;informally with&#160;users in our&#160;lab.&#160;<br/>
+The examples in&#160;this section illustrate&#160;how phrase nets have&#160;been&#160;<br/>
+We settled on using a simplified version of the basic regular&#160;&#160;utilized so far and the kinds of insight that have been generated&#160;by&#160;<br/>
+expression syntax: instead of the cryptic (\w+) notation to match&#160;an&#160;&#160;these graphs.&#160;We discuss graphs that have&#160;been&#160;created&#160;by&#160;the&#160;<br/>arbitrary word,&#160;we used a single asterisk. For&#160;instance, if&#160;a&#160;user&#160;&#160;authors as well as those generated by&#160;Many&#160;Eyes&#160;users.&#160;<br/>wants to define a pattern that&#160;looks for two words connected by&#160;&#160;<b>4.1&#160;&#160;Styles&#160;of exploration&#160;</b><br/>
+and, she would type&#160;in:&#160;* and&#160;*. Users may&#160;either&#160;enter&#160;matching&#160;<br/>patterns&#160;in this simplified form&#160;or enter&#160;them&#160;in full regular&#160;<br/>
+Because of&#160;its querying capability,&#160;a phrase net provides viewers&#160;<br/>
+expression syntax. &#160;<br/>
+with great flexibility when exploring a piece of text. Yet there&#160;are&#160;<br/>
+In addition to this text-based input method, we also included&#160;a&#160;&#160;two main exploratory&#160;processes&#160;that&#160;seem&#160;natural when&#160;working&#160;<br/>
+beginners menu&#160;with a number of preset patterns. This menu not&#160;&#160;with phrase nets: using the same regular expression to compare&#160;<br/>
+only&#160;lists a series&#160;of simple regular expressions&#160;to get the user&#160;&#160;different&#160;texts and using different regular&#160;expressions to explore the&#160;<br/>started, it&#160;also serves as&#160;a visual guide for how&#160;phrase net&#160;patterns&#160;&#160;same&#160;text.&#160;<br/>work (Figure 3). On this list, each pattern appears as a pairing of&#160;<br/>
+One example of&#160;applying&#160;the same regular&#160;expression to different&#160;<br/>
+words with a curved arrow&#160;between them, labeled&#160;with&#160;that patterns&#160;<br/>
+texts comes from a Many&#160;Eyes&#160;user who utilized a phrase net to&#160;<br/>
+connector.&#160;The&#160;first word of the pair&#160;appears in dark blue&#160;and&#160;the&#160;&#160;examine different books in&#160;the&#160;Bible (see Fig.&#160;4). The pattern&#160;X of&#160;<br/>second in light&#160;blue. This distinction echoes the phrase net&#160;color&#160;&#160;Y&#160;reveals stark&#160;differences between the Old and New Testaments.&#160;<br/>
+coding. Users&#160;choice of a preset pattern is reflected on the more&#160;&#160;While the Old&#160;Testament clearly shows the centrality&#160;of&#160;Israel<br/>advanced free-text input field&#160;so that novices may&#160;learn how the&#160;&#160;phrases such as&#160;Children of Israel,&#160;King of Israel,&#160;and&#160;Land&#160;of&#160;<br/>simplified regular expression syntax works.&#160;Finally, users may&#160;also&#160;&#160;Israel&#160;loom&#160;largethe New&#160;Testament shifts in emphasis to&#160;Son of&#160;<br/>
+God&#160;and&#160;Kingdom of God.&#160;&#160;<br/>
+<hr/>
+<a name=6></a><img src="05290726-6_1.png"/><br/>
+<img src="05290726-6_2.png"/><br/>
+<img src="05290726-6_3.png"/><br/>
+<img src="05290726-6_4.png"/><br/>
+<img src="05290726-6_5.png"/><br/>
+<img src="05290726-6_6.png"/><br/>
+&#160;<br/>
+1174<br/>
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009<br/>
+Fig 4. Matching the same pattern&#160;on different texts.&#160;Here&#160;we&#160;used the pattern&#160;X of&#160;Y&#160;to compare the&#160;old and new&#160;testaments. Israel takes a&#160;<br/>central&#160;place in the Old Testament, while God acts&#160;as the main&#160;pattern receiver in the&#160;New&#160;Testament.&#160;<br/>
+Fig 5. Matching different patterns on the same text.&#160;Here&#160;we&#160;analyzed Jane Austens&#160;<i>Pride and Prejudice</i>&#160;with&#160;X and&#160;Y&#160;and&#160;X at&#160;Y&#160;<br/>respectively. The&#160;left image shows relationships between the main&#160;characters amongst others,&#160;while the right image shows relationships&#160;<br/>between locations. &#160;<br/>
+On the other hand, applying different expressions to the same text&#160;<br/>
+Figure 1 shows the result of another targeted&#160;pattern. Here&#160;we&#160;<br/>
+can reveal a series of interrelated conceptual networks. The phrase&#160;&#160;have analyzed&#160;the whole bible using the pattern&#160;X begat Y, a&#160;<br/>nets of Jane Austins novel&#160;<i>Pride and Prejudice</i>&#160;in Fig. 5 illustrate&#160;&#160;specific formulation from the King James Bible&#160;indicating a parent -&#160;<br/>this. Matching&#160;X and Y&#160;shows a network of&#160;concepts and people.&#160;&#160;child relationship. The resulting graph illustrates the lengthy&#160;<br/>The main&#160;characters&#160;appear neatly&#160;organized in&#160;two clusters:&#160;&#160;Jane,&#160;&#160;genealogies that are recorded by&#160;many&#160;different books in the bible.&#160;<br/>Elizabeth, Lydia,&#160;Kitty, Catherine and Mr. Bingley&#160;form&#160;a central&#160;&#160;The network also uncovers&#160;a number of defining aspects of these&#160;<br/>cluster, whereas&#160;mother,&#160;aunt,&#160;and&#160;uncle&#160;keep some distance.&#160;&#160;lineages, such as&#160;the&#160;importance&#160;of Abraham.&#160;<br/>Positive attributes such as&#160;sense,&#160;&#160;disposition,&#160;&#160;humour,&#160;<br/>kindness&#160;cluster together &#160;while less flattering qualities such&#160;as&#160;&#160;<b>4.2&#160;</b><br/>
+<b>Regular expressions and matching&#160;</b><br/>
+pride,&#160;&#160;conceit,&#160;&#160;vanity,&#160;&#160;folly,&#160;and&#160;ignorance&#160;form a group&#160;&#160;The patterns we have shown&#160;so&#160;far are of the form&#160;X &lt;connector&gt;&#160;<br/>
+of their own.&#160;Perhaps most interesting,&#160;to&#160;those familiar with&#160;the&#160;&#160;Y, where the&#160;connector is either a separate&#160;word or a phrase.&#160;<br/>
+novel, is that&#160;Darcy&#160;does not appear in the networkin a certain&#160;&#160;However, regular expressions also allow us&#160;to specify&#160;patterns that&#160;<br/>
+sense he is the most solitary&#160;major character.&#160;<br/>
+match for specific pre- and postfixes to X&#160;and&#160;Y. Previously,&#160;the&#160;<br/>
+If we analyze the same&#160;text with the pattern&#160;X at Y&#160;we obtain&#160;&#160;authors worked&#160;with a humanities scholar to&#160;analyze a set of 7,000&#160;<br/>
+an entirely&#160;different network&#160;that&#160;reveals the set of&#160;locations&#160;&#160;British novel&#160;titles between 1740 and 1850&#160;[15]&#160;in fact, much&#160;of&#160;<br/>
+inhabited by&#160;the&#160;characters&#160;in&#160;the novel and&#160;the events that&#160;take place&#160;&#160;the motivation&#160;behind building phrase net comes from this&#160;<br/>
+at those&#160;locations. In a sense, the&#160;user can&#160;direct&#160;exploration towards&#160;&#160;collaboration.&#160;This scholar was interested in how the use of simple&#160;<br/>
+a particular dimension of the text by&#160;intelligently&#160;choosing&#160;the&#160;&#160;syntactic constructions such as&#160;X of the Y&#160;reflected changes in&#160;<br/>
+pattern&#160;to&#160;match&#160;for. &#160;<br/>
+literary style&#160;over the centuries. &#160;<br/>
+<hr/>
+<a name=7></a><img src="05290726-7_1.png"/><br/>
+<img src="05290726-7_2.png"/><br/>
+<img src="05290726-7_3.png"/><br/>
+<img src="05290726-7_4.png"/><br/>
+VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS<br/>
+1175<br/>
+Indeed,&#160;simple&#160;patterns&#160;can&#160;reveal&#160;a great&#160;deal.&#160;For instance, a&#160;<br/>pattern&#160;such&#160;as&#160;Xs Y&#160;might function&#160;as a proxy&#160;for understanding&#160;<br/>power relations. A phrase net of&#160;the book titles showing&#160;Xs Y&#160;<br/>
+highlights possession and power in interesting&#160;ways&#160;(Fig. 6). The&#160;<br/>graph reveals two main focal points:&#160;woman&#160;and&#160;daughter.&#160;<br/>Despite the seeming similarities in the connections between&#160;these&#160;<br/>clusters,&#160;the difference in color indicates that&#160;they&#160;are quite opposite&#160;<br/>in their relationship to the rest of&#160;the graph. Whereas daughters are&#160;<br/>possessed&#160;by&#160;others&#160;&#160;&#160;<i>kings daughter</i>,&#160;&#160;<i>farmers daughter</i>,&#160;<br/>
+<i>soldiers daughter</i>&#160;&#160;&#160;women&#160;possess&#160;things:&#160;<i>womans story</i>,&#160;<br/><i>womans life</i>,&#160;<i>womans love</i>. Interestingly,&#160;even&#160;though daughters&#160;are&#160;<br/>other peoples&#160;possession, women do not possess people, instead,&#160;<br/>
+they&#160;are&#160;related&#160;to&#160;abstract&#160;ideas such as&#160;<i>love</i>,&#160;<i>revenge</i>, and&#160;<i>story</i>. &#160;&#160;<br/>
+The graph&#160;also reveals another unexpected pair of&#160;female&#160;clusters&#160;<br/>
+around&#160;&#160;bride&#160;and&#160;wife&#160;(Fig. 6). While&#160;wife&#160;is connected&#160;to&#160;<br/>respectable&#160;peoplee.g.&#160;&#160;<i>officer</i>,&#160;&#160;<i>ambassador</i>,&#160;&#160;<i>banker</i>bride&#160;is&#160;<br/>associated with&#160;more nefarious figures such as&#160;<i>pirate</i>,&#160;&#160;<i>sailor</i>&#160;and&#160;<br/><i>bandit</i>. Although one could argue that these patterns could have been&#160;<br/>
+found by&#160;a simple textual search&#160;for `s` (while&#160;conveniently&#160;<br/>ignoring the large number of false hits from&#160;common contractions&#160;<br/>like&#160;<i>its</i>), a phrase&#160;net immediately&#160;shows&#160;all the&#160;matches in&#160;context. &#160;<br/>
+The powerful matching&#160;capabilities of regular&#160;expressions can be&#160;<br/>
+useful in many&#160;other ways. We can for example try&#160;to find verb-noun&#160;<br/>patterns by&#160;matching for (\w+ing) (\w+), resulting in potential&#160;<br/>matches as&#160;<i>walking home</i>,&#160;&#160;<i>funding schools</i>&#160;or&#160;<i>helping others</i>. As&#160;a&#160;<br/>final&#160;example,&#160;the cryptic&#160;regular&#160;expression&#160;\s(([a-z])\w*)\s+(\2\w*)&#160;<br/>looks for adjacent non-empty&#160;word pairs that start with&#160;the same&#160;<br/>
+letterthat&#160;is, it&#160;finds alliterative&#160;phrases. Fig. 7&#160;shows this pattern&#160;<br/>applied&#160;to&#160;the poem&#160;Leaves of Grass by&#160;Walt Whitman, immediately&#160;<br/>revealing the authors preference for alliterations starting with the&#160;<br/>
+letter&#160;s.&#160;<br/>
+<b>4.3&#160;</b><br/>
+<b>An&#160;example of extended analysis&#160;</b><br/>
+Our last example shows how free-form&#160;informal text&#160;analysis tools&#160;<br/>
+are used in practice, based on&#160;a blog post by&#160;historian Jo Guldi.&#160;<br/>Guldi wanted to&#160;understand how different scientific theories became&#160;<br/>
+Fig 6. Phrase nets from a collection of titles of 18th&#160;and&#160;19th&#160;century&#160;<br/>
+either praised or&#160;discredited during the eighteenth- and nineteenth&#160;<br/>
+novels. The text&#160;was analyzed&#160;with&#160;the&#160;Xs Y&#160;pattern. The top&#160;<br/>phrase net shows the top 50 terms. The bottom detail image&#160;<br/>
+centuries. Using a personalized search&#160;engine,&#160;a&#160;collection&#160;of&#160;<br/>
+shows a close-up&#160;view&#160;of part of the network of the&#160;top 100 terms.&#160;<br/>
+Wikipedia articles related to the notion of&#160;pseudoscience&#160;and&#160;the&#160;<br/>
+Both nets give hints on the roles of&#160;women.&#160;<br/>
+text visualizations offered by&#160;Many&#160;Eyes, she was able&#160;to&#160;start&#160;<br/>investigating the boundaries of&#160;ideas, scientific authority, and&#160;<br/>established knowledge. At the&#160;same time she duly&#160;documents&#160;both&#160;<br/>process and results on her&#160;blog&#160;[9]. Guldi amassed a database of&#160;<br/>Wikipedia articles&#160;ranging&#160;from&#160;Poppers definition&#160;of&#160;<br/>pseudoscience to clearly&#160;discredited theories like phrenology&#160;or flat-<br/>earth theory&#160;to&#160;controversial&#160;subjects from the borderlands&#160;of&#160;<br/>
+western institutional knowledge&#160;(e.g. acupuncture). She fed this&#160;<br/>collection&#160;of&#160;texts to Many&#160;Eyes&#160;and proceeded&#160;to create a series&#160;of&#160;<br/>phrase nets and&#160;word trees. &#160;<br/>
+Her first question was: who&#160;was involved in the debate about&#160;<br/>
+competing scientific&#160;ideas?&#160;To investigate this, she created&#160;a phrase&#160;<br/>net using&#160;Xs Y, which revealed some of the most prominent&#160;<br/>
+names in question. To&#160;learn where such&#160;discourse fights occurred,&#160;<br/>Guldi made a&#160;phrase net of&#160;X at Y, revealing places such&#160;as&#160;<br/>Stanford, Oxford, Harvard&#160;and Irvine&#160;<br/>
+In addition,&#160;she investigated&#160;claims about pseudoscience by&#160;<br/>
+creating a word&#160;tree&#160;[20]&#160;and&#160;searching for phrases such as&#160;<i>claims&#160;<br/>that</i>,&#160;&#160;<i>the earth was</i>: realizing that&#160;the resulting set is a fairly&#160;<br/>good list of discredited&#160;early-modern to modern- theories about the&#160;<br/>nature of&#160;the globe: the&#160;theory&#160;that the&#160;earth is flat, the myth of&#160;the&#160;<br/>hollow earth, and so on.&#160;&#160;<br/>
+After having&#160;created&#160;about a dozen&#160;text visualizations on&#160;Many&#160;<br/>
+Eyes, Guldi concludes that such tools are important in helping guide&#160;<br/>the wandering&#160;historical eye&#160;through endless reams of text:&#160;<br/>
+Fig 7. Analyzing&#160;Walt Whitmans&#160;<i>Leaves of Grass</i>&#160;for&#160;<br/>alliterations, using a more complex regular expression. Notice&#160;<br/>the preference for alliterations starting with&#160;s.&#160;<br/>
+<hr/>
+<a name=8></a>&#160;<br/>
+1176<br/>
+IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009<br/>
+&#160;<br/>
+viewpoints, and&#160;special tuning of existing geometric techniquesare&#160;<br/>
+<i>I spend&#160;a lot of&#160;my time reading&#160;endless pamphlet&#160;and&#160;newspaper&#160;&#160;</i>likely&#160;to&#160;continue&#160;in&#160;future text&#160;visualization&#160;work.&#160;<br/>
+<i>wars, trying&#160;to figure out&#160;who the&#160;sides are in&#160;the&#160;railway debates&#160;and&#160;what&#160;<br/>they care about.&#160;While I don't think that I'll ever be&#160;freed from reading,&#160;&#160;</i><b>ACKNOWLEDGMENTS&#160;</b><br/>
+<i>algorithms like these promise to give&#160;me some of the keywords that can&#160;offer&#160;<br/>me a short cut direct to some of the major controversies in question.&#160;The&#160;&#160;</i>The authors would like to&#160;thank Franco Moretti&#160;and Jonathan&#160;<br/><i>paragraphs on railroads that accuses others of&#160;interest&#160;reference which&#160;</i><br/>
+Feinberg for&#160;insightful discussions and inspiration, as well as other&#160;<br/>
+<i>place-names, for instance?&#160;[]&#160;</i><br/>
+members of our&#160;research group&#160;and the anonymous reviewers for&#160;<br/>
+<i>A machine that can predict who the controversialists were and where&#160;</i><br/>
+their&#160;useful&#160;comments on an&#160;earlier version of&#160;this paper.&#160;<br/>
+<i>the places they&#160;argued about were located would&#160;save the historical&#160;<br/>researcher untold time.&#160;</i><br/>
+<b>REFERENCES&#160;</b><br/>
+<i>&#160;</i><br/>
+[1]&#160;&#160;P. Cho, News Story Maps,&#160;http://typotopo.com/projects.php?id&#160;<br/>
+Although we cannot draw any&#160;definitive conclusions from this single&#160;<br/>
+=mappingnews, &#160;retrieved March 28,&#160;2009.&#160;<br/>
+case, it illustrates some of the&#160;needs of&#160;and challenges&#160;confronting&#160;&#160;[2]&#160;&#160;J. Clark, Neoformix Blog,&#160;http://neoformix.com/, retrieved March 28,&#160;<br/>
+modern day&#160;humanities scholars. Although many&#160;of their databases&#160;<br/>
+2009.&#160;<br/>
+are&#160;in digital form, they&#160;do&#160;not have&#160;the&#160;tools to&#160;quickly&#160;explore&#160;this&#160;&#160;[3]&#160;&#160;C. Collins, DocuBurst: Document Content Visualization Using&#160;<br/>
+data&#160;at a higher&#160;level of&#160;abstraction.&#160;Any tool&#160;that&#160;can create&#160;a&#160;<br/>
+Language Structure. In&#160;<i>Proceedings of IEEE Symposium on Information&#160;</i><br/>
+projection of&#160;the text that highlights one particular&#160;aspect can be&#160;an&#160;<br/>
+<i>Visualization, Poster Compendium</i>, IEEE CS Press, 2006.&#160;<br/>
+invaluable asset.&#160;<br/>
+[4]&#160;&#160;P. DeCamp&#160;et al., Gist Icons: Seeing Meaning in Large Bodies of&#160;<br/>
+Literature.&#160;&#160;<i>Proceedings&#160;of IEEE Symposium&#160;on Information&#160;</i><br/>
+<b>5 CONCLUSION&#160;</b><br/>
+<i>Visualization</i>, Poster Compendium, IEEE CS Press, 2005.&#160;<br/>
+We have introduced the phrase&#160;net,&#160;a new&#160;technique for mapping&#160;&#160;[5]&#160;&#160;W.B.&#160;Paley,&#160;TextArc: Showing Word Frequency&#160;and Distribution in&#160;<br/>
+unstructured text. The phrase net technique&#160;consists of two steps.&#160;<br/>
+Text. In&#160;<i>Proceedings of IEEE Symposium on Information Visualization,&#160;</i><br/>
+First is a pattern matching phase, in which linkages are defined&#160;<br/>
+<i>Poster Compendium</i>, IEEE CS&#160;Press, 2002.&#160;<br/>
+between words based on user-defined templates.&#160;The second phase&#160;&#160;[6]&#160;&#160;J. Feinberg,&#160;Wordle, http://www.wordle.net/, retrieved&#160;March 28, 2009.&#160;<br/>involves laying&#160;out and rendering the graph. The layout phase&#160;&#160;[7]&#160;&#160;C. Fellbaum&#160;(eds),&#160;WordNet :&#160;An&#160;Electronic&#160;Lexical&#160;Database, The&#160;<br/>includes a new, general clustering procedure that reduces&#160;the&#160;<br/>
+MIT Press, 1998.&#160;<br/>
+complexity&#160;of the graph while retaining its information content.&#160;&#160;[8]&#160;&#160;E. Gansner, Y.&#160;Koren and S. North, Graph Drawing by&#160;Stress&#160;<br/>Finally, we provided examples of spontaneous usage on the public&#160;<br/>
+Majorization,&#160;&#160;<i>Proc. 12th Int.Symp. Graph Drawing&#160;(GD04), LNCS&#160;</i><br/>
+Many&#160;Eyes site,&#160;along with some of our own&#160;scenarios, in which the&#160;<br/>
+<i>3383</i>, pages 239250, 2004.&#160;<br/>
+phrase net provides a&#160;lens onto&#160;interesting&#160;aspects of a text. &#160;<br/>
+[9]&#160;&#160;J. Guldi, Inscape&#160;Blog, http://landscape.blogspot.com/, retrieved March&#160;<br/>
+There&#160;are several natural avenues for future&#160;work. First, one&#160;<br/>
+28,&#160;2009.&#160;<br/>
+might plug many&#160;other possible&#160;matching template methods into&#160;the&#160;&#160;[10]&#160;&#160;S. Havre et&#160;al.,&#160;ThemeRiver: visualizing thematic changes in large&#160;<br/>basic phrase net&#160;technique. One might also allow the user to filter&#160;<br/>
+document collections,&#160;<i>IEEE Transactions on&#160;Visualization and&#160;</i><br/>
+words in ways&#160;other than by&#160;simple word frequency,&#160;combining&#160;<br/>
+<i>Computer Graphics</i>, Vol. 8, No. 1, pp&#160;9&#160;&#160;20, 2002.&#160;<br/>
+[11]&#160;&#160;M. Hearst,&#160;Automatic&#160;Acquisition of Hyponyms&#160;from&#160;Large Text&#160;<br/>
+semantic and syntactic information. It is easy&#160;to&#160;imagine scenarios&#160;<br/>
+Corpora.&#160;&#160;<i>Proc. of the Fourteenth&#160;International&#160;Conference on&#160;</i><br/>
+where a user might want a net consisting only&#160;of&#160;people, or only&#160;of&#160;<br/>
+<i>Computational Linguistics</i>,&#160;1992.&#160;<br/>
+nouns that are related&#160;to emotions.&#160;Similarly, one might match only&#160;&#160;[12]&#160;&#160;X. Huang and W.&#160;Lai, Force-Transfer: A New Approach to Removing&#160;<br/>
+patterns&#160;that occurred in&#160;particular sentences, such as&#160;those spoken&#160;<br/>
+Overlapping Nodes, in&#160;<i>Graph Layout, in&#160;25th Australian Computer&#160;</i><br/>
+by&#160;a particular character in a novel. It might also be possible to plug&#160;<br/>
+<i>Science Conference</i>,&#160;pp 249-358,&#160;2003.&#160;<br/>
+in semantic classification services&#160;such as openCalais&#160;[16]&#160;to identify&#160;&#160;[13]&#160;&#160;D. Klein&#160;and C.D. Manning. Fast Exact&#160;Inference&#160;with a Factored&#160;<br/>
+central actors in our document. Finally,&#160;applying phrase nets to&#160;<br/>
+Model for Natural Language Parsing. In Advances in Neural&#160;<br/>
+languages other&#160;than&#160;English may&#160;lead to&#160;new&#160;challenges.&#160;<br/>
+Information Processing Systems 15 (NIPS 2002),&#160;pp.&#160;3-10,&#160;2003.&#160;<br/>
+Many&#160;additional&#160;possibilities for&#160;interaction remain. One might&#160;&#160;[14]&#160;&#160;L.&#160;Leydesdorff, The university-industry&#160;knowledge relationship:&#160;<br/>
+combine the phrase net with&#160;other visualization techniques. Often&#160;<br/>
+Analyzing patents and the science base of technologies,&#160;<i>Journal of the&#160;</i><br/>
+users wish to drill down into a text, and one could imagine selecting&#160;<br/>
+<i>American Society for Information Science and Technology</i>, Vol. 55 No.&#160;<br/>
+a given edge&#160;of&#160;the graph to bring up a word tree showing all&#160;the&#160;<br/>
+11,&#160;pp 991&#160;&#160;1001,&#160;2004.&#160;<br/>
+following or&#160;preceding passages to the template match. A&#160;last,&#160;&#160;[15]&#160;&#160;F. Moretti, Graphs, Maps, Trees:&#160;Abstract Models for a&#160;Literary&#160;<br/>
+promising area for future research would be to&#160;allow users to easily&#160;<br/>
+History,&#160;Verso Publishing, 2005.&#160;<br/>
+compare different texts using&#160;a&#160;phrase net. For&#160;example, one might&#160;&#160;[16]&#160;&#160;OpenCalais,&#160;http://www.opencalais.com/, retrieved March&#160;28,&#160;2009.&#160;<br/>
+ask if different&#160;novelistic genres&#160;have distinctive networks, either in&#160;&#160;[17]&#160;&#160;P. Sarkar et al., A&#160;Latent Space Approach to Dynamic Embedding of&#160;<br/>
+word usage or&#160;overall topology.&#160;Or one might wish to see how&#160;<br/>
+Co-occurrence Data,&#160;<i>Proceedings of the Eleventh International&#160;</i><br/>
+document collections change over&#160;time,&#160;e.g., comparing phrase&#160;nets&#160;<br/>
+<i>Conference on Artificial Intelligence&#160;and Statistics AISTATS-07</i>,&#160;2007.&#160;<br/>
+of news stories from day&#160;to&#160;day.&#160;<br/>
+[18]&#160;&#160;S.C. Shapiro, A net structure for semantic information storage,&#160;<br/>
+In addition&#160;to the contribution of&#160;the technique itself, we believe&#160;<br/>
+deduction and retrieval,&#160;<i>Proc.&#160;IJCAI-71</i>,&#160;pp 512-523,&#160;1971.&#160;<br/>
+the design of&#160;the tool&#160;itself provides useful&#160;principles for text&#160;&#160;[19]&#160;&#160;F.B. Viégas,&#160;M.&#160;Wattenberg, F. van Ham,&#160;J. Kriss and M.&#160;McKeon,&#160;<br/>
+visualizations.&#160;One is the notion of multiple viewpoints. A novel is&#160;<br/>
+Many Eyes: A&#160;Site for Visualization at Internet Scale,&#160;<i>IEEE&#160;</i><br/>
+much like&#160;a high-dimensional numeric data&#160;set:&#160;there&#160;is unlikely&#160;to&#160;<br/>
+<i>Transactions on Visualization and Computer Graphics</i>, Vol. 13, No. 6,&#160;<br/>
+be a single perfect view. Instead, as&#160;with high-dimensional data, the&#160;<br/>
+pp 1121&#160;&#160;1128,&#160;2007.&#160;<br/>
+best way&#160;to visualize it may&#160;be&#160;to use multiple&#160;views. Instead&#160;of&#160;&#160;[20]&#160;&#160;M. Wattenberg and F.B. Viégas, The Word Tree, an Interactive Visual&#160;<br/>
+choosing different projections one may&#160;want to choose different&#160;<br/>
+Concordance,&#160;&#160;<i>IEEE Transactions on Visualization and Computer&#160;</i><br/>
+types of relationships in the text&#160;to highlight.&#160;The phrase net provides&#160;<br/>
+<i>Graphics</i>, Vol. 14, No. 6. pp 1221-1228, 2008.&#160;<br/>
+this control by&#160;allowing the user&#160;to specify&#160;the&#160;matching templates.&#160;&#160;[21]&#160;&#160;J.J. van Wijk. The&#160;Value of Visualization. In<i>&#160;Proceedings of the IEEE&#160;</i><br/>
+A second theme in the design of&#160;the phrase net is the careful tuning&#160;<br/>
+<i>Conference on Visualization</i>&#160;2005,&#160;pp.&#160;79-86,&#160;2005.&#160;<br/>
+of the display to&#160;allow for legibility&#160;of the text: In&#160;addition to careful&#160;<br/>typographic choices, we have modified&#160;the graph&#160;layout method&#160;to&#160;<br/>maximize readability. We believe both these themesmultiple&#160;<br/>
+<hr/>
+</body>
+</html>

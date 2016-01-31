@@ -27,7 +27,12 @@
         </div>
         <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:#003366;color:white;height:650px">
             <p>Search helper</p>
-            <iframe id="if2" class="embed-responsive-item"  style="visibility:visible;width:100%;height:100%" src=""></iframe>
+            {% if request.view == "summary" %}
+                {% set rurl = "summarytemp.html" %}
+            {% elif request.view == "webview" %}
+                {% set rurl = doi %}
+            {% endif %}
+            <iframe id="if2" class="embed-responsive-item"  style="visibility:visible;width:100%;height:100%" src="{{ rurl }}"></iframe>
         </div>
       </div>
     </div>

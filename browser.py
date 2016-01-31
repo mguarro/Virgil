@@ -30,18 +30,28 @@ def index():
                 doi = extract_doi(os.path.abspath(filepath))
                 #print(doi)
                 if doi:
-                    return redirect(url_for('split', doi=doi, view='summary'))
+                    return redirect(url_for('split', view='summary'))
                 else:
                     #TODO: Make cute error page
                     return render_template('index.html')
         elif request.doi:
             doi = search_doi(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi, view='summary'))
+                return redirect(url_for('split', view='summary'))
+            else:
+                doi = search_doi_by_title(request.doi)
+                if doi:
+                    return redirect(url_for('split', view='summary'))
+                else:
+                    return redirect(url_for('split', view='webview'))
         else:
             doi = search_doi_by_title(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi, view='summary'))
+                return redirect(url_for('split', doi=doi, view='webview'))
+            ##TODO: Or else what?
+            #else:
+            #    return redirect(url_for('split', view='webview'))
+
     return render_template('index.html')
 
 @app.route("/split/")

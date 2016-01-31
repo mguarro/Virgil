@@ -1,0 +1,901 @@
+<?xml version="1.0"?>
+<pdf>
+  <page width="567" height="774" number="1">
+    <region x="31.5" y="740.31" width="447.25" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009</line>
+    </region>
+    <region x="535.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1169</line>
+    </region>
+    <region x="160.62" y="698.14" width="246.46" height="20.09" line_height="20.09" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Mapping Text with Phrase Nets</line>
+    </region>
+    <region x="148.68" y="672.95" width="272.35" height="11.18" line_height="11.18" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Frank van Ham, Martin Wattenberg, and Fernanda B. Vi&#xE9;gas </line>
+    </region>
+    <region x="31.5" y="408.6" width="406.26" height="8.91" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0"> Fig. 1. Scanning the bible for textual matches to the pattern X begat Y reveals a network of family relations.</line>
+    </region>
+    <region x="55.32" y="337.14" width="468.19" height="61.7" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="52.8" spacing="0.0">Abstract We present a new technique, the phrase net, for generating visual overviews of unstructured text. A phrase net displays </line>
+      <line x_offset="0.0" y_offset="43.01" spacing="0.88">a graph whose nodes are words and whose edges indicate that two words are linked by a user-specified relation. These relations </line>
+      <line x_offset="0.0" y_offset="33.29" spacing="0.81">may be defined either at the syntactic or lexical level; different relations often produce very different perspectives on the same text. </line>
+      <line x_offset="0.0" y_offset="23.51" spacing="0.88">Taken together, these perspectives often provide an illuminating visual overview of the key concepts and relations in a document or </line>
+      <line x_offset="0.0" y_offset="13.79" spacing="0.81">set of documents. </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.89">Index Terms Text visualization, tag cloud, natural language processing, semantic net. </line>
+    </region>
+    <region x="31.5" y="148.49" width="252.55" height="154.08" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="17.4" y_offset="144.45" spacing="1.79">NTRODUCTI ON</line>
+      <line x_offset="0.0" y_offset="144.04" spacing="-9.63">1 I</line>
+      <line x_offset="0.0" y_offset="130.01" spacing="4.06">Scholars have long dreamed of turning text from books to entire </line>
+      <line x_offset="0.0" y_offset="119.99" spacing="0.05">libraries into maps. A visual perspective on a text has many </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">potential uses. A map can serve as a summary and provide a </line>
+      <line x_offset="0.0" y_offset="100.01" spacing="0.0">jumping-off point for close reading. Mapping techniques may also be </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.05">used to compare multiple texts, whether books by different authors </line>
+      <line x_offset="0.0" y_offset="79.98" spacing="0.05">or speeches by different politicians. </line>
+      <line x_offset="12.24" y_offset="70.01" spacing="0.01">Unfortunately, anyone who sets out to map a book quickly runs </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="0.05">into two problems. The first is purely conceptual: most interesting </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">texts are large (a typical novel has more than 100,000 words) so </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="0.0">some kind of analysis and summarization is necessary to make them </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">amenable to visualization. The key issue is to define an effective unit </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">of analysis; such a unit could range from letters to words to general </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">concepts and ideas. Due to the current state of natural language </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">processing, choosing the right unit involves a tradeoff between </line>
+    </region>
+    <region x="35.4" y="102.74" width="237.22" height="30.37" line_height="8.83" font="BMMFPM+TimesNewRomanPS-ItalicMT">
+      <line x_offset="0.0" y_offset="21.54" spacing="0.0">Frank van Ham is with IBM Research, E-Mail: fvanham@us.ibm.com. </line>
+      <line x_offset="0.0" y_offset="10.8" spacing="1.91">Martin Wattenberg is with IBM Research, E-Mail: mwatten@us.ibm.com. </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.97">Fernanda B. Vi&#xE9;gas is with IBM Research, E-Mail: viegasf@us.ibm.com. </line>
+    </region>
+    <region x="26.58" y="51.08" width="251.97" height="36.85" line_height="8.83" font="BMMFPM+TimesNewRomanPS-ItalicMT">
+      <line x_offset="0.0" y_offset="28.02" spacing="0.0">Manuscript received 31 March 2009; accepted 27 July 2009; posted online</line>
+      <line x_offset="0.0" y_offset="18.78" spacing="0.41">11 October 2009; mailed on 5 October 2009. </line>
+      <line x_offset="0.0" y_offset="9.54" spacing="0.41">For information on obtaining reprints of this article, please send </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.71">email to: tvcg@computer.org . </line>
+    </region>
+    <region x="293.94" y="38.5" width="252.5" height="249.97" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="240.01" spacing="0.0">reliability and validity. On one end of the scale, computers can </line>
+      <line x_offset="0.0" y_offset="229.99" spacing="0.05">reliably pick out the individual words in a book, leaving the task of </line>
+      <line x_offset="0.0" y_offset="219.97" spacing="0.05">putting the words together to a human. On the other end, programs </line>
+      <line x_offset="0.0" y_offset="210.01" spacing="0.0">that aim to extract high-level meaning from text say a semantic </line>
+      <line x_offset="0.0" y_offset="199.99" spacing="0.05">network of people and their relations face significant error rates </line>
+      <line x_offset="0.0" y_offset="189.98" spacing="0.05">and are easily misunderstood by their users. </line>
+      <line x_offset="12.24" y_offset="180.0" spacing="0.02">The second problem in the visual display of text involves </line>
+      <line x_offset="0.0" y_offset="169.98" spacing="0.05">legibility. In most visualizations, one wants to use spatial position as </line>
+      <line x_offset="0.0" y_offset="159.96" spacing="0.05">a meaningful variable. Yet a readable set of words obeys spatial </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.0">constraints on alignment, grouping, and type size. The conflict </line>
+      <line x_offset="0.0" y_offset="139.98" spacing="0.05">between positioning and legibility can lead to displays that are hard </line>
+      <line x_offset="0.0" y_offset="129.96" spacing="0.05">to read or where spatial position is essentially random. </line>
+      <line x_offset="12.24" y_offset="120.0" spacing="0.01">In this paper we introduce a new text mapping technique, the </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">phrase net, which seeks a balance both in analysis and display. Our </line>
+      <line x_offset="0.0" y_offset="99.96" spacing="0.05">unit of analysis is a phrase, i.e., a particular relationship between </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.0">words that can be defined using either simple pattern matching or </line>
+      <line x_offset="0.0" y_offset="79.98" spacing="0.05">syntactic analysis. This unit provides a higher level of analysis than </line>
+      <line x_offset="0.0" y_offset="69.96" spacing="0.05">individual words, but is easily understood by users and does not </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.0">require unreliable artificial intelligence. Our visual displays use a </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">standard graph layout engine that has been modified to ensure that </line>
+      <line x_offset="0.0" y_offset="39.97" spacing="0.05">text is readable via constraints on alignment and grouping. </line>
+      <line x_offset="12.24" y_offset="30.0" spacing="0.01">In addition to describing the design and implementation of the </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">phrase net, we also provide a series of sample use cases. Some of </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">these were derived from our own exploration. To find others, we </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">deployed a simplified version of the phrase net on the Many Eyes </line>
+    </region>
+    <region x="172.68" y="16.73" width="230.67" height="6.7" line_height="6.7" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0"> 1077-2626/09/$25.00 &#xA9; 2009 IEEE Published by the IEEE Computer Society</line>
+    </region>
+  </page>
+  <page width="567" height="774" number="2">
+    <region x="88.34" y="740.31" width="447.25" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009</line>
+    </region>
+    <region x="15.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1170</line>
+    </region>
+    <region x="22.86" y="684.4" width="252.5" height="39.96" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">site, where any user could create their own visualizations of text. </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">While the period of deployment was too short to draw quantitative </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">conclusions about usage, it resulted in several interesting usage </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">scenarios that had not occurred to us. </line>
+    </region>
+    <region x="285.3" y="634.36" width="252.52" height="90.0" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">any complicated text there are more specific relationships: agents </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.05">acting on objects, people possessing things, actions taking place at </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">locations. Simply looking at co-occurrence gives no way of focusing </line>
+      <line x_offset="0.0" y_offset="50.04" spacing="0.0">on a type of relation. </line>
+      <line x_offset="12.24" y_offset="40.02" spacing="0.06">The technique presented in this paper attempts to address these </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.06">shortcomings. We analyze text at the level of relations between </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">words, rather than individual words, and allow users to specify those </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">relations in a variety of ways. We also tune a standard graph layout </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">to create a more legible arrangement of words. </line>
+    </region>
+    <region x="285.3" y="86.38" width="252.58" height="536.11" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="21.36" y_offset="526.48" spacing="1.79">OW THE </line>
+      <line x_offset="99.96" y_offset="526.48" spacing="-7.83">ET WORKS</line>
+      <line x_offset="0.0" y_offset="526.06" spacing="-9.63">3 H</line>
+      <line x_offset="55.92" y_offset="526.06" spacing="-10.04">P</line>
+      <line x_offset="62.58" y_offset="526.06" spacing="-10.04">HRASE N</line>
+      <line x_offset="0.0" y_offset="511.98" spacing="4.12">The phrase net extracts and then visualizes networks of terms from </line>
+      <line x_offset="0.0" y_offset="502.01" spacing="0.0">bodies of text. In this section we give a basic description of these two </line>
+      <line x_offset="0.0" y_offset="492.0" spacing="0.05">steps and the ideas behind them. We do this by conceptually </line>
+      <line x_offset="0.0" y_offset="481.98" spacing="0.05">separating the visualization into different stages that map directly to </line>
+      <line x_offset="0.0" y_offset="472.02" spacing="0.0">the two main questions defined in the introduction. In the text </line>
+      <line x_offset="0.0" y_offset="462.0" spacing="0.05">analysis stage we define the unit of analysis and extract a network of </line>
+      <line x_offset="0.0" y_offset="451.98" spacing="0.05">terms from the raw text. Subsequently, in the network abstraction </line>
+      <line x_offset="0.0" y_offset="442.02" spacing="0.0">and visual representation stages we deal with the problem of </line>
+      <line x_offset="0.0" y_offset="432.0" spacing="0.05">rendering this network effectively. This section discusses each of </line>
+      <line x_offset="0.0" y_offset="421.99" spacing="0.05">these stages separately. </line>
+      <line x_offset="0.0" y_offset="403.06" spacing="8.88">3.1 </line>
+      <line x_offset="28.83" y_offset="403.06" spacing="-10.04">Text analysis </line>
+      <line x_offset="0.0" y_offset="390.0" spacing="3.1">To convert a text into a network we define the nodes to be a subset </line>
+      <line x_offset="0.0" y_offset="379.98" spacing="0.05">of words occurring in the text, and edges to represent certain </line>
+      <line x_offset="0.0" y_offset="370.02" spacing="0.0">relations between these words. There are many ways to choose these </line>
+      <line x_offset="0.0" y_offset="360.0" spacing="0.05">node and edge sets. For example, one straightforward method is to </line>
+      <line x_offset="0.0" y_offset="349.98" spacing="0.05">take the nodes to be all words, and link two terms if they appear in </line>
+      <line x_offset="0.0" y_offset="340.02" spacing="0.0">immediate succession in the text without punctuation between them. </line>
+      <line x_offset="0.0" y_offset="330.0" spacing="0.05">We now discuss two finer-grained methods, each based of which </line>
+      <line x_offset="0.0" y_offset="319.99" spacing="0.05">uses a certain kind of template to define connections between words. </line>
+      <line x_offset="0.0" y_offset="310.02" spacing="0.0">The first method uses syntactic patterns to define word relations, </line>
+      <line x_offset="0.0" y_offset="300.01" spacing="0.05">while the second relies on orthographic pattern matching. </line>
+      <line x_offset="0.0" y_offset="283.0" spacing="6.96">3.1.1 </line>
+      <line x_offset="35.97" y_offset="283.0" spacing="-10.04">Syntactic linking </line>
+      <line x_offset="0.0" y_offset="270.0" spacing="3.04">A natural thought is to use patterns based on the syntactic structure </line>
+      <line x_offset="0.0" y_offset="259.98" spacing="0.05">of English sentences. To explore this idea, we used the open-source </line>
+      <line x_offset="0.0" y_offset="250.02" spacing="0.0">Stanford Parser </line>
+      <line x_offset="58.74" y_offset="250.02" spacing="-9.96">[13]. Conveniently, one of the output formats of this </line>
+      <line x_offset="0.0" y_offset="240.0" spacing="0.05">system is a typed dependency parse, which breaks a sentence into </line>
+      <line x_offset="0.0" y_offset="229.98" spacing="0.05">pairs of words connected by relations. The relations can be any of </line>
+      <line x_offset="0.0" y_offset="220.02" spacing="0.0">several dozen types, ranging from common types like conjunct (as </line>
+      <line x_offset="0.0" y_offset="210.0" spacing="0.05">in A and B ) to very specific, such as element of compound </line>
+      <line x_offset="0.0" y_offset="199.99" spacing="0.05">number. </line>
+      <line x_offset="12.24" y_offset="190.02" spacing="0.01">Given a text that has been parsed in this way, our software allows </line>
+      <line x_offset="0.0" y_offset="180.0" spacing="0.05">the user to specify one or more of these relations and then creates a </line>
+      <line x_offset="0.0" y_offset="169.98" spacing="0.05">graph where nodes correspond to words, and edges indicate pairs of </line>
+      <line x_offset="0.0" y_offset="160.02" spacing="0.0">words that are connected by the specified relations. There are two </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.05">advantages of using these dependencies rather than relying on a </line>
+      <line x_offset="0.0" y_offset="139.99" spacing="0.05">simple method such as word adjacency. First, it gives far more fine-</line>
+      <line x_offset="0.0" y_offset="130.02" spacing="0.0">grained control over the network, allowing the user to spotlight only </line>
+      <line x_offset="0.0" y_offset="120.01" spacing="0.05">certain types of relationships in the text. Second, it avoids obvious </line>
+      <line x_offset="0.0" y_offset="109.99" spacing="0.05">problems inherent in simple word-order approaches: in a sentence </line>
+      <line x_offset="0.0" y_offset="100.03" spacing="0.0">like the keys were found, a typed-dependency parse will know that </line>
+      <line x_offset="4.0" y_offset="90.01" spacing="0.05">keys and found are related. </line>
+      <line x_offset="12.24" y_offset="79.98" spacing="0.07">Unfortunately, this increased sophistication comes at the price of </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.0">an unwieldy amount of processing power. For example, running the </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">parser on the novel Pride and Prejudice (about 1 MB of text, and </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">slightly under 6,000 sentences) requires more than 24 hours of CPU </line>
+      <line x_offset="0.0" y_offset="40.02" spacing="0.0">time on a Windows Thinkpad T60 with 2GB of RAM. This is more </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">time than it would take an average human to read the whole book. </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">Such a lengthy processing time significantly increases the upfront </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">cost </line>
+      <line x_offset="18.0" y_offset="10.02" spacing="-9.96">[21] of the visualization, and makes interactive exploration of </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">different corpora a challenge. </line>
+    </region>
+    <region x="22.86" y="38.38" width="252.83" height="634.08" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="21.36" y_offset="624.46" spacing="1.79">ELATED </line>
+      <line x_offset="0.0" y_offset="624.04" spacing="-9.63">2 R</line>
+      <line x_offset="55.86" y_offset="624.04" spacing="-10.04">W ORK</line>
+      <line x_offset="0.0" y_offset="610.02" spacing="4.06">To place the phrase net in context, we review some existing systems </line>
+      <line x_offset="0.0" y_offset="600.0" spacing="0.05">that create maps of text. We focus on the two questions mentioned in </line>
+      <line x_offset="0.0" y_offset="589.98" spacing="0.05">the introduction: What is the unit of textual analysis? How does the </line>
+      <line x_offset="0.0" y_offset="580.02" spacing="0.0">visualization handle legibility concerns? </line>
+      <line x_offset="12.24" y_offset="570.0" spacing="0.06">At the simplest level of analysis, many visualizations focus on </line>
+      <line x_offset="0.0" y_offset="559.98" spacing="0.05">individual words. The simplest example is the tag cloud. </line>
+      <line x_offset="0.0" y_offset="550.02" spacing="0.0">Conventional tag clouds display up to several hundred words, </line>
+      <line x_offset="0.0" y_offset="540.0" spacing="0.05">typically aligning them in rows for readability. This method of </line>
+      <line x_offset="0.0" y_offset="529.98" spacing="0.05">alignment, however, means that the only use of the spatial dimension </line>
+      <line x_offset="0.0" y_offset="520.02" spacing="0.0">is the order of words (typically alphabetical). More advanced forms </line>
+      <line x_offset="0.0" y_offset="510.0" spacing="0.05">of tag clouds, such as Wordle </line>
+      <line x_offset="123.0" y_offset="509.99" spacing="-9.96">[6] or Word Clouds [2] enhance </line>
+      <line x_offset="0.0" y_offset="499.98" spacing="0.05">readability through careful typography at the expense of a near-</line>
+      <line x_offset="0.0" y_offset="490.01" spacing="0.0">random spatial layout. </line>
+      <line x_offset="12.24" y_offset="480.0" spacing="0.06">Not all visualizations that are based on single words dispense </line>
+      <line x_offset="0.0" y_offset="469.98" spacing="0.05">with space as a variable, however. The TextArc tool </line>
+      <line x_offset="211.08" y_offset="469.98" spacing="-9.96">[5] uses a </line>
+      <line x_offset="0.0" y_offset="460.01" spacing="0.0">projection that places words in a two-dimensional space based on </line>
+      <line x_offset="0.0" y_offset="450.0" spacing="0.05">where they occur in the text. This method adds another layer of </line>
+      <line x_offset="0.0" y_offset="439.98" spacing="0.05">information, letting viewers see which words are only used in </line>
+      <line x_offset="0.0" y_offset="430.02" spacing="0.0">specific sections, and ensuring that two words that consistently occur </line>
+      <line x_offset="0.0" y_offset="420.0" spacing="0.05">in the same passages will be near each other onscreen. The </line>
+      <line x_offset="0.0" y_offset="409.98" spacing="0.05">downside, however, is legibility: the number of words shown, </line>
+      <line x_offset="0.0" y_offset="400.02" spacing="0.0">coupled with their continuously varying locations, means that letters </line>
+      <line x_offset="0.0" y_offset="390.0" spacing="0.05">overlap and there are often no clear groupings. </line>
+      <line x_offset="12.24" y_offset="379.98" spacing="0.06">This legibility problem is shared by other systems that perform </line>
+      <line x_offset="0.0" y_offset="370.01" spacing="0.0">some type of multidimensional scaling. In the algorithm of Sarkar et </line>
+      <line x_offset="0.0" y_offset="360.0" spacing="0.05">al. </line>
+      <line x_offset="13.86" y_offset="360.0" spacing="-9.96">[17], for example, word co-occurrence relations are analyzed </line>
+      <line x_offset="0.0" y_offset="349.98" spacing="0.05">instead of simple word frequency. Based on this co-occurrence data, </line>
+      <line x_offset="0.0" y_offset="340.02" spacing="0.0">words are mapped to points in two-dimensional space. As with </line>
+      <line x_offset="0.0" y_offset="330.0" spacing="0.05">TextArc, the result may be intriguing, but the resulting display has </line>
+      <line x_offset="0.0" y_offset="319.98" spacing="0.05">no clear visual organization and can be hard to read </line>
+      <line x_offset="12.24" y_offset="310.02" spacing="0.0">Some visualization systems attack the problem by using semantic </line>
+      <line x_offset="0.0" y_offset="300.0" spacing="0.05">analysis. ThemeRiver </line>
+      <line x_offset="80.88" y_offset="300.0" spacing="-9.96">[10], for example, displays the ebb and flow of </line>
+      <line x_offset="3.97" y_offset="289.98" spacing="0.05">themes over time in a large body of text. The ThemeRiver display </line>
+      <line x_offset="0.0" y_offset="280.02" spacing="0.0">typically only tracks a few themes at a time (published examples </line>
+      <line x_offset="0.0" y_offset="270.0" spacing="0.05">show at most a few dozen) and therefore can handle label typography </line>
+      <line x_offset="0.0" y_offset="259.98" spacing="0.05">in the same way as a standard graph. </line>
+      <line x_offset="12.24" y_offset="250.02" spacing="0.0">The Docuburst technique [3] and Gist Icons [4] use a pre-existing </line>
+      <line x_offset="0.0" y_offset="240.0" spacing="0.05">ontology, Wordnet </line>
+      <line x_offset="72.42" y_offset="240.0" spacing="-9.96">[7], to group words that have related meanings. </line>
+      <line x_offset="0.0" y_offset="229.98" spacing="0.05">While this allows for a natural summary, it is not without problems. </line>
+      <line x_offset="0.0" y_offset="220.02" spacing="0.0">Words with multiple meanings can only occur in one location. The </line>
+      <line x_offset="0.0" y_offset="210.0" spacing="0.05">categories in Wordnet, like most ontologies, are not completely </line>
+      <line x_offset="0.0" y_offset="199.98" spacing="0.05">intuitive e.g., few users will naturally understand the distinction </line>
+      <line x_offset="0.0" y_offset="190.02" spacing="0.0">between an entity and an object, or expect to see laryngitis </line>
+      <line x_offset="0.0" y_offset="180.0" spacing="0.05">listed as a type of psychological feature. Both systems rely on </line>
+      <line x_offset="0.0" y_offset="169.99" spacing="0.05">radial-style visualizations that present a typographical challenge. </line>
+      <line x_offset="0.0" y_offset="160.02" spacing="0.0">Gist Icons </line>
+      <line x_offset="40.68" y_offset="160.02" spacing="-9.96">[4] for instance, shows over a hundred word frequencies </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.05">at once, literally leaving no room for any text. The Docuburst system </line>
+      <line x_offset="0.0" y_offset="139.98" spacing="0.05">uses interaction to tackle this problem. </line>
+      <line x_offset="12.24" y_offset="130.02" spacing="0.0">Another common approach one that we follow as well is to </line>
+      <line x_offset="0.0" y_offset="120.0" spacing="0.05">depict relationships in a text using a network. The analogy is with </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">the idea of a semantic net </line>
+      <line x_offset="114.18" y_offset="109.98" spacing="-9.96">[18], which has often been used to </line>
+      <line x_offset="0.0" y_offset="100.01" spacing="0.0">represent relations between concepts. Often these nets are based on </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.05">co-occurrence relations. For example [14] creates a network of </line>
+      <line x_offset="0.0" y_offset="79.98" spacing="0.05">related terms from patent filings. Peter Cho created a network of </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.0">words from news stories [1] based on information about which </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">words often followed which other words. </line>
+      <line x_offset="12.24" y_offset="49.98" spacing="0.06">These systems can be beautiful and informative, but the approach </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="0.0">suffers from two drawbacks. First, when a typical graph layout </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">algorithm is used to arrange words, it can lead to a set of jumbled </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">text, much as in the case of multidimensional scaling. (The Cho </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">example is beautiful, but was adjusted by hand.) Second, simply </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">looking at co-occurrence shows only one generic type of relation. In </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="3">
+    <region x="31.5" y="740.31" width="206.06" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS</line>
+    </region>
+    <region x="535.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1171</line>
+    </region>
+    <region x="438.89" y="707.3" width="10.98" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">K </line>
+    </region>
+    <region x="140.34" y="707.3" width="9.76" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">F </line>
+    </region>
+    <region x="286.56" y="698.12" width="7.93" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">H</line>
+    </region>
+    <region x="190.32" y="689.0" width="11.57" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">G </line>
+    </region>
+    <region x="89.28" y="689.0" width="10.37" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">E </line>
+    </region>
+    <region x="140.1" y="662.57" width="10.04" height="11.18" line_height="11.18" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">A </line>
+    </region>
+    <region x="438.3" y="661.4" width="16.62" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">MN </line>
+    </region>
+    <region x="377.52" y="661.4" width="6.71" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">L</line>
+    </region>
+    <region x="315.66" y="652.22" width="6.1" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">J</line>
+    </region>
+    <region x="260.76" y="652.22" width="3.05" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">I</line>
+    </region>
+    <region x="190.63" y="643.04" width="10.97" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">B </line>
+    </region>
+    <region x="88.98" y="643.04" width="10.97" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">D </line>
+    </region>
+    <region x="438.6" y="615.5" width="11.57" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">O </line>
+    </region>
+    <region x="139.74" y="615.5" width="10.97" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">C </line>
+    </region>
+    <region x="111.0" y="549.92" width="10.97" height="12.25" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">A </line>
+    </region>
+    <region x="404.22" y="546.45" width="11.58" height="24.85" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.3" y_offset="12.59" spacing="0.0">K </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.34">O </line>
+    </region>
+    <region x="291.6" y="542.9" width="10.97" height="37.57" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.0" y_offset="25.32" spacing="0.0">H </line>
+      <line x_offset="2.46" y_offset="12.66" spacing="0.41">I </line>
+      <line x_offset="0.9" y_offset="0.0" spacing="0.41">J</line>
+    </region>
+    <region x="471.66" y="542.66" width="12.17" height="37.82" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="1.2" y_offset="25.56" spacing="0.0">L </line>
+      <line x_offset="0.0" y_offset="12.9" spacing="0.41">M </line>
+      <line x_offset="0.6" y_offset="0.0" spacing="0.65">N </line>
+    </region>
+    <region x="184.07" y="523.34" width="11.58" height="75.55" line_height="12.25" font="BMMFMM+Arial-BoldMT">
+      <line x_offset="0.31" y_offset="63.3" spacing="0.0">B </line>
+      <line x_offset="0.31" y_offset="50.64" spacing="0.41">C </line>
+      <line x_offset="0.31" y_offset="37.98" spacing="0.41">D </line>
+      <line x_offset="0.6" y_offset="25.32" spacing="0.41">E </line>
+      <line x_offset="0.9" y_offset="12.66" spacing="0.41">F </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.41">G </line>
+    </region>
+    <region x="38.7" y="451.56" width="493.1" height="57.06" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="81.03" y_offset="43.66" spacing="0.0">(a) </line>
+      <line x_offset="225.11" y_offset="43.66" spacing="-13.39"> (b) </line>
+      <line x_offset="369.08" y_offset="43.66" spacing="-13.39"> (c) </line>
+      <line x_offset="0.0" y_offset="28.85" spacing="5.91">Fig 1. Edge compression: Collapsing networks based on identical network neighborhoods. The darker nodes in (a) all have identical </line>
+      <line x_offset="0.0" y_offset="19.31" spacing="0.64">neighbor sets {a} and can be collapsed into a singe clustered node. Although the nodes in (b) are all structurally interchangeable they have </line>
+      <line x_offset="341.58" y_offset="9.83" spacing="0.57"> set {h,i,j} instead. The graph in (c) has </line>
+      <line x_offset="0.0" y_offset="0.41" spacing="0.52">neighbor sets {l,m,n} for both K and O (dark blue) and N</line>
+      <line x_offset="0.0" y_offset="9.83" spacing="-18.32">different neighbor sets {i,j}, {h,j} and {h,i} respectively; we can still merge them if we consider N</line>
+      <line x_offset="334.38" y_offset="9.42" spacing="-5.11">self</line>
+      <line x_offset="205.02" y_offset="0.41" spacing="0.1"> set {k,l,m,n,o} (light blue) for L, M and N. </line>
+      <line x_offset="197.82" y_offset="0.0" spacing="-5.1">self</line>
+    </region>
+    <region x="31.5" y="142.54" width="252.53" height="273.07" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="263.02" spacing="0.0">3.1.2 </line>
+      <line x_offset="35.95" y_offset="263.02" spacing="-10.04">Orthographic linking </line>
+      <line x_offset="12.24" y_offset="249.96" spacing="3.1">To allow more rapid exploration, we investigated a second </line>
+      <line x_offset="0.0" y_offset="239.99" spacing="0.0">method: simple text-based pattern matching. For example, instead of </line>
+      <line x_offset="0.0" y_offset="229.98" spacing="0.05">using a parser to look for possessive relations between nouns, we can </line>
+      <line x_offset="0.0" y_offset="219.96" spacing="0.05">define an edge (X,Y) for each literal occurrence of </line>
+      <line x_offset="210.28" y_offset="219.96" spacing="-9.96"> X s Y </line>
+      <line x_offset="0.0" y_offset="210.0" spacing="0.0">which allows us to extract basic genitive relationships from the text. </line>
+      <line x_offset="0.0" y_offset="199.98" spacing="0.05">Similarly we can look at occurrences of </line>
+      <line x_offset="159.81" y_offset="199.98" spacing="-9.96"> X at Y </line>
+      <line x_offset="202.24" y_offset="199.98" spacing="-9.96"> which might </line>
+      <line x_offset="0.0" y_offset="189.96" spacing="0.05">hint at relationships between objects and places. </line>
+      <line x_offset="12.24" y_offset="180.0" spacing="0.0">Using regular expressions we can define a wide variety of </line>
+      <line x_offset="0.0" y_offset="169.98" spacing="0.05">potentially interesting patterns. For example, we might require that </line>
+      <line x_offset="0.0" y_offset="159.96" spacing="0.05">both X and Y start with a capital letter, that either one is a number, </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.0">or define complex patterns such as </line>
+      <line x_offset="145.72" y_offset="150.0" spacing="-9.96"> because X (is|are|was|were) </line>
+      <line x_offset="0.0" y_offset="139.98" spacing="0.05">Y </line>
+      <line x_offset="24.36" y_offset="139.98" spacing="-9.96">. Matching regular expressions can be done at interactive </line>
+      <line x_offset="0.0" y_offset="129.97" spacing="0.05">speeds (a few seconds for a text of a million words). </line>
+      <line x_offset="12.24" y_offset="120.0" spacing="0.01">We often found these simple pattern matching techniques as </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">useful as full parse-based methods when applied to sufficiently large </line>
+      <line x_offset="0.0" y_offset="99.96" spacing="0.05">bodies of text. The basic idea is reminiscent of Hearst patterns </line>
+      <line x_offset="235.2" y_offset="99.96" spacing="-9.96">[11] </line>
+      <line x_offset="0.0" y_offset="89.99" spacing="0.0">for extracting hypernym relations with enough data, seemingly </line>
+      <line x_offset="4.01" y_offset="79.98" spacing="0.05">superficial methods produce useful results. A bonus is that simple </line>
+      <line x_offset="0.01" y_offset="69.96" spacing="0.05">pattern matching can be explained to users without resorting to </line>
+      <line x_offset="0.01" y_offset="60.0" spacing="0.0">technical linguistics terminology. </line>
+      <line x_offset="12.24" y_offset="49.98" spacing="0.06">Figure 2 shows a comparison of two networks generated by these </line>
+      <line x_offset="0.0" y_offset="39.96" spacing="0.05">two different methods (with filtering as described below). Although </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">the main terms are very similar, the syntactical parser also picks up </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">occurrences such as looked at the time . The orthographical parser </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">ignores the looked at the match, since the is classified as a stop </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">word. </line>
+    </region>
+    <region x="293.94" y="50.51" width="252.55" height="381.96" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="371.99" spacing="0.0">step, we provide the user the option of removing nodes representing </line>
+      <line x_offset="0.0" y_offset="362.03" spacing="0.0">commonly occurring words in the English language. These </line>
+      <line x_offset="4.0" y_offset="352.01" spacing="0.05">stopwords often do not add useful information content and greatly </line>
+      <line x_offset="0.0" y_offset="342.0" spacing="0.05">increase the density of the graph as they occur in combinations with </line>
+      <line x_offset="0.0" y_offset="332.03" spacing="0.0">many other words. </line>
+      <line x_offset="12.24" y_offset="322.01" spacing="0.06">The next step is to rank words by relevance. There are several </line>
+      <line x_offset="0.0" y_offset="311.99" spacing="0.05">simple possible relevance measures. One is degree in the network; </line>
+      <line x_offset="0.0" y_offset="302.03" spacing="0.0">another is overall frequency in the text. In our prototype we found </line>
+      <line x_offset="0.0" y_offset="292.01" spacing="0.05">that overall frequency was a good relevance measure, with the </line>
+      <line x_offset="0.0" y_offset="281.99" spacing="0.05">additional benefit that the resulting display was directly analogous to </line>
+      <line x_offset="0.0" y_offset="272.03" spacing="0.0">a word cloud view. Given a relevance rating, we allow the user to set </line>
+      <line x_offset="0.0" y_offset="262.01" spacing="0.05">a maximum number N of nodes to display. Our software then looks </line>
+      <line x_offset="0.0" y_offset="252.0" spacing="0.05">at the induced subgraph for the N most relevant nodes, discards any </line>
+      <line x_offset="0.0" y_offset="242.03" spacing="0.0">degree-zero nodes, and displays the resulting graph, Both this step </line>
+      <line x_offset="0.0" y_offset="232.02" spacing="0.05">and the stopword filtering can be executed efficiently; stopword </line>
+      <line x_offset="0.0" y_offset="222.0" spacing="0.05">filtering is easily integrated with the pattern matching stage, while </line>
+      <line x_offset="0.0" y_offset="212.04" spacing="0.0">the second step involves a single sort of the terms and a linear time </line>
+      <line x_offset="0.0" y_offset="202.02" spacing="0.05">filtering operation. </line>
+      <line x_offset="0.0" y_offset="183.03" spacing="8.94">3.3 </line>
+      <line x_offset="28.83" y_offset="183.03" spacing="-10.04">Edge compression </line>
+      <line x_offset="12.24" y_offset="170.03" spacing="3.04">Despite the simplification induced by node filtering, standard </line>
+      <line x_offset="0.0" y_offset="160.01" spacing="0.05">graph layouts often produced busy and confusing graphs. One </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.05">common problem involved a node with many degree-one neighbors. </line>
+      <line x_offset="0.0" y_offset="140.03" spacing="0.0">Most graph layouts, when applied to such a node, will produce a </line>
+      <line x_offset="3.96" y_offset="130.02" spacing="0.05">starburst of edges evenly spread across different angles and </line>
+      <line x_offset="0.0" y_offset="120.0" spacing="0.05">distances. This can be effective when nodes are drawn as points or </line>
+      <line x_offset="0.0" y_offset="110.04" spacing="0.0">circles, but creates an unreadable mass of overlapping text when the </line>
+      <line x_offset="0.0" y_offset="100.02" spacing="0.05">nodes are words. </line>
+      <line x_offset="12.24" y_offset="89.99" spacing="0.06">To address this problem and draw the graph in a text friendly </line>
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">manner, we perform a step we call edge compression. To motivate </line>
+      <line x_offset="0.0" y_offset="70.01" spacing="0.05">this step, note that all the degree-one nodes in a starburst are </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="0.05">topologically equivalent, in the sense that permuting two of them </line>
+      <line x_offset="0.0" y_offset="50.03" spacing="0.0">will result in an isomorphic graph. Since they are equivalent in this </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="0.05">sense, we collapse them to a single large node, and draw them in a </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">nicely flush-left vertical column, with a single edge drawn between </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">this column and the central node of the starburst (Fig. 1a). While </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">information is lost about the specific edge weights, all the original </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">topological information remains available. </line>
+    </region>
+    <region x="31.5" y="40.54" width="252.48" height="83.04" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="73.0" spacing="0.0">3.2 </line>
+      <line x_offset="28.82" y_offset="73.0" spacing="-10.04">Network filtering </line>
+      <line x_offset="12.24" y_offset="59.99" spacing="3.04">After parsing the text, we are left with a graph where nodes </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">represent words in the source text and edges represent a particular </line>
+      <line x_offset="0.0" y_offset="39.96" spacing="0.05">connection between those words. The edges are directed</line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">representing the order the words occurred in the slots in the pattern</line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">and weighted according to the number of times the pattern was </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">matched. This graph is potentially too large to render legibly on </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">screen, so we include a filtering phase to reduce its size. As a first </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="4">
+    <region x="88.34" y="740.31" width="447.25" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009</line>
+    </region>
+    <region x="15.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1172</line>
+    </region>
+    <region x="30.06" y="454.49" width="496.22" height="27.87" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="18.97" spacing="0.0">Fig 2. Comparing phrase nets of Pride and Prejudice. The left network was generated by an orthographical parser matching X at Y , while </line>
+      <line x_offset="0.0" y_offset="9.42" spacing="0.64">the right network was generated by a syntactical parser looking for the preposition at . Both manage to identify major locations in the novel., </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.52">yet the orthographical parser finished in under a second, whereas the syntactical parser took over 24 hours. </line>
+    </region>
+    <region x="22.86" y="34.36" width="254.68" height="402.0" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="12.24" y_offset="392.03" spacing="0.0">This method generalizes naturally: whenever we have a set of </line>
+      <line x_offset="0.0" y_offset="382.02" spacing="0.05">nodes that are topologically equivalent, we can collapse them into a </line>
+      <line x_offset="0.0" y_offset="372.0" spacing="0.05">single supernode. These sets form equivalence classes, so the </line>
+      <line x_offset="0.0" y_offset="362.04" spacing="0.0">supernodes are well-defined. Furthermore, it is immediate that sets </line>
+      <line x_offset="0.0" y_offset="352.02" spacing="0.05">of equivalent nodes must either be completely disconnected from </line>
+      <line x_offset="0.0" y_offset="342.0" spacing="0.05">each other, or must form a clique. We indicate the difference by </line>
+      <line x_offset="0.0" y_offset="332.04" spacing="0.0">drawing a small self-loop for cliques as in Fig 1b. Edge-compression </line>
+      <line x_offset="0.0" y_offset="322.02" spacing="0.05">saves time in the layout procedure, improves the quality of the </line>
+      <line x_offset="0.0" y_offset="312.01" spacing="0.05">resulting layout, and creates a cleaner visual representation. </line>
+      <line x_offset="0.0" y_offset="302.04" spacing="0.0">Fortunately, it is also straightforward to perform this calculation </line>
+      <line x_offset="0.0" y_offset="292.03" spacing="0.05">efficiently. For each node x, with neighbor set N(x), define N</line>
+      <line x_offset="228.72" y_offset="292.01" spacing="-9.95">(x) := </line>
+      <line x_offset="220.08" y_offset="291.16" spacing="-5.79">self</line>
+      <line x_offset="0.0" y_offset="282.0" spacing="-0.8">N(x) + {x}. Nodes x and y are topologically equivalent if N(x) = N(y) </line>
+      <line x_offset="0.01" y_offset="272.03" spacing="0.0">or N (x) = N (y). Note that this computation can be applied to </line>
+      <line x_offset="17.4" y_offset="271.18" spacing="-5.79">self</line>
+      <line x_offset="54.84" y_offset="271.18" spacing="-6.64">self</line>
+      <line x_offset="0.0" y_offset="262.02" spacing="-0.8">both directed and undirected graphs. For undirected graphs we can </line>
+      <line x_offset="0.0" y_offset="252.0" spacing="0.05">directly compare the set of neighbors, while for directed graphs we </line>
+      <line x_offset="0.0" y_offset="242.04" spacing="0.0">need to compare neighbors connected by an in-edge and neighbors </line>
+      <line x_offset="0.0" y_offset="232.02" spacing="0.05">connected by an out-edge separately. In our particular case direction </line>
+      <line x_offset="0.0" y_offset="222.0" spacing="0.05">is relevant, so we perform directed edge compression. </line>
+      <line x_offset="12.24" y_offset="212.03" spacing="0.01">For simple (i.e. no self loops, no multi-edges) unweighted graphs, </line>
+      <line x_offset="0.0" y_offset="202.02" spacing="0.05">the edge-compressed representation is lossless, meaning that all </line>
+      <line x_offset="0.0" y_offset="192.0" spacing="0.05">basic information can still be extracted from the resulting diagram </line>
+      <line x_offset="0.0" y_offset="182.04" spacing="0.0">(Fig. 1c). The actual reduction in the number of edges depends on </line>
+      <line x_offset="0.0" y_offset="172.02" spacing="0.05">the structure and density of the graph, but we the low complexity and </line>
+      <line x_offset="0.0" y_offset="162.0" spacing="0.05">often lossless compression of the network representation potentially </line>
+      <line x_offset="0.0" y_offset="152.04" spacing="0.0">makes this algorithm valuable to other graph drawing cases. </line>
+      <line x_offset="0.0" y_offset="133.06" spacing="8.94">3.4 </line>
+      <line x_offset="28.83" y_offset="133.06" spacing="-10.04">Visual Representation </line>
+      <line x_offset="0.0" y_offset="119.99" spacing="3.1">After data extraction and network filtering we are left with a network </line>
+      <line x_offset="0.0" y_offset="110.03" spacing="0.0">containing several clusters, some composed of a single node and </line>
+      <line x_offset="0.0" y_offset="100.01" spacing="0.05">others made up of a collection of topologically equivalent nodes. The </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.05">clusters are connected by edges where the weight of an edge depends </line>
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">on the number times a matching pattern was found between the term </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.05">or terms in the two clusters. </line>
+      <line x_offset="0.0" y_offset="53.02" spacing="6.95">3.4.1 </line>
+      <line x_offset="35.96" y_offset="53.02" spacing="-10.04">Layout </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="3.04">We render each connected component in this network using a node-</line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">link diagram, where individual nodes are replaced with a rendered </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">version of the term(s) they represent. Each term is scaled </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">proportionally to the total number of occurrences in the text, as in a </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">tag cloud. For clusters containing multiple terms, we render all the </line>
+    </region>
+    <region x="285.3" y="34.36" width="252.52" height="402.01" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="392.05" spacing="0.0">terms in a vertical list, scaling each of them individually based on </line>
+      <line x_offset="0.0" y_offset="382.03" spacing="0.05">frequency of occurrence. Layouts are computed using a stress </line>
+      <line x_offset="0.0" y_offset="372.01" spacing="0.05">majorization algorithm </line>
+      <line x_offset="90.78" y_offset="372.0" spacing="-9.95">[8]. A post-processing step removes any </line>
+      <line x_offset="0.0" y_offset="362.03" spacing="0.0">remaining overlaps using an algorithm based on the Force-Transfer </line>
+      <line x_offset="0.0" y_offset="352.02" spacing="0.05">approach [12], and enforces a minimum distance between words. </line>
+      <line x_offset="0.01" y_offset="342.0" spacing="0.05">Individual connected components in the network are laid out using </line>
+      <line x_offset="0.01" y_offset="332.04" spacing="0.0">an incremental approach that tries to minimize the total area of the </line>
+      <line x_offset="0.01" y_offset="322.02" spacing="0.05">layout, while avoiding overlap. In a final step, node coordinates in </line>
+      <line x_offset="0.01" y_offset="312.0" spacing="0.05">the layout are scaled so that the resulting layout matches the aspect </line>
+      <line x_offset="0.01" y_offset="302.04" spacing="0.0">ratio of the screen. </line>
+      <line x_offset="0.0" y_offset="285.04" spacing="6.95">3.4.2 </line>
+      <line x_offset="35.96" y_offset="285.04" spacing="-10.04">Encoding </line>
+      <line x_offset="0.0" y_offset="272.04" spacing="3.04">Since connections between clusters are typically directional (i.e. </line>
+      <line x_offset="0.0" y_offset="262.02" spacing="0.05">there is a match for cold and strange in Fig. 3, but strange and </line>
+      <line x_offset="0.0" y_offset="252.0" spacing="0.05">cold never occurs in the text) we indicate them with arrows, where </line>
+      <line x_offset="0.0" y_offset="242.04" spacing="0.0">the thickness of an arrow is proportional to the weight of an edge. </line>
+      <line x_offset="0.0" y_offset="232.02" spacing="0.05">Every term is rendered in a heavy font with compressed spacing, for </line>
+      <line x_offset="0.0" y_offset="222.01" spacing="0.05">a compact and coherent visual representation. As an additional </line>
+      <line x_offset="0.0" y_offset="212.04" spacing="0.0">encoding, we decided to encode the ratio of out-degree to in-degree </line>
+      <line x_offset="0.0" y_offset="202.03" spacing="0.05">for a node and render terms with a high ratio (i.e. more out-edges </line>
+      <line x_offset="0.0" y_offset="192.01" spacing="0.05">than in-edges) in a darker color. This allows the user to quickly spot </line>
+      <line x_offset="0.0" y_offset="182.05" spacing="0.0">terms that only occur in the first or last part of the matching pattern. </line>
+      <line x_offset="0.0" y_offset="172.03" spacing="0.05">The colors follow a sequential palette running from light to dark </line>
+      <line x_offset="0.0" y_offset="162.01" spacing="0.05">blue; an early version of the system used a diverging color scheme </line>
+      <line x_offset="0.0" y_offset="152.05" spacing="0.0">that seemed to lead to a cluttered display. Basic zoom and pan </line>
+      <line x_offset="0.0" y_offset="142.03" spacing="0.05">controls allow the user modify the viewport, while popover hints </line>
+      <line x_offset="0.0" y_offset="132.02" spacing="0.05">provide more contextual information on demand, such as the actual </line>
+      <line x_offset="0.0" y_offset="122.05" spacing="0.0">textual matches for a relationship. </line>
+      <line x_offset="0.0" y_offset="103.06" spacing="8.95">3.5 </line>
+      <line x_offset="28.84" y_offset="103.06" spacing="-10.04">User Interface and Many Eyes deployment </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="3.1">We developed several versions of the phrase net. The first two were </line>
+      <line x_offset="0.0" y_offset="80.04" spacing="0.0">aimed at experts, and allowed users either to type in regular </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.05">expressions as matching templates or if a parsed text had been </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">loaded to choose syntactic relationships from a menu. While these </line>
+      <line x_offset="0.0" y_offset="50.04" spacing="0.0">simple interfaces were effective for our own experimentation, we </line>
+      <line x_offset="0.0" y_offset="40.02" spacing="0.05">discovered they were confusing for users who were unfamiliar with </line>
+      <line x_offset="0.0" y_offset="30.01" spacing="0.05">the software. </line>
+      <line x_offset="12.24" y_offset="20.04" spacing="0.0">To better understand how people might spontaneously use phrase </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">nets, we deployed a version on the Many Eyes </line>
+      <line x_offset="195.24" y_offset="10.02" spacing="-9.96">[19] web site. </line>
+      <line x_offset="0.01" y_offset="0.0" spacing="0.05">Because of the long time required to perform syntactic parsing, this </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="5">
+    <region x="31.5" y="740.31" width="206.06" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS</line>
+    </region>
+    <region x="535.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1173</line>
+    </region>
+    <region x="31.5" y="74.87" width="514.9" height="292.95" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="7.2" y_offset="284.05" spacing="0.0">Fig 3. The Phrase Net user interface applied to James Joyce s Portrait of the Artist as a Young Man. The user can select a predefined </line>
+      <line x_offset="7.19" y_offset="274.5" spacing="0.64">pattern from the list of patterns on the left or define a custom pattern in the box below. This list of patterns simultaneously serves as a </line>
+      <line x_offset="7.19" y_offset="265.02" spacing="0.57">legend, a list of presets and an interactive training mechanism for regular expressions. Here the user has selected </line>
+      <line x_offset="422.91" y_offset="265.02" spacing="-8.91">X and Y , revealing </line>
+      <line x_offset="262.44" y_offset="230.04" spacing="25.02">change the maximum number of words on the graph and choose </line>
+      <line x_offset="262.44" y_offset="220.02" spacing="0.05">whether to include stop words in the network. </line>
+      <line x_offset="7.19" y_offset="255.54" spacing="-44.42">two main clusters, one almost exclusively consisting of adjectives, the other of verbs and nouns. The highlighted clusters of terms have </line>
+      <line x_offset="7.19" y_offset="246.0" spacing="0.64">been aggregated by our edge compression algorithm. </line>
+      <line x_offset="0.0" y_offset="230.03" spacing="6.01">version used regular expression templates as a matching device. Of </line>
+      <line x_offset="0.0" y_offset="220.01" spacing="0.05">course, it would be unreasonable to expect novice users to master </line>
+      <line x_offset="0.0" y_offset="209.99" spacing="0.05">standard notations for regular expressions. This posed an interface </line>
+      <line x_offset="0.0" y_offset="200.03" spacing="0.0">challenge: how to combine maximum flexibility with an accessible </line>
+      <line x_offset="0.0" y_offset="190.01" spacing="0.05">user experience. To that end, we iterated over several UI options, </line>
+      <line x_offset="0.0" y_offset="180.0" spacing="0.05">testing them informally with users in our lab. </line>
+      <line x_offset="12.24" y_offset="170.03" spacing="0.01">We settled on using a simplified version of the basic regular </line>
+      <line x_offset="0.0" y_offset="160.01" spacing="0.05">expression syntax: instead of the cryptic (\w+) notation to match an </line>
+      <line x_offset="0.0" y_offset="149.99" spacing="0.05">arbitrary word, we used a single asterisk. For instance, if a user </line>
+      <line x_offset="0.0" y_offset="140.03" spacing="0.0">wants to define a pattern that looks for two words connected by </line>
+      <line x_offset="4.0" y_offset="130.01" spacing="0.05">and , she would type in: * and * . Users may either enter matching </line>
+      <line x_offset="0.0" y_offset="120.0" spacing="0.05">patterns in this simplified form or enter them in full regular </line>
+      <line x_offset="0.0" y_offset="110.03" spacing="0.0">expression syntax. </line>
+      <line x_offset="12.24" y_offset="100.01" spacing="0.06">In addition to this text-based input method, we also included a </line>
+      <line x_offset="4.0" y_offset="89.99" spacing="0.05">beginner s menu with a number of preset patterns. This menu not </line>
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">only lists a series of simple regular expressions to get the user </line>
+      <line x_offset="0.0" y_offset="70.01" spacing="0.05">started, it also serves as a visual guide for how phrase net patterns </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="0.05">work (Figure 3). On this list, each pattern appears as a pairing of </line>
+      <line x_offset="0.0" y_offset="50.03" spacing="-0.0">words with a curved arrow between them, labeled with that pattern s </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="0.05">connector. The first word of the pair appears in dark blue and the </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">second in light blue. This distinction echoes the phrase net color </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">coding. Users choice of a preset pattern is reflected on the more </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">advanced free-text input field so that novices may learn how the </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">simplified regular expression syntax works. Finally, users may also </line>
+    </region>
+    <region x="293.94" y="66.89" width="252.53" height="216.06" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="20.88" y_offset="206.43" spacing="1.79">XAMPLE </line>
+      <line x_offset="63.72" y_offset="206.43" spacing="-7.83">SE </line>
+      <line x_offset="84.18" y_offset="206.43" spacing="-7.83">ASES</line>
+      <line x_offset="0.0" y_offset="206.02" spacing="-9.63">4 E</line>
+      <line x_offset="56.58" y_offset="206.01" spacing="-10.04">U C </line>
+      <line x_offset="0.0" y_offset="191.99" spacing="4.06">The examples in this section illustrate how phrase nets have been </line>
+      <line x_offset="0.0" y_offset="181.97" spacing="0.05">utilized so far and the kinds of insight that have been generated by </line>
+      <line x_offset="0.0" y_offset="172.01" spacing="0.0">these graphs. We discuss graphs that have been created by the </line>
+      <line x_offset="0.0" y_offset="161.99" spacing="0.05">authors as well as those generated by Many Eyes users. </line>
+      <line x_offset="0.0" y_offset="143.02" spacing="8.93">4.1 </line>
+      <line x_offset="28.84" y_offset="143.02" spacing="-10.04">Styles of exploration </line>
+      <line x_offset="12.24" y_offset="130.01" spacing="3.04">Because of its querying capability, a phrase net provides viewers </line>
+      <line x_offset="0.0" y_offset="119.99" spacing="0.05">with great flexibility when exploring a piece of text. Yet there are </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">two main exploratory processes that seem natural when working </line>
+      <line x_offset="0.0" y_offset="100.01" spacing="0.0">with phrase nets: using the same regular expression to compare </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.05">different texts and using different regular expressions to explore the </line>
+      <line x_offset="0.0" y_offset="79.98" spacing="0.05">same text. </line>
+      <line x_offset="12.24" y_offset="70.01" spacing="0.01">One example of applying the same regular expression to different </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="0.05">texts comes from a Many Eyes user who utilized a phrase net to </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">examine different books in the Bible (see Fig. 4). The pattern X of </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="-0.0">Y reveals stark differences between the Old and New Testaments. </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">While the Old Testament clearly shows the centrality of Israel</line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">phrases such as Children of Israel, King of Israel, and Land of </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">Israel loom large the New Testament shifts in emphasis to Son of </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">God and Kingdom of God. </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="6">
+    <region x="88.34" y="740.31" width="447.25" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009</line>
+    </region>
+    <region x="15.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1174</line>
+    </region>
+    <region x="37.8" y="511.37" width="498.35" height="18.45" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="9.54" spacing="0.0">Fig 4. Matching the same pattern on different texts. Here we used the pattern X of Y to compare the old and new testaments. Israel takes a </line>
+      <line x_offset="26.22" y_offset="0.0" spacing="0.63">place in the Old Testament, while God acts as the main pattern receiver in the New Testament. </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-8.9">central </line>
+    </region>
+    <region x="22.86" y="43.9" width="498.67" height="224.92" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="14.94" y_offset="216.01" spacing="0.0">Fig 5. Matching different patterns on the same text. Here we analyzed Jane Austen s Pride and Prejudice with X and Y and X at Y </line>
+      <line x_offset="14.94" y_offset="206.47" spacing="0.64">respectively. The left image shows relationships between the main characters amongst others, while the right image shows relationships </line>
+      <line x_offset="14.94" y_offset="196.99" spacing="0.57">between locations. </line>
+      <line x_offset="12.24" y_offset="179.99" spacing="7.03">On the other hand, applying different expressions to the same text </line>
+      <line x_offset="0.0" y_offset="169.98" spacing="0.05">can reveal a series of interrelated conceptual networks. The phrase </line>
+      <line x_offset="0.0" y_offset="159.96" spacing="0.05">nets of Jane Austin s novel Pride and Prejudice in Fig. 5 illustrate </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.0">this. Matching X and Y shows a network of concepts and people. </line>
+      <line x_offset="0.0" y_offset="139.98" spacing="0.05">The main characters appear neatly organized in two clusters: Jane, </line>
+      <line x_offset="0.0" y_offset="129.96" spacing="0.05">Elizabeth, Lydia, Kitty, Catherine and Mr. Bingley form a central </line>
+      <line x_offset="0.0" y_offset="120.0" spacing="0.0">cluster, whereas mother, aunt, and uncle keep some distance. </line>
+      <line x_offset="0.0" y_offset="109.98" spacing="0.05">Positive attributes such as </line>
+      <line x_offset="121.17" y_offset="109.98" spacing="-9.96">sense, disposition, </line>
+      <line x_offset="216.0" y_offset="109.98" spacing="-9.96">humour, </line>
+      <line x_offset="4.0" y_offset="99.97" spacing="0.05">kindness cluster together while less flattering qualities such as </line>
+      <line x_offset="4.0" y_offset="90.0" spacing="0.0">pride, conceit, vanity, folly, and ignorance form a group </line>
+      <line x_offset="0.0" y_offset="79.99" spacing="0.05">of their own. Perhaps most interesting, to those familiar with the </line>
+      <line x_offset="0.0" y_offset="69.97" spacing="0.05">novel, is that Darcy does not appear in the network in a certain </line>
+      <line x_offset="0.0" y_offset="60.01" spacing="0.0">sense he is the most solitary major character. </line>
+      <line x_offset="12.24" y_offset="49.98" spacing="0.07">If we analyze the same text with the pattern X at Y we obtain </line>
+      <line x_offset="0.0" y_offset="39.96" spacing="0.05">an entirely different network that reveals the set of locations </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">inhabited by the characters in the novel and the events that take place </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">at those locations. In a sense, the user can direct exploration towards </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">a particular dimension of the text by intelligently choosing the </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">pattern to match for. </line>
+    </region>
+    <region x="285.3" y="41.86" width="252.53" height="192.0" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="12.24" y_offset="182.04" spacing="0.0">Figure 1 shows the result of another targeted pattern. Here we </line>
+      <line x_offset="0.0" y_offset="172.02" spacing="0.05">have analyzed the whole bible using the pattern X begat Y , a </line>
+      <line x_offset="0.0" y_offset="162.0" spacing="0.05">specific formulation from the King James Bible indicating a parent - </line>
+      <line x_offset="0.0" y_offset="152.04" spacing="0.0">child relationship. The resulting graph illustrates the lengthy </line>
+      <line x_offset="0.0" y_offset="142.02" spacing="0.05">genealogies that are recorded by many different books in the bible. </line>
+      <line x_offset="0.0" y_offset="132.01" spacing="0.05">The network also uncovers a number of defining aspects of these </line>
+      <line x_offset="0.0" y_offset="122.04" spacing="0.0">lineages, such as the importance of Abraham. </line>
+      <line x_offset="0.0" y_offset="103.06" spacing="8.94">4.2 </line>
+      <line x_offset="28.85" y_offset="103.06" spacing="-10.04">Regular expressions and matching </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="3.1">The patterns we have shown so far are of the form X &lt;connector&gt; </line>
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">Y , where the connector is either a separate word or a phrase. </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.05">However, regular expressions also allow us to specify patterns that </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">match for specific pre- and postfixes to X and Y. Previously, the </line>
+      <line x_offset="0.0" y_offset="50.04" spacing="0.0">authors worked with a humanities scholar to analyze a set of 7,000 </line>
+      <line x_offset="0.0" y_offset="40.02" spacing="0.05">British novel titles between 1740 and 1850 </line>
+      <line x_offset="163.26" y_offset="40.01" spacing="-9.96">[15] </line>
+      <line x_offset="190.39" y_offset="40.01" spacing="-9.96">in fact, much of </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">the motivation behind building phrase net comes from this </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">collaboration. This scholar was interested in how the use of simple </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">syntactic constructions such as X of the Y reflected changes in </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">literary style over the centuries. </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="7">
+    <region x="31.5" y="740.31" width="206.06" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">VAN HAM ET AL: MAPPING TEXT WITH PHRASE NETS</line>
+    </region>
+    <region x="535.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1175</line>
+    </region>
+    <region x="312.42" y="325.43" width="238.61" height="48.2" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="172.92" y_offset="42.64" spacing="0.0">thth</line>
+      <line x_offset="0.0" y_offset="37.99" spacing="-4.25">Fig 6. Phrase nets from a collection of titles of 18 and 19 century </line>
+      <line x_offset="0.0" y_offset="28.44" spacing="0.64">novels. The text was analyzed with the X s Y pattern. The top </line>
+      <line x_offset="0.0" y_offset="18.96" spacing="0.57">phrase net shows the top 50 terms. The bottom detail image </line>
+      <line x_offset="0.0" y_offset="9.48" spacing="0.58">shows a close-up view of part of the network of the top 100 terms. </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.57">Both nets give hints on the roles of women. </line>
+    </region>
+    <region x="31.5" y="82.36" width="252.62" height="642.0" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="632.03" spacing="0.0">Indeed, simple patterns can reveal a great deal. For instance, a </line>
+      <line x_offset="0.0" y_offset="622.02" spacing="0.05">pattern such as X s Y might function as a proxy for understanding </line>
+      <line x_offset="0.0" y_offset="612.0" spacing="0.05">power relations. A phrase net of the book titles showing X s Y </line>
+      <line x_offset="0.0" y_offset="602.04" spacing="0.0">highlights possession and power in interesting ways (Fig. 6). The </line>
+      <line x_offset="0.0" y_offset="592.02" spacing="0.05">graph reveals two main focal points: woman and daughter. </line>
+      <line x_offset="0.0" y_offset="582.0" spacing="0.05">Despite the seeming similarities in the connections between these </line>
+      <line x_offset="0.0" y_offset="572.04" spacing="0.0">clusters, the difference in color indicates that they are quite opposite </line>
+      <line x_offset="0.0" y_offset="562.02" spacing="0.05">in their relationship to the rest of the graph. Whereas daughters are </line>
+      <line x_offset="4.0" y_offset="552.01" spacing="0.05">possessed by others </line>
+      <line x_offset="102.43" y_offset="552.01" spacing="-9.96"> king s daughter, farmer s daughter, </line>
+      <line x_offset="0.0" y_offset="542.04" spacing="0.0">soldier s daughter </line>
+      <line x_offset="84.06" y_offset="542.04" spacing="-9.96"> women possess things: woman s story, </line>
+      <line x_offset="0.01" y_offset="532.03" spacing="0.05">woman s life, woman s love. Interestingly, even though daughters are </line>
+      <line x_offset="0.01" y_offset="522.01" spacing="0.05">other people s possession, women do not possess people, instead, </line>
+      <line x_offset="0.01" y_offset="512.05" spacing="0.0">they are related to abstract ideas such as love, revenge, and story. </line>
+      <line x_offset="12.24" y_offset="502.01" spacing="0.07">The graph also reveals another unexpected pair of female clusters </line>
+      <line x_offset="0.0" y_offset="492.0" spacing="0.05">around bride and wife (Fig. 6). While wife is connected to </line>
+      <line x_offset="0.0" y_offset="482.03" spacing="0.0">respectable people e.g. officer, ambassador, banker bride is </line>
+      <line x_offset="205.38" y_offset="472.02" spacing="0.05">, sailor and </line>
+      <line x_offset="0.0" y_offset="472.02" spacing="-9.96">associated with more nefarious figures such as pirate</line>
+      <line x_offset="0.0" y_offset="462.0" spacing="0.05">bandit. Although one could argue that these patterns could have been </line>
+      <line x_offset="0.0" y_offset="452.04" spacing="0.0">found by a simple textual search for ` s` (while conveniently </line>
+      <line x_offset="0.0" y_offset="442.02" spacing="0.05">ignoring the large number of false hits from common contractions </line>
+      <line x_offset="0.0" y_offset="432.0" spacing="0.05">like it s), a phrase net immediately shows all the matches in context. </line>
+      <line x_offset="12.24" y_offset="422.04" spacing="0.01">The powerful matching capabilities of regular expressions can be </line>
+      <line x_offset="0.0" y_offset="412.02" spacing="0.05">useful in many other ways. We can for example try to find verb-noun </line>
+      <line x_offset="0.0" y_offset="402.0" spacing="0.05">patterns by matching for (\w+ing) (\w+), resulting in potential </line>
+      <line x_offset="0.0" y_offset="392.04" spacing="0.0">matches as walking home, funding schools or helping others. As a </line>
+      <line x_offset="0.0" y_offset="382.02" spacing="0.05">final example, the cryptic regular expression \s(([a-z])\w*)\s+(\2\w*) </line>
+      <line x_offset="0.0" y_offset="372.0" spacing="0.05">looks for adjacent non-empty word pairs that start with the same </line>
+      <line x_offset="0.0" y_offset="362.04" spacing="0.0">letter that is, it finds alliterative phrases. Fig. 7 shows this pattern </line>
+      <line x_offset="0.0" y_offset="352.02" spacing="0.05">applied to the poem Leaves of Grass by Walt Whitman, immediately </line>
+      <line x_offset="0.0" y_offset="342.01" spacing="0.05">revealing the authors preference for alliterations starting with the </line>
+      <line x_offset="0.0" y_offset="332.04" spacing="0.0">letter s . </line>
+      <line x_offset="0.0" y_offset="313.06" spacing="8.94">4.3 </line>
+      <line x_offset="28.83" y_offset="313.06" spacing="-10.04">An example of extended analysis </line>
+      <line x_offset="0.0" y_offset="300.0" spacing="3.1">Our last example shows how free-form informal text analysis tools </line>
+      <line x_offset="0.0" y_offset="290.03" spacing="0.0">are used in practice, based on a blog post by historian Jo Guldi. </line>
+      <line x_offset="0.0" y_offset="280.02" spacing="0.05">Guldi wanted to understand how different scientific theories became </line>
+      <line x_offset="0.0" y_offset="270.0" spacing="0.05">either praised or discredited during the eighteenth- and nineteenth </line>
+      <line x_offset="0.0" y_offset="260.04" spacing="0.0">centuries. Using a personalized search engine, a collection of </line>
+      <line x_offset="0.0" y_offset="250.02" spacing="0.05">Wikipedia articles related to the notion of pseudoscience and the </line>
+      <line x_offset="0.0" y_offset="240.0" spacing="0.05">text visualizations offered by Many Eyes, she was able to start </line>
+      <line x_offset="0.0" y_offset="230.04" spacing="0.0">investigating the boundaries of ideas, scientific authority, and </line>
+      <line x_offset="0.0" y_offset="220.02" spacing="0.05">established knowledge. At the same time she duly documents both </line>
+      <line x_offset="0.0" y_offset="210.01" spacing="0.05">process and results on her blog </line>
+      <line x_offset="124.02" y_offset="209.99" spacing="-9.95">[9]. Guldi amassed a database of </line>
+      <line x_offset="0.0" y_offset="200.03" spacing="0.0">Wikipedia articles ranging from Popper s definition of </line>
+      <line x_offset="0.0" y_offset="190.01" spacing="0.05">pseudoscience to clearly discredited theories like phrenology or flat-</line>
+      <line x_offset="0.0" y_offset="180.0" spacing="0.05">earth theory to controversial subjects from the borderlands of </line>
+      <line x_offset="0.0" y_offset="170.03" spacing="0.0">western institutional knowledge (e.g. acupuncture). She fed this </line>
+      <line x_offset="0.0" y_offset="160.02" spacing="0.05">collection of texts to Many Eyes and proceeded to create a series of </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.05">phrase nets and word trees. </line>
+      <line x_offset="12.24" y_offset="140.03" spacing="0.0">Her first question was: who was involved in the debate about </line>
+      <line x_offset="0.0" y_offset="130.02" spacing="0.05">competing scientific ideas? To investigate this, she created a phrase </line>
+      <line x_offset="0.0" y_offset="120.0" spacing="0.05">net using X s Y , which revealed some of the most prominent </line>
+      <line x_offset="0.0" y_offset="110.04" spacing="0.0">names in question. To learn where such discourse fights occurred, </line>
+      <line x_offset="0.0" y_offset="100.02" spacing="0.05">Guldi made a phrase net of X at Y , revealing places such as </line>
+      <line x_offset="0.0" y_offset="90.0" spacing="0.05">Stanford, Oxford, Harvard and Irvine </line>
+      <line x_offset="12.24" y_offset="80.03" spacing="0.01">In addition, she investigated claims about pseudoscience by </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="0.05">creating a word tree </line>
+      <line x_offset="78.66" y_offset="70.01" spacing="-9.96">[20] and searching for phrases such as claims </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="0.05">that , the earth was : realizing that the resulting set is a fairly </line>
+      <line x_offset="0.01" y_offset="50.03" spacing="0.0">good list of discredited early-modern to modern- theories about the </line>
+      <line x_offset="0.01" y_offset="40.02" spacing="0.05">nature of the globe: the theory that the earth is flat, the myth of the </line>
+      <line x_offset="0.01" y_offset="30.0" spacing="0.05">hollow earth, and so on. </line>
+      <line x_offset="12.24" y_offset="20.03" spacing="0.0">After having created about a dozen text visualizations on Many </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">Eyes, Guldi concludes that such tools are important in helping guide </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">the wandering historical eye through endless reams of text: </line>
+    </region>
+    <region x="312.42" y="47.39" width="220.32" height="27.93" line_height="8.91" font="BMMEJN+ArialMT">
+      <line x_offset="0.0" y_offset="19.02" spacing="0.0">Fig 7. Analyzing Walt Whitman s Leaves of Grass for </line>
+      <line x_offset="0.0" y_offset="9.48" spacing="0.64">alliterations, using a more complex regular expression. Notice </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.57">the preference for alliterations starting with s . </line>
+    </region>
+  </page>
+  <page width="567" height="774" number="8">
+    <region x="88.34" y="740.31" width="447.25" height="8.93" line_height="8.93" font="BMMGDA+ArialMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">IEEE TRANSACTIONS ON VISUALIZATION AND COMPUTER GRAPHICS, VOL. 15, NO. 6, NOVEMBER/DECEMBER 2009</line>
+    </region>
+    <region x="15.5" y="740.27" width="16.0" height="8.86" line_height="8.86" font="BMMGBP+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1176</line>
+    </region>
+    <region x="285.3" y="704.39" width="252.5" height="19.98" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">viewpoints, and special tuning of existing geometric techniques are </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">likely to continue in future text visualization work. </line>
+    </region>
+    <region x="285.3" y="638.38" width="252.46" height="54.07" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="7.02" y_offset="44.44" spacing="1.79">CKNOWLEDGMENTS</line>
+      <line x_offset="0.0" y_offset="44.02" spacing="-9.63">A</line>
+      <line x_offset="0.0" y_offset="30.0" spacing="4.06">The authors would like to thank Franco Moretti and Jonathan </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">Feinberg for insightful discussions and inspiration, as well as other </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.0">members of our research group and the anonymous reviewers for </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">their useful comments on an earlier version of this paper. </line>
+    </region>
+    <region x="22.86" y="614.6" width="252.21" height="98.83" line_height="8.83" font="BMMFPM+TimesNewRomanPS-ItalicMT">
+      <line x_offset="21.6" y_offset="90.0" spacing="0.0">I spend a lot of my time reading endless pamphlet and newspaper </line>
+      <line x_offset="0.0" y_offset="79.98" spacing="1.19">wars, trying to figure out who the sides are in the railway debates and what </line>
+      <line x_offset="0.0" y_offset="70.02" spacing="1.13">they care about. While I don't think that I'll ever be freed from reading, </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="1.19">algorithms like these promise to give me some of the keywords that can offer </line>
+      <line x_offset="0.0" y_offset="49.97" spacing="1.19">me a short cut direct to some of the major controversies in question. The </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="1.13">paragraphs on railroads that accuses others of interest reference which </line>
+      <line x_offset="0.0" y_offset="29.99" spacing="1.19">place-names, for instance? [ ] </line>
+      <line x_offset="21.6" y_offset="19.98" spacing="1.17">A machine that can predict who the controversialists were and where </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="1.13">the places they argued about were located would save the historical </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="1.19">researcher untold time. </line>
+    </region>
+    <region x="22.86" y="534.4" width="252.48" height="69.96" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="0.0" y_offset="59.99" spacing="0.0">Although we cannot draw any definitive conclusions from this single </line>
+      <line x_offset="0.0" y_offset="49.98" spacing="0.05">case, it illustrates some of the needs of and challenges confronting </line>
+      <line x_offset="0.0" y_offset="39.96" spacing="0.05">modern day humanities scholars. Although many of their databases </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">are in digital form, they do not have the tools to quickly explore this </line>
+      <line x_offset="0.0" y_offset="19.98" spacing="0.05">data at a higher level of abstraction. Any tool that can create a </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="0.05">projection of the text that highlights one particular aspect can be an </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">invaluable asset. </line>
+    </region>
+    <region x="285.3" y="72.62" width="252.22" height="553.83" line_height="8.83" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="7.14" y_offset="544.2" spacing="1.79">EFERENCES</line>
+      <line x_offset="0.0" y_offset="543.78" spacing="-9.63">R</line>
+      <line x_offset="0.0" y_offset="529.98" spacing="4.97">[1] P. Cho, News Story Maps, http://typotopo.com/projects.php?id </line>
+      <line x_offset="18.0" y_offset="519.95" spacing="1.19">=mappingnews, retrieved March 28, 2009. </line>
+      <line x_offset="0.0" y_offset="510.0" spacing="1.12">[2] J. Clark, Neoformix Blog, http://neoformix.com/, retrieved March 28, </line>
+      <line x_offset="18.0" y_offset="499.98" spacing="1.19">2009. </line>
+      <line x_offset="0.0" y_offset="489.96" spacing="1.18">[3] C. Collins, DocuBurst: Document Content Visualization Using </line>
+      <line x_offset="18.0" y_offset="480.0" spacing="1.13">Language Structure. In Proceedings of IEEE Symposium on Information </line>
+      <line x_offset="18.0" y_offset="469.98" spacing="1.19">Visualization, Poster Compendium, IEEE CS Press, 2006. </line>
+      <line x_offset="0.0" y_offset="459.96" spacing="1.18">[4] P. DeCamp et al., Gist Icons: Seeing Meaning in Large Bodies of </line>
+      <line x_offset="18.0" y_offset="450.0" spacing="1.13">Literature. Proceedings of IEEE Symposium on Information </line>
+      <line x_offset="18.0" y_offset="439.98" spacing="1.19">Visualization, Poster Compendium, IEEE CS Press, 2005. </line>
+      <line x_offset="0.0" y_offset="429.96" spacing="1.18">[5] W.B. Paley, TextArc: Showing Word Frequency and Distribution in </line>
+      <line x_offset="18.0" y_offset="420.0" spacing="1.13">Text. In Proceedings of IEEE Symposium on Information Visualization, </line>
+      <line x_offset="18.0" y_offset="409.98" spacing="1.19">Poster Compendium, IEEE CS Press, 2002. </line>
+      <line x_offset="0.0" y_offset="399.96" spacing="1.18">[6] J. Feinberg, Wordle, http://www.wordle.net/, retrieved March 28, 2009. </line>
+      <line x_offset="0.0" y_offset="390.0" spacing="1.13">[7] C. Fellbaum (eds), WordNet : An Electronic Lexical Database, The </line>
+      <line x_offset="18.0" y_offset="379.98" spacing="1.19">MIT Press, 1998. </line>
+      <line x_offset="0.0" y_offset="369.96" spacing="1.18">[8] E. Gansner, Y. Koren and S. North, Graph Drawing by Stress </line>
+      <line x_offset="18.0" y_offset="360.0" spacing="1.13">Majorization, Proc. 12th Int.Symp. Graph Drawing (GD 04), LNCS </line>
+      <line x_offset="18.0" y_offset="349.98" spacing="1.19">3383, pages 239 250, 2004. </line>
+      <line x_offset="0.0" y_offset="339.96" spacing="1.18">[9] J. Guldi, Inscape Blog, http://landscape.blogspot.com/, retrieved March </line>
+      <line x_offset="17.99" y_offset="330.0" spacing="1.13">28, 2009. </line>
+      <line x_offset="0.0" y_offset="319.98" spacing="1.19">[10] S. Havre et al., ThemeRiver: visualizing thematic changes in large </line>
+      <line x_offset="18.0" y_offset="309.96" spacing="1.19">document collections, IEEE Transactions on Visualization and </line>
+      <line x_offset="18.0" y_offset="300.0" spacing="1.13">Computer Graphics, Vol. 8, No. 1, pp 9 20</line>
+      <line x_offset="161.58" y_offset="299.78" spacing="-9.74">, 2002. </line>
+      <line x_offset="0.0" y_offset="289.98" spacing="0.97">[11] M. Hearst, Automatic Acquisition of Hyponyms from Large Text </line>
+      <line x_offset="18.01" y_offset="279.96" spacing="1.19">Corpora. Proc. of the Fourteenth International Conference on </line>
+      <line x_offset="18.01" y_offset="270.0" spacing="1.13">Computational Linguistics, 1992. </line>
+      <line x_offset="0.0" y_offset="259.98" spacing="1.18">[12] X. Huang and W. Lai, Force-Transfer: A New Approach to Removing </line>
+      <line x_offset="18.01" y_offset="249.96" spacing="1.19">Overlapping Nodes, in Graph Layout, in 25th Australian Computer </line>
+      <line x_offset="18.01" y_offset="240.0" spacing="1.13">Science Conference , pp 249-358, 2003. </line>
+      <line x_offset="0.0" y_offset="229.98" spacing="1.18">[13] D. Klein and C.D. Manning. Fast Exact Inference with a Factored </line>
+      <line x_offset="18.01" y_offset="219.96" spacing="1.19">Model for Natural Language Parsing. In Advances in Neural </line>
+      <line x_offset="18.01" y_offset="210.0" spacing="1.13">Information Processing Systems 15 (NIPS 2002), pp. 3-10, 2003. </line>
+      <line x_offset="0.0" y_offset="199.98" spacing="1.18">[14] L. Leydesdorff, The university-industry knowledge relationship: </line>
+      <line x_offset="18.01" y_offset="189.96" spacing="1.19">Analyzing patents and the science base of technologies, Journal of the </line>
+      <line x_offset="18.01" y_offset="180.0" spacing="1.13">American Society for Information Science and Technology, Vol. 55 No. </line>
+      <line x_offset="18.01" y_offset="169.98" spacing="1.19">11, pp 991 1001, 2004. </line>
+      <line x_offset="0.01" y_offset="159.96" spacing="1.18">[15] F. Moretti, Graphs, Maps, Trees: Abstract Models for a Literary </line>
+      <line x_offset="18.01" y_offset="150.0" spacing="1.13">History, Verso Publishing, 2005. </line>
+      <line x_offset="0.01" y_offset="139.98" spacing="1.19">[16] OpenCalais, http://www.opencalais.com/, retrieved March 28, 2009. </line>
+      <line x_offset="0.01" y_offset="129.96" spacing="1.19">[17] P. Sarkar et al., A Latent Space Approach to Dynamic Embedding of </line>
+      <line x_offset="18.01" y_offset="120.0" spacing="1.13">Co-occurrence Data, Proceedings of the Eleventh International </line>
+      <line x_offset="18.01" y_offset="109.98" spacing="1.19">Conference on Artificial Intelligence and Statistics AISTATS-07, 2007. </line>
+      <line x_offset="0.01" y_offset="99.96" spacing="1.18">[18] S.C. Shapiro, A net structure for semantic information storage, </line>
+      <line x_offset="18.01" y_offset="90.0" spacing="1.13">deduction and retrieval, Proc. IJCAI-71, pp 512-523, 1971. </line>
+      <line x_offset="0.01" y_offset="79.98" spacing="1.19">[19] F.B. Vi&#xE9;gas, M. Wattenberg, F. van Ham, J. Kriss and M. McKeon, </line>
+      <line x_offset="18.01" y_offset="69.96" spacing="1.19">Many Eyes: A Site for Visualization at Internet Scale, IEEE </line>
+      <line x_offset="18.01" y_offset="60.0" spacing="1.13">Transactions on Visualization and Computer Graphics, Vol. 13, No. 6, </line>
+      <line x_offset="18.01" y_offset="49.98" spacing="1.19">pp 1121 1128, 2007. </line>
+      <line x_offset="0.01" y_offset="39.96" spacing="1.18">[20]</line>
+      <line x_offset="18.0" y_offset="39.96" spacing="-8.83">M. Wattenberg and F.B. Vi&#xE9;gas, The Word Tree, an Interactive Visual </line>
+      <line x_offset="18.0" y_offset="30.0" spacing="1.13">Concordance</line>
+      <line x_offset="60.18" y_offset="30.0" spacing="-8.83">, IEEE Transactions on Visualization and Computer </line>
+      <line x_offset="18.0" y_offset="19.97" spacing="1.19">Graphics, Vol. 14, No. 6. pp 1221-1228, 2008. </line>
+      <line x_offset="0.0" y_offset="9.96" spacing="1.18">[21] J.J. van Wijk. The Value of Visualization. In Proceedings of the IEEE </line>
+      <line x_offset="18.0" y_offset="0.0" spacing="1.13">Conference on Visualization 2005, pp. 79-86, 2005. </line>
+    </region>
+    <region x="22.86" y="44.27" width="252.57" height="478.2" line_height="9.96" font="BMMEKO+TimesNewRomanPSMT">
+      <line x_offset="21.36" y_offset="468.57" spacing="1.79">ONCLUSI ON</line>
+      <line x_offset="0.0" y_offset="468.15" spacing="-9.63">5 C</line>
+      <line x_offset="12.24" y_offset="454.13" spacing="4.06">We have introduced the phrase net, a new technique for mapping </line>
+      <line x_offset="0.0" y_offset="444.11" spacing="0.05">unstructured text. The phrase net technique consists of two steps. </line>
+      <line x_offset="0.0" y_offset="434.09" spacing="0.05">First is a pattern matching phase, in which linkages are defined </line>
+      <line x_offset="0.0" y_offset="424.13" spacing="0.0">between words based on user-defined templates. The second phase </line>
+      <line x_offset="0.0" y_offset="414.11" spacing="0.05">involves laying out and rendering the graph. The layout phase </line>
+      <line x_offset="0.0" y_offset="404.1" spacing="0.05">includes a new, general clustering procedure that reduces the </line>
+      <line x_offset="0.0" y_offset="394.13" spacing="0.0">complexity of the graph while retaining its information content. </line>
+      <line x_offset="0.0" y_offset="384.12" spacing="0.05">Finally, we provided examples of spontaneous usage on the public </line>
+      <line x_offset="0.0" y_offset="374.1" spacing="0.05">Many Eyes site, along with some of our own scenarios, in which the </line>
+      <line x_offset="0.0" y_offset="364.14" spacing="0.0">phrase net provides a lens onto interesting aspects of a text. </line>
+      <line x_offset="12.24" y_offset="353.93" spacing="0.24">There are several natural avenues for future work. First, one </line>
+      <line x_offset="0.0" y_offset="343.61" spacing="0.36">might plug many other possible matching template methods into the </line>
+      <line x_offset="0.0" y_offset="333.23" spacing="0.41">basic phrase net technique. One might also allow the user to filter </line>
+      <line x_offset="0.0" y_offset="322.91" spacing="0.36">words in ways other than by simple word frequency, combining </line>
+      <line x_offset="0.0" y_offset="312.58" spacing="0.36">semantic and syntactic information. It is easy to imagine scenarios </line>
+      <line x_offset="0.0" y_offset="302.21" spacing="0.41">where a user might want a net consisting only of people, or only of </line>
+      <line x_offset="0.0" y_offset="291.88" spacing="0.36">nouns that are related to emotions. Similarly, one might match only </line>
+      <line x_offset="0.0" y_offset="281.56" spacing="0.36">patterns that occurred in particular sentences, such as those spoken </line>
+      <line x_offset="0.0" y_offset="271.18" spacing="0.41">by a particular character in a novel. It might also be possible to plug </line>
+      <line x_offset="195.54" y_offset="260.87" spacing="0.35">[16] to identify </line>
+      <line x_offset="0.0" y_offset="260.86" spacing="-9.96">in semantic classification services such as openCalais </line>
+      <line x_offset="0.0" y_offset="250.49" spacing="0.41">central actors in our document. Finally, applying phrase nets to </line>
+      <line x_offset="0.0" y_offset="240.17" spacing="0.36">languages other than English may lead to new challenges. </line>
+      <line x_offset="12.24" y_offset="230.03" spacing="0.18">Many additional possibilities for interaction remain. One might </line>
+      <line x_offset="0.0" y_offset="220.01" spacing="0.05">combine the phrase net with other visualization techniques. Often </line>
+      <line x_offset="0.0" y_offset="209.99" spacing="0.05">users wish to drill down into a text, and one could imagine selecting </line>
+      <line x_offset="0.0" y_offset="200.03" spacing="0.0">a given edge of the graph to bring up a word tree showing all the </line>
+      <line x_offset="0.0" y_offset="190.01" spacing="0.05">following or preceding passages to the template match. A last, </line>
+      <line x_offset="0.0" y_offset="180.0" spacing="0.05">promising area for future research would be to allow users to easily </line>
+      <line x_offset="0.0" y_offset="170.03" spacing="0.0">compare different texts using a phrase net. For example, one might </line>
+      <line x_offset="0.0" y_offset="160.02" spacing="0.05">ask if different novelistic genres have distinctive networks, either in </line>
+      <line x_offset="0.0" y_offset="150.0" spacing="0.05">word usage or overall topology. Or one might wish to see how </line>
+      <line x_offset="0.0" y_offset="140.04" spacing="0.0">document collections change over time, e.g., comparing phrase nets </line>
+      <line x_offset="0.0" y_offset="130.02" spacing="0.05">of news stories from day to day. </line>
+      <line x_offset="12.24" y_offset="119.99" spacing="0.07">In addition to the contribution of the technique itself, we believe </line>
+      <line x_offset="0.0" y_offset="110.02" spacing="0.0">the design of the tool itself provides useful principles for text </line>
+      <line x_offset="0.0" y_offset="100.01" spacing="0.05">visualizations. One is the notion of multiple viewpoints. A novel is </line>
+      <line x_offset="0.0" y_offset="89.99" spacing="0.05">much like a high-dimensional numeric data set: there is unlikely to </line>
+      <line x_offset="0.0" y_offset="80.03" spacing="0.0">be a single perfect view. Instead, as with high-dimensional data, the </line>
+      <line x_offset="0.0" y_offset="70.01" spacing="0.05">best way to visualize it may be to use multiple views. Instead of </line>
+      <line x_offset="0.0" y_offset="59.99" spacing="0.05">choosing different projections one may want to choose different </line>
+      <line x_offset="0.0" y_offset="50.03" spacing="0.0">types of relationships in the text to highlight. The phrase net provides </line>
+      <line x_offset="0.0" y_offset="40.01" spacing="0.05">this control by allowing the user to specify the matching templates. </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="0.05">A second theme in the design of the phrase net is the careful tuning </line>
+      <line x_offset="0.0" y_offset="20.03" spacing="0.0">of the display to allow for legibility of the text: In addition to careful </line>
+      <line x_offset="0.0" y_offset="10.02" spacing="0.05">typographic choices, we have modified the graph layout method to </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="0.05">maximize readability. We believe both these themes multiple </line>
+    </region>
+  </page>
+</pdf>

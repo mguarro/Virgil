@@ -7,7 +7,7 @@ def extract_doi(filepath):
     return doi
 
 def search_doi(doi):
-    return query_citations_by_DOI(dbloc,doi)
+    return query_citations_by_DOI(doi)
 
 def search_doi_by_title(title):
     return dbb.get_DOI_from_title(title)
