@@ -2,6 +2,8 @@
 import re
 import nltk
 from collections import Counter
+import rake
+import operator
 from rake import Rake
 from os import path
 
@@ -27,6 +29,8 @@ def smartWords(self):
     stop2 = open(path.join('static', 'SmartStoplist.txt'), "r")
     #dic = open(path.join('static', 'VirgilStoplist.txt'), "r")
     words = re.findall(r'\w+', open(self).read().lower())
+    #length = len(words)
+    print len(words)
     ref1 = re.findall(r'\w+', stop1.read().lower())
     #ref2 = re.findall(r'\w+', dic.read().lower())
     ref3 = re.findall(r'\w+', stop2.read().lower())
@@ -42,14 +46,25 @@ def smartWords(self):
     #for word in wordList
 
         #smartWordList =
-    #return Counter(wordList).most_common()[:-60+100:-1] 
+    #return Counter(wordList).most_common()[:-60+100:-1]
+    #word_scores = rake.calculate_word_scores(stopwordsfree_words)
+
+    #keyword_candidates = rake.generate_candidate_keyword_scores(stopwordsfree_words, word_scores)
+
+    #sorted_keywords = sorted(keyword_candidates.iteritems(), key=operator.itemgetter(1), reverse=True)
+    #return sorted_keywords 
     return Counter(stopwordsfree_words).most_common(15) 
+    #return Counter(sorted_keywords).most_common(15) 
 
 
 def getRakeKeywords(doc):
-    r = Rake(path.join('static', 'SmartStoplist.txt'))
+    #r = Rake(path.join('static', 'SmartStoplist.txt'))
+    r = Rake(path.join('static', 'VirgilStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
-    return candidates[:10]
+
+    #stopwordsfree_words = [word for word in candidates if len(word) >= 5 and len(word) <= 10]
+    #return stopwordsfree_words[:1000]
+    return candidates[:300]
 
 #Tested as follows:
 #keyExtract.getRakeKeywords('../convertor/converted-text/00528686.txt')

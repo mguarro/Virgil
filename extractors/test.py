@@ -5,12 +5,34 @@ from pprint import pprint
 
 #import RAKE
 
-#test = "05629128.txt"
-test = "merkel.txt"
+test = "05629128.txt"
+#test = "merkel.txt"
 print keyExtract.keyWords(test)
 #print keyExtract.smartWords(test)
 pprint(keyExtract.smartWords(test))
-pprint(keyExtract.getRakeKeywords(test))
+#pprint(keyExtract.getRakeKeywords(test))
+rakeList = keyExtract.getRakeKeywords(test)
+
+normSum = 0
+
+for i in rakeList:
+    normSum = normSum + i[1]
+
+newList = []
+
+for i in rakeList:
+    newList.append((i[0],i[1] / normSum))
+    #print i[1]
+
+nSum = 0
+
+for i in newList:
+    nSum = nSum + i[1]
+
+print nSum
+
+
+#print rakeList[1][1]
 
 import os, sys, inspect
 # realpath() will make your script run, even if you symlink it :)
