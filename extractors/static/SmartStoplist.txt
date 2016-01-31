@@ -146,6 +146,7 @@ everywhere
 ex
 exactly
 example
+examples
 except
 f
 far
@@ -552,6 +553,8 @@ within
 without
 won't
 wonder
+word
+words
 would
 would
 wouldn't

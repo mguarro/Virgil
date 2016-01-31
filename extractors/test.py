@@ -1,10 +1,16 @@
 import sys
 import os.path
 import keyExtract
+from pprint import pprint
 
-test = "05629128.txt"
-keyExtract.keyWords(test)
-keyExtract.smartWords(test)
+#import RAKE
+
+#test = "05629128.txt"
+test = "merkel.txt"
+print keyExtract.keyWords(test)
+#print keyExtract.smartWords(test)
+pprint(keyExtract.smartWords(test))
+pprint(keyExtract.getRakeKeywords(test))
 
 import os, sys, inspect
 # realpath() will make your script run, even if you symlink it :)

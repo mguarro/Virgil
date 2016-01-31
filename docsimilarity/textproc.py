@@ -106,7 +106,7 @@ dist = 1 - cosine_similarity(tfidf_matrix)
 from sklearn.cluster import KMeans
 num_clusters = 3
 km = KMeans(n_clusters=num_clusters)
-%time km.fit(tfidf_matrix)
+km.fit(tfidf_matrix)
 clusters = km.labels_.tolist()
 
 from sklearn.externals import joblib
