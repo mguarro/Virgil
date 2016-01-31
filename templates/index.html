@@ -1,8 +1,8 @@
 <head>
 <style>
-div {
-    width: 100px;
-    height: 100px;
+.centered-div {
+    width: 60%;
+    height: 60%;
     background-color: black;
 
     position: absolute;
@@ -17,8 +17,16 @@ div {
 <link href="/static/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body style="color:white;background-color:black;">
-<div>
-    <label class="control-label">Select PDF</label>
-    <input id="input-1" type="file" data-allowed-file-extensions='["pdf"]' class="file">
+<div class="centered-div">
+    <form method="POST" enctype='multipart/form-data'>
+        <label class="control-label">Upload PDF</label>
+        <input name="pdf_file" id="pdf_file" type="file" data-allowed-file-extensions='["pdf"]' class="file">
+        OR
+        <div class="form-group">
+            <label for="inputlg">Enter title/author</label>
+            <input class="form-control input-lg" id="inputlg" type="text">
+        </div>        
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
 </div>
 </body>
