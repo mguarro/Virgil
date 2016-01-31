@@ -1,4 +1,6 @@
-# This is the module for extracting keywords and 'smartword'
+# This is the module for extracting keywords and 'smartwords'
+# Written for Virgil by Marcello Guarro
+
 import re
 import nltk
 from collections import Counter

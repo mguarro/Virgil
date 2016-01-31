@@ -1,19 +1,19 @@
+# This is a test script to check for keyword extraction and distance computation 
+# of two keyword vectors. The script uses two texts as input, extracts their keywords 
+# as vectors, normalizes the vectors, calculates the 'distance' between the two vectors,
+# and prints the resultant vector.
+# 
+# Written for Virgil by Marcello Guarro
+
 import sys
 import os.path
 import distance.keyExtract as keyExt
 import distance.distance as dist
 from pprint import pprint
 
-#import RAKE
-
-#test = "05629128.txt"
 test1 = "merkel.txt"
 test2 = "merkel2.txt"
 
-#print keyExtract.keyWords(test)
-#print keyExtract.smartWords(test)
-#pprint(keyExtract.smartWords(test))
-#pprint(keyExtract.getRakeKeywords(test))
 rakeList1 = keyExt.getRakeKeywords(test1)
 rakeList2 = keyExt.getRakeKeywords(test2)
 
