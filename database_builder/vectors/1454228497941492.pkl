@@ -1,0 +1,1202 @@
+(lp0
+(S'hearing        feeling                  context        light        scene        sound        temperature                  sensor        light sensor        image sensor        sound sensor        temperature sensor'
+p1
+F106.79578754578753
+tp2
+a(S'proposed context-aware        language learning assistant system called jamiolas [5-7]'
+p3
+F43.340242763772174
+tp4
+a(S'proposed        context-aware language learning assistant systems'
+p5
+F26.618814192343603
+tp6
+a(S'improved context-aware        learning system named jamiolas 3'
+p7
+F21.018814192343605
+tp8
+a(S'investigating computer supported        ubiquitous learning [4]'
+p9
+F17.319607843137256
+tp10
+a(S'sensor mapping platform based'
+p11
+F16.766666666666666
+tp12
+a(S'mobile        scaffolding-aid-based bird-watching learning system'
+p13
+F16.636274509803922
+tp14
+a(S'sensor network                  bin hou'
+p15
+F15.516666666666666
+tp16
+a(S'computer        supported ubiquitous learning environment'
+p17
+F14.319607843137254
+tp18
+a(S'improved system named jamiolas 3'
+p19
+F14.221428571428572
+tp20
+a(S'6th ieee international conference'
+p21
+F13.333333333333334
+tp22
+a(S'computer-       supported ubiquitous learning'
+p23
+F13.119607843137254
+tp24
+a(S'wearable sensors        called phidgets'
+p25
+F13.093939393939394
+tp26
+a(S'real-time on-line weather service'
+p27
+F12.666666666666666
+tp28
+a(S'yochi        yochi        sound'
+p29
+F12.333333333333332
+tp30
+a(S'computer supported ubiquitous learning'
+p31
+F12.319607843137254
+tp32
+a(S'global weather sensor data'
+p33
+F12.230952380952381
+tp34
+a(S'onomatopoeia        learning        assistant        system'
+p35
+F11.836274509803921
+tp36
+a(S'onomatopoeia learning        assistant system'
+p37
+F11.836274509803921
+tp38
+a(S'nuku nuku        scene'
+p39
+F11.5
+tp40
+a(S'questionnaire                 question        avg sd       1'
+p41
+F11.363636363636363
+tp42
+a(S'light'
+p43
+F11.0
+tp44
+a(S'group                 pre-test                 post-test                 mid-test                 figure 3'
+p45
+F10.941666666666666
+tp46
+a(S'global sensor network'
+p47
+F10.766666666666666
+tp48
+a(S'temperature sensors [14'
+p49
+F10.477272727272727
+tp50
+a(S'wireless sensor networks'
+p51
+F10.266666666666666
+tp52
+a(S'sensor including accelerometer'
+p53
+F10.266666666666666
+tp54
+a(S'sensor                 body sense'
+p55
+F10.266666666666666
+tp56
+a(S'mobile        sensor networks'
+p57
+F10.066666666666666
+tp58
+a(S'wireless sensor network'
+p59
+F10.016666666666666
+tp60
+a(S'image/sound        sensor data'
+p61
+F9.980952380952381
+tp62
+a(S'context-aware        computing makes'
+p63
+F9.968253968253968
+tp64
+a(S'ntroductioni       context-aware computing [1]'
+p65
+F9.968253968253968
+tp66
+a(S'experimentation       mio                 dictionary       jamiolas 3'
+p67
+F9.668791654592871
+tp68
+a(S'support japanese        mio learning'
+p69
+F9.40548633246402
+tp70
+a(S'acquire sensor        \xe2\x80\xa2        data'
+p71
+F9.314285714285713
+tp72
+a(S'learning foreign language'
+p73
+F9.257703081232492
+tp74
+a(S'chi cheng chu'
+p75
+F9.0
+tp76
+a(S'integrated high mobility'
+p77
+F9.0
+tp78
+a(S'small        sample size'
+p79
+F9.0
+tp80
+a(S'cellular phone        networks'
+p81
+F9.0
+tp82
+a(S'support learning mio        \xe2\x80\xa2       related'
+p83
+F8.923343475321161
+tp84
+a(S'temperature'
+p85
+F8.75
+tp86
+a(S'typical learning flow'
+p87
+F8.686274509803921
+tp88
+a(S'high standard deviations'
+p89
+F8.666666666666666
+tp90
+a(S'wear phidgets        connected'
+p91
+F8.666666666666666
+tp92
+a(S'context-aware computing        applications'
+p93
+F8.634920634920634
+tp94
+a(S'questionnaire        table iii shows'
+p95
+F8.624242424242425
+tp96
+a(S'context-aware learning        system'
+p97
+F8.447385620915032
+tp98
+a(S'tyun tyun                  figure 4'
+p99
+F8.4
+tp100
+a(S'offical google blog'
+p101
+F8.333333333333334
+tp102
+a(S'average score increases'
+p103
+F8.25
+tp104
+a(S'lowest standard deviation'
+p105
+F8.166666666666666
+tp106
+a(S'mobile computing        systems'
+p107
+F8.157142857142857
+tp108
+a(S'mobile computing systems'
+p109
+F8.157142857142857
+tp110
+a(S'ubiquitous monitoring        environment'
+p111
+F8.1
+tp112
+a(S'supporting learning        flow'
+p113
+F8.019607843137255
+tp114
+a(S'wireless telecommunications symposium'
+p115
+F8.0
+tp116
+a(S'bear statistical analysis'
+p117
+F8.0
+tp118
+a(S'sensory learning mode'
+p119
+F7.9719887955182065
+tp120
+a(S'average increased score'
+p121
+F7.916666666666666
+tp122
+a(S'total increased score'
+p123
+F7.916666666666666
+tp124
+a(S'embedded computing        environments [3'
+p125
+F7.857142857142858
+tp126
+a(S'web-based japanese        mimicry'
+p127
+F7.801587301587302
+tp128
+a(S'web-based japanese mimicry'
+p129
+F7.801587301587302
+tp130
+a(S'free mode likes'
+p131
+F7.785714285714286
+tp132
+a(S'highest        average score'
+p133
+F7.75
+tp134
+a(S'body sense context'
+p135
+F7.738095238095238
+tp136
+a(S'detecting context automatically'
+p137
+F7.738095238095238
+tp138
+a(S'on-line weather provider'
+p139
+F7.666666666666666
+tp140
+a(S'system provided benefit'
+p141
+F7.65
+tp142
+a(S'sensor network'
+p143
+F7.516666666666667
+tp144
+a(S'sensor        network'
+p145
+F7.516666666666667
+tp146
+a(S'yoneo yano        dept'
+p147
+F7.5
+tp148
+a(S'general scene'
+p149
+F7.5
+tp150
+a(S'implementation        figure 1 shows'
+p151
+F7.490909090909091
+tp152
+a(S'learning japanese mimicry'
+p153
+F7.487861811391223
+tp154
+a(S'effectively explain mio related'
+p155
+F7.487068965517241
+tp156
+a(S'difficulties users encountered'
+p157
+F7.222222222222222
+tp158
+a(S'supporting        japanese mimicry'
+p159
+F7.134920634920635
+tp160
+a(S'support learning mio'
+p161
+F7.048343475321162
+tp162
+a(S'sensor data'
+p163
+F6.980952380952381
+tp164
+a(S'sensor        data'
+p165
+F6.980952380952381
+tp166
+a(S'wearable sensor'
+p167
+F6.966666666666667
+tp168
+a(S'learn japanese mimetic'
+p169
+F6.940476190476191
+tp170
+a(S'onomatopoeia shows sounds'
+p171
+F6.840909090909091
+tp172
+a(S'context-aware learning'
+p173
+F6.797385620915032
+tp174
+a(S'on-line weather information'
+p175
+F6.777777777777777
+tp176
+a(S'context-aware support'
+p177
+F6.611111111111111
+tp178
+a(S'attended        good results'
+p179
+F6.363636363636363
+tp180
+a(S'sound'
+p181
+F6.333333333333333
+tp182
+a(S'language learning'
+p183
+F6.257703081232493
+tp184
+a(S'experiment                  figure 4 shows'
+p185
+F6.240909090909091
+tp186
+a(S'android        operating system [13]'
+p187
+F6.15
+tp188
+a(S'0                 context        mio        weather'
+p189
+F6.100164203612479
+tp190
+a(S'embedded mobile sensors'
+p191
+F6.027272727272727
+tp192
+a(S'initial evaluation        experiment'
+p193
+F6.0
+tp194
+a(S'ubiquitous computing'
+p195
+F5.957142857142857
+tp196
+a(S'ubiquitous learning'
+p197
+F5.786274509803921
+tp198
+a(S'language                  keywords-mimicry'
+p199
+F5.571428571428571
+tp200
+a(S'scene'
+p201
+F5.5
+tp202
+a(S'international symposium'
+p203
+F5.5
+tp204
+a(S'support learning'
+p205
+F5.186274509803921
+tp206
+a(S'standard deviation'
+p207
+F5.166666666666666
+tp208
+a(S'learn language'
+p209
+F5.154761904761905
+tp210
+a(S'jamiolas        jamiolas 1'
+p211
+F5.142857142857143
+tp212
+a(S'learning mimicry'
+p213
+F5.1307189542483655
+tp214
+a(S'ubiquitous        environment'
+p215
+F5.1
+tp216
+a(S'ubiquitous technologies'
+p217
+F5.1
+tp218
+a(S'ubiquitous vr'
+p219
+F5.1
+tp220
+a(S'intelligent systems'
+p221
+F5.0
+tp222
+a(S'learning        context'
+p223
+F4.92436974789916
+tp224
+a(S'increased score'
+p225
+F4.916666666666666
+tp226
+a(S'japanese        mimicry'
+p227
+F4.801587301587302
+tp228
+a(S'free mode'
+p229
+F4.785714285714286
+tp230
+a(S'on-line information'
+p231
+F4.777777777777778
+tp232
+a(S'sensor'
+p233
+F4.766666666666667
+tp234
+a(S'hearing'
+p235
+F4.75
+tp236
+a(S'context        automatically'
+p237
+F4.738095238095238
+tp238
+a(S'5       traditional learning'
+p239
+F4.686274509803921
+tp240
+a(S'learning model'
+p241
+F4.686274509803921
+tp242
+a(S'learning experience'
+p243
+F4.686274509803921
+tp244
+a(S'learning efficacy'
+p245
+F4.686274509803921
+tp246
+a(S'learning stuff'
+p247
+F4.686274509803921
+tp248
+a(S'traditional learning'
+p249
+F4.686274509803921
+tp250
+a(S'enhances learning'
+p251
+F4.686274509803921
+tp252
+a(S'put pre-test'
+p253
+F4.666666666666666
+tp254
+a(S'on-line multimedia'
+p255
+F4.666666666666666
+tp256
+a(S'learning mio'
+p257
+F4.548343475321163
+tp258
+a(S'table iii'
+p259
+F4.533333333333333
+tp260
+a(S'body        movements'
+p261
+F4.5
+tp262
+a(S'senses including'
+p263
+F4.5
+tp264
+a(S'figure 2 shows'
+p265
+F4.49090909090909
+tp266
+a(S'figure 3 shows'
+p267
+F4.49090909090909
+tp268
+a(S'acquire information'
+p269
+F4.444444444444445
+tp270
+a(S'onomatopoeia learning'
+p271
+F4.436274509803921
+tp272
+a(S'japanese syllabify'
+p273
+F4.357142857142858
+tp274
+a(S'[14] google projects'
+p275
+F4.333333333333334
+tp276
+a(S'2010 ieee       doi 10'
+p277
+F4.333333333333334
+tp278
+a(S'google projects'
+p279
+F4.333333333333334
+tp280
+a(S'on-line system'
+p281
+F4.316666666666666
+tp282
+a(S'intuitive feeling'
+p283
+F4.3076923076923075
+tp284
+a(S'fix mode'
+p285
+F4.285714285714286
+tp286
+a(S'tour        mode'
+p287
+F4.285714285714286
+tp288
+a(S'lower score'
+p289
+F4.25
+tp290
+a(S'initial experiment'
+p291
+F4.25
+tp292
+a(S'weather context'
+p293
+F4.238095238095238
+tp294
+a(S'context includes'
+p295
+F4.238095238095238
+tp296
+a(S'japanese mio'
+p297
+F4.219211822660099
+tp298
+a(S'mid-test data'
+p299
+F4.214285714285714
+tp300
+a(S'weather data'
+p301
+F4.214285714285714
+tp302
+a(S'experimental data'
+p303
+F4.214285714285714
+tp304
+a(S'feeling related'
+p305
+F4.1826923076923075
+tp306
+a(S'weather        information'
+p307
+F4.111111111111111
+tp308
+a(S'limited information'
+p309
+F4.111111111111111
+tp310
+a(S'weather information'
+p311
+F4.111111111111111
+tp312
+a(S'information science'
+p313
+F4.111111111111111
+tp314
+a(S'learner        learning'
+p315
+F4.102941176470588
+tp316
+a(S'questionnaire shows'
+p317
+F4.090909090909091
+tp318
+a(S'6 japanese learners'
+p319
+F4.071428571428571
+tp320
+a(S'learn mimicry'
+p321
+F4.027777777777778
+tp322
+a(S'human-computer interaction'
+p323
+F4.0
+tp324
+a(S'physical interfaces'
+p325
+F4.0
+tp326
+a(S'integrative technologies'
+p327
+F4.0
+tp328
+a(S'jp                  abstract-'
+p329
+F4.0
+tp330
+a(S'physical widgets'
+p331
+F4.0
+tp332
+a(S'tablet pc'
+p333
+F4.0
+tp334
+a(S'means muggy'
+p335
+F4.0
+tp336
+a(S'human body [16]'
+p337
+F4.0
+tp338
+a(S'jime jime'
+p339
+F4.0
+tp340
+a(S'made        full'
+p341
+F4.0
+tp342
+a(S'user-adapted interaction'
+p343
+F4.0
+tp344
+a(S'constrained coverage'
+p345
+F4.0
+tp346
+a(S'rainy season'
+p347
+F4.0
+tp348
+a(S'ka ka'
+p349
+F4.0
+tp350
+a(S'noise level'
+p351
+F4.0
+tp352
+a(S'generally        considered'
+p353
+F4.0
+tp354
+a(S'uro uro'
+p355
+F4.0
+tp356
+a(S'predicting services'
+p357
+F4.0
+tp358
+a(S'magnetic field'
+p359
+F4.0
+tp360
+a(S'limited area'
+p361
+F4.0
+tp362
+a(S'noshi noshi'
+p363
+F4.0
+tp364
+a(S'social interactions'
+p365
+F4.0
+tp366
+a(S'mengmeng li'
+p367
+F4.0
+tp368
+a(S'gero gero'
+p369
+F4.0
+tp370
+a(S'highest increase'
+p371
+F4.0
+tp372
+a(S'education                 development'
+p373
+F4.0
+tp374
+a(S'computer-human interaction'
+p375
+F4.0
+tp376
+a(S'multiple conditions'
+p377
+F4.0
+tp378
+a(S'hp        t1100'
+p379
+F4.0
+tp380
+a(S'general comments'
+p381
+F4.0
+tp382
+a(S'ga ga'
+p383
+F4.0
+tp384
+a(S'santa cruz'
+p385
+F4.0
+tp386
+a(S'imitating situations'
+p387
+F4.0
+tp388
+a(S'broader area'
+p389
+F4.0
+tp390
+a(S'charting past'
+p391
+F4.0
+tp392
+a(S'web side'
+p393
+F4.0
+tp394
+a(S'compare jamioals 3'
+p395
+F4.0
+tp396
+a(S'tyoko tyoko'
+p397
+F4.0
+tp398
+a(S'common crud'
+p399
+F4.0
+tp400
+a(S'wearable sensors'
+p401
+F3.9272727272727277
+tp402
+a(S'propose jamiolas 3'
+p403
+F3.904761904761905
+tp404
+a(S'group changeover'
+p405
+F3.875
+tp406
+a(S'118                       table ii'
+p407
+F3.866666666666667
+tp408
+a(S'table ii'
+p409
+F3.866666666666667
+tp410
+a(S'forget mio'
+p411
+F3.862068965517241
+tp412
+a(S'test mode'
+p413
+F3.8571428571428568
+tp414
+a(S'interface                  figure 1'
+p415
+F3.8
+tp416
+a(S'current algorithm'
+p417
+F3.8
+tp418
+a(S'current weather'
+p419
+F3.8
+tp420
+a(S'mobile        technology'
+p421
+F3.8
+tp422
+a(S'voting mode'
+p423
+F3.7857142857142856
+tp424
+a(S'test data'
+p425
+F3.7857142857142856
+tp426
+a(S'answer        figure 2'
+p427
+F3.775
+tp428
+a(S'implantable sensors'
+p429
+F3.7272727272727275
+tp430
+a(S'learners suggested'
+p431
+F3.7142857142857144
+tp432
+a(S'learners thought                  119'
+p433
+F3.7142857142857144
+tp434
+a(S'learners        thought'
+p435
+F3.7142857142857144
+tp436
+a(S'japanese students'
+p437
+F3.6904761904761907
+tp438
+a(S'acm transactions'
+p439
+F3.666666666666667
+tp440
+a(S'previous versions'
+p441
+F3.666666666666667
+tp442
+a(S'proximate select'
+p443
+F3.666666666666667
+tp444
+a(S'acm press'
+p445
+F3.666666666666667
+tp446
+a(S'acquire user'
+p447
+F3.6410256410256414
+tp448
+a(S'effectively learn'
+p449
+F3.583333333333333
+tp450
+a(S'easily learn'
+p451
+F3.583333333333333
+tp452
+a(S'language'
+p453
+F3.5714285714285716
+tp454
+a(S'created context'
+p455
+F3.571428571428571
+tp456
+a(S'mid-       test'
+p457
+F3.571428571428571
+tp458
+a(S'group showed'
+p459
+F3.541666666666667
+tp460
+a(S'group       system'
+p461
+F3.525
+tp462
+a(S'evaluation        experiment'
+p463
+F3.5
+tp464
+a(S'evaluate weather/media'
+p465
+F3.5
+tp466
+a(S'important aspect'
+p467
+F3.5
+tp468
+a(S'[13] kirby chiang'
+p469
+F3.5
+tp470
+a(S'masayuki miyata'
+p471
+F3.5
+tp472
+a(S'introducing biosensors'
+p473
+F3.5
+tp474
+a(S'default location'
+p475
+F3.5
+tp476
+a(S'biggest problem'
+p477
+F3.5
+tp478
+a(S'applying csul'
+p479
+F3.5
+tp480
+a(S'future        research'
+p481
+F3.4545454545454546
+tp482
+a(S'future work'
+p483
+F3.4545454545454546
+tp484
+a(S'future research'
+p485
+F3.4545454545454546
+tp486
+a(S'current system'
+p487
+F3.45
+tp488
+a(S'meet learner'
+p489
+F3.416666666666667
+tp490
+a(S'learner choose'
+p491
+F3.416666666666667
+tp492
+a(S'learner        changed'
+p493
+F3.416666666666667
+tp494
+a(S'media files'
+p495
+F3.416666666666667
+tp496
+a(S'media side'
+p497
+F3.416666666666667
+tp498
+a(S'media file'
+p499
+F3.416666666666667
+tp500
+a(S'learner gave'
+p501
+F3.416666666666667
+tp502
+a(S'presented quiz'
+p503
+F3.4
+tp504
+a(S'easy development'
+p505
+F3.4
+tp506
+a(S'showed learners'
+p507
+F3.380952380952381
+tp508
+a(S'weather situation'
+p509
+F3.375
+tp510
+a(S'specific situation'
+p511
+F3.375
+tp512
+a(S'social situation'
+p513
+F3.375
+tp514
+a(S'results        suggest'
+p515
+F3.3636363636363633
+tp516
+a(S'question generated'
+p517
+F3.3636363636363633
+tp518
+a(S'final        results'
+p519
+F3.3636363636363633
+tp520
+a(S'supported'
+p521
+F3.3333333333333335
+tp522
+a(S'tokushima        tokushima'
+p523
+F3.3333333333333335
+tp524
+a(S'feedback suggest'
+p525
+F3.333333333333333
+tp526
+a(S'traditional method'
+p527
+F3.333333333333333
+tp528
+a(S'japan        houbin2008@'
+p529
+F3.333333333333333
+tp530
+a(S'user modeling'
+p531
+F3.3076923076923075
+tp532
+a(S'computer'
+p533
+F3.2
+tp534
+a(S'hiroaki ogata'
+p535
+F3.2
+tp536
+a(S'previous studies'
+p537
+F3.166666666666667
+tp538
+a(S'system architecture'
+p539
+F3.15
+tp540
+a(S'system easy'
+p541
+F3.05
+tp542
+a(S'system interface'
+p543
+F3.05
+tp544
+a(S'wrong answer'
+p545
+F3.041666666666667
+tp546
+a(S'systems'
+p547
+F3.0
+tp548
+a(S'\xe2\x80\xa2       give select'
+p549
+F3.0
+tp550
+a(S'future plan'
+p551
+F2.9545454545454546
+tp552
+a(S'test function'
+p553
+F2.9047619047619047
+tp554
+a(S'recognize user'
+p555
+F2.8076923076923075
+tp556
+a(S'learning'
+p557
+F2.6862745098039214
+tp558
+a(S'phidgets'
+p559
+F2.6666666666666665
+tp560
+a(S'pre-test'
+p561
+F2.6666666666666665
+tp562
+a(S'media        \xe2\x80\xa2       dictionary'
+p563
+F2.651960784313726
+tp564
+a(S'jamiolas'
+p565
+F2.5714285714285716
+tp566
+a(S'jamiolas 2'
+p567
+F2.5714285714285716
+tp568
+a(S'jamiolas 3'
+p569
+F2.5714285714285716
+tp570
+a(S'support'
+p571
+F2.5
+tp572
+a(S'wireless'
+p573
+F2.5
+tp574
+a(S'figure'
+p575
+F2.4
+tp576
+a(S'figure 3'
+p577
+F2.4
+tp578
+a(S'japanese'
+p579
+F2.357142857142857
+tp580
+a(S'supporting'
+p581
+F2.3333333333333335
+tp582
+a(S'iii'
+p583
+F2.3333333333333335
+tp584
+a(S'ieee'
+p585
+F2.3333333333333335
+tp586
+a(S'feeling'
+p587
+F2.3076923076923075
+tp588
+a(S'mobile'
+p589
+F2.3
+tp590
+a(S'score'
+p591
+F2.25
+tp592
+a(S'context'
+p593
+F2.238095238095238
+tp594
+a(S'data'
+p595
+F2.2142857142857144
+tp596
+a(S'24                       table'
+p597
+F2.2
+tp598
+a(S'wearable'
+p599
+F2.2
+tp600
+a.

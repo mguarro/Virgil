@@ -1,0 +1,1202 @@
+(lp0
+(S'sift lb       weighted sift lb       groups lb       sift ub       weighted sift ub       groups ub'
+p1
+F80.06426193118757
+tp2
+a(S'grupos de excelencia de       la regi\xc3\xb3'
+p3
+F29.75
+tp4
+a(S'universidad polit\xc3\xa9cnica de cartagena'
+p5
+F23.875
+tp6
+a(S'greedy perimeter stateless routing       proceedings'
+p7
+F21.444444444444443
+tp8
+a(S'mac slot distribution                 implicit reliability mechanism'
+p9
+F20.024771524771523
+tp10
+a(S'weighted geometric distribution effectively prioritizes'
+p11
+F19.043246187363835
+tp12
+a(S'weighted geometric distribution effectively       prioritizes'
+p13
+F19.043246187363835
+tp14
+a(S'vehicular networks                 carolina garc\xc3\xada-costa'
+p15
+F18.825
+tp16
+a(S'destination                 dist veh       dist dest       node'
+p17
+F16.88690476190476
+tp18
+a(S'mac-layer contention-       based forwarding scheme'
+p19
+F16.56060606060606
+tp20
+a(S'joan garc\xc3\xada-haro       department'
+p21
+F16.5
+tp22
+a(S'micinn/feder project       grant tec2010-21405-c02-02/tcm'
+p23
+F16.0
+tp24
+a(S'lb lb'
+p25
+F15.666666666666666
+tp26
+a(S'cbf operation synchronizes medium access'
+p27
+F15.528571428571428
+tp28
+a(S'[3] etsi ts 102 636-4-1 v1'
+p29
+F15.0
+tp30
+a(S'wireless technolo-       gies pave'
+p31
+F15.0
+tp32
+a(S'pure ad hoc architectures'
+p33
+F14.8
+tp34
+a(S'total       weighted sift       success probability'
+p35
+F14.699420129003201
+tp36
+a(S'intelligent transport systems operating'
+p37
+F14.333333333333334
+tp38
+a(S'contention dis-       tribution optimize'
+p39
+F14.125
+tp40
+a(S'actual re-       ception probability'
+p41
+F14.019607843137255
+tp42
+a(S'ieee vehicular technology magazine'
+p43
+F13.875
+tp44
+a(S'protocol       sift       weighted sift'
+p45
+F13.650758416574178
+tp46
+a(S'future intelligent transportation systems'
+p47
+F13.4
+tp48
+a(S'pac-       ket routing based'
+p49
+F13.171717171717171
+tp50
+a(S'vehicular ad hoc networks'
+p51
+F13.125
+tp52
+a(S'synchronized channel       access attempts'
+p53
+F12.976190476190476
+tp54
+a(S'mobile ad hoc networks'
+p55
+F12.666666666666668
+tp56
+a(S'simultaneously potential forwarders       simultaneously'
+p57
+F12.666666666666668
+tp58
+a(S'con-       tention success probability'
+p59
+F12.584825234441603
+tp60
+a(S'introduction       inter-vehicle communications based'
+p61
+F12.56060606060606
+tp62
+a(S'dedicated short range communication'
+p63
+F12.181818181818182
+tp64
+a(S'2                 sift       weighted sift'
+p65
+F11.317425083240844
+tp66
+a(S'16                 sift       weighted sift'
+p67
+F11.317425083240844
+tp68
+a(S'sift       weighted sift'
+p69
+F11.317425083240844
+tp70
+a(S'06                 sift       weighted sift'
+p71
+F11.317425083240844
+tp72
+a(S'8                 sift       weighted sift'
+p73
+F11.317425083240844
+tp74
+a(S'cw       cw       size contention window'
+p75
+F11.111244019138756
+tp76
+a(S'assigns higher success probability'
+p77
+F11.084825234441603
+tp78
+a(S'exponential distribution       exact number'
+p79
+F10.91005291005291
+tp80
+a(S'de la rm'
+p81
+F10.875
+tp82
+a(S'basic contention based forwarding'
+p83
+F10.852272727272727
+tp84
+a(S'default network layer protocol'
+p85
+F10.696969696969697
+tp86
+a(S'intelligent transport systems'
+p87
+F10.333333333333334
+tp88
+a(S'1 intelligent transport systems'
+p89
+F10.333333333333334
+tp90
+a(S'groups sift       ower'
+p91
+F10.217536071032185
+tp92
+a(S'ad hoc networks'
+p93
+F10.0
+tp94
+a(S'agencia de ciencia'
+p95
+F9.875
+tp96
+a(S'programa de ayudas'
+p97
+F9.875
+tp98
+a(S'de la fundaci\xc3\xb3'
+p99
+F9.875
+tp100
+a(S'mac-layer       cbf scheme'
+p101
+F9.619047619047619
+tp102
+a(S'groups sift       cbf                 0'
+p103
+F9.503250356746472
+tp104
+a(S'groups sift       cbf'
+p105
+F9.503250356746472
+tp106
+a(S'groups sift       cbf                 90                 0'
+p107
+F9.503250356746472
+tp108
+a(S'[3] defines       greedy forwarding'
+p109
+F9.5
+tp110
+a(S'proposed                        mac contention distributions'
+p111
+F9.496212121212121
+tp112
+a(S'vehicular ad-hoc networks'
+p113
+F9.325
+tp114
+a(S'sift protocol assigns'
+p115
+F9.286163522012579
+tp116
+a(S'contention-       based forwarding'
+p117
+F9.227272727272727
+tp118
+a(S'wireless sensor networks'
+p119
+F9.2
+tp120
+a(S'index terms-vehicular networks'
+p121
+F9.2
+tp122
+a(S'event-       driven networks'
+p123
+F9.2
+tp124
+a(S'geometric distributions       approximate'
+p125
+F9.166666666666666
+tp126
+a(S'wireless personal multimedia       [10]'
+p127
+F9.0
+tp128
+a(S'6th annual international'
+p129
+F9.0
+tp130
+a(S'point-to-multipoint com-       munications'
+p131
+F9.0
+tp132
+a(S'analy-       tically evaluated'
+p133
+F9.0
+tp134
+a(S'cations surveys & tutorials'
+p135
+F9.0
+tp136
+a(S'technical report lcsr-tr-262'
+p137
+F9.0
+tp138
+a(S'original sift outperforms'
+p139
+F8.952830188679245
+tp140
+a(S'=       1       \xc2\xb7       ub'
+p141
+F8.8
+tp142
+a(S'ub'
+p143
+F8.8
+tp144
+a(S'original sift       protocol'
+p145
+F8.786163522012579
+tp146
+a(S'original sift protocol'
+p147
+F8.786163522012579
+tp148
+a(S'prioritizes access based'
+p149
+F8.77012987012987
+tp150
+a(S'collision-minimizing       ieee       csma'
+p151
+F8.75
+tp152
+a(S'optimize mac operation'
+p153
+F8.690909090909091
+tp154
+a(S'vehicular communi-       cations'
+p155
+F8.625
+tp156
+a(S'forwarding al-       gorithms'
+p157
+F8.5
+tp158
+a(S'omparative valuation       iv'
+p159
+F8.5
+tp160
+a(S'basic forwarding algorithms'
+p161
+F8.5
+tp162
+a(S'highly dynamic       environment'
+p163
+F8.5
+tp164
+a(S'truncated exponential       distribution'
+p165
+F8.481481481481481
+tp166
+a(S'groups sift       fig'
+p167
+F8.36039321388933
+tp168
+a(S'basic cbf mechanism'
+p169
+F8.285714285714285
+tp170
+a(S'geographical ad-       dressing'
+p171
+F8.25
+tp172
+a(S'non-       flooding approaches'
+p173
+F8.25
+tp174
+a(S'medium access       control'
+p175
+F8.142857142857142
+tp176
+a(S'carrier-sense multiple access'
+p177
+F8.142857142857142
+tp178
+a(S'access layer       specification'
+p179
+F8.006493506493506
+tp180
+a(S'give higher priority'
+p181
+F8.0
+tp182
+a(S'mechanisms scale gracefully'
+p183
+F8.0
+tp184
+a(S'5 ghz       frequency band'
+p185
+F8.0
+tp186
+a(S'assign higher values'
+p187
+F8.0
+tp188
+a(S'critical       functionality offered'
+p189
+F8.0
+tp190
+a(S'cumulative distribution function'
+p191
+F7.981481481481481
+tp192
+a(S'sift probability distribution'
+p193
+F7.953919513297981
+tp194
+a(S'weighted sift'
+p195
+F7.864594894561598
+tp196
+a(S'resulting       protocol performs'
+p197
+F7.833333333333334
+tp198
+a(S'lb'
+p199
+F7.833333333333333
+tp200
+a(S'contention window       size'
+p201
+F7.795454545454545
+tp202
+a(S'contention       window size'
+p203
+F7.795454545454545
+tp204
+a(S'contention window size'
+p205
+F7.795454545454545
+tp206
+a(S'per-vehicle success       probabilities'
+p207
+F7.70807453416149
+tp208
+a(S'per-vehicle success probabilities'
+p209
+F7.70807453416149
+tp210
+a(S'expected delay incurred'
+p211
+F7.666666666666666
+tp212
+a(S'conditional access probability'
+p213
+F7.662464985994397
+tp214
+a(S'mac contention distributions'
+p215
+F7.632575757575758
+tp216
+a(S'lower de-       lays'
+p217
+F7.6
+tp218
+a(S'traditional mac protocols'
+p219
+F7.590909090909091
+tp220
+a(S'success probability drops'
+p221
+F7.5848252344416025
+tp222
+a(S'high       success probability'
+p223
+F7.5848252344416025
+tp224
+a(S'higher success       probability'
+p225
+F7.5848252344416025
+tp226
+a(S'success probability greater'
+p227
+F7.5848252344416025
+tp228
+a(S'geometrically-increasing probability       distribution'
+p229
+F7.501089324618736
+tp230
+a(S'contention technique proposed'
+p231
+F7.488636363636363
+tp232
+a(S'avoid packet collisions'
+p233
+F7.444444444444445
+tp234
+a(S'groups sift'
+p235
+F7.217536071032186
+tp236
+a(S'dist dest'
+p237
+F7.166666666666666
+tp238
+a(S'emergency related       applications'
+p239
+F7.133333333333334
+tp240
+a(S'node located farthest'
+p241
+F7.125
+tp242
+a(S'geometrically-distributed contention slots'
+p243
+F7.046052631578947
+tp244
+a(S'total average delay'
+p245
+F7.016666666666666
+tp246
+a(S'network layer operation'
+p247
+F6.963636363636363
+tp248
+a(S'geocast routing methods'
+p249
+F6.944444444444445
+tp250
+a(S'geocast routing protocols'
+p251
+F6.944444444444445
+tp252
+a(S'average delay bounds'
+p253
+F6.933333333333334
+tp254
+a(S'total success probability'
+p255
+F6.8348252344416025
+tp256
+a(S'ad hoc'
+p257
+F6.8
+tp258
+a(S'study cbf mechanisms'
+p259
+F6.785714285714286
+tp260
+a(S'average winner vehicle'
+p261
+F6.71111111111111
+tp262
+a(S'smart broadcast algorithm'
+p263
+F6.666666666666667
+tp264
+a(S'cw       send data'
+p265
+F6.657894736842105
+tp266
+a(S'slot success probability'
+p267
+F6.537206186822555
+tp268
+a(S'reliability       mechanisms'
+p269
+F6.5
+tp270
+a(S'transmission range equal'
+p271
+F6.481818181818182
+tp272
+a(S'+       packet       sl       cw'
+p273
+F6.416624895572264
+tp274
+a(S'appropriately weighted'
+p275
+F6.411764705882353
+tp276
+a(S'node selects slot'
+p277
+F6.4107142857142865
+tp278
+a(S'vehicular networks'
+p279
+F6.325
+tp280
+a(S'wireless networks'
+p281
+F6.2
+tp282
+a(S'geometric distributions'
+p283
+F6.166666666666666
+tp284
+a(S'prioritizes       access'
+p285
+F6.042857142857143
+tp286
+a(S'prioritizes access'
+p287
+F6.042857142857143
+tp288
+a(S'upper bound       1       cw'
+p289
+F6.019005847953216
+tp290
+a(S'usual geonet scenario'
+p291
+F6.0
+tp292
+a(S'potential       forwarders'
+p293
+F6.0
+tp294
+a(S'contention scheme'
+p295
+F5.958333333333334
+tp296
+a(S'usual sift'
+p297
+F5.952830188679245
+tp298
+a(S'contending vehicles equal'
+p299
+F5.947916666666667
+tp300
+a(S'sift distribution'
+p301
+F5.934311670160726
+tp302
+a(S'de murcia'
+p303
+F5.875
+tp304
+a(S'=       dist veh'
+p305
+F5.666666666666666
+tp306
+a(S'exponential distribution'
+p307
+F5.481481481481481
+tp308
+a(S'access       based'
+p309
+F5.37012987012987
+tp310
+a(S'access based'
+p311
+F5.37012987012987
+tp312
+a(S'cbf mechanism'
+p313
+F5.285714285714286
+tp314
+a(S'basic cbf'
+p315
+F5.285714285714286
+tp316
+a(S'ieee communi-       [7]'
+p317
+F5.25
+tp318
+a(S'vehicle choosing slot'
+p319
+F5.23015873015873
+tp320
+a(S'window       size'
+p321
+F5.170454545454545
+tp322
+a(S'window size'
+p323
+F5.170454545454545
+tp324
+a(S'contention window'
+p325
+F5.170454545454545
+tp326
+a(S'[2] etsi en 302 663'
+p327
+F5.0
+tp328
+a(S'distribution       function'
+p329
+F4.981481481481481
+tp330
+a(S'vehicular communications'
+p331
+F4.958333333333333
+tp332
+a(S'mac layer'
+p333
+F4.954545454545455
+tp334
+a(S'geocast routing [7]'
+p335
+F4.944444444444445
+tp336
+a(S'geocast routing'
+p337
+F4.944444444444445
+tp338
+a(S'vehicular applications'
+p339
+F4.925
+tp340
+a(S'assume nodes select'
+p341
+F4.883333333333333
+tp342
+a(S'cw dist'
+p343
+F4.824561403508772
+tp344
+a(S'packet       simultaneously'
+p345
+F4.777777777777778
+tp346
+a(S'average       delay'
+p347
+F4.766666666666667
+tp348
+a(S'average delay'
+p349
+F4.766666666666667
+tp350
+a(S'adopted ieee 802'
+p351
+F4.75
+tp352
+a(S'success probabilities'
+p353
+F4.70807453416149
+tp354
+a(S'forwarding delay'
+p355
+F4.666666666666666
+tp356
+a(S'delay incurred'
+p357
+F4.666666666666666
+tp358
+a(S'mobile computing'
+p359
+F4.666666666666666
+tp360
+a(S'priority access'
+p361
+F4.642857142857142
+tp362
+a(S'access       delays'
+p363
+F4.642857142857142
+tp364
+a(S'forwarding node'
+p365
+F4.625
+tp366
+a(S'contention windows'
+p367
+F4.625
+tp368
+a(S'success       probability'
+p369
+F4.5848252344416025
+tp370
+a(S'success probability'
+p371
+F4.5848252344416025
+tp372
+a(S'probability distribution'
+p373
+F4.501089324618736
+tp374
+a(S'contention-based forwarding'
+p375
+F4.5
+tp376
+a(S'dynamic nature'
+p377
+F4.5
+tp378
+a(S'proposals scale'
+p379
+F4.5
+tp380
+a(S'forwarding zone'
+p381
+F4.5
+tp382
+a(S'traffic control'
+p383
+F4.5
+tp384
+a(S'multiple degrees'
+p385
+F4.5
+tp386
+a(S'higher priorities'
+p387
+F4.5
+tp388
+a(S'out-       performs'
+p389
+F4.5
+tp390
+a(S'node selects'
+p391
+F4.458333333333334
+tp392
+a(S'geometrical       distributions'
+p393
+F4.416666666666666
+tp394
+a(S'geometrical distributions'
+p395
+F4.416666666666666
+tp396
+a(S'network layer'
+p397
+F4.363636363636363
+tp398
+a(S'upper bound'
+p399
+F4.361111111111111
+tp400
+a(S'geonet protocol'
+p401
+F4.333333333333334
+tp402
+a(S'channel       error'
+p403
+F4.333333333333334
+tp404
+a(S'related orkw'
+p405
+F4.333333333333334
+tp406
+a(S'delay       bounds'
+p407
+F4.333333333333333
+tp408
+a(S'delay bounds'
+p409
+F4.333333333333333
+tp410
+a(S'implementing cbf'
+p411
+F4.285714285714286
+tp412
+a(S'proposed distributions'
+p413
+F4.28030303030303
+tp414
+a(S'upper bounds'
+p415
+F4.277777777777778
+tp416
+a(S'total probability'
+p417
+F4.269607843137255
+tp418
+a(S'directed flooding'
+p419
+F4.25
+tp420
+a(S'geographical region'
+p421
+F4.25
+tp422
+a(S'geographical areas'
+p423
+F4.25
+tp424
+a(S'mobile nodes'
+p425
+F4.25
+tp426
+a(S'simple flooding'
+p427
+F4.25
+tp428
+a(S'flooding inside'
+p429
+F4.25
+tp430
+a(S'future work'
+p431
+F4.233333333333333
+tp432
+a(S'wide range'
+p433
+F4.181818181818182
+tp434
+a(S'related work'
+p435
+F4.166666666666667
+tp436
+a(S'end-to-end       delay'
+p437
+F4.166666666666666
+tp438
+a(S'end-to-end delay'
+p439
+F4.166666666666666
+tp440
+a(S'transmission range'
+p441
+F4.148484848484848
+tp442
+a(S'optimal       distribution'
+p443
+F4.148148148148148
+tp444
+a(S'optimal distribution'
+p445
+F4.148148148148148
+tp446
+a(S'farthest node'
+p447
+F4.125
+tp448
+a(S'node wins'
+p449
+F4.125
+tp450
+a(S'node chooses'
+p451
+F4.125
+tp452
+a(S'nearest node'
+p453
+F4.125
+tp454
+a(S'node selecting'
+p455
+F4.125
+tp456
+a(S'suitable node'
+p457
+F4.125
+tp458
+a(S'winner vehicle'
+p459
+F4.111111111111111
+tp460
+a(S'geo-routing protocol'
+p461
+F4.083333333333334
+tp462
+a(S'contention slots'
+p463
+F4.046052631578947
+tp464
+a(S'average number'
+p465
+F4.0285714285714285
+tp466
+a(S'probability grows'
+p467
+F4.019607843137255
+tp468
+a(S'inter-networking technologies'
+p469
+F4.0
+tp470
+a(S'uniformly       distributed'
+p471
+F4.0
+tp472
+a(S'advanced services'
+p473
+F4.0
+tp474
+a(S'/3       choice'
+p475
+F4.0
+tp476
+a(S'routers start'
+p477
+F4.0
+tp478
+a(S'major advantage'
+p479
+F4.0
+tp480
+a(S'receiver decide'
+p481
+F4.0
+tp482
+a(S'analytic computations'
+p483
+F4.0
+tp484
+a(S'closest integer'
+p485
+F4.0
+tp486
+a(S'geonet implies'
+p487
+F4.0
+tp488
+a(S'firmware modification'
+p489
+F4.0
+tp490
+a(S'good properties'
+p491
+F4.0
+tp492
+a(S'european standards       [2]'
+p493
+F4.0
+tp494
+a(S'slightly superior'
+p495
+F4.0
+tp496
+a(S'traffic safety'
+p497
+F4.0
+tp498
+a(S'comparative study'
+p499
+F4.0
+tp500
+a(S'media-independent functionality'
+p501
+F4.0
+tp502
+a(S'conten-       tion'
+p503
+F4.0
+tp504
+a(S'specifically adapted [5]'
+p505
+F4.0
+tp506
+a(S'rutgers university'
+p507
+F4.0
+tp508
+a(S'introducing rules'
+p509
+F4.0
+tp510
+a(S'briefly review'
+p511
+F4.0
+tp512
+a(S'communication technologies'
+p513
+F4.0
+tp514
+a(S'static       timers'
+p515
+F4.0
+tp516
+a(S'garcia-costa acknowledges'
+p517
+F4.0
+tp518
+a(S'realistic simulation'
+p519
+F4.0
+tp520
+a(S'pre-doctoral fellowship'
+p521
+F4.0
+tp522
+a(S'road segment'
+p523
+F4.0
+tp524
+a(S'gps-based addressing'
+p525
+F4.0
+tp526
+a(S'uniformly distributed'
+p527
+F4.0
+tp528
+a(S'received correctly'
+p529
+F4.0
+tp530
+a(S'characteristic coefficient'
+p531
+F4.0
+tp532
+a(S'european standards [3]'
+p533
+F4.0
+tp534
+a(S'message overhead'
+p535
+F4.0
+tp536
+a(S'network congestion'
+p537
+F4.0
+tp538
+a(S'farthest vehi-'
+p539
+F4.0
+tp540
+a(S'benefit safety'
+p541
+F4.0
+tp542
+a(S'perform slightly'
+p543
+F4.0
+tp544
+a(S'detailed study'
+p545
+F4.0
+tp546
+a(S'takes care'
+p547
+F4.0
+tp548
+a(S'inversely proportional'
+p549
+F4.0
+tp550
+a(S'studied recently'
+p551
+F4.0
+tp552
+a(S'stochastic metrics'
+p553
+F4.0
+tp554
+a(S'ref 12347/fpi/09'
+p555
+F4.0
+tp556
+a(S'proposals achieve'
+p557
+F4.0
+tp558
+a(S'key idea'
+p559
+F4.0
+tp560
+a(S'rioritized ccess'
+p561
+F4.0
+tp562
+a(S'section iv'
+p563
+F4.0
+tp564
+a(S'\xe2\x88\x97       transmission occurs'
+p565
+F3.966666666666667
+tp566
+a(S'transmission attempt'
+p567
+F3.966666666666667
+tp568
+a(S'slot       /'
+p569
+F3.9523809523809526
+tp570
+a(S'destination geo-area'
+p571
+F3.928571428571429
+tp572
+a(S'source node'
+p573
+F3.925
+tp574
+a(S'proposed methods'
+p575
+F3.8636363636363633
+tp576
+a(S'proposed protocols'
+p577
+F3.8636363636363633
+tp578
+a(S'successful transmission'
+p579
+F3.8614035087719296
+tp580
+a(S'63       lower bound'
+p581
+F3.85
+tp582
+a(S'geonetworking protocol'
+p583
+F3.8333333333333335
+tp584
+a(S'csma/ca mechanisms'
+p585
+F3.833333333333333
+tp586
+a(S'hops       outperforms'
+p587
+F3.833333333333333
+tp588
+a(S'inter-vehicular communications'
+p589
+F3.833333333333333
+tp590
+a(S'select properly'
+p591
+F3.8
+tp592
+a(S'innovative applications'
+p593
+F3.8
+tp594
+a(S'groups'
+p595
+F3.764705882352941
+tp596
+a(S'slot selection'
+p597
+F3.7523809523809524
+tp598
+a(S'efficient       geo-routing'
+p599
+F3.75
+tp600
+a.

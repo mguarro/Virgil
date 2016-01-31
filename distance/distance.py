@@ -5,6 +5,13 @@ import pickle
 import numpy as np
 from tinydb import TinyDB, Query
 
+#in order for your shit not to break, you must follow the following order of operations upon receiving a new pdf:
+#1: call process_and_add_one(path_to_pdf)
+#2: call distance_add_new_DOI(DOI) from this module
+#
+#also, if it is the first paper you are adding, you must call:
+#init_similarity_matrix(firstDOI) after doing step 1
+
 cur_dir = os.path.dirname(__file__)
 db_loc = cur_dir+"/../database_builder/master-db.json"
 text_dir = cur_dir +"/../database_builder/text/"
@@ -33,10 +40,21 @@ def vectorMult(normKeyList1,normKeyList2):
 
     return vectorResult
 
+def vector_mult_and_add(keylist1,keylist2):
+    sum = 0
+    for i in keylist1:
+        for j in keylist2:
+            if i[0] == j[0]:
+                sum = sum+i[1]*j[1]
+
+#initialize similarity matrix after you process the first DOI
 def init_similarity_matrix(firstDOI):
     index_dict = {firstDOI: 0}
-    
-    return
+    mat = np.ones(1)
+    mat_list = [index_dict,mat]
+    output = open(sim_matrix,'wb')
+    pickle.dump(mat_list,output)
+    return None
 
 #figure out name of pdf from db entry, grab text for that pdf, compute vector, save vector in vectors folder
 def compute_vector_for_DOI(DOI):
@@ -65,10 +83,42 @@ def update_similarity_matrix(newDOI):
     #now load the matrix
     mat_file = open(sim_matrix,'rb')
     mat_list = pickle.load(mat_file)
-    mat = mat_list[0];
     index_dict = mat_list[0];
+    mat = mat_list[1];
+    num_ent =  len(index_dict)
+    index_dict[newDOI] = num_ent
+
+    #extend the matrix to appropriate size
+    mat = np.vstack((mat,np.zeros((1,num_ent))))
+    mat = np.hstack((mat,np.zeros((num_ent+1,1))))
+    print mat
     
+    #get all the entries of the db
+    all_DOIs = db.all()
+    for line in all_DOIs:
+        print vector_path
+        name = line['filename']
+        vector_path = vector_dir+name+'.pkl'
+        print vector_path
+        vec_file = open(vector_path,'rb')
+        vec = pickle.load(vec_file)
+        closeness = vector_mult_and_add(newVector,vec)
+        newInd = index_dict[newDOI]
+        oldInd = index_dict[line['ownDOI']]
+        mat[newInd][oldInd] = closeness;
+        mat[oldInd][newInd] = closeness;
+    
+    output = open(sim_matrix,'wb')
+    pickle.dump(mat_list,output)   
     return
 
-
-update_similarity_matrix("http://dx.doi.org/10.1109/icsc.2010.19")
+def distance_add_new_DOI(DOI):
+    compute_vector_for_DOI(DOI)
+    update_similarity_matrix(DOI)
+##compute_vector_for_DOI("http://dx.doi.org/10.1109/wivec.2013.6698240")
+##init_similarity_matrix("http://dx.doi.org/10.1109/wivec.2013.6698240")
+##
+##compute_vector_for_DOI("http://dx.doi.org/10.1109/icsc.2010.19")
+##
+##compute_vector_for_DOI("http://dx.doi.org/10.1109/wmute.2010.24")
+##update_similarity_matrix("http://dx.doi.org/10.1109/icsc.2010.19")
