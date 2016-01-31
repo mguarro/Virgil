@@ -36,7 +36,7 @@ def smartWords(self):
     return Counter(stopwordsfree_words).most_common(15) 
 
 def getRakeKeywords(doc):
-    r = Rake(path.join('distance/static', 'SmartStoplist.txt'))
+    r = Rake(path.join('', 'SmartStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
     return candidates[:300]
 

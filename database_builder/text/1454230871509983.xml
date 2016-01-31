@@ -73,20 +73,20 @@
       <line x_offset="0.0" y_offset="11.87" spacing="-20.8">(1) Teachers</line>
       <line x_offset="38.66" y_offset="0.0" spacing="2.81">(explanation).</line>
     </region>
-    <region x="172.02" y="108.8" width="28.08" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">repairs</line>
-    </region>
     <region x="126.99" y="108.8" width="24.58" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">makes</line>
     </region>
-    <region x="203.2" y="108.68" width="92.61" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cell phones (temporal).</line>
+    <region x="172.02" y="108.8" width="28.08" height="8.93" line_height="8.93" font="CBIABJ+Times-Italic">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">repairs</line>
+    </region>
+    <region x="54.76" y="108.68" width="69.12" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(2) The company</line>
     </region>
     <region x="154.67" y="108.68" width="14.26" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">and</line>
     </region>
-    <region x="54.76" y="108.68" width="69.12" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(2) The company</line>
+    <region x="203.2" y="108.68" width="92.61" height="9.05" line_height="9.05" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">cell phones (temporal).</line>
     </region>
     <region x="54.76" y="71.08" width="241.06" height="20.91" line_height="9.05" font="CBIAAG+Times-Roman">
       <line x_offset="9.88" y_offset="11.86" spacing="0.0">Thus, two events are contingent if the occurrence of one</line>
@@ -209,6 +209,9 @@
     <region x="68.04" y="284.51" width="16.55" height="7.15" line_height="7.15" font="CBIAAF+Times-Bold">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">Type</line>
     </region>
+    <region x="84.59" y="284.41" width="2.2" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">:</line>
+    </region>
     <region x="113.64" y="284.41" width="168.73" height="69.5" line_height="7.24" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="62.25" spacing="0.0">Hurricane Katrina</line>
       <line x_offset="0.0" y_offset="53.36" spacing="1.65">Hurricane Katrina disaster and damage.</line>
@@ -225,9 +228,6 @@
       <line x_offset="26.04" y_offset="3.06" spacing="-7.87">{</line>
       <line x_offset="57.89" y_offset="3.06" spacing="-13.71">}</line>
       <line x_offset="0.0" y_offset="0.0" spacing="-4.18">Inter-sentential contingency relationship.</line>
-    </region>
-    <region x="84.59" y="284.41" width="2.2" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">:</line>
     </region>
     <region x="113.64" y="220.71" width="168.72" height="43.53" line_height="7.24" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="36.29" spacing="0.0">Iraq War</line>
@@ -453,12 +453,6 @@
       <line x_offset="0.0" y_offset="8.89" spacing="-15.79">THE THREE TOPIC SPECIFIC SCENARIOS FOR THE RAQ AR</line>
       <line x_offset="122.01" y_offset="0.0" spacing="1.65">.</line>
     </region>
-    <region x="471.26" y="194.77" width="29.52" height="14.06" line_height="6.92" font="CBIAFN+CMR7">
-      <line x_offset="7.13" y_offset="6.16" spacing="0.99">N 2</line>
-      <line x_offset="0.0" y_offset="2.02" spacing="-7.9">&#x3A3;</line>
-      <line x_offset="20.44" y_offset="2.02" spacing="-9.44">v</line>
-      <line x_offset="7.13" y_offset="0.0" spacing="-4.9">i=1 i</line>
-    </region>
     <region x="313.97" y="194.77" width="241.08" height="149.58" line_height="9.05" font="CBIAAG+Times-Roman">
       <line x_offset="9.88" y_offset="140.65" spacing="0.0">2) Identifying Scenario-specific Events:</line>
       <line x_offset="175.29" y_offset="140.53" spacing="-8.93">We identify first</line>
@@ -489,6 +483,12 @@
       <line x_offset="138.34" y_offset="2.02" spacing="-9.44">s</line>
       <line x_offset="108.03" y_offset="1.69" spacing="-11.54"></line>
       <line x_offset="125.05" y_offset="0.0" spacing="-5.22">i=1 i</line>
+    </region>
+    <region x="471.26" y="194.77" width="29.52" height="14.06" line_height="6.92" font="CBIAFN+CMR7">
+      <line x_offset="7.13" y_offset="6.16" spacing="0.99">N 2</line>
+      <line x_offset="0.0" y_offset="2.02" spacing="-7.9">&#x3A3;</line>
+      <line x_offset="20.44" y_offset="2.02" spacing="-9.44">v</line>
+      <line x_offset="7.13" y_offset="0.0" spacing="-4.9">i=1 i</line>
     </region>
     <region x="55.12" y="108.2" width="241.08" height="286.67" line_height="9.05" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="277.74" spacing="0.0">B. Identifying Topic-Specific Scenarios and their Events</line>
@@ -861,12 +861,12 @@
     <region x="544.65" y="704.63" width="10.37" height="8.15" line_height="8.15" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">(1)</line>
     </region>
-    <region x="383.49" y="704.34" width="42.13" height="8.89" line_height="8.49" font="CBIAFO+CMMI9">
-      <line x_offset="22.18" y_offset="0.36" spacing="0.0">( )</line>
-      <line x_offset="0.0" y_offset="0.0" spacing="-8.13">ECD a, b</line>
-    </region>
     <region x="329.18" y="704.34" width="51.77" height="8.89" line_height="8.49" font="CBIAFO+CMMI9">
       <line x_offset="22.18" y_offset="0.36" spacing="0.0">( ) =</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="-8.13">ECD a, b</line>
+    </region>
+    <region x="383.49" y="704.34" width="42.13" height="8.89" line_height="8.49" font="CBIAFO+CMMI9">
+      <line x_offset="22.18" y_offset="0.36" spacing="0.0">( )</line>
       <line x_offset="0.0" y_offset="0.0" spacing="-8.13">ECD a, b</line>
     </region>
     <region x="459.93" y="698.68" width="4.57" height="8.53" line_height="8.53" font="CBIAIE+CMR9">
@@ -1304,17 +1304,17 @@
       <line x_offset="131.45" y_offset="9.29" spacing="2.14">66.6%</line>
       <line x_offset="134.41" y_offset="0.0" spacing="2.05">85%</line>
     </region>
-    <region x="511.32" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">94%</line>
-    </region>
-    <region x="470.25" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">95%</line>
+    <region x="383.5" y="415.67" width="18.45" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100%</line>
     </region>
     <region x="428.31" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">97%</line>
     </region>
-    <region x="383.5" y="415.67" width="18.45" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100%</line>
+    <region x="470.25" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">95%</line>
+    </region>
+    <region x="511.32" y="415.67" width="14.5" height="7.24" line_height="7.24" font="CBIAAG+Times-Roman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">94%</line>
     </region>
     <region x="336.93" y="406.77" width="32.93" height="52.9" line_height="7.24" font="CBIAAG+Times-Roman">
       <line x_offset="0.0" y_offset="45.75" spacing="0.0">Task</line>

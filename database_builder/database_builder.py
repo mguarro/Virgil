@@ -166,4 +166,4 @@ def process_folder_of_pdfs(fpath):
                 print path
                 process_and_add_one(path)
 
-
+##process_folder_of_pdfs('pdfs')
