@@ -369,8 +369,13 @@ Network = () ->
 
     node.on("mouseover", showDetails)
       .on("mouseout", hideDetails)
+      .on("click", nodeClickHandler)
 
     node.exit().remove()
+
+  # handle node clicks:
+  nodeClickHandler = () ->
+    window.parent.document.getElementById('if2').src = "http://arxiv.org"
 
   # enter/exit display for links
   updateLinks = () ->
