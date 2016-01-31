@@ -9,14 +9,17 @@ sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 
 abconst = "Abstract"
 
-class PDF:
+class PDF(object):
     def __init__(self, pdfName):
         basepath = path.join("..", "convertor", "converted-xml", pdfName)
         print basepath
+        regionsDOM = getDOM(basepath, "regions")
+        self.columnedRegions = columnProcessing(regionsDOM)
+        print columnedRegions
         titlesDOM = getDOM(basepath, "titles")
         self.titles = getTitles(titlesDOM)
-        regionsDOM = getDOM(basepath, "regions")
         self.abstract = getAbstract(regionsDOM)
+        self.conclusion = getConclusion(regionsDOM)
     def __str__(self):
         string = ""
         if self.titles == None:
@@ -72,7 +75,35 @@ def getAbstract(dom):
 def getConclusion(dom):
     if dom == None:
         return None
+
+    # todo: pull the last non-references paragraph
+    # todo: pull anything with a label that includes "Conclusion"
+    # todo: pull anything that starts with "In conclusion"
     # I'm working on the conclusion extractor now
+
+def columnProcessing(dom):
+    if dom == None:
+        return None
+    pageElements = dom.getElementsByTagName("page")
+    pages = []
+    for i in range(len(pageElements)):
+        page = pageElements[i]
+        pages[i] = []
+        for j in range(len(page.childNodes)):
+            node = page.childNodes[j]
+            pages[i][j] = {"middle":[],
+                           "left":[],
+                           "right":[]}
+            if node.nodeName == "region":
+                width = float(node.getAttribute("width"))
+                x = float(node.getAttribute("x"))
+                pagewidth = float(page.getAttribute("width"))
+                if width > pagewidth/2:
+                    pages[i][j]["middle"].append(node)
+                elif x < pagewidth/2:
+                    pages[i][j]["left"].append(node)
+                else:
+                    pages[i][j]["right"].append(node)
 
 # trims "Abstract - " and similar from the beginning of an abstract
 def trimAbstract(abstract):
@@ -116,6 +147,13 @@ def isTitleCase(words):
 # helper function that creates a path from a basepath and an xmlID
 def xmlPath(basepath, xmlID):
     return basepath + "-" + xmlID + ".xml"
+
+# helper function that prints the first sixty characters of a string
+def print70(string):
+    try:
+        print '"' + string[0:70] + '"'
+    except Exception:
+        print '"' + string + '"'
 
 pdfs = ["05571262", "05290726", "07001093"]
 
