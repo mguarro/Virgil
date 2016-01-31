@@ -971,52 +971,52 @@
     <region x="96.06" y="630.15" width="5.63" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
     </region>
-    <region x="515.86" y="615.58" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
-    </region>
-    <region x="499.94" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
-    </region>
-    <region x="465.87" y="615.58" width="21.54" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7080</line>
-    </region>
-    <region x="414.73" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
-    </region>
-    <region x="397.7" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
-    </region>
-    <region x="380.67" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
-    </region>
     <region x="362.45" y="615.58" width="5.68" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
       <line x_offset="1.18" y_offset="0.0" spacing="-0.34">10</line>
     </region>
-    <region x="252.84" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
+    <region x="380.67" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
     </region>
-    <region x="236.92" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
-    </region>
-    <region x="219.89" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">80</line>
-    </region>
-    <region x="202.85" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">70</line>
-    </region>
-    <region x="151.72" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
-    </region>
-    <region x="134.68" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+    <region x="397.7" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
     </region>
-    <region x="117.65" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
+    <region x="414.73" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
+    </region>
+    <region x="465.87" y="615.58" width="21.54" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7080</line>
+    </region>
+    <region x="499.94" y="615.58" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
+    </region>
+    <region x="515.86" y="615.58" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
     </region>
     <region x="99.44" y="615.28" width="5.68" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
       <line x_offset="1.18" y_offset="0.0" spacing="-0.34">10</line>
+    </region>
+    <region x="117.65" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">20</line>
+    </region>
+    <region x="134.68" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">30</line>
+    </region>
+    <region x="151.72" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">40</line>
+    </region>
+    <region x="202.85" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">70</line>
+    </region>
+    <region x="219.89" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">80</line>
+    </region>
+    <region x="236.92" y="615.28" width="4.5" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">90</line>
+    </region>
+    <region x="252.84" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">100</line>
     </region>
     <region x="425.22" y="610.76" width="34.65" height="8.57" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="6.54" y_offset="4.82" spacing="0.0">50</line>
@@ -1129,35 +1129,35 @@
     <region x="338.4" y="480.05" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
     </region>
-    <region x="426.33" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">9</line>
-    </region>
-    <region x="416.74" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">8</line>
-    </region>
-    <region x="407.15" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7</line>
-    </region>
-    <region x="397.56" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">6</line>
-    </region>
-    <region x="387.98" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">5</line>
-    </region>
-    <region x="378.39" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">4</line>
-    </region>
-    <region x="368.8" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">3</line>
-    </region>
-    <region x="359.21" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">2</line>
+    <region x="340.06" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
     </region>
     <region x="349.62" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
     </region>
-    <region x="340.06" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    <region x="359.21" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">2</line>
+    </region>
+    <region x="368.8" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">3</line>
+    </region>
+    <region x="378.39" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">4</line>
+    </region>
+    <region x="387.98" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">5</line>
+    </region>
+    <region x="397.56" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">6</line>
+    </region>
+    <region x="407.15" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">7</line>
+    </region>
+    <region x="416.74" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">8</line>
+    </region>
+    <region x="426.33" y="477.59" width="1.62" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">9</line>
     </region>
     <region x="431.22" y="474.11" width="112.59" height="6.18" line_height="2.7" font="GBJKHP+Helvetica">
       <line x_offset="3.89" y_offset="3.48" spacing="0.0">10 11 12 13 14 15 16 17 18 19 20 21</line>
@@ -1591,27 +1591,27 @@
     <region x="74.59" y="619.91" width="4.06" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.2</line>
     </region>
-    <region x="515.86" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">800</line>
-    </region>
-    <region x="496.8" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">750</line>
-    </region>
-    <region x="458.75" y="615.28" width="25.78" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">650700</line>
-    </region>
-    <region x="420.7" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">550</line>
-    </region>
-    <region x="401.68" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="0.0" spacing="0.0">500</line>
+    <region x="363.6" y="615.28" width="6.79" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
+      <line x_offset="0.03" y_offset="0.0" spacing="-0.34">400</line>
     </region>
     <region x="382.66" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">450</line>
     </region>
-    <region x="363.6" y="615.28" width="6.79" height="7.15" line_height="3.74" font="GBJKHP+Helvetica">
-      <line x_offset="0.0" y_offset="3.41" spacing="0.0">0</line>
-      <line x_offset="0.03" y_offset="0.0" spacing="-0.34">400</line>
+    <region x="401.68" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">500</line>
+    </region>
+    <region x="420.7" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">550</line>
+    </region>
+    <region x="458.75" y="615.28" width="25.78" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">650700</line>
+    </region>
+    <region x="496.8" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">750</line>
+    </region>
+    <region x="515.86" y="615.28" width="6.75" height="3.74" line_height="3.74" font="GBJKHP+Helvetica">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">800</line>
     </region>
     <region x="72.96" y="611.17" width="5.68" height="2.7" line_height="2.7" font="GBJKHP+Helvetica">
       <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.18</line>
