@@ -3,8 +3,6 @@ import time
 from tinydb import TinyDB, Query
 import urllib2
 
-db_loc = 'master-db/master-db.json'
-
 
 #uses pdf-extract to get title of current paper
 #source is source of pdf, destination is save location
@@ -28,8 +26,9 @@ def extract_bibtex(source,dest):
                 f = open(dest,'a')
                 f.write("bibtex extraction failed")
                 print "bibtext extraction failed"
-                return 
+                return False
         print "bibtex extracted"
+        return True
 
 def get_ref_list_DOIs(path):
         f = open(path,'r')
@@ -54,8 +53,9 @@ def get_DOI_from_title(title):
                 if '"doi": ' in line:
                         a = line.split('"')
                         return a[3]
+        return None
 
-def process_and_add_one(pdf_path,title_dir,bib_dir):
+def process_and_add_one(pdf_path,title_dir,bib_dir,db_loc):
         pdf_name = pdf_path.split('/')
         pdf_name = pdf_name[-1]
         directory = pdf_path[0: -len(pdf_name)]
@@ -66,8 +66,7 @@ def process_and_add_one(pdf_path,title_dir,bib_dir):
         tf = open(title_path, 'r')
         txml = tf.read()
         if txml == "title extraction failed":
-                return
-
+                return None
 
         #build dictionary with info we've got
         tf = open(title_path, 'r')
@@ -80,13 +79,13 @@ def process_and_add_one(pdf_path,title_dir,bib_dir):
                         print title
                         break
                 
-                
         #save nice text version of title
         txt_name_path = title_path[0:-4]+".txt"
         ftxt = open(txt_name_path,'a')
         ftxt.write(title)
         if title == "title not found":
-                return
+                return None
+
         #if title was found, get DOI from it
         currDOI = get_DOI_from_title(title)
         #open/create tiny db
@@ -95,52 +94,26 @@ def process_and_add_one(pdf_path,title_dir,bib_dir):
         paper = Query()
         gotit = db.search(paper.ownDOI == currDOI)
         if gotit:
-                return
+                return currDOI
         #only extract bibtex if you don't have it already, because this is the long part
+        #TODO: Return before doing bib extraction
         bib_path = bib_dir+"/"+stripped_name+".bib"
-        extract_bibtex(pdf_path,bib_path)
+        if not extract_bibtex(pdf_path,bib_path):
+            print("caught in the new code")
+            return None
+
         refDOIs = get_ref_list_DOIs(bib_path)
         
         new_dict = {"ownDOI":currDOI,"refDOIs":refDOIs}   
-        db.insert(new_dict) 
+        db.insert(new_dict)
+        return currDOI 
      
                
-
-        
-
-
-        
-def process_folder_of_pdfs(fpath):
+def process_folder_of_pdfs(fpath,path_titles,path_bibs):
         files = os.listdir(fpath)
         for line in files:
                 path = fpath+"/"+ line
                 print path
-                process_and_add_one(path,'titles','bibs')
+                process_and_add_one(path,path_titles,path_bibs)
 
 
-process_folder_of_pdfs('pdfs')
-
-##extract_bibtex('pdfs/test1.pdf','bibs/test1.bib')
-##extract_title('pdfs/test1.pdf','titles/test1title.xml')
-##print get_DOI_from_title('Visualizing Document Content using Language Structure')   
-        
-##db = TinyDB('db.json')
-##db.insert({'type': 'apple', 'count': 7})
-##db.insert({'type': 'peach', 'count': 3})
-##
-
-            
-
-#read the bibtex file
-
-        
-
-
-##
-##def add_paper_to_db(db,source):
-##    dest = 
-    
-
-            
-
-            

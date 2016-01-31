@@ -18,21 +18,26 @@ def graph():
 def index():
     if request.method == 'POST':
         file = request.files['pdf_file']
+
         if file:
             if allowed_file(file.filename):
                 filename = secure_filename(file.filename)
                 filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
                 file.save(filepath)
                 doi = extract_doi(filepath)
-                return redirect(url_for('split', doi=doi))
+                if doi:
+                    return redirect(url_for('split', doi=doi, view='summary'))
+                else:
+                    #TODO: Make cute error page
+                    return render_template('index.html')
         elif request.doi:
             doi = search_doi(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi))
+                return redirect(url_for('split', doi=doi, view='summary'))
         else:
             doi = search_doi_by_title(request.doi)
             if doi:
-                return redirect(url_for('split', doi=doi))
+                return redirect(url_for('split', doi=doi, view='summary'))
     return render_template('index.html')
 
 @app.route("/split/")
