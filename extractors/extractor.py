@@ -15,14 +15,17 @@ class PDF(object):
         print basepath
         regionsDOM = getDOM(basepath, "regions")
         self.pages = columnProcessing(regionsDOM)
+        self.conclusion = None
+        oparas = getParasInOrder(self.pages)
+        if (len(oparas)) != 0:
+            self.conclusion = oparas[len(oparas)-1]
         titlesDOM = getDOM(basepath, "titles")
         self.titles = getTitles(titlesDOM)
         self.abstract = getAbstract(regionsDOM)
-        self.conclusion = getConclusion(regionsDOM)
     def __str__(self):
-        string = ""
+        string = u""
         if self.titles == None:
-            string += "No title identified\n"
+            string += u"No title identified\n"
         else:
             if len(self.titles) == 1:
                 string += self.titles[0] + "\n"
@@ -33,12 +36,16 @@ class PDF(object):
             string += "No abstract identified\n"
         else:
             string += self.abstract + "\n"
+        if self.conclusion == None:
+            string += "No conclusion identified\n"
+        else:
+            string += self.conclusion + "\n"
         return string
     def columnString(self):
         string = ""
         for i in range(len(self.pages)):
             page = self.pages[i]
-            string += str(i) + "\n"
+            string += "" + i + "\n"
             for j in range(len(page)):
                 regions = page[j]
                 string += getColumn(j) + ":\n"
@@ -46,14 +53,6 @@ class PDF(object):
                     string += get60(region.childNodes[0].toxml()) + ",\n"
             string += "\n"
         return string
-    def getParasInOrder(self):
-        paras = []
-        for page in self.pages:
-            for regions in page:
-                for region in regions:
-                    for node in region.childNodes:
-                        paras.append(node.toxml() + "\n\n")
-        return paras
 
 # gets the DOM of an XML file
 def getDOM(basepath, xmlID):
@@ -89,16 +88,7 @@ def getAbstract(dom):
                     return childxml;
     return None
 
-# gets a conclusion from a DOM
-def getConclusion(dom):
-    if dom == None:
-        return None
-
-    # todo: pull the last non-references paragraph
-    # todo: pull anything with a label that includes "Conclusion"
-    # todo: pull anything that starts with "In conclusion"
-    # I'm working on the conclusion extractor now
-
+# helper function that stores columns in order
 def columnProcessing(dom):
     if dom == None:
         return None
@@ -128,6 +118,7 @@ def columnProcessing(dom):
                     page[2].append(node)
     return pages
 
+# helper function that converts a column number to a column name
 def getColumn(number):
     if number == 0:
         return "middle"
@@ -138,7 +129,17 @@ def getColumn(number):
     else:
         print "Unknown column: " + number
 
-# trims "Abstract - " and similar from the beginning of an abstract
+def getParasInOrder(pages):
+    paras = []
+    for page in pages:
+        for regions in page:
+            for region in regions:
+                for node in region.childNodes:
+                    paras.append(node.toxml() + "\n")
+    return paras
+
+# helper function that trims "Abstract - " and similar from the beginning
+# of an abstract
 def trimAbstract(abstract):
     if not startsWithAbconst(abstract):
         return None
@@ -198,8 +199,8 @@ pdfs = ["05571262", "05290726", "07001093"]
 
 for p in pdfs:
     thispdf = PDF(p)
-    paras = thispdf.getParasInOrder()
-    for para in paras:
-        print para
-#    print thispdf
+    paras = getParasInOrder(thispdf.pages)
+#    for para in paras:
+#        print para
+    print thispdf
 #    print thispdf.columnString()
