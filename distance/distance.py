@@ -1,7 +1,5 @@
 import sys
 import os.path
-#import keyExtract
-
 
 def normVectorGen(keyList):
     normSum = 0
