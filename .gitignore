@@ -2,4 +2,5 @@
 *.DS_STORE
 # compiled Python code
 *.pyc
-
+# gedit tilde file
+*~
