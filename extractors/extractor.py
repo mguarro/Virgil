@@ -3,6 +3,9 @@
 
 from xml.dom.minidom import parse
 from os import path
+import sys
+import codecs
+sys.stdout=codecs.getwriter('utf-8')(sys.stdout)
 
 abconst = "Abstract"
 
@@ -14,6 +17,21 @@ class PDF:
         self.titles = getTitles(titlesDOM)
         regionsDOM = getDOM(basepath, "regions")
         self.abstract = getAbstract(regionsDOM)
+    def __str__(self):
+        string = ""
+        if self.titles == None:
+            string += "No title identified\n"
+        else:
+            if len(self.titles) == 1:
+                string += self.titles[0] + "\n"
+            else:
+                for i in range(len(titles)):
+                    string += "Title " + (i+1) + ": " + titles[i] + "\n"
+        if self.abstract == None:
+            string += "No abstract identified\n"
+        else:
+            string += self.abstract + "\n"
+        return string
 
 # gets the DOM of an XML file
 def getDOM(basepath, xmlID):
@@ -21,11 +39,14 @@ def getDOM(basepath, xmlID):
     try:
         dom = parse(filepath)
     except Exception:
-        print "Failed to find " + xmlID + " in " + filepath
+#        print "There is no file at " + filepath
+        return None
     return dom
 
 # gets titles from a DOM
 def getTitles(dom):
+    if dom == None:
+        return None
     titles = []
     for node in dom.getElementsByTagName("title"):
         for child in node.childNodes:
@@ -35,26 +56,34 @@ def getTitles(dom):
 
 # gets an abstract from a DOM
 def getAbstract(dom):
+    if dom == None:
+        return None
     for node in dom.getElementsByTagName("region"):
         for child in node.childNodes:
             childxml = child.toxml()
             childwords = childxml.split(" ")
             if not isTitleCase(childwords) and len(childwords) >= 1:
-                if childwords[0] == abconst:
+                if startsWithAbconst(childxml):
                     childxml = trimAbstract(childxml)
                     return childxml;
-    return "No abstract identified"
+    return None
 
 # trims "Abstract - " and similar from the beginning of an abstract
 def trimAbstract(abstract):
-    if abstract[0:len(abconst)] != abconst:
-        print "Miscall of trimAbstract:"
-        print abstract
+    if not startsWithAbconst(abstract):
+        return None
     abstract = abstract[len(abconst):len(abstract)]
     for i in range(len(abstract)):
         if isalpha(abstract[i]):
             abstract = abstract[i:len(abstract)]
             return abstract
+
+# helper function that checks to see whether a given string
+# has "Abstract" at the beginning
+def startsWithAbconst(abstract):
+    if abstract[0:len(abconst)] == abconst:
+        return True
+    return False
 
 # helper function that checks to see whether a given character
 # is an English-alphabet letter
@@ -70,7 +99,7 @@ def isalpha(char):
         return False
 
 # helper function that checks to see whether a given phrase is likely to be
-# title case (gives false negatives but not false positives)
+# in title case (gives false negatives but not false positives)
 def isTitleCase(words):
     for word in words:
         if len(word) >= 4:
@@ -82,9 +111,8 @@ def isTitleCase(words):
 def xmlPath(basepath, xmlID):
     return basepath + "-" + xmlID + ".xml"
 
-pdfs = {"05571262", "05290726"}
+pdfs = ["05571262", "05290726", "07001093"]
 
 for p in pdfs:
     thispdf = PDF(p)
-    print thispdf.titles
-    print thispdf.abstract
+    print thispdf
