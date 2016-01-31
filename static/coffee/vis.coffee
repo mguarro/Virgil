@@ -369,8 +369,13 @@ Network = () ->
 
     node.on("mouseover", showDetails)
       .on("mouseout", hideDetails)
+      .on("click", nodeClickHandler)
 
     node.exit().remove()
+
+  #handle clicks on nodes:
+  nodeClickHandler = () ->
+    window.open("../templates/split.html")
 
   # enter/exit display for links
   updateLinks = () ->
