@@ -1,3 +1,6 @@
+# keyWord Vector Manipulation Module
+# Written for Virgil by Marcello Guarro and Dmitriy Rivkin
+
 import sys
 import os.path
 import keyExtract
@@ -18,6 +21,7 @@ text_dir = cur_dir +"/../database_builder/text/"
 vector_dir = cur_dir+"/../database_builder/vectors/"
 sim_matrix = cur_dir+"/../database_builder/similarity_matrix.pkl"
 
+# Vector normalization function
 def normVectorGen(keyList):
     normSum = 0
     normKeyList = []
@@ -30,6 +34,7 @@ def normVectorGen(keyList):
 
     return normKeyList
 
+# Vector dot product
 def vectorMult(normKeyList1,normKeyList2):
     vectorResult = []
 

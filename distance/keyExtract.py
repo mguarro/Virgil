@@ -1,4 +1,6 @@
-# This is the module for extracting keywords and 'smartword'
+# This is the module for extracting keywords and 'smartwords'
+# Written for Virgil by Marcello Guarro
+
 import re
 import nltk
 from collections import Counter
@@ -23,8 +25,8 @@ def keyWords(self):
             keylist.pop()
             return keylist
 
-# This function returns a list of words with their associated frequency
-# in the following format: ('word', frequency)
+# This function returns a list of words (based on the removal of Stopwords from the text) 
+# with their associated frequency in the following format: ('word', frequency)
 def smartWords(self):
     stop1 = open(path.join('extractors/static', 'FoxStoplist.txt'), "r")
     stop2 = open(path.join('extractors/static', 'SmartStoplist.txt'), "r")
@@ -36,6 +38,7 @@ def smartWords(self):
     stopwordsfree_words = [word for word in words if word not in stopwords and len(word) >= 5 and len(word) <= 10] 
     return Counter(stopwordsfree_words).most_common(15) 
 
+# This function returns a list of weighted words using the RAKE algortihm
 def getRakeKeywords(doc):
     r = Rake(path.join('', cur_dir+'/SmartStoplist.txt'))
     candidates = r.run(open(doc).read().replace('\n',' '))
