@@ -68,6 +68,12 @@ def getAbstract(dom):
                     return childxml;
     return None
 
+# gets a conclusion from a DOM
+def getConclusion(dom):
+    if dom == None:
+        return None
+    # I'm working on the conclusion extractor now
+
 # trims "Abstract - " and similar from the beginning of an abstract
 def trimAbstract(abstract):
     if not startsWithAbconst(abstract):
