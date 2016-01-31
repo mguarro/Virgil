@@ -369,14 +369,15 @@ Network = () ->
 
     node.on("mouseover", showDetails)
       .on("mouseout", hideDetails)
-      .on("click", ->
-        nodeClickHandler("http://arxiv.org"))
+      .on("click", nodeClickHandler)
 
     node.exit().remove()
 
   # handle node clicks:
-  nodeClickHandler = (url) ->
+  nodeClickHandler = (d,i) ->
     # window.parent.document.getElementById('if2').src = "http://arxiv.org"
+    url = d.name
+    console.log(url)
     window.parent.document.getElementById('if2').src = url
 
   # enter/exit display for links
@@ -452,6 +453,10 @@ Network = () ->
   # particular node.
   strokeFor = (d) ->
     d3.rgb(nodeColors(d.artist)).darker().toString()
+
+  # get the URL associated with a given node:
+  getURL = (d,i) ->
+    return d.name
 
   # Mouseover tooltip function
   showDetails = (d,i) ->
