@@ -19,4 +19,8 @@ def vectorMult(normKeyList1,normKeyList2):
     vectorResult = []
 
     for i in normKeyList1:
-        if i[0] == 
+        for j in normKeyList2:
+            if i[0] == j[0]:
+                vectorResult.append((i[0],i[1]*j[1]))
+
+    return vectorResult
