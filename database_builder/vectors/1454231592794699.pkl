@@ -1,0 +1,1202 @@
+(lp0
+(S'themedelta approach discov-       ers time frames automatically based'
+p1
+F33.197991350859226
+tp2
+a(S'dif-       ferent poverty levels spend discussing topics'
+p3
+F31.102564102564102
+tp4
+a(S'average verti-       time segment       t2       cal position'
+p5
+F29.898384575299637
+tp6
+a(S'main competing nominee ron paul withdrew'
+p7
+F29.541666666666668
+tp8
+a(S'exploring national science foundation awarded proposals'
+p9
+F26.533333333333335
+tp10
+a(S'study applying addi-       tional advanced visualization'
+p11
+F25.055555555555554
+tp12
+a(S'adopt bayes-       ian rose trees'
+p13
+F23.166666666666668
+tp14
+a(S'kacst gis       technology innovation center'
+p15
+F22.42857142857143
+tp16
+a(S'kacst gis technology innovation center'
+p17
+F22.42857142857143
+tp18
+a(S'mining evolving multi-branch topic trees inside'
+p19
+F22.309722222222224
+tp20
+a(S'research inter-       ests include information visualization'
+p21
+F22.145833333333332
+tp22
+a(S'facebook app visualizing ego-centric communication patterns'
+p23
+F20.535714285714285
+tp24
+a(S'resulting layout       time segments       t1       t2'
+p25
+F20.157720414898634
+tp26
+a(S'exploratory broadcast news video analysis'
+p27
+F20.071428571428573
+tp28
+a(S'qualitative user study       involving expert participants'
+p29
+F19.81111111111111
+tp30
+a(S'temporal topic models                 685                 waqas javed       received'
+p31
+F19.440151515151513
+tp32
+a(S'makes direct compari-       son difficult'
+p33
+F18.833333333333332
+tp34
+a(S'earlier text visualization tech-       niques'
+p35
+F18.772108843537417
+tp36
+a(S'13th acm sigkdd international conference'
+p37
+F18.23076923076923
+tp38
+a(S'qualitative expert user study       involving'
+p39
+F18.033333333333335
+tp40
+a(S'[23]       integrated one-dimensional tag cloud layouts'
+p41
+F18.007575757575758
+tp42
+a(S'extended traditional state space models'
+p43
+F17.954166666666666
+tp44
+a(S'everal       visual analytic applications require'
+p45
+F17.910299003322258
+tp46
+a(S'temporal topic modeling algorithms started'
+p47
+F17.860821449792038
+tp48
+a(S'visual exploratory text analytic       proc'
+p49
+F17.817328481780308
+tp50
+a(S'supports parametric latent dirichlet allocation'
+p51
+F17.808333333333334
+tp52
+a(S'scatter/       gather temporal segmentation component'
+p53
+F17.533333333333335
+tp54
+a(S'implementation mini-       mizes line crossings'
+p55
+F17.444444444444443
+tp56
+a(S'washington times       evening public ledger'
+p57
+F17.333333333333336
+tp58
+a(S'3 temporal topic modeling       text visualization techniques'
+p59
+F17.271819182218344
+tp60
+a(S'work automatically determines       segmentation boundaries'
+p61
+F17.140645586297758
+tp62
+a(S'summariz-       ing massive text corpora'
+p63
+F16.93877551020408
+tp64
+a(S'main competitor ron paul                 3'
+p65
+F16.875
+tp66
+a(S'evolutionary multi-branch       tree clustering method'
+p67
+F16.5
+tp68
+a(S'working theme-       delta application involves'
+p69
+F16.484848484848484
+tp70
+a(S'umm al-qura uni-       versity'
+p71
+F16.0
+tp72
+a(S'index terms-       language models'
+p73
+F15.6875
+tp74
+a(S'studying conver-       sation patterns'
+p75
+F15.285714285714285
+tp76
+a(S'tempo-       ral stacked charts'
+p77
+F15.166666666666668
+tp78
+a(S'advantaged neighborhoods spend       similar amounts'
+p79
+F15.121212121212121
+tp80
+a(S'chronicling america website       1918 influenza epidemic'
+p81
+F14.8
+tp82
+a(S'advanced text visualization techniques convey'
+p83
+F14.772108843537415
+tp84
+a(S'social mes-       saging practices'
+p85
+F14.583333333333334
+tp86
+a(S'heme elta isual epresentation       5'
+p87
+F14.5
+tp88
+a(S'temporal topic models                 samah gad'
+p89
+F14.33560606060606
+tp90
+a(S'stan-       dard processing steps'
+p91
+F14.333333333333334
+tp92
+a(S'themedelta frontend visualization layout divides'
+p93
+F14.196223316912972
+tp94
+a(S'themedelta temporal topic       modeling approach'
+p95
+F14.172124131784374
+tp96
+a(S'automatically identi-       fying segments'
+p97
+F14.124999999999998
+tp98
+a(S'managing keyword fil-       tering'
+p99
+F14.1
+tp100
+a(S'top topics discov-       z1 2'
+p101
+F14.054945054945055
+tp102
+a(S'segmentation labels indicating       segments size'
+p103
+F13.90151515151515
+tp104
+a(S'research interests include       information visualization'
+p105
+F13.8125
+tp106
+a(S'2 temporal text visualization       text data'
+p107
+F13.79055199792527
+tp108
+a(S'achieve real time interactivity'
+p109
+F13.775577557755774
+tp110
+a(S'temporal segmen-       tation algorithm'
+p111
+F13.751993620414673
+tp112
+a(S'republication/redistribution requires ieee permission'
+p113
+F13.709302325581396
+tp114
+a(S'geographically diverse communities located'
+p115
+F13.666666666666666
+tp116
+a(S'scalable vector       current implementation'
+p117
+F13.666666666666666
+tp118
+a(S'face-       book graph api'
+p119
+F13.65
+tp120
+a(S'mining evolutionary multi-       proc'
+p121
+F13.61111111111111
+tp122
+a(S'timestamped text col-       lections'
+p123
+F13.60544217687075
+tp124
+a(S'umm al-       qura university'
+p125
+F13.571428571428571
+tp126
+a(S'existing visualization techni-       ques'
+p127
+F13.533333333333333
+tp128
+a(S'mining correlated bursty       proceedings'
+p129
+F13.5
+tp130
+a(S'probabilistic latent       semantic analysis'
+p131
+F13.371428571428572
+tp132
+a(S'probabilistic latent semantic analysis'
+p133
+F13.371428571428572
+tp134
+a(S'constant reasonable vertical       space'
+p135
+F13.327272727272726
+tp136
+a(S'one-dimen-       sional tag clouds'
+p137
+F13.32167832167832
+tp138
+a(S'maxi-       mum window sizes'
+p139
+F13.266666666666666
+tp140
+a(S'achieve real-time layout updates'
+p141
+F13.19047619047619
+tp142
+a(S'classical proba-       bilistic model'
+p143
+F13.055555555555555
+tp144
+a(S'discuss imple-       mentation details'
+p145
+F13.0
+tp146
+a(S'contingency       table formulation introduced'
+p147
+F12.984126984126984
+tp148
+a(S'multiple asynchronous text streams'
+p149
+F12.938775510204081
+tp150
+a(S'basic visual encoding consisting'
+p151
+F12.910299003322258
+tp152
+a(S'participatory visu-       ieee trans'
+p153
+F12.909302325581397
+tp154
+a(S'internet facilitates informal deliberation'
+p155
+F12.9
+tp156
+a(S'design parameters remain       open'
+p157
+F12.9
+tp158
+a(S'timestamped docu-       ment collection'
+p159
+F12.866666666666667
+tp160
+a(S'elated orkw       textual data'
+p161
+F12.864516129032259
+tp162
+a(S'stacked graphs-geometry &       ieee trans'
+p163
+F12.742635658914729
+tp164
+a(S'relative vertical       position remains'
+p165
+F12.727272727272727
+tp166
+a(S'differ-       ent newspaper corpora'
+p167
+F12.677777777777779
+tp168
+a(S'evolving text cor-       pus'
+p169
+F12.660997732426305
+tp170
+a(S'basic       themeriver stacked chart'
+p171
+F12.642857142857142
+tp172
+a(S'support robust knowledge generation'
+p173
+F12.63095238095238
+tp174
+a(S'men-       tioning segments names'
+p175
+F12.625
+tp176
+a(S'presidential election takes place'
+p177
+F12.588888888888889
+tp178
+a(S'existing topic       modeling algorithms'
+p179
+F12.545669934640522
+tp180
+a(S'existing topic modeling algorithms'
+p181
+F12.545669934640522
+tp182
+a(S'automatically       identify segment boundaries'
+p183
+F12.539473684210526
+tp184
+a(S'weekly       segment granularity yields'
+p185
+F12.539473684210526
+tp186
+a(S'qualitative expert user study'
+p187
+F12.533333333333335
+tp188
+a(S'text       ldv forum       mining'
+p189
+F12.438775510204081
+tp190
+a(S'sec-       ond time segment'
+p191
+F12.398384575299636
+tp192
+a(S'19th acm sigkdd int'
+p193
+F12.397435897435896
+tp194
+a(S'topic modeling based segmentation'
+p195
+F12.386073975044564
+tp196
+a(S'form       ad hoc groups'
+p197
+F12.357142857142858
+tp198
+a(S'explore faceted text corpora'
+p199
+F12.338775510204082
+tp200
+a(S'time seg-       ment       t1'
+p201
+F12.30891089108911
+tp202
+a(S'vector       quantization clustering algorithm'
+p203
+F12.236842105263158
+tp204
+a(S'basic visual repre-       sentation'
+p205
+F12.160299003322258
+tp206
+a(S'varia-       tions include wordle [10]'
+p207
+F12.071428571428571
+tp208
+a(S'maxi-       mum window size'
+p209
+F12.058333333333332
+tp210
+a(S'temporal topic modeling algorithm'
+p211
+F11.986552443944085
+tp212
+a(S'single stacked       graph centered'
+p213
+F11.983333333333334
+tp214
+a(S'2009 american com-       munity survey'
+p215
+F11.916666666666666
+tp216
+a(S'stacked charts group themes'
+p217
+F11.9
+tp218
+a(S'sinu-       trendlines       ous       -'
+p219
+F11.894736842105264
+tp220
+a(S'conversion = false       //reset start'
+p221
+F11.844444444444445
+tp222
+a(S'heuristic layout technique calculates'
+p223
+F11.823809523809523
+tp224
+a(S'democratic nominee barack obama'
+p225
+F11.791666666666668
+tp226
+a(S'discovering interesting usage       patterns'
+p227
+F11.785714285714285
+tp228
+a(S'emerging topic modeling       variants'
+p229
+F11.734558823529412
+tp230
+a(S'differ-       ent time segments'
+p231
+F11.733910891089108
+tp232
+a(S'align time series streams'
+p233
+F11.60891089108911
+tp234
+a(S'republican nominee mitt romney'
+p235
+F11.516666666666667
+tp236
+a(S'effects make per-       ceiving'
+p237
+F11.5
+tp238
+a(S'specific themedelta fea-       tures'
+p239
+F11.458128078817733
+tp240
+a(S'deadly spanish flu pandemic'
+p241
+F11.36111111111111
+tp242
+a(S'yield high visual       complexity'
+p243
+F11.35077519379845
+tp244
+a(S'large temporal text corpus'
+p245
+F11.328927025355597
+tp246
+a(S'tiara [22] blended tag clouds'
+p247
+F11.32167832167832
+tp248
+a(S'national digital newspaper program'
+p249
+F11.244444444444444
+tp250
+a(S'temporal topic models                 683                 fig'
+p251
+F11.201916221033867
+tp252
+a(S'temporal topic models                 679                 fig'
+p253
+F11.201916221033867
+tp254
+a(S'temporal topic models                 677                 fig'
+p255
+F11.201916221033867
+tp256
+a(S'temporal topic models                 681                 fig'
+p257
+F11.201916221033867
+tp258
+a(S'tracing genealogical data       proc'
+p259
+F11.175627240143369
+tp260
+a(S'authors conducted topic modeling'
+p261
+F11.067892156862746
+tp262
+a(S'dynamic temporal segmentation algorithm'
+p263
+F11.02017543859649
+tp264
+a(S'sigkdd international conference'
+p265
+F11.0
+tp266
+a(S'qualitative user study participants'
+p267
+F10.866666666666667
+tp268
+a(S'build multi-branch trees'
+p269
+F10.833333333333334
+tp270
+a(S'data       dynamic topic models'
+p271
+F10.789516129032258
+tp272
+a(S'ucsb american presidency project'
+p273
+F10.75
+tp274
+a(S'achieve real-time updates'
+p275
+F10.666666666666666
+tp276
+a(S'mining common topics       proceedings'
+p277
+F10.64423076923077
+tp278
+a(S'united states presidential election'
+p279
+F10.588888888888889
+tp280
+a(S'answering typical       research questions'
+p281
+F10.5625
+tp282
+a(S'quantify common terms based'
+p283
+F10.558333333333334
+tp284
+a(S'1 text visualization       text visualization'
+p285
+F10.54421768707483
+tp286
+a(S'temporal segmentation algorithm proposed'
+p287
+F10.45906432748538
+tp288
+a(S'common text visualization technique'
+p289
+F10.447108843537414
+tp290
+a(S'multiple individual trend streams'
+p291
+F10.428571428571429
+tp292
+a(S'visual information retrieval interfaces'
+p293
+F10.35077519379845
+tp294
+a(S't1 2       3       perceptually conveyed'
+p295
+F10.333333333333332
+tp296
+a(S'theme-       delta helped'
+p297
+F10.333333333333332
+tp298
+a(S'topics underlying text corpora'
+p299
+F10.322291993720565
+tp300
+a(S'text mining       extracted features'
+p301
+F10.313775510204081
+tp302
+a(S'2012 presidential       election campaign speeches'
+p303
+F10.3010101010101
+tp304
+a(S'average vertical position'
+p305
+F10.227272727272727
+tp306
+a(S'visualizations represent characteristic keywords'
+p307
+F10.071428571428571
+tp308
+a(S'backend       data analytics component'
+p309
+F10.0073732718894
+tp310
+a(S'theme-       delta frontend'
+p311
+F10.0
+tp312
+a(S'chronicling america website'
+p313
+F9.8
+tp314
+a(S'temporal topic models                 675                 3'
+p315
+F9.790151515151514
+tp316
+a(S'temporal topic models                 673'
+p317
+F9.790151515151514
+tp318
+a(S'trendlines representing male friends'
+p319
+F9.783625730994153
+tp320
+a(S'text cor-       pus'
+p321
+F9.772108843537415
+tp322
+a(S'temporal topic modeling'
+p323
+F9.749710338680927
+tp324
+a(S'vertical position remains'
+p325
+F9.727272727272727
+tp326
+a(S'complete visual analytics system'
+p327
+F9.713595706618962
+tp328
+a(S'total time period defined'
+p329
+F9.692244224422444
+tp330
+a(S'tag cloud       layouts'
+p331
+F9.674242424242424
+tp332
+a(S'present document topic distributions'
+p333
+F9.616346153846154
+tp334
+a(S'under-       heme elta'
+p335
+F9.5
+tp336
+a(S'iden-       tify correlated'
+p337
+F9.5
+tp338
+a(S'heme elta verview       3'
+p339
+F9.5
+tp340
+a(S'requires       thoughtful integration'
+p341
+F9.5
+tp342
+a(S'latent dirichlet allocation'
+p343
+F9.475
+tp344
+a(S'highly       expert population'
+p345
+F9.444444444444445
+tp346
+a(S'topic modeling algorithms'
+p347
+F9.345669934640522
+tp348
+a(S'time segment                       678                 ieee transactions'
+p349
+F9.321972615166747
+tp350
+a(S'mitt romney campaign speeches'
+p351
+F9.31212121212121
+tp352
+a(S'supports knowledge generation'
+p353
+F9.297619047619047
+tp354
+a(S'static topic models'
+p355
+F9.275
+tp356
+a(S'aesthetically pleasing layouts'
+p357
+F9.25
+tp358
+a(S'american presidency project'
+p359
+F9.25
+tp360
+a(S'standard topic modeling'
+p361
+F9.234558823529412
+tp362
+a(S'acm international conference'
+p363
+F9.23076923076923
+tp364
+a(S'ieee       international conference'
+p365
+F9.209302325581396
+tp366
+a(S'nonparametric bayesian       models'
+p367
+F9.1875
+tp368
+a(S'extract temporal relationships'
+p369
+F9.181818181818182
+tp370
+a(S'discrete state       space'
+p371
+F9.1
+tp372
+a(S'qualitative user study'
+p373
+F9.088888888888889
+tp374
+a(S'topical text modeling [3]'
+p375
+F9.085834333733493
+tp376
+a(S'visual repre-       sentation'
+p377
+F9.017441860465116
+tp378
+a(S'in-depth expert analysis'
+p379
+F9.015873015873016
+tp380
+a(S'continuous time dynamic       proc'
+p381
+F9.003355335533554
+tp382
+a(S'movie nar-       1       xkcd'
+p383
+F9.0
+tp384
+a(S'simplest fea-       ture'
+p385
+F9.0
+tp386
+a(S'heavy empha-       sis'
+p387
+F9.0
+tp388
+a(S'posterior infer-       ence'
+p389
+F9.0
+tp390
+a(S'ieighbors ocial essagessm'
+p391
+F9.0
+tp392
+a(S'mated growing polygons'
+p393
+F9.0
+tp394
+a(S'reuters-       ipsos poll'
+p395
+F9.0
+tp396
+a(S'lib-       eral agendas'
+p397
+F9.0
+tp398
+a(S'commu-       nication technologies'
+p399
+F9.0
+tp400
+a(S'emporal opic odeling       4'
+p401
+F9.0
+tp402
+a(S'poor economic situation'
+p403
+F9.0
+tp404
+a(S'implementation deci-       sions'
+p405
+F9.0
+tp406
+a(S'holt county sentinel'
+p407
+F9.0
+tp408
+a(S'informally called obamacare'
+p409
+F9.0
+tp410
+a(S'aestheti-       cally pleasing'
+p411
+F9.0
+tp412
+a(S'multiple text streams'
+p413
+F8.938775510204081
+tp414
+a(S'mining text       streams'
+p415
+F8.938775510204081
+tp416
+a(S'coordinated text streams'
+p417
+F8.938775510204081
+tp418
+a(S'integrating text mining'
+p419
+F8.938775510204081
+tp420
+a(S'support hypothesis generation'
+p421
+F8.916666666666666
+tp422
+a(S'window size limit reach'
+p423
+F8.891666666666667
+tp424
+a(S'election cam-       paign'
+p425
+F8.88888888888889
+tp426
+a(S'study moderator       explained'
+p427
+F8.88888888888889
+tp428
+a(S'performance-based user study'
+p429
+F8.88888888888889
+tp430
+a(S'multiple time scale topics'
+p431
+F8.878141660319878
+tp432
+a(S'main candi-       dates'
+p433
+F8.875
+tp434
+a(S'hierarchal dirichlet process'
+p435
+F8.875
+tp436
+a(S'parallel coordinate metaphor'
+p437
+F8.8
+tp438
+a(S'textual data-       sets'
+p439
+F8.8
+tp440
+a(S'digital object identifier'
+p441
+F8.8
+tp442
+a(S'topic modeling evolves'
+p443
+F8.734558823529412
+tp444
+a(S'dynamic topic models'
+p445
+F8.725
+tp446
+a(S'prevailing medical knowledge'
+p447
+F8.714285714285715
+tp448
+a(S'probabilistic similarity mea-'
+p449
+F8.7
+tp450
+a(S'topic mining algorithms'
+p451
+F8.698611111111111
+tp452
+a(S'tightly integrated visualization'
+p453
+F8.666666666666668
+tp454
+a(S'disadvan-       taged communities'
+p455
+F8.666666666666666
+tp456
+a(S'vir-       tual communities'
+p457
+F8.666666666666666
+tp458
+a(S'current version 1 apr'
+p459
+F8.666666666666666
+tp460
+a(S'text analytics algorithms'
+p461
+F8.649886621315193
+tp462
+a(S'hierarchical dirichlet process'
+p463
+F8.625
+tp464
+a(S'automatically identifying segments'
+p465
+F8.625
+tp466
+a(S'ever-changing topic aggregations'
+p467
+F8.5875
+tp468
+a(S'62-       week period'
+p469
+F8.583333333333334
+tp470
+a(S'social media network'
+p471
+F8.583333333333334
+tp472
+a(S'temporal segmentation algorithm'
+p473
+F8.570175438596491
+tp474
+a(S'presi-       dential campaign'
+p475
+F8.545454545454545
+tp476
+a(S'detect common interests'
+p477
+F8.541666666666666
+tp478
+a(S'show temporal frequencies'
+p479
+F8.515151515151516
+tp480
+a(S'scientific communi-       ties'
+p481
+F8.5
+tp482
+a(S'potential usage       scenarios'
+p483
+F8.5
+tp484
+a(S'technical skill prior'
+p485
+F8.5
+tp486
+a(S'presi-       dential race'
+p487
+F8.5
+tp488
+a(S'observed time-       stamps'
+p489
+F8.5
+tp490
+a(S'purdue univer-       sity'
+p491
+F8.5
+tp492
+a(S'real-world river deltas'
+p493
+F8.5
+tp494
+a(S'country continued suffering'
+p495
+F8.5
+tp496
+a(S'maintain tree smoothness'
+p497
+F8.5
+tp498
+a(S'topic-terms distri-       bution'
+p499
+F8.5
+tp500
+a(S'condi-       tionals prior'
+p501
+F8.5
+tp502
+a(S'topic modeling algorithm'
+p503
+F8.47140092879257
+tp504
+a(S'segmenting time based'
+p505
+F8.442244224422442
+tp506
+a(S'keyword cor-       responding'
+p507
+F8.433333333333334
+tp508
+a(S'contin-       gency table'
+p509
+F8.428571428571429
+tp510
+a(S'chief technology officer'
+p511
+F8.428571428571429
+tp512
+a(S'alter-       native design'
+p513
+F8.4
+tp514
+a(S'000 unique messages contributing'
+p515
+F8.4
+tp516
+a(S'\xc2\xbc       conversion = true       break       0'
+p517
+F8.4
+tp518
+a(S'struc-       tural features'
+p519
+F8.375
+tp520
+a(S'deriving high-quality features'
+p521
+F8.375
+tp522
+a(S'stacked graph evolving'
+p523
+F8.372222222222222
+tp524
+a(S'exploring document collections'
+p525
+F8.358333333333334
+tp526
+a(S'temporal cluster structures'
+p527
+F8.348484848484848
+tp528
+a(S'modern web browser'
+p529
+F8.333333333333334
+tp530
+a(S'algorithmic per-       spective'
+p531
+F8.333333333333334
+tp532
+a(S'auto-       matically partition'
+p533
+F8.333333333333334
+tp534
+a(S'empty vertical space'
+p535
+F8.327272727272726
+tp536
+a(S'composite tag clouds'
+p537
+F8.321678321678322
+tp538
+a(S'dynamic text corpora'
+p539
+F8.288775510204083
+tp540
+a(S'qualitative       expert review [46]'
+p541
+F8.269444444444446
+tp542
+a(S'visual analyt-       ics'
+p543
+F8.267441860465116
+tp544
+a(S'non-adaptive window sizing'
+p545
+F8.266666666666666
+tp546
+a(S'sliding window sizes'
+p547
+F8.266666666666666
+tp548
+a(S'vir-       ginia tech'
+p549
+F8.25
+tp550
+a(S'modern information retrieval       [6]'
+p551
+F8.25
+tp552
+a(S'manuscript received 2 jan'
+p553
+F8.25
+tp554
+a(S'texts include studies'
+p555
+F8.25
+tp556
+a(S'basic visual representation'
+p557
+F8.243632336655592
+tp558
+a(S'disadvan-       taged neighborhood'
+p559
+F8.23076923076923
+tp560
+a(S'study aggregation methods-time-based'
+p561
+F8.222222222222221
+tp562
+a(S'frontend visualization       component'
+p563
+F8.2
+tp564
+a(S'data mining algorithms'
+p565
+F8.175627240143369
+tp566
+a(S'co-       occurrence relationships'
+p567
+F8.166666666666666
+tp568
+a(S'topic reorganiza-       tions'
+p569
+F8.158928571428572
+tp570
+a(S'republican primary election'
+p571
+F8.13888888888889
+tp572
+a(S'result-       ing layout'
+p573
+F8.123809523809523
+tp574
+a(S'parallel tag clouds [23]'
+p575
+F8.12167832167832
+tp576
+a(S'parallel tag clouds'
+p577
+F8.12167832167832
+tp578
+a(S'improving tag-       proc'
+p579
+F8.11111111111111
+tp580
+a(S'visual representation draws'
+p581
+F8.10077519379845
+tp582
+a(S'enabled sequential analysis'
+p583
+F8.071428571428571
+tp584
+a(S'underlying probabilistic distributions'
+p585
+F8.068131868131868
+tp586
+a(S'time-       stamped data'
+p587
+F8.064516129032258
+tp588
+a(S'segmentation algorithm expects'
+p589
+F8.055023923444976
+tp590
+a(S'segmentation       algorithm ability'
+p591
+F8.055023923444976
+tp592
+a(S'interesting document collections'
+p593
+F8.025
+tp594
+a(S'segment       timestamped data'
+p595
+F8.020656479909452
+tp596
+a(S'knowledge generation model'
+p597
+F8.019841269841269
+tp598
+a(S'computer sci-       ence'
+p599
+F8.0
+tp600
+a.
