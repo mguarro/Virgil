@@ -1,0 +1,730 @@
+<?xml version="1.0"?>
+<pdf>
+  <page width="595.22" height="842" number="1">
+    <region x="133.32" y="755.09" width="370.39" height="15.54" line_height="15.54" font="BLMHKC+TimesNewRoman,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Blue-Phase Liquid Crystal Display with Contrast Ratio over 1000:1 </line>
+    </region>
+    <region x="81.72" y="665.29" width="467.31" height="73.28" line_height="13.28" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="60.0" spacing="0.0">Manabu Kobayashi, Yasuhiro Niikura, Akio Yamashita, Yuko Oe, Makoto Ikenaga, Takahiro Yamamoto, </line>
+      <line x_offset="35.64" y_offset="45.0" spacing="1.72">Momoko Kato, Masaru Nakano, Daisuke Kubota, Tsudoi Nagi, Hideaki Shishido, </line>
+      <line x_offset="106.92" y_offset="30.0" spacing="1.72">Tetsuji Ishitani, Yoshiharu Hirakata, Jun Koyama, </line>
+      <line x_offset="173.52" y_offset="15.0" spacing="1.72">Shunpei Yamazaki, </line>
+      <line x_offset="203.76" y_offset="6.38" spacing="-0.28">1</line>
+      <line x_offset="303.84" y_offset="6.38" spacing="-8.9">2</line>
+      <line x_offset="124.44" y_offset="0.0" spacing="-6.91">Daisuke Kurosaki and Tadashi Akahane </line>
+    </region>
+    <region x="160.81" y="562.89" width="303.55" height="83.39" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="58.44" y_offset="72.36" spacing="0.0">Semiconductor Energy Laboratory Co.,Ltd. </line>
+      <line x_offset="57.96" y_offset="57.36" spacing="3.97">398 Hase, Atsugi-shi, Kanagawa, 243-0036, Japan </line>
+      <line x_offset="0.0" y_offset="45.96" spacing="0.38">Phone: +81-46-248-1131 Fax: +81-46-248-1132 E-mail: mk1162@sel.co.jp </line>
+      <line x_offset="96.59" y_offset="39.76" spacing="-0.97">1</line>
+      <line x_offset="99.47" y_offset="34.44" spacing="-5.71"> Advanced Film Device Inc. </line>
+      <line x_offset="23.27" y_offset="22.92" spacing="0.5">161-2 Masuzuka, Tsuga-machi, Tochigi-shi, Tochigi, 328-0114, Japan</line>
+      <line x_offset="82.91" y_offset="16.84" spacing="-1.09">2</line>
+      <line x_offset="85.79" y_offset="11.52" spacing="-5.71"> Nagaoka University of Technology </line>
+      <line x_offset="30.71" y_offset="0.0" spacing="0.5">1603-1 kamitomiokamati, Nagaoka-shi, Niigata, 940-2188, Japan </line>
+    </region>
+    <region x="42.6" y="502.53" width="520.03" height="41.03" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="30.0" spacing="0.0">With the purpose of enhancement in the contrast ratio of a cholesteric-blue-phase liquid crystal display by reducing driving vltoage and light </line>
+      <line x_offset="0.0" y_offset="15.0" spacing="3.97">leakage, we made a prototype of a 3.4-inch polymer-stabilized blue-phase (PS-BP) liquid crystal display including highly reliable crystalline </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.97">oxide semiconductor. As a result, the contrast ratio over 1000:1 was achieved in a dark place. </line>
+    </region>
+    <region x="42.6" y="337.41" width="248.53" height="147.47" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="136.44" spacing="0.0">1. Introduction </line>
+      <line x_offset="221.4" y_offset="120.0" spacing="5.42"> was </line>
+      <line x_offset="42.36" y_offset="120.0" spacing="-11.03">In 1985, a crystalline structure of InGaZnO</line>
+      <line x_offset="218.64" y_offset="119.19" spacing="-6.37">4</line>
+      <line x_offset="100.32" y_offset="110.31" spacing="1.71">1-4)</line>
+      <line x_offset="0.0" y_offset="105.0" spacing="-5.71">reported by Kimizuka et al</line>
+      <line x_offset="109.44" y_offset="105.0" spacing="-11.03">. In addition to application of oxide </line>
+      <line x_offset="130.56" y_offset="95.31" spacing="2.51">5)</line>
+      <line x_offset="195.12" y_offset="95.31" spacing="-7.17">6-8)</line>
+      <line x_offset="0.0" y_offset="90.0" spacing="-5.71">semiconductor (OS) to organic EL</line>
+      <line x_offset="135.12" y_offset="90.0" spacing="-11.03"> panels or LCD panels in </line>
+      <line x_offset="0.0" y_offset="75.0" spacing="3.97">which In-Ga-Zn-oxide (IGZO) is used for driving transistors, our </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="3.97">development includes application to a variety of products that can </line>
+      <line x_offset="141.36" y_offset="50.31" spacing="2.52">9, 10)</line>
+      <line x_offset="232.8" y_offset="50.31" spacing="-7.17">5-8, </line>
+      <line x_offset="0.0" y_offset="45.0" spacing="-5.71">make use of characteristics of OS FET</line>
+      <line x_offset="153.96" y_offset="45.0" spacing="-11.02"> as shown in Figure 1</line>
+      <line x_offset="0.0" y_offset="35.31" spacing="2.52">11-16)</line>
+      <line x_offset="14.52" y_offset="30.0" spacing="-5.72">. In particular, development of c-axis aligned crystal (CAAC) </line>
+      <line x_offset="38.04" y_offset="20.31" spacing="2.51">1-4, 9, 10, 17, 18)</line>
+      <line x_offset="0.0" y_offset="15.0" spacing="-5.71">(Figure 2)</line>
+      <line x_offset="80.52" y_offset="15.0" spacing="-11.03">, which will enable high performance and </line>
+      <line x_offset="0.01" y_offset="0.0" spacing="3.97">high reliability, opens up the possibility of application. </line>
+    </region>
+    <region x="212.4" y="313.11" width="6.45" height="7.89" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">5)</line>
+    </region>
+    <region x="212.4" y="294.51" width="12.81" height="7.89" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">6-8)</line>
+    </region>
+    <region x="273.0" y="276.39" width="10.53" height="7.89" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">11)</line>
+    </region>
+    <region x="279.12" y="251.79" width="10.53" height="7.89" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">12)</line>
+    </region>
+    <region x="235.8" y="233.31" width="10.41" height="7.89" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">13)</line>
+    </region>
+    <region x="308.28" y="230.37" width="248.43" height="241.08" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="134.52" y_offset="233.91" spacing="0.0">19, 20)</line>
+      <line x_offset="42.48" y_offset="228.6" spacing="-5.71">The PS-BP liquid crystal</line>
+      <line x_offset="150.12" y_offset="228.6" spacing="-11.03"> is generally driven by a </line>
+      <line x_offset="0.01" y_offset="213.36" spacing="4.21">lateral electric field as in an in-plane-switching (IPS) mode. For its </line>
+      <line x_offset="0.01" y_offset="198.12" spacing="4.21">electrode structure, various types of structures which enable high </line>
+      <line x_offset="0.01" y_offset="183.0" spacing="4.09">electric-field intensity and low driving voltage have been proposed </line>
+      <line x_offset="0.0" y_offset="173.07" spacing="2.76">7), 21-25)</line>
+      <line x_offset="21.84" y_offset="167.76" spacing="-5.71"> because driving voltage of blue-phase liquid crystal is high </line>
+      <line x_offset="0.0" y_offset="152.52" spacing="4.21">and a high white luminance is not easily obtained, and thus to </line>
+      <line x_offset="0.0" y_offset="137.4" spacing="4.09">obtain high contrast ratio is difficult. In addition, light leakage </line>
+      <line x_offset="0.0" y_offset="122.16" spacing="4.21">occurs due to Bragg diffraction in the blue-phase liquid crystal. It is </line>
+      <line x_offset="0.0" y_offset="106.92" spacing="4.21">necessary to solve these problems in order to improve the contrast </line>
+      <line x_offset="0.0" y_offset="91.8" spacing="4.09">ratio. </line>
+      <line x_offset="42.43" y_offset="75.0" spacing="5.78">Thus, a blue-phase material was optimized to lower the </line>
+      <line x_offset="0.0" y_offset="60.0" spacing="3.97">driving voltage and to make diffraction wavelength have a peak in </line>
+      <line x_offset="0.0" y_offset="45.0" spacing="3.97">the ultraviolet region, and light leakage from a pixel electrode was </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="3.97">suppressed. As a result, the contrast ratio over 1000:1 of a liquid </line>
+      <line x_offset="0.0" y_offset="15.0" spacing="3.97">crystal display was achieved without using a black matrix (BM) </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.97">for the first time in the world. </line>
+    </region>
+    <region x="253.08" y="200.31" width="17.85" height="21.33" line_height="7.89" font="BLMHOI+Arial,Bold">
+      <line x_offset="7.44" y_offset="13.44" spacing="0.0">12)</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="5.55">14)</line>
+    </region>
+    <region x="94.92" y="168.06" width="141.21" height="25.62" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="117.84" y_offset="17.73" spacing="0.0">15, 16)</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="7.77">Fig. 1. Product development in OS tronics. </line>
+    </region>
+    <region x="215.52" y="141.4" width="12.66" height="7.84" line_height="7.84" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1-4)</line>
+    </region>
+    <region x="236.64" y="125.32" width="10.39" height="7.84" line_height="7.84" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">18)</line>
+    </region>
+    <region x="232.56" y="108.52" width="10.51" height="7.84" line_height="7.84" font="BLMHOI+Arial,Bold">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">17)</line>
+    </region>
+    <region x="308.28" y="80.39" width="248.09" height="132.34" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="121.31" spacing="0.0">2. Optimization of Blue-Phase Material </line>
+      <line x_offset="0.0" y_offset="106.07" spacing="4.21">Selection of Chiral Material </line>
+      <line x_offset="42.47" y_offset="91.19" spacing="3.85">For low-voltage driving of PS-BP liquid crystal, it is </line>
+      <line x_offset="0.0" y_offset="75.95" spacing="4.21">important to employ a chiral material with high helical twisting </line>
+      <line x_offset="0.0" y_offset="60.72" spacing="4.21">power (HTP) and reduce the amount of added chiral material. The </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.09">HTPs of Chiral Material A and Chiral Material B were measured </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">using a wedge-shaped cell. Table I shows the measurement results. </line>
+      <line x_offset="42.43" y_offset="15.12" spacing="4.21">From Table I, Chiral Material B has higher HTP than </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.09">Chiral Material A, so Chiral Material B is suitable for a blue-phase </line>
+    </region>
+    <region x="82.92" y="74.82" width="165.88" height="25.58" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="86.52" y_offset="17.74" spacing="0.0">9, 10)</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="7.78">Fig. 2. Classification by crystallinity in OS tronics. </line>
+    </region>
+  </page>
+  <page width="595.22" height="842" number="2">
+    <region x="42.6" y="757.89" width="33.95" height="11.03" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">material. </line>
+    </region>
+    <region x="116.16" y="728.1" width="105.05" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Table I. HTP of Chiral Material.</line>
+    </region>
+    <region x="308.28" y="545.14" width="249.99" height="223.77" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="212.75" spacing="0.0">light leakage was markedly observed in the vicinity of a source </line>
+      <line x_offset="0.0" y_offset="197.63" spacing="4.09">wiring and a gate wiring, and at a pixel electrode having a rib </line>
+      <line x_offset="0.0" y_offset="182.39" spacing="4.21">which is made for decreasing the driving voltage of a blue phase </line>
+      <line x_offset="0.0" y_offset="167.15" spacing="4.21">liquid crystal. </line>
+      <line x_offset="42.35" y_offset="152.03" spacing="4.09">Further, the state of light leakage changed as the </line>
+      <line x_offset="0.0" y_offset="136.79" spacing="4.21">polarizers rotated, i.e., anisotropy was confirmed. Light leakage, </line>
+      <line x_offset="0.0" y_offset="121.55" spacing="4.21">particularly light leakage due to the electrode having a rib is </line>
+      <line x_offset="0.0" y_offset="106.43" spacing="4.09">probably caused by not only a difference between refractive </line>
+      <line x_offset="0.0" y_offset="91.19" spacing="4.21">indices but also another factor, and this factor might be derived </line>
+      <line x_offset="0.0" y_offset="75.95" spacing="4.21">from form birefringence. </line>
+      <line x_offset="42.34" y_offset="60.84" spacing="4.09">Thus, the factors of anisotropic light leakage were </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.21">divided into a factor due to a pixel electrode and a factor due to a </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">source wiring and a gate wiring, and the panel layout and the pixel </line>
+      <line x_offset="0.0" y_offset="15.24" spacing="4.09">electrode structure were reconsidered, so that a reduction in light </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">leakage was verified(Fig. 4-(2)). </line>
+    </region>
+    <region x="465.96" y="512.12" width="90.19" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Polarizer directions </line>
+    </region>
+    <region x="448.8" y="433.28" width="14.46" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(2) </line>
+    </region>
+    <region x="325.68" y="432.92" width="14.46" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">(1) </line>
+    </region>
+    <region x="358.2" y="408.9" width="146.57" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 4. Micrograph of electrode having a rib. </line>
+    </region>
+    <region x="42.59" y="383.25" width="248.27" height="297.82" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.01" y_offset="286.8" spacing="0.0">Characteristics of PS-BP Liquid Crystal </line>
+      <line x_offset="42.37" y_offset="273.6" spacing="2.17">Chiral Material B, a monomer, and polymerization </line>
+      <line x_offset="0.01" y_offset="258.36" spacing="4.21">initiator were added into liquid crystal, the mixture was injected </line>
+      <line x_offset="0.01" y_offset="243.24" spacing="4.09">into cells</line>
+      <line x_offset="45.97" y_offset="243.24" spacing="-11.02">to which lateral electric field is applied, and </line>
+      <line x_offset="0.01" y_offset="228.0" spacing="4.21">polymer-stabilization treatment was performed, so that PS-BP </line>
+      <line x_offset="0.01" y_offset="212.76" spacing="4.21">liquid crystal was obtained. </line>
+      <line x_offset="42.41" y_offset="197.64" spacing="4.09">Figure 3 shows the results of V-T characteristics of the </line>
+      <line x_offset="0.01" y_offset="182.4" spacing="4.21">obtained PS-BP liquid crystal. The cell used here was an IPS cell </line>
+      <line x_offset="0.01" y_offset="167.16" spacing="4.21">with a protrusion electrode having a rib. The rib is made of a </line>
+      <line x_offset="0.01" y_offset="152.04" spacing="4.09">photosensitive resin and covered with a transparent electrode. The </line>
+      <line x_offset="0.01" y_offset="136.44" spacing="4.57">width of the rib was 2 m and the interval of ribs was 3 m. The </line>
+      <line x_offset="82.13" y_offset="135.68" spacing="-12.21">&#x3BC;</line>
+      <line x_offset="200.53" y_offset="135.68" spacing="-12.98">&#x3BC;</line>
+      <line x_offset="0.0" y_offset="121.21" spacing="3.45">width of the transparent electrode was 3 m and the interval of </line>
+      <line x_offset="145.2" y_offset="120.44" spacing="-12.21">&#x3BC;</line>
+      <line x_offset="0.0" y_offset="106.09" spacing="3.33">transparent electrodes was 2 m. PS-BP with this structure </line>
+      <line x_offset="103.33" y_offset="105.32" spacing="-12.21">&#x3BC;</line>
+      <line x_offset="0.0" y_offset="91.21" spacing="3.09">containing Chiral Material B enabled low voltage driving. The </line>
+      <line x_offset="0.0" y_offset="75.61" spacing="4.57">voltage V</line>
+      <line x_offset="42.73" y_offset="75.6" spacing="-11.01"> at which the normalized transmittance is 100 was </line>
+      <line x_offset="207.61" y_offset="74.83" spacing="-12.21">%</line>
+      <line x_offset="34.33" y_offset="74.79" spacing="-7.13">100</line>
+      <line x_offset="123.85" y_offset="60.84" spacing="2.93"> at which the normalized </line>
+      <line x_offset="0.0" y_offset="60.83" spacing="-11.03">as low as 31 V, and the voltageV </line>
+      <line x_offset="118.21" y_offset="60.03" spacing="-6.37">90</line>
+      <line x_offset="0.01" y_offset="45.24" spacing="3.76">transmittance is 90 was as low as 22 V. </line>
+      <line x_offset="69.61" y_offset="44.47" spacing="-12.21">%</line>
+      <line x_offset="42.44" y_offset="30.36" spacing="3.09">In addition, the peak of the diffraction wavelength of </line>
+      <line x_offset="0.01" y_offset="15.24" spacing="4.09">the PS-BP is 367 nm when no voltage is applied, which means that </line>
+      <line x_offset="0.01" y_offset="0.0" spacing="4.21">the amount of light leakage due to Bragg diffraction is small. </line>
+    </region>
+    <region x="308.28" y="332.95" width="247.25" height="55.56" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="8.16" y_offset="45.59" spacing="0.0">(1) Structure on which countermeasure against light leakage is not </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="5.27">performed (2) Structure on which countermeasure against light leakage is </line>
+      <line x_offset="0.0" y_offset="15.12" spacing="5.27">performed (micrographs surrounded by dashed lines are contrast </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="5.16">enhancement images)</line>
+    </region>
+    <region x="54.76" y="327.66" width="-8.81" height="2.65" line_height="2.65" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">]</line>
+    </region>
+    <region x="54.76" y="321.07" width="-8.81" height="6.64" line_height="6.64" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">%</line>
+    </region>
+    <region x="54.76" y="318.47" width="-8.81" height="2.65" line_height="2.65" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">[</line>
+    </region>
+    <region x="54.76" y="313.02" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="54.76" y="309.42" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="54.76" y="305.58" width="-8.81" height="3.99" line_height="3.99" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="54.76" y="301.97" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.76" y="299.81" width="-8.81" height="2.22" line_height="2.22" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="54.76" y="297.64" width="-8.81" height="2.22" line_height="2.22" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">t</line>
+    </region>
+    <region x="54.76" y="295.48" width="-8.81" height="2.22" line_height="2.22" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="54.76" y="289.36" width="-8.81" height="6.2" line_height="6.2" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="54.76" y="286.24" width="-8.81" height="3.1" line_height="3.1" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">s</line>
+    </region>
+    <region x="54.76" y="282.4" width="-8.81" height="3.99" line_height="3.99" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="54.76" y="278.8" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.76" y="276.28" width="-8.81" height="2.65" line_height="2.65" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="54.76" y="271.24" width="-8.81" height="4.87" line_height="4.87" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">T</line>
+    </region>
+    <region x="54.76" y="265.31" width="-8.81" height="3.99" line_height="3.99" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">d</line>
+    </region>
+    <region x="54.76" y="261.82" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="54.76" y="258.33" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">z</line>
+    </region>
+    <region x="54.76" y="256.05" width="-8.81" height="2.22" line_height="2.22" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="54.76" y="253.89" width="-8.81" height="2.22" line_height="2.22" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="54.76" y="250.4" width="-8.81" height="3.54" line_height="3.54" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.76" y="244.24" width="-8.81" height="6.2" line_height="6.2" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="54.76" y="241.64" width="-8.81" height="2.65" line_height="2.65" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="54.76" y="237.68" width="-8.81" height="3.99" line_height="3.99" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="54.76" y="231.92" width="-8.81" height="5.76" line_height="5.76" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">N</line>
+    </region>
+    <region x="58.8" y="228.13" width="11.62" height="130.53" line_height="8.98" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="121.55" spacing="0.0">100</line>
+      <line x_offset="3.72" y_offset="109.19" spacing="3.38">90</line>
+      <line x_offset="3.72" y_offset="97.31" spacing="2.9">80</line>
+      <line x_offset="3.72" y_offset="84.84" spacing="3.5">70</line>
+      <line x_offset="3.72" y_offset="72.96" spacing="2.9">60</line>
+      <line x_offset="3.72" y_offset="60.48" spacing="3.5">50</line>
+      <line x_offset="3.72" y_offset="48.6" spacing="2.9">40</line>
+      <line x_offset="3.72" y_offset="36.24" spacing="3.38">30</line>
+      <line x_offset="3.72" y_offset="24.36" spacing="2.9">20</line>
+      <line x_offset="3.72" y_offset="11.88" spacing="3.5">10</line>
+      <line x_offset="7.56" y_offset="0.0" spacing="2.9">0</line>
+    </region>
+    <region x="75.0" y="215.16" width="4.06" height="8.98" line_height="8.98" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0</line>
+    </region>
+    <region x="272.03" y="215.16" width="7.9" height="8.98" line_height="8.98" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">35</line>
+    </region>
+    <region x="83.88" y="186.18" width="167.37" height="37.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="19.8" y_offset="28.99" spacing="0.0">5</line>
+      <line x_offset="45.83" y_offset="28.99" spacing="-8.98">10</line>
+      <line x_offset="74.51" y_offset="28.99" spacing="-8.98">15</line>
+      <line x_offset="102.59" y_offset="28.99" spacing="-8.98">20</line>
+      <line x_offset="131.39" y_offset="28.99" spacing="-8.98">25</line>
+      <line x_offset="159.46" y_offset="28.99" spacing="-8.98">30</line>
+      <line x_offset="62.16" y_offset="17.62" spacing="2.55">Applied Voltage [V]</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="7.66">Fig.3. Measurement results of V-T characteristics.</line>
+    </region>
+    <region x="308.28" y="134.74" width="248.57" height="177.94" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="166.91" spacing="0.0">Panel Layout </line>
+      <line x_offset="42.35" y_offset="152.03" spacing="3.85">In a general liquid crystal display, light leakage is </line>
+      <line x_offset="0.0" y_offset="136.79" spacing="4.21">reduced by blocking light with BM. In the case of PS-BP, uniform </line>
+      <line x_offset="0.0" y_offset="121.55" spacing="4.21">light irradiation on the entire surface of a panel is needed for </line>
+      <line x_offset="0.0" y_offset="106.43" spacing="4.09">polymer stabilization treatment, which makes it difficult to provide </line>
+      <line x_offset="0.0" y_offset="91.19" spacing="4.21">BM on a counter substrate. </line>
+      <line x_offset="42.45" y_offset="75.95" spacing="4.21">As a countermeasure to this problem, wirings such as a </line>
+      <line x_offset="0.0" y_offset="60.84" spacing="4.09">source wiring and a gate wiring are arranged to be parallel or </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.21">vertical to the absorption axis direction of polarizers, and only pixel </line>
+      <line x_offset="0.0" y_offset="30.0" spacing="4.57">electrodes are arranged at an angle of 45 to the absorption axis </line>
+      <line x_offset="153.84" y_offset="29.23" spacing="-12.21">&#xB0;</line>
+      <line x_offset="0.0" y_offset="15.24" spacing="2.97">direction of polarizers. Thus, light leakage caused by the source </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">wiring and the drain wiring can be reduced without using BM .</line>
+    </region>
+    <region x="42.6" y="79.29" width="247.23" height="86.74" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="75.72" spacing="0.0">3. Panel Structure </line>
+      <line x_offset="42.34" y_offset="60.72" spacing="3.97">A lateral electric field driving mode such as an IPS </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.09">mode is used for driving a blue-phase liquid crystal. The angle </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">formed by the absorption axis direction of the polarizers and the </line>
+      <line x_offset="0.0" y_offset="14.76" spacing="4.57">pixel electrode direction needs to be 45. However, with this </line>
+      <line x_offset="156.96" y_offset="13.99" spacing="-12.21">&#xB0;</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="2.97">arrangement structure, light leakage occurred (Fig. 4-(1)). Such </line>
+    </region>
+    <region x="308.28" y="73.91" width="246.76" height="41.26" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="30.24" spacing="0.0">Pixel Electrode Structure </line>
+      <line x_offset="42.45" y_offset="15.24" spacing="3.97">Form birefringence is caused by phase difference </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">generated between a direction where the periodic structure exists </line>
+    </region>
+  </page>
+  <page width="595.22" height="842" number="3">
+    <region x="311.04" y="751.76" width="46.85" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Substrate </line>
+    </region>
+    <region x="311.04" y="716.84" width="42.73" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Electrode</line>
+    </region>
+    <region x="311.04" y="691.27" width="18.4" height="12.68" line_height="12.68" font="BLMHPJ+Century">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Rib </line>
+    </region>
+    <region x="351.48" y="652.14" width="159.86" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 6. Schematic view of rib electrode structure. </line>
+    </region>
+    <region x="42.6" y="499.55" width="250.61" height="269.37" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="258.34" spacing="0.0">and a direction perpendicular to the direction. The electrode </line>
+      <line x_offset="0.0" y_offset="243.22" spacing="4.09">structure with a linear rib has a periodic structure formed by liquid </line>
+      <line x_offset="0.0" y_offset="227.98" spacing="4.21">crystal, a transparent electrode, and a rib. In such a structure, the </line>
+      <line x_offset="0.0" y_offset="212.75" spacing="4.21">phase difference is probably generated to break the polarization </line>
+      <line x_offset="0.0" y_offset="197.63" spacing="4.09">state and thus light leakage occurs. </line>
+      <line x_offset="42.32" y_offset="182.39" spacing="4.21">In order to reduce light leakage due to form </line>
+      <line x_offset="0.0" y_offset="167.15" spacing="4.21">birefringence, we focused on the thickness of the transparent </line>
+      <line x_offset="0.0" y_offset="152.03" spacing="4.09">electrode and made the experimental cells of PS-BP in which the </line>
+      <line x_offset="0.0" y_offset="136.79" spacing="4.21">thicknesses of the transparent electrodes with a linear rib are 20 nm, </line>
+      <line x_offset="0.0" y_offset="121.55" spacing="4.21">40 nm, 60 nm, 80 nm, and 100 nm. </line>
+      <line x_offset="42.34" y_offset="106.43" spacing="4.09">Figure 5 shows the relation between the black </line>
+      <line x_offset="0.0" y_offset="91.19" spacing="4.21">luminance when no voltage is applied and the thickness of the </line>
+      <line x_offset="0.0" y_offset="75.95" spacing="4.21">transparent electrode. In Fig. 5, ref. represents a state where </line>
+      <line x_offset="0.0" y_offset="60.84" spacing="4.09">polarizers are arranged in crossed Nicols without an experimental </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.21">cell. The black luminance was measured using polarizers arranged </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">in crossed Nicols with incidence of diffusion light. The absorption </line>
+      <line x_offset="214.32" y_offset="14.11" spacing="3.27">&#xB0;</line>
+      <line x_offset="0.0" y_offset="14.88" spacing="-11.79">axis direction of polarizers was arranged at an angle of 45 to the </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.85">pixel electrode direction. </line>
+    </region>
+    <region x="68.16" y="474.38" width="4.0" height="8.88" line_height="8.88" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="308.28" y="468.05" width="247.55" height="164.06" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="42.43" y_offset="153.04" spacing="0.0">The experimental cells of PS-BP were manufactured </line>
+      <line x_offset="0.0" y_offset="137.92" spacing="4.09">with the use of a substrate with this electrode structure. </line>
+      <line x_offset="42.43" y_offset="122.68" spacing="4.21">Figure 7 shows relation between the black luminance </line>
+      <line x_offset="0.0" y_offset="107.44" spacing="4.21">when no voltage is applied and the electrode structure (the rib </line>
+      <line x_offset="0.0" y_offset="92.32" spacing="4.09">shape-thickness of the electrode). Two types of rib shapes, a </line>
+      <line x_offset="0.0" y_offset="77.08" spacing="4.21">square-pyramid rib and a linear rib were used. In Fig. 7, ref. </line>
+      <line x_offset="0.0" y_offset="61.84" spacing="4.21">represents a state where polarizers are arranged in crossed Nicols </line>
+      <line x_offset="0.0" y_offset="46.72" spacing="4.09">without an experimental cell. The black luminance was measured </line>
+      <line x_offset="0.0" y_offset="31.48" spacing="4.21">using polarizers arranged in crossed Nicols with incidence of </line>
+      <line x_offset="0.0" y_offset="16.24" spacing="4.21">diffusion light. The absorption axis direction of polarizers was </line>
+      <line x_offset="0.0" y_offset="0.77" spacing="4.45">arranged at an angle of 45 to the pixel electrode direction. </line>
+      <line x_offset="93.12" y_offset="0.0" spacing="-12.21">&#xB0;</line>
+    </region>
+    <region x="54.38" y="463.83" width="-8.72" height="2.62" line_height="2.62" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">]</line>
+    </region>
+    <region x="54.38" y="461.87" width="-8.72" height="1.96" line_height="1.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">.</line>
+    </region>
+    <region x="54.38" y="457.95" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="54.38" y="455.99" width="-8.72" height="1.96" line_height="1.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">.</line>
+    </region>
+    <region x="54.38" y="452.5" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.38" y="449.89" width="-8.72" height="2.62" line_height="2.62" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">[</line>
+    </region>
+    <region x="54.38" y="444.48" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="332.04" y="441.45" width="3.86" height="8.55" line_height="8.55" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">1</line>
+    </region>
+    <region x="54.38" y="441.0" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="54.38" y="437.08" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="320.48" y="435.88" width="-9.01" height="2.7" line_height="2.7" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">]</line>
+    </region>
+    <region x="320.48" y="433.84" width="-9.01" height="2.03" line_height="2.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">.</line>
+    </region>
+    <region x="54.38" y="433.59" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="320.48" y="429.88" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="54.38" y="429.67" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="320.48" y="427.84" width="-9.01" height="2.03" line_height="2.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">.</line>
+    </region>
+    <region x="54.38" y="427.51" width="-8.72" height="2.18" line_height="2.18" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="320.48" y="424.13" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.38" y="421.63" width="-8.72" height="6.11" line_height="6.11" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="320.48" y="421.52" width="-9.01" height="2.7" line_height="2.7" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">[</line>
+    </region>
+    <region x="54.38" y="417.67" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="320.48" y="415.78" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="54.38" y="415.38" width="-8.72" height="2.18" line_height="2.18" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="320.48" y="412.3" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="62.28" y="410.78" width="9.88" height="8.88" line_height="8.88" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="54.38" y="409.62" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">k</line>
+    </region>
+    <region x="320.48" y="408.21" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="54.38" y="406.02" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="320.48" y="404.5" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="54.38" y="402.66" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="320.48" y="400.54" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">n</line>
+    </region>
+    <region x="54.38" y="400.38" width="-8.72" height="2.18" line_height="2.18" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="320.48" y="398.25" width="-9.01" height="2.26" line_height="2.26" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="54.38" y="396.54" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="320.48" y="392.14" width="-9.01" height="6.31" line_height="6.31" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="54.38" y="390.7" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">d</line>
+    </region>
+    <region x="320.48" y="388.05" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">u</line>
+    </region>
+    <region x="54.38" y="387.21" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="320.48" y="385.65" width="-9.01" height="2.26" line_height="2.26" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="54.38" y="383.73" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">z</line>
+    </region>
+    <region x="54.38" y="381.55" width="-8.72" height="2.18" line_height="2.18" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="320.48" y="379.55" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">k</line>
+    </region>
+    <region x="54.38" y="379.37" width="-8.72" height="2.18" line_height="2.18" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="325.92" y="378.45" width="9.98" height="8.55" line_height="8.55" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.1</line>
+    </region>
+    <region x="320.48" y="375.95" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c</line>
+    </region>
+    <region x="54.38" y="375.88" width="-8.72" height="3.49" line_height="3.49" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="320.48" y="372.44" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="320.48" y="370.04" width="-9.01" height="2.26" line_height="2.26" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="54.38" y="369.88" width="-8.72" height="6.11" line_height="6.11" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="54.38" y="367.27" width="-8.72" height="2.62" line_height="2.62" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="320.48" y="366.08" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">b</line>
+    </region>
+    <region x="54.38" y="363.35" width="-8.72" height="3.93" line_height="3.93" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="320.48" y="359.86" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">d</line>
+    </region>
+    <region x="54.38" y="357.68" width="-8.72" height="5.67" line_height="5.67" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">N</line>
+    </region>
+    <region x="320.48" y="356.25" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">e</line>
+    </region>
+    <region x="320.48" y="352.77" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">z</line>
+    </region>
+    <region x="320.48" y="350.49" width="-9.01" height="2.26" line_height="2.26" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">i</line>
+    </region>
+    <region x="320.48" y="348.21" width="-9.01" height="2.26" line_height="2.26" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">l</line>
+    </region>
+    <region x="58.56" y="347.67" width="13.6" height="8.88" line_height="8.88" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.01</line>
+    </region>
+    <region x="320.48" y="344.61" width="-9.01" height="3.6" line_height="3.6" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">a</line>
+    </region>
+    <region x="320.48" y="338.37" width="-9.01" height="6.31" line_height="6.31" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">m</line>
+    </region>
+    <region x="320.48" y="335.61" width="-9.01" height="2.7" line_height="2.7" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">r</line>
+    </region>
+    <region x="320.48" y="331.52" width="-9.01" height="4.06" line_height="4.06" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">o</line>
+    </region>
+    <region x="320.48" y="325.76" width="-9.01" height="5.86" line_height="5.86" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">N</line>
+    </region>
+    <region x="89.52" y="325.26" width="175.73" height="18.44" line_height="8.72" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="9.56" spacing="0.0">ref.20</line>
+      <line x_offset="67.2" y_offset="9.56" spacing="-8.88">40</line>
+      <line x_offset="100.2" y_offset="9.56" spacing="-8.88">6080100</line>
+      <line x_offset="40.32" y_offset="0.0" spacing="0.85">Electrode thickness [nm]</line>
+    </region>
+    <region x="322.08" y="315.57" width="13.82" height="8.55" line_height="8.55" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">0.01</line>
+    </region>
+    <region x="361.2" y="304.53" width="10.81" height="8.55" line_height="8.55" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">ref.</line>
+    </region>
+    <region x="57.84" y="302.46" width="214.49" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 5. Relation between black luminance and electrode thickness.</line>
+    </region>
+    <region x="387.6" y="292.32" width="151.57" height="20.76" line_height="9.01" font="BLMHKE+TimesNewRoman">
+      <line x_offset="13.32" y_offset="12.21" spacing="0.0">Squ.-20nm Line-20nm Line-100nm</line>
+      <line x_offset="0.0" y_offset="0.0" spacing="3.2">Rib shape-thickness of electrode.</line>
+    </region>
+    <region x="319.32" y="272.1" width="223.39" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 7. Relation between black luminance and rib electrode structure.</line>
+    </region>
+    <region x="42.61" y="149.98" width="248.48" height="132.58" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="42.43" y_offset="121.55" spacing="0.0">The data of the black luminance indicates that light </line>
+      <line x_offset="0.0" y_offset="106.31" spacing="4.21">leakage increases as the electrode becomes thicker. </line>
+      <line x_offset="42.43" y_offset="91.19" spacing="4.09">The black luminance of the electrode having a rib is </line>
+      <line x_offset="0.0" y_offset="75.95" spacing="4.21">higher than that of the polarizers arranged in crossed Nicols </line>
+      <line x_offset="0.0" y_offset="60.72" spacing="4.21">without an experimental cell, so that light leakage cannot be </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.09">satisfactorily suppressed by only a reduction in thickness of the </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">electrode. Therefore, as an additional countermeasure against light </line>
+      <line x_offset="0.0" y_offset="15.12" spacing="4.21">leakage, a rib electrode in which square pyramids are arranged as </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.09">illustrated in Fig. 6 was made. </line>
+    </region>
+    <region x="308.27" y="149.98" width="247.97" height="102.22" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="42.44" y_offset="91.19" spacing="0.0">The data of the black luminance indicates that light </line>
+      <line x_offset="0.01" y_offset="75.95" spacing="4.21">leakage is reduced due to the square-pyramid rib. </line>
+      <line x_offset="42.32" y_offset="60.72" spacing="4.21">The probable reason of this is that the rib region which </line>
+      <line x_offset="0.01" y_offset="45.24" spacing="4.45">is at an angle of 45 to the absorption axis direction of polarizer is </line>
+      <line x_offset="70.09" y_offset="44.47" spacing="-12.21">&#xB0;</line>
+      <line x_offset="0.0" y_offset="30.36" spacing="3.09">reduced by employing a rib electrode in which square pyramids </line>
+      <line x_offset="0.0" y_offset="15.12" spacing="4.21">are arranged and thus light leakage caused by form birefringence is </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.09">also reduced. </line>
+    </region>
+    <region x="308.27" y="74.14" width="250.61" height="56.38" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="45.36" spacing="0.0">4. Display Characteristics </line>
+      <line x_offset="42.3" y_offset="30.36" spacing="3.97">We made a prototype of a 3.4-inch blue-phase liquid </line>
+      <line x_offset="0.0" y_offset="15.24" spacing="4.09">crystal display (Table II). The FETs used here include crystalline </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">IGZO with a CAAC structure. Figure 8 shows TEM images of an </line>
+    </region>
+  </page>
+  <page width="595.22" height="842" number="4">
+    <region x="42.6" y="697.17" width="251.29" height="71.74" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="60.72" spacing="0.0">IGZO thin film we fabricated. In this film, c-axes are aligned in a </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.09">direction perpendicular to a substrate, and the a-b planes of IGZO </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">crystals are formed in mosaic arrangements. The crystal grain </line>
+      <line x_offset="0.0" y_offset="15.12" spacing="4.21">boundaries are unclear. The pixels and driver circuits are formed in </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.09">an integrated manner with FETs including crystalline IGZO. </line>
+    </region>
+    <region x="308.28" y="681.93" width="247.53" height="86.74" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="75.72" spacing="0.0">5. Conclusion </line>
+      <line x_offset="42.43" y_offset="60.84" spacing="3.85">With the use of the optimized blue-phase material and </line>
+      <line x_offset="0.0" y_offset="45.6" spacing="4.21">electrode structure, a prototype of a 3.4-inch blue-phase liquid </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="4.21">crystal display including a highly reliable crystalline oxide </line>
+      <line x_offset="0.0" y_offset="15.24" spacing="4.09">semiconductor was manufactured, so that the contrast ratio 1100:1 </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">was achieved in a dark place. </line>
+    </region>
+    <region x="74.16" y="472.29" width="173.25" height="204.93" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="94.09" y_offset="178.77" spacing="16.2">Transmissive </line>
+      <line x_offset="94.9" y_offset="162.57" spacing="6.24">3.4 inch </line>
+      <line x_offset="94.08" y_offset="146.01" spacing="6.6">540 (H) 960 (V) </line>
+      <line x_offset="121.19" y_offset="145.31" spacing="-11.03">&#xD7;</line>
+      <line x_offset="102.24" y_offset="129.81" spacing="5.54"> m (H) 78 m (V)</line>
+      <line x_offset="94.08" y_offset="129.11" spacing="-11.03">78 &#x3BC;</line>
+      <line x_offset="130.32" y_offset="129.11" spacing="-11.73">&#xD7; &#x3BC; </line>
+      <line x_offset="94.08" y_offset="113.97" spacing="5.18">326 ppi </line>
+      <line x_offset="94.08" y_offset="97.77" spacing="6.24">Field sequential </line>
+      <line x_offset="94.08" y_offset="81.57" spacing="6.24">Integrated </line>
+      <line x_offset="94.08" y_offset="65.37" spacing="6.24">Integrated </line>
+      <line x_offset="95.45" y_offset="49.17" spacing="6.24">Blue phase mode </line>
+      <line x_offset="94.08" y_offset="32.61" spacing="6.6">4 m </line>
+      <line x_offset="100.08" y_offset="31.91" spacing="-11.03">&#x3BC;</line>
+      <line x_offset="94.99" y_offset="16.77" spacing="5.18">50% </line>
+      <line x_offset="102.6" y_offset="0.45" spacing="6.36">1000:1</line>
+      <line x_offset="33.48" y_offset="194.97" spacing="-204.48">Table II. Specifications of the LCD.</line>
+      <line x_offset="0.0" y_offset="178.77" spacing="6.24">Display Type </line>
+      <line x_offset="0.0" y_offset="162.57" spacing="6.24">Screen Diagonal </line>
+      <line x_offset="0.0" y_offset="146.37" spacing="6.24">Resolution </line>
+      <line x_offset="0.0" y_offset="130.17" spacing="6.24">Pixel Pitch </line>
+      <line x_offset="0.0" y_offset="113.97" spacing="6.24">Pixel Density </line>
+      <line x_offset="0.0" y_offset="97.77" spacing="6.24">Color System </line>
+      <line x_offset="0.0" y_offset="81.57" spacing="6.24">Data Driver </line>
+      <line x_offset="0.0" y_offset="65.37" spacing="6.24">Scan Driver </line>
+      <line x_offset="0.0" y_offset="49.17" spacing="6.24">Liquid Crystal Mode </line>
+      <line x_offset="0.0" y_offset="32.97" spacing="6.24">Cell Gap </line>
+      <line x_offset="0.0" y_offset="16.77" spacing="6.24">Aperture Ratio </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="5.74">Contrast Ratio </line>
+    </region>
+    <region x="245.28" y="350.17" width="16.86" height="7.37" line_height="7.37" font="BLMNKO+Arial">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">c axis</line>
+    </region>
+    <region x="74.16" y="345.49" width="49.2" height="7.37" line_height="7.37" font="BLMNKO+Arial">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">C-axis alignment</line>
+    </region>
+    <region x="45.72" y="289.5" width="241.53" height="25.2" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="15.24" spacing="0.0">Fig. 8. Planar TEM image (left) and cross-sectional TEM image (right) of </line>
+      <line x_offset="41.4" y_offset="0.0" spacing="5.27">In-Ga-Zn-oxide film showing c-axis alignment. </line>
+    </region>
+    <region x="42.6" y="228.09" width="249.41" height="41.5" line_height="11.03" font="BLMHKE+TimesNewRoman">
+      <line x_offset="42.31" y_offset="30.48" spacing="0.0">Fig. 9 is a photograph of an image displayed on the </line>
+      <line x_offset="0.0" y_offset="15.24" spacing="4.21">panel. The contrast ratio 1100:1 of the liquid crystal display without </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="4.21">using BM can be achieved in a dark place. </line>
+    </region>
+    <region x="308.28" y="214.03" width="248.24" height="448.34" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="437.31" spacing="0.0">References </line>
+      <line x_offset="0.0" y_offset="420.71" spacing="6.64">1) N. Kimizuka et al.: J. Solid State. Chem. 60 (1985) 382. </line>
+      <line x_offset="0.0" y_offset="405.71" spacing="5.04">2) M. Nakamura: NIRIM NEWSLETTER1 50 (1995) 1. </line>
+      <line x_offset="0.0" y_offset="390.7" spacing="5.04">3) M. Nakamura et al.: J. Solid State Chem.9 3 (1991) 298. </line>
+      <line x_offset="0.0" y_offset="375.7" spacing="5.04">4) N. Kimizuka and T. Mohri: Japanese Patent S63-210022 (1988), </line>
+      <line x_offset="0.0" y_offset="360.7" spacing="5.04">Japanese Patent S63-210023 (1988), Japanese Patent S63-210024 (1988), </line>
+      <line x_offset="0.0" y_offset="345.7" spacing="5.04">Japanese Patent S63-215519 (1988), Japanese Patent S63-239117 (1988), </line>
+      <line x_offset="0.0" y_offset="330.69" spacing="5.04">Japanese Patent S63-265818 (1988). </line>
+      <line x_offset="0.0" y_offset="317.73" spacing="3.0">5) N. Sugisawa et al.: SID Int. Symp. Dig. Tech. Pap. 42 (2011) 722. </line>
+      <line x_offset="0.0" y_offset="302.5" spacing="5.27">6) Y. Hirakata et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 32. </line>
+      <line x_offset="0.0" y_offset="287.38" spacing="5.16">7) D. Kubota et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 125. </line>
+      <line x_offset="0.0" y_offset="270.1" spacing="7.32">8) H. Shishido et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 369. </line>
+      <line x_offset="0.0" y_offset="255.09" spacing="5.04">9) K. Nomura et al.: Science 300 (2003) 1269. </line>
+      <line x_offset="0.0" y_offset="240.09" spacing="5.04">10) K. Nomura et al.: Nature 432 (2004) 488. </line>
+      <line x_offset="0.0" y_offset="227.13" spacing="3.0">11) S. Amano et al.: SID Int. Symp. Dig. Tech. Pap4. 1 (2010) 626. </line>
+      <line x_offset="0.0" y_offset="212.01" spacing="5.16">12) T. Matsuzaki et al.: 3rd IEEE Int. Memory Workshop (2011) 185. </line>
+      <line x_offset="0.0" y_offset="196.89" spacing="5.16">13) T. Atsumi et al.: to be published in 4th IEEE Int. Memory Workshop. </line>
+      <line x_offset="0.0" y_offset="181.53" spacing="5.4">14) H. Tamura et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 729. </line>
+      <line x_offset="0.0" y_offset="164.25" spacing="7.32">15) T. Nishijima et al.: to be published in SID Int. Symp. Dig. Tech. Pap.. </line>
+      <line x_offset="0.0" y_offset="149.24" spacing="5.04">16) S. Yamazaki: "To Promote the Spirit of Inventing", presented at the Int. </line>
+      <line x_offset="0.0" y_offset="134.24" spacing="5.04">Workshop Private Sector - Academia Interactions (2011). </line>
+      <line x_offset="0.0" y_offset="119.24" spacing="5.04">17) M. Takahashi et al.: Proc. AM-FPD (2011) 271. </line>
+      <line x_offset="0.0" y_offset="106.39" spacing="2.88">18) Y. Terai et al. : Proc. IDW (2011) 61. </line>
+      <line x_offset="0.0" y_offset="91.16" spacing="5.27">19) H. Kikuchi et al.: Nat. Mater. 1 (2002) 64. </line>
+      <line x_offset="96.36" y_offset="75.95" spacing="5.24">Symp. Dig. Tech. Pap. 38 (2007) 1737. </line>
+      <line x_offset="0.01" y_offset="75.92" spacing="-9.93">20) H. Kikuchi et al.: SID Int. </line>
+      <line x_offset="0.0" y_offset="60.71" spacing="5.24">21) L. Rao et al.: Appl. Phys. Lett.9 5 (2009) 231101. </line>
+      <line x_offset="0.0" y_offset="45.59" spacing="5.16">22) M. S. Kim et al.: SID Int. Symp. Dig. Tech. Pap4. 0 (2009) 1615. </line>
+      <line x_offset="0.0" y_offset="30.36" spacing="5.27">23) S. Yoon et al.: Liq. Cryst.3 7 [2] (2010) 201. </line>
+      <line x_offset="0.0" y_offset="15.12" spacing="5.27">24) L. Rao et al.: J. Disp. Technol.6 [8] (2010) 287. </line>
+      <line x_offset="0.0" y_offset="0.0" spacing="5.16">25) H. Lee et al.: SID Int. Symp. Dig. Tech. Pap4. 2 (2011) 121. </line>
+    </region>
+    <region x="104.4" y="76.74" width="120.48" height="9.96" line_height="9.96" font="BLMHKE+TimesNewRoman">
+      <line x_offset="0.0" y_offset="0.0" spacing="0.0">Fig. 9. Image displayed on the panel .</line>
+    </region>
+  </page>
+</pdf>

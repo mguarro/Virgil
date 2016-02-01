@@ -1,0 +1,1202 @@
+(lp0
+(S'display type        screen diagonal        resolution        pixel pitch        pixel density        color system        data driver        scan driver        liquid crystal mode        cell gap        aperture ratio        contrast ratio'
+p1
+F365.90454545454554
+tp2
+a(S'78 \xce\xbc       \xc3\x97 \xce\xbc        326 ppi        field sequential        integrated        integrated        blue phase mode        4'
+p3
+F51.0
+tp4
+a(S'liquid crystal display including highly reliable crystalline        oxide semiconductor'
+p5
+F50.86515151515152
+tp6
+a(S'4-inch blue-phase liquid        crystal display including'
+p7
+F30.20454545454545
+tp8
+a(S'highly reliable crystalline oxide        semiconductor'
+p9
+F28.6
+tp10
+a(S'tadashi akahane                  semiconductor energy laboratory'
+p11
+F25.0
+tp12
+a(S'4-inch blue-phase liquid        crystal display'
+p13
+F23.871212121212118
+tp14
+a(S'periodic structure exists                        substrate                  electrode                 rib                  fig'
+p15
+F23.10438596491228
+tp16
+a(S'lateral electric field driving mode'
+p17
+F22.68333333333333
+tp18
+a(S'-20nm line-20nm line-100nm       rib shape-thickness'
+p19
+F20.59090909090909
+tp20
+a(S'general liquid crystal display'
+p21
+F19.93181818181818
+tp22
+a(S'cholesteric-blue-phase liquid crystal display'
+p23
+F19.93181818181818
+tp24
+a(S'blue phase        liquid crystal'
+p25
+F19.78181818181818
+tp26
+a(S'in-ga-zn-oxide film showing c-axis alignment'
+p27
+F19.75
+tp28
+a(S'blue-phase liquid crystal display'
+p29
+F19.204545454545453
+tp30
+a(S'driver circuits'
+p31
+F18.666666666666668
+tp32
+a(S'obtain high contrast ratio'
+p33
+F18.1
+tp34
+a(S'pixel electrode structure        form birefringence'
+p35
+F16.799840510366828
+tp36
+a(S'ps-bp liquid crystal        chiral material'
+p37
+F16.41060606060606
+tp38
+a(S'fets including crystalline igzo'
+p39
+F16.03333333333333
+tp40
+a(S'liquid        crystal display'
+p41
+F15.931818181818182
+tp42
+a(S'liquid crystal display'
+p43
+F15.931818181818182
+tp44
+a(S'jp        1        advanced film device'
+p45
+F15.25
+tp46
+a(S'high helical twisting        power'
+p47
+F15.0
+tp48
+a(S'enable high        electric-field intensity'
+p49
+F14.5
+tp50
+a(S'obtained ps-bp liquid crystal'
+p51
+F14.046969696969697
+tp52
+a(S'axis                 c-axis alignment                 fig'
+p53
+F13.242857142857142
+tp54
+a(S'blue-phase liquid crystal'
+p55
+F12.804545454545455
+tp56
+a(S'lateral electric field'
+p57
+F12.083333333333332
+tp58
+a(S'ps-bp        liquid crystal'
+p59
+F11.713636363636363
+tp60
+a(S'ps-bp liquid crystal'
+p61
+F11.713636363636363
+tp62
+a(S'figure 8 shows tem images'
+p63
+F11.566666666666666
+tp64
+a(S'light leakage        occurs due'
+p65
+F11.486513486513488
+tp66
+a(S'pixel electrode direction'
+p67
+F11.417249417249417
+tp68
+a(S'pixel        electrode structure'
+p69
+F11.299840510366826
+tp70
+a(S'contrast ratio'
+p71
+F11.1
+tp72
+a(S'contrast        ratio'
+p73
+F11.1
+tp74
+a(S'contrast ratio 1100'
+p75
+F11.1
+tp76
+a(S'4-inch polymer-stabilized blue-phase'
+p77
+F10.93939393939394
+tp78
+a(S'enabled low voltage driving'
+p79
+F10.75
+tp80
+a(S'c-axis aligned crystal'
+p81
+F10.681818181818182
+tp82
+a(S'crystal grain        boundaries'
+p83
+F10.681818181818182
+tp84
+a(S'reduce light leakage due'
+p85
+F10.486513486513486
+tp86
+a(S'include crystalline        igzo'
+p87
+F10.2
+tp88
+a(S'contrast        enhancement images'
+p89
+F10.0
+tp90
+a(S'ips        mode'
+p91
+F9.666666666666666
+tp92
+a(S'liquid        crystal'
+p93
+F9.531818181818181
+tp94
+a(S'liquid crystal'
+p95
+F9.531818181818181
+tp96
+a(S'enable high performance'
+p97
+F9.5
+tp98
+a(S'periodic structure formed'
+p99
+F9.171052631578947
+tp100
+a(S'japanese patent s63-265818'
+p101
+F9.0
+tp102
+a(S'japanese patent s63-210023'
+p103
+F9.0
+tp104
+a(S'japanese patent s63-210022'
+p105
+F9.0
+tp106
+a(S'technology        1603-1 kamitomiokamati'
+p107
+F9.0
+tp108
+a(S'japanese patent s63-210024'
+p109
+F9.0
+tp110
+a(S'japanese patent s63-215519'
+p111
+F9.0
+tp112
+a(S'japanese patent s63-239117'
+p113
+F9.0
+tp114
+a(S'pixel electrode'
+p115
+F8.878787878787879
+tp116
+a(S'igzo thin film'
+p117
+F8.85
+tp118
+a(S'planar tem image'
+p119
+F8.833333333333334
+tp120
+a(S'cross-sectional tem image'
+p121
+F8.833333333333334
+tp122
+a(S'absorption axis        \xc2\xb0       direction'
+p123
+F8.68131868131868
+tp124
+a(S'absorption axis direction'
+p125
+F8.68131868131868
+tp126
+a(S'absorption        \xc2\xb0       axis direction'
+p127
+F8.68131868131868
+tp128
+a(S'data'
+p129
+F8.666666666666666
+tp130
+a(S'pixel        electrodes'
+p131
+F8.636363636363637
+tp132
+a(S'light leakage occurs'
+p133
+F8.62937062937063
+tp134
+a(S'blue-phase material        selection'
+p135
+F8.606060606060606
+tp136
+a(S'reducing driving vltoage'
+p137
+F8.6
+tp138
+a(S'uniform        light irradiation'
+p139
+F8.538461538461538
+tp140
+a(S'organic el        panels'
+p141
+F8.5
+tp142
+a(S'polymer stabilization treatment'
+p143
+F8.5
+tp144
+a(S'workshop private sector'
+p145
+F8.333333333333334
+tp146
+a(S'phase difference        generated'
+p147
+F8.25
+tp148
+a(S'anisotropic light leakage'
+p149
+F8.12937062937063
+tp150
+a(S'light leakage changed'
+p151
+F8.12937062937063
+tp152
+a(S'light        leakage increases'
+p153
+F8.12937062937063
+tp154
+a(S'light leakage occurred'
+p155
+F8.12937062937063
+tp156
+a(S'high white luminance'
+p157
+F8.1
+tp158
+a(S'3rd ieee int'
+p159
+F8.076923076923077
+tp160
+a(S'4th ieee int'
+p161
+F8.076923076923077
+tp162
+a(S'integrated manner'
+p163
+F8.0
+tp164
+a(S'japan       2        nagaoka university'
+p165
+F8.0
+tp166
+a(S'mode'
+p167
+F8.0
+tp168
+a(S'light leakage due'
+p169
+F7.986513486513486
+tp170
+a(S'optimized blue-phase material'
+p171
+F7.606060606060607
+tp172
+a(S'display characteristics'
+p173
+F7.6000000000000005
+tp174
+a(S'light leakage caused'
+p175
+F7.129370629370629
+tp176
+a(S'crystalline structure'
+p177
+F7.0210526315789465
+tp178
+a(S'experimental cell'
+p179
+F7.0
+tp180
+a(S'experimental        cell'
+p181
+F7.0
+tp182
+a(S'wedge-shaped cell'
+p183
+F7.0
+tp184
+a(S'rib electrode structure'
+p185
+F6.754385964912281
+tp186
+a(S'low driving voltage'
+p187
+F6.75
+tp188
+a(S'make diffraction wavelength'
+p189
+F6.75
+tp190
+a(S'added chiral material'
+p191
+F6.696969696969697
+tp192
+a(S'ips cell'
+p193
+F6.666666666666667
+tp194
+a(S'development includes application'
+p195
+F6.666666666666667
+tp196
+a(S'phase difference'
+p197
+F6.25
+tp198
+a(S'figure 7 shows relation'
+p199
+F6.233333333333333
+tp200
+a(S'solid state chem'
+p201
+F6.166666666666667
+tp202
+a(S'blue-phase material'
+p203
+F5.606060606060606
+tp204
+a(S'rib        shape-thickness'
+p205
+F5.590909090909091
+tp206
+a(S'form        birefringence'
+p207
+F5.5
+tp208
+a(S'form birefringence'
+p209
+F5.5
+tp210
+a(S'light        leakage'
+p211
+F5.129370629370629
+tp212
+a(S'light leakage'
+p213
+F5.129370629370629
+tp214
+a(S'20       40       6080100       electrode thickness [nm]                 0'
+p215
+F5.128138528138528
+tp216
+a(S'cell'
+p217
+F5.0
+tp218
+a(S'semiconductor'
+p219
+F5.0
+tp220
+a(S'oxide        5'
+p221
+F5.0
+tp222
+a(S'high reliability'
+p223
+F5.0
+tp224
+a(S'counter substrate'
+p225
+F4.75
+tp226
+a(S'diffraction wavelength'
+p227
+F4.75
+tp228
+a(S'figure 5 shows'
+p229
+F4.733333333333333
+tp230
+a(S'figure 3 shows'
+p231
+F4.733333333333333
+tp232
+a(S'chiral material'
+p233
+F4.696969696969697
+tp234
+a(S'electrode structure'
+p235
+F4.663476874003189
+tp236
+a(S'electrode        structure'
+p237
+F4.663476874003189
+tp238
+a(S'driving transistors'
+p239
+F4.6
+tp240
+a(S'low-voltage driving'
+p241
+F4.6
+tp242
+a(S'igzo        crystals'
+p243
+F4.6
+tp244
+a(S'blocking light'
+p245
+F4.538461538461538
+tp246
+a(S'diffusion light'
+p247
+F4.538461538461538
+tp248
+a(S'direction perpendicular'
+p249
+F4.538461538461538
+tp250
+a(S'image displayed'
+p251
+F4.5
+tp252
+a(S'driving voltage'
+p253
+F4.5
+tp254
+a(S'polymer-stabilization treatment'
+p255
+F4.5
+tp256
+a(S'\xc2\xb0       arrangement structure'
+p257
+F4.421052631578947
+tp258
+a(S'factor due'
+p259
+F4.357142857142858
+tp260
+a(S'figure 1       11-16'
+p261
+F4.333333333333334
+tp262
+a(S'easily obtained'
+p263
+F4.333333333333334
+tp264
+a(S'memory workshop'
+p265
+F4.333333333333334
+tp266
+a(S'rib electrode'
+p267
+F4.333333333333333
+tp268
+a(S'bragg diffraction'
+p269
+F4.25
+tp270
+a(S'transparent        electrode'
+p271
+F4.242424242424242
+tp272
+a(S'protrusion electrode'
+p273
+F4.242424242424242
+tp274
+a(S'transparent electrode'
+p275
+F4.242424242424242
+tp276
+a(S'solid state'
+p277
+F4.166666666666667
+tp278
+a(S'black luminance'
+p279
+F4.1
+tp280
+a(S'black        luminance'
+p281
+F4.1
+tp282
+a(S'rib shapes'
+p283
+F4.090909090909091
+tp284
+a(S'rib region'
+p285
+F4.090909090909091
+tp286
+a(S'linear rib'
+p287
+F4.090909090909091
+tp288
+a(S'square-pyramid rib'
+p289
+F4.090909090909091
+tp290
+a(S'sid int'
+p291
+F4.076923076923077
+tp292
+a(S'reduced due'
+p293
+F4.057142857142857
+tp294
+a(S'yuko oe'
+p295
+F4.0
+tp296
+a(S'nirim newsletter1 50'
+p297
+F4.0
+tp298
+a(S'black matrix'
+p299
+F4.0
+tp300
+a(S'dashed lines'
+p301
+F4.0
+tp302
+a(S'markedly observed'
+p303
+F4.0
+tp304
+a(S'dark place'
+p305
+F4.0
+tp306
+a(S'+81-46-248-1131 fax'
+p307
+F4.0
+tp308
+a(S'refractive        indices'
+p309
+F4.0
+tp310
+a(S'crossed nicols'
+p311
+F4.0
+tp312
+a(S'square pyramids'
+p313
+F4.0
+tp314
+a(S'transparent electrodes'
+p315
+F4.0
+tp316
+a(S'photosensitive resin'
+p317
+F4.0
+tp318
+a(S'makoto ikenaga'
+p319
+F4.0
+tp320
+a(S'ultraviolet region'
+p321
+F4.0
+tp322
+a(S'source wiring'
+p323
+F4.0
+tp324
+a(S'voltagev        90       transmittance'
+p325
+F4.0
+tp326
+a(S'source        wiring'
+p327
+F4.0
+tp328
+a(S'polymerization        initiator'
+p329
+F4.0
+tp330
+a(S'drain wiring'
+p331
+F4.0
+tp332
+a(S'masaru nakano'
+p333
+F4.0
+tp334
+a(S'academia interactions'
+p335
+F4.0
+tp336
+a(S'lcd panels'
+p337
+F4.0
+tp338
+a(S'mosaic arrangements'
+p339
+F4.0
+tp340
+a(S'\xce\xbc       transparent electrodes'
+p341
+F4.0
+tp342
+a(S'schematic view'
+p343
+F4.0
+tp344
+a(S'takahiro yamamoto'
+p345
+F4.0
+tp346
+a(S'jun koyama'
+p347
+F4.0
+tp348
+a(S'1       2       daisuke kurosaki'
+p349
+F4.0
+tp350
+a(S'+81-46-248-1132 e-mail'
+p351
+F4.0
+tp352
+a(S'mk1162@sel'
+p353
+F4.0
+tp354
+a(S'micrographs surrounded'
+p355
+F4.0
+tp356
+a(S'yasuhiro niikura'
+p357
+F4.0
+tp358
+a(S'gate wiring'
+p359
+F4.0
+tp360
+a(S'generally driven'
+p361
+F4.0
+tp362
+a(S'tetsuji ishitani'
+p363
+F4.0
+tp364
+a(S'product development'
+p365
+F4.0
+tp366
+a(S'probable reason'
+p367
+F4.0
+tp368
+a(S'akio yamashita'
+p369
+F4.0
+tp370
+a(S'tsudoi nagi'
+p371
+F4.0
+tp372
+a(S'japan        phone'
+p373
+F4.0
+tp374
+a(S'entire surface'
+p375
+F4.0
+tp376
+a(S'161-2 masuzuka'
+p377
+F4.0
+tp378
+a(S'1                  manabu kobayashi'
+p379
+F4.0
+tp380
+a(S'momoko kato'
+p381
+F4.0
+tp382
+a(S'panel structure'
+p383
+F3.9210526315789473
+tp384
+a(S'caac structure'
+p385
+F3.9210526315789473
+tp386
+a(S'electrode thickness'
+p387
+F3.8424242424242423
+tp388
+a(S'os fet'
+p389
+F3.75
+tp390
+a(S'os tronics'
+p391
+F3.75
+tp392
+a(S'measurement results'
+p393
+F3.666666666666667
+tp394
+a(S'experimental cells'
+p395
+F3.666666666666667
+tp396
+a(S'polarization        state'
+p397
+F3.666666666666667
+tp398
+a(S'hideaki shishido'
+p399
+F3.5
+tp400
+a(S'polarizer directions'
+p401
+F3.5
+tp402
+a(S'normalized transmittance'
+p403
+F3.5
+tp404
+a(S'daisuke kubota'
+p405
+F3.5
+tp406
+a(S'shunpei yamazaki'
+p407
+F3.5
+tp408
+a(S'panel layout'
+p409
+F3.5
+tp410
+a(S'satisfactorily suppressed'
+p411
+F3.5
+tp412
+a(S'yoshiharu hirakata'
+p413
+F3.5
+tp414
+a(S'1       table ii'
+p415
+F3.4
+tp416
+a(S'table ii'
+p417
+F3.4
+tp418
+a(S'polarizers rotated'
+p419
+F3.3636363636363633
+tp420
+a(S'ingazno       4       1-4'
+p421
+F3.333333333333333
+tp422
+a(S'blue-phase                  9'
+p423
+F3.272727272727273
+tp424
+a(S'additional countermeasure'
+p425
+F3.25
+tp426
+a(S'film'
+p427
+F3.25
+tp428
+a(S'provide        bm'
+p429
+F3.2
+tp430
+a(S'100       90       80       70       60       50       40       30       20       10       0                 0                 35                 5       10       15       20       25       30       applied voltage ['
+p431
+F3.0999999999999996
+tp432
+a(S'high'
+p433
+F3.0
+tp434
+a(S'in-ga-zn-oxide'
+p435
+F3.0
+tp436
+a(S'angle        formed'
+p437
+F2.95
+tp438
+a(S'higher htp'
+p439
+F2.833333333333333
+tp440
+a(S'substrate'
+p441
+F2.75
+tp442
+a(S'polarizers arranged'
+p443
+F2.6363636363636362
+tp444
+a(S'driving'
+p445
+F2.6
+tp446
+a(S'igzo'
+p447
+F2.6
+tp448
+a(S'direction'
+p449
+F2.5384615384615383
+tp450
+a(S'fets'
+p451
+F2.5
+tp452
+a(S'reduce'
+p453
+F2.5
+tp454
+a(S'structure        \xce\xbc'
+p455
+F2.4210526315789473
+tp456
+a(S'structure'
+p457
+F2.4210526315789473
+tp458
+a(S'shows'
+p459
+F2.4
+tp460
+a(S'obtained'
+p461
+F2.3333333333333335
+tp462
+a(S'material'
+p463
+F2.3333333333333335
+tp464
+a(S'figure 2'
+p465
+F2.3333333333333335
+tp466
+a(S'low'
+p467
+F2.25
+tp468
+a(S'electrode'
+p469
+F2.242424242424242
+tp470
+a(S'ps-bp'
+p471
+F2.1818181818181817
+tp472
+a(S'rib'
+p473
+F2.090909090909091
+tp474
+a(S'int'
+p475
+F2.076923076923077
+tp476
+a(S'caused'
+p477
+F2.0
+tp478
+a(S'difference'
+p479
+F2.0
+tp480
+a(S'added'
+p481
+F2.0
+tp482
+a(S'enhancement'
+p483
+F2.0
+tp484
+a(S'chem'
+p485
+F2.0
+tp486
+a(S'aligned'
+p487
+F2.0
+tp488
+a(S'japan'
+p489
+F2.0
+tp490
+a(S'optimized'
+p491
+F2.0
+tp492
+a(S'make'
+p493
+F2.0
+tp494
+a(S'development'
+p495
+F2.0
+tp496
+a(S'generated'
+p497
+F2.0
+tp498
+a(S'voltage'
+p499
+F1.9
+tp500
+a(S'formed'
+p501
+F1.75
+tp502
+a(S'os'
+p503
+F1.75
+tp504
+a(S'results'
+p505
+F1.6666666666666667
+tp506
+a(S'ips'
+p507
+F1.6666666666666667
+tp508
+a(S'state'
+p509
+F1.6666666666666667
+tp510
+a(S'cells'
+p511
+F1.6666666666666667
+tp512
+a(S'application'
+p513
+F1.6666666666666667
+tp514
+a(S'thickness'
+p515
+F1.6
+tp516
+a(S'fig'
+p517
+F1.6
+tp518
+a(S']       fig'
+p519
+F1.6
+tp520
+a(S'hirakata'
+p521
+F1.5
+tp522
+a(S'panel'
+p523
+F1.5
+tp524
+a(S'factor'
+p525
+F1.5
+tp526
+a(S'normalized'
+p527
+F1.5
+tp528
+a(S'higher'
+p529
+F1.5
+tp530
+a(S'kubota'
+p531
+F1.5
+tp532
+a(S'polarizer'
+p533
+F1.5
+tp534
+a(S'relation'
+p535
+F1.5
+tp536
+a(S'caac'
+p537
+F1.5
+tp538
+a(S'suppressed'
+p539
+F1.5
+tp540
+a(S'shishido'
+p541
+F1.5
+tp542
+a(S'lcd'
+p543
+F1.5
+tp544
+a(S'yamazaki'
+p545
+F1.5
+tp546
+a(S'table'
+p547
+F1.4
+tp548
+a(S'polarizers'
+p549
+F1.3636363636363635
+tp550
+a(S'htp'
+p551
+F1.3333333333333333
+tp552
+a(S'1-4'
+p553
+F1.3333333333333333
+tp554
+a(S'20 nm'
+p555
+F1.2857142857142858
+tp556
+a(S'40 nm'
+p557
+F1.2857142857142858
+tp558
+a(S'60 nm'
+p559
+F1.2857142857142858
+tp560
+a(S'367 nm'
+p561
+F1.2857142857142858
+tp562
+a(S'80 nm'
+p563
+F1.2857142857142858
+tp564
+a(S'100 nm'
+p565
+F1.2857142857142858
+tp566
+a(S'arranged'
+p567
+F1.2727272727272727
+tp568
+a(S'countermeasure'
+p569
+F1.25
+tp570
+a(S'\xc2\xb0       reduced'
+p571
+F1.2
+tp572
+a(S'angle'
+p573
+F1.2
+tp574
+a(S'applied'
+p575
+F1.2
+tp576
+a(S'characteristics'
+p577
+F1.2
+tp578
+a(S'reduced'
+p579
+F1.2
+tp580
+a(S'bm'
+p581
+F1.2
+tp582
+a(S'disp'
+p583
+F1.0
+tp584
+a(S'illustrated'
+p585
+F1.0
+tp586
+a(S'328-0114'
+p587
+F1.0
+tp588
+a(S'case'
+p589
+F1.0
+tp590
+a(S'fabricated'
+p591
+F1.0
+tp592
+a(S'presented'
+p593
+F1.0
+tp594
+a(S'dig'
+p595
+F1.0
+tp596
+a(S'small'
+p597
+F1.0
+tp598
+a(S'employing'
+p599
+F1.0
+tp600
+a.

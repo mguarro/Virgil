@@ -1,0 +1,1202 @@
+(lp0
+(S'4+1                   3+1                   4+2                   3+1                   4+1                  4+2                  fig'
+p1
+F43.5
+tp2
+a(S'1 2 3                  5                  11 12                  0                  9 10                  4                  6 7                  8                  13 14 15                  r2                  e2                  t2                                                    t3                  r3                  e3'
+p3
+F30.900000000000002
+tp4
+a(S't3                  r3                  e3                                   t2                  r2                  e2'
+p5
+F30.9
+tp6
+a(S't3                                   r3                  e3                                   t2                  r2                  e2'
+p7
+F30.9
+tp8
+a(S'part called fast feasible region search serves'
+p9
+F27.777941176470588
+tp10
+a(S'field-programmable cus-       tom computing machines'
+p11
+F21.083333333333332
+tp12
+a(S'total                 \xe2\x89\xa4       nb nb                  end        return        fp'
+p13
+F21.07142857142857
+tp14
+a(S'avoid conflict       placement technique reduces significantly'
+p15
+F20.813227513227513
+tp16
+a(S'xilinx fpgas lets system adapt'
+p17
+F20.25
+tp18
+a(S'fr                 t3                  r3                  e3'
+p19
+F19.8
+tp20
+a(S'interpro-       cedural placement-aware configuration prefetching'
+p21
+F19.410931174089068
+tp22
+a(S'2d homogeneous reconfig-       urable fpgas'
+p23
+F19.36842105263158
+tp24
+a(S'part called avoiding conflict technique'
+p25
+F19.25
+tp26
+a(S'ga       currentt asks       reconfigurator port       state'
+p27
+F18.42857142857143
+tp28
+a(S'2010 18th ieee annual international symposium'
+p29
+F18.166666666666668
+tp30
+a(S'heterogeneity imposes stricter placement constraints'
+p31
+F17.485754985754987
+tp32
+a(S'ongoing flex-       tiles project [11]'
+p33
+F16.0
+tp34
+a(S'discrete hopfield neuronal network'
+p35
+F16.0
+tp36
+a(S'fast feasible region search presented'
+p37
+F15.67079831932773
+tp38
+a(S't2                  r2                  e2'
+p39
+F15.1
+tp40
+a(S'field-programmable custom computing machines'
+p41
+F15.083333333333332
+tp42
+a(S'distributed       real-time embedded systems'
+p43
+F14.75
+tp44
+a(S'run-time spatio-       temporal scheduling heuristic'
+p45
+F14.502255639097744
+tp46
+a(S'simultaneously performs hw/sw       partitioning'
+p47
+F14.5
+tp48
+a(S'9th annual ieee symposium'
+p49
+F14.166666666666666
+tp50
+a(S'fast feasible region search'
+p51
+F13.67079831932773
+tp52
+a(S'heteroge-       neous reconfigurable architectures'
+p53
+F13.652173913043478
+tp54
+a(S'current multimedia applications requiring'
+p55
+F13.5
+tp56
+a(S'place-       ment takes care'
+p57
+F13.5
+tp58
+a(S'guide random search strategy'
+p59
+F13.30952380952381
+tp60
+a(S'task graph scheduling problem tailored'
+p61
+F13.28045112781955
+tp62
+a(S'future adaptive multiprocessor systems-on-chip'
+p63
+F13.0
+tp64
+a(S'specific block included       inside'
+p65
+F13.0
+tp66
+a(S'2d heteroge-       neous fpga'
+p67
+F12.958164642375168
+tp68
+a(S'dy-       namically reconfigurable hardware'
+p69
+F12.946291560102303
+tp70
+a(S'call       na       nb       total       total'
+p71
+F12.885714285714284
+tp72
+a(S'dynamic partial reconfigu-       ration'
+p73
+F12.875
+tp74
+a(S'internal configuration access port'
+p75
+F12.192982456140351
+tp76
+a(S'proposed heuristic reduces       significantly'
+p77
+F12.116541353383457
+tp78
+a(S'search quickly feasible positions'
+p79
+F11.73452380952381
+tp80
+a(S'region creating fewest conflicts'
+p81
+F11.727941176470589
+tp82
+a(S'2d heterogeneous reconfigurable       architecture'
+p83
+F11.656958602038692
+tp84
+a(S'hardware task placement algorithms deal'
+p85
+F11.475891526201124
+tp86
+a(S'hybrid       prefetch heuristic scheduling'
+p87
+F11.323684210526315
+tp88
+a(S'hybrid prefetch scheduling       heuristic'
+p89
+F11.323684210526315
+tp90
+a(S'target 2d heterogeneous fpga'
+p91
+F11.049073733284258
+tp92
+a(S'placing large modules quickly'
+p93
+F11.0
+tp94
+a(S'ga       currentt asks       list'
+p95
+F10.89010989010989
+tp96
+a(S'interesting configuration prefetching approach'
+p97
+F10.744264507422402
+tp98
+a(S'2d heterogeneous efpga layer'
+p99
+F10.681552365762892
+tp100
+a(S'2d reconfigurable fpga                 michael'
+p101
+F10.610338555418647
+tp102
+a(S'2d fpga homogenous architecture'
+p103
+F10.503619187829713
+tp104
+a(S'begin        = {}        fp       = 0        nb'
+p105
+F10.452380952380953
+tp106
+a(S'nb < nb       na < na       &'
+p107
+F10.438095238095237
+tp108
+a(S'large reconfigurable area connected'
+p109
+F10.402173913043478
+tp110
+a(S'placement heuristic       function scheduleandplacement {       = 0'
+p111
+F10.344054580896685
+tp112
+a(S'2d heterogenous fpga       starts'
+p113
+F10.315307499518026
+tp114
+a(S'horizontal relative position       mb'
+p115
+F10.242424242424242
+tp116
+a(S'heuristic targets runtime       applications'
+p117
+F10.223684210526315
+tp118
+a(S'heuristic reduces significantly'
+p119
+F9.973684210526315
+tp120
+a(S'configuration caching management       techniques'
+p121
+F9.96267942583732
+tp122
+a(S'embedded computer systems'
+p123
+F9.75
+tp124
+a(S'fast template placement'
+p125
+F9.62037037037037
+tp126
+a(S'run-time spatio-temporal scheduling heuristic'
+p127
+F9.502255639097744
+tp128
+a(S'2d heterogeneous       quickly'
+p129
+F9.459330143540669
+tp130
+a(S'ga currentt asks'
+p131
+F9.428571428571429
+tp132
+a(S'6                  r2                  r3'
+p133
+F9.399999999999999
+tp134
+a(S'tasks reduces significantly'
+p135
+F9.316455696202532
+tp136
+a(S'brams scanning step consists'
+p137
+F9.314814814814815
+tp138
+a(S'prefetch hard-       ware'
+p139
+F9.25
+tp140
+a(S'flextiles architecture overview                 order'
+p141
+F9.212121212121213
+tp142
+a(S'avoiding conflicts       technique'
+p143
+F9.017857142857142
+tp144
+a(S'2d heterogeneous architecture'
+p145
+F9.004784688995215
+tp146
+a(S'indf ewestconf lictregion'
+p147
+F9.0
+tp148
+a(S'3d stacked chip'
+p149
+F9.0
+tp150
+a(S'fpga-based sys-       tems'
+p151
+F9.0
+tp152
+a(S'alap val-       ues'
+p153
+F9.0
+tp154
+a(S'reconfigurable computing systems'
+p155
+F8.902173913043478
+tp156
+a(S'nb       nb       nb'
+p157
+F8.857142857142858
+tp158
+a(S'nb       bram non-utilized condition'
+p159
+F8.782994782994784
+tp160
+a(S'timelist       currentt asks'
+p161
+F8.75
+tp162
+a(S'time       currentt asks'
+p163
+F8.72340425531915
+tp164
+a(S'reconfigurable systems management'
+p165
+F8.702173913043477
+tp166
+a(S'reconfigurable com-       puting'
+p167
+F8.652173913043478
+tp168
+a(S'bi-dimensional       reconfigurable architectures'
+p169
+F8.652173913043478
+tp170
+a(S'technique allow-       ing'
+p171
+F8.642857142857142
+tp172
+a(S'called       feasible regions'
+p173
+F8.631521739130434
+tp174
+a(S'respect followings constraints'
+p175
+F8.615384615384615
+tp176
+a(S'\xc3\xbcbner       ruhr-university bochum'
+p177
+F8.5
+tp178
+a(S'quick search method'
+p179
+F8.476190476190476
+tp180
+a(S'2d heterogenous fpga'
+p181
+F8.458164642375168
+tp182
+a(S'start brams scanning process'
+p183
+F8.439814814814815
+tp184
+a(S'r4                  r5                  r1'
+p185
+F8.4
+tp186
+a(S'creates fewest conflicts'
+p187
+F8.375
+tp188
+a(S'ft       ft        <= na'
+p189
+F8.266666666666666
+tp190
+a(S'recon-       figuration delay'
+p191
+F8.25
+tp192
+a(S'2d heterogeneous fpga'
+p193
+F8.04907373328426
+tp194
+a(S'2d heterogeneous       fpga'
+p195
+F8.04907373328426
+tp196
+a(S'general purpose       processor'
+p197
+F8.0
+tp198
+a(S'line [5-24]       detailing'
+p199
+F8.0
+tp200
+a(S'exact ilp formulation'
+p201
+F8.0
+tp202
+a(S'configurable logic       blocks'
+p203
+F8.0
+tp204
+a(S'configurable        logic block'
+p205
+F8.0
+tp206
+a(S'ieee computer       society'
+p207
+F8.0
+tp208
+a(S'2d homogenous fpga'
+p209
+F7.958164642375168
+tp210
+a(S'dynamic reconfigurable paradigm'
+p211
+F7.9021739130434785
+tp212
+a(S'furthest placement criteria'
+p213
+F7.87037037037037
+tp214
+a(S'ilp formula-       tion'
+p215
+F7.833333333333334
+tp216
+a(S'efficient method allowing'
+p217
+F7.833333333333334
+tp218
+a(S'partial reconfigurable architecture'
+p219
+F7.8226284584980235
+tp220
+a(S'enables       data transfer'
+p221
+F7.818181818181818
+tp222
+a(S'furthest       feasible region'
+p223
+F7.777941176470588
+tp224
+a(S'furthest feasible region'
+p225
+F7.777941176470588
+tp226
+a(S'main research interests'
+p227
+F7.75
+tp228
+a(S'spends 1 time unit'
+p229
+F7.723404255319149
+tp230
+a(S'ais fit condition satisfied'
+p231
+F7.696429885903569
+tp232
+a(S'directed acyclic       graph'
+p233
+F7.690476190476191
+tp234
+a(S'effective       abstract       technique'
+p235
+F7.642857142857142
+tp236
+a(S'ry mh       =       +       +'
+p237
+F7.6
+tp238
+a(S'extremely       important parameters'
+p239
+F7.571428571428571
+tp240
+a(S'jpeg decoder task'
+p241
+F7.56140350877193
+tp242
+a(S'spatio-temporal scheduling problem'
+p243
+F7.5285714285714285
+tp244
+a(S'7       87       87       ffwop rfwp napoleon_ex proposed       33       33       53       40       44       51       66       57       58       84'
+p245
+F7.517857142857142
+tp246
+a(S'de                 quang-hai khuat'
+p247
+F7.5
+tp248
+a(S'proposed searching method'
+p249
+F7.476190476190476
+tp250
+a(S'heuristic con-       sidering'
+p251
+F7.473684210526316
+tp252
+a(S'communication security constraints'
+p253
+F7.472527472527473
+tp254
+a(S'static bases scheduler'
+p255
+F7.428571428571429
+tp256
+a(S'searching feasible       regions'
+p257
+F7.381521739130434
+tp258
+a(S'exchange large amounts'
+p259
+F7.25
+tp260
+a(S'previous works target'
+p261
+F7.2
+tp262
+a(S'reconfiguration circuitry running'
+p263
+F7.174242424242424
+tp264
+a(S't1                  1 2 3                  5                  11 12                  0                  9 10                  4                  6 7                  13 14 15                  8                  -configuration prefetching'
+p265
+F7.134615384615385
+tp266
+a(S'predicts hardware execution'
+p267
+F7.127450980392156
+tp268
+a(S'nb       total       fig 4'
+p269
+F7.119047619047619
+tp270
+a(S'parallel configuration model'
+p271
+F7.114551083591331
+tp272
+a(S'one-dimensional configuration model'
+p273
+F7.114551083591331
+tp274
+a(S'complicated task       graphs'
+p275
+F7.06140350877193
+tp276
+a(S'current tick time'
+p277
+F7.056737588652483
+tp278
+a(S'execu-       tion time'
+p279
+F7.056737588652483
+tp280
+a(S'bottom left corner'
+p281
+F7.0
+tp282
+a(S'currentt asks'
+p283
+F7.0
+tp284
+a(S'digital signal processor'
+p285
+F7.0
+tp286
+a(S'daniel chillet       university'
+p287
+F7.0
+tp288
+a(S'virtex xc2v6000 requires'
+p289
+F7.0
+tp290
+a(S'costly reconfiguration       overhead'
+p291
+F6.983766233766234
+tp292
+a(S'configuration management techniques'
+p293
+F6.962679425837321
+tp294
+a(S'bram bloc                  fb        \xce\x94'
+p295
+F6.954545454545455
+tp296
+a(S'dag graph       similar'
+p297
+F6.940476190476191
+tp298
+a(S'r1                  e1                  t1'
+p299
+F6.9
+tp300
+a(S'represent dependent tasks'
+p301
+F6.887884267631103
+tp302
+a(S'2005 ieee international conference'
+p303
+F6.857142857142858
+tp304
+a(S'constraints       rx       mb'
+p305
+F6.850678733031675
+tp306
+a(S'reconfigurable technology based'
+p307
+F6.8188405797101455
+tp308
+a(S'valid feasible region'
+p309
+F6.777941176470588
+tp310
+a(S'function       called'
+p311
+F6.75
+tp312
+a(S'na       total       brams'
+p313
+F6.7481481481481485
+tp314
+a(S'approximately 5%       equals       compared'
+p315
+F6.733333333333334
+tp316
+a(S'provide access points'
+p317
+F6.666666666666666
+tp318
+a(S'rx < rx mw'
+p319
+F6.595588235294118
+tp320
+a(S'\xe2\x88\xa7       rx       mw > rx'
+p321
+F6.595588235294118
+tp322
+a(S'partial region fpga'
+p323
+F6.567684766214178
+tp324
+a(S'execution time       range'
+p325
+F6.556737588652482
+tp326
+a(S'expected execution time'
+p327
+F6.5567375886524815
+tp328
+a(S'europe conference &amp'
+p329
+F6.523809523809524
+tp330
+a(S'search method'
+p331
+F6.476190476190476
+tp332
+a(S'run-time reconfiguration overhead'
+p333
+F6.412337662337661
+tp334
+a(S'ineffective placement decision'
+p335
+F6.37037037037037
+tp336
+a(S'brams fit condition'
+p337
+F6.3322973322973315
+tp338
+a(S'field-programmable technology'
+p339
+F6.25
+tp340
+a(S'napoleon algorithm computes'
+p341
+F6.242857142857143
+tp342
+a(S'napoleon       algorithm addresses'
+p343
+F6.242857142857143
+tp344
+a(S'ieee design &amp'
+p345
+F6.238095238095237
+tp346
+a(S'total execution time'
+p347
+F6.223404255319149
+tp348
+a(S'dependent tasks running'
+p349
+F6.221217600964437
+tp350
+a(S'operating system       timelist'
+p351
+F6.2
+tp352
+a(S'ais fit       condition'
+p353
+F6.09642988590357
+tp354
+a(S'ais fit condition'
+p355
+F6.09642988590357
+tp356
+a(S'task scheduling problem'
+p357
+F6.089974937343358
+tp358
+a(S'rx       mb       +'
+p359
+F6.035294117647059
+tp360
+a(S'entire       task graph'
+p361
+F6.0018796992481205
+tp362
+a(S'qmax       equals 0 means'
+p363
+F6.0
+tp364
+a(S'execution time produced'
+p365
+F5.956737588652482
+tp366
+a(S'execution       time produced'
+p367
+F5.956737588652482
+tp368
+a(S'nb <= nb'
+p369
+F5.904761904761905
+tp370
+a(S'0       \xe2\x88\xa7 \xe2\x89\xa4       ry < ry mh'
+p371
+F5.875
+tp372
+a(S'mh > ry       +'
+p373
+F5.8
+tp374
+a(S'algorithms deal'
+p375
+F5.75
+tp376
+a(S'reconfiguration time       overhead'
+p377
+F5.7071704890853825
+tp378
+a(S'dependent tasks executed'
+p379
+F5.687884267631103
+tp380
+a(S'pmax       pmax       giving'
+p381
+F5.666666666666667
+tp382
+a(S'2000 ieee symposium'
+p383
+F5.666666666666666
+tp384
+a(S'reconfigurable       computing'
+p385
+F5.6521739130434785
+tp386
+a(S'reconfigurable computing'
+p387
+F5.6521739130434785
+tp388
+a(S'nb       total'
+p389
+F5.619047619047619
+tp390
+a(S'target architecture'
+p391
+F5.545454545454545
+tp392
+a(S'configuration port'
+p393
+F5.526315789473684
+tp394
+a(S'configuration caching [4]'
+p395
+F5.526315789473684
+tp396
+a(S'dag task graph'
+p397
+F5.5018796992481205
+tp398
+a(S'execution phase due'
+p399
+F5.477777777777778
+tp400
+a(S'execution time compared'
+p401
+F5.456737588652482
+tp402
+a(S'\xce\x94                 communication        bus                                                           fig'
+p403
+F5.357142857142858
+tp404
+a(S'adaptive hardware'
+p405
+F5.294117647058823
+tp406
+a(S'hardware modules'
+p407
+F5.294117647058823
+tp408
+a(S'napoleon heuristic based'
+p409
+F5.2403508771929825
+tp410
+a(S'nb       na'
+p411
+F5.219047619047619
+tp412
+a(S'na       nb'
+p413
+F5.219047619047619
+tp414
+a(S'reconfigurable architecture'
+p415
+F5.1976284584980235
+tp416
+a(S'avoid conflicts'
+p417
+F5.175
+tp418
+a(S'main part'
+p419
+F5.107142857142858
+tp420
+a(S'task graph defined'
+p421
+F5.104820875718708
+tp422
+a(S'temporal scheduling'
+p423
+F5.1
+tp424
+a(S'spatio-temporal scheduling'
+p425
+F5.1
+tp426
+a(S'heterogeneous       devices'
+p427
+F5.090909090909091
+tp428
+a(S'task starts       reconfiguring'
+p429
+F5.0852130325814535
+tp430
+a(S'previous       part'
+p431
+F5.057142857142857
+tp432
+a(S'random fit'
+p433
+F5.03030303030303
+tp434
+a(S'reconfigurable region'
+p435
+F5.005115089514066
+tp436
+a(S'virtex fpgas'
+p437
+F5.0
+tp438
+a(S'real fpgas'
+p439
+F5.0
+tp440
+a(S'germany       michael'
+p441
+F5.0
+tp442
+a(S'flexible architectures'
+p443
+F5.0
+tp444
+a(S'symmetrical fpgas'
+p445
+F5.0
+tp446
+a(S'international journal'
+p447
+F5.0
+tp448
+a(S'powerful computing'
+p449
+F5.0
+tp450
+a(S'pille-       ment'
+p451
+F5.0
+tp452
+a(S'recent fpgas'
+p453
+F5.0
+tp454
+a(S'platform overview'
+p455
+F5.0
+tp456
+a(S'logic block'
+p457
+F5.0
+tp458
+a(S'task list       placement'
+p459
+F4.893312340680762
+tp460
+a(S'flextiles architecture'
+p461
+F4.878787878787879
+tp462
+a(S'main constraints'
+p463
+F4.865384615384615
+tp464
+a(S'2012 international conference'
+p465
+F4.857142857142858
+tp466
+a(S'temporal reconfiguration'
+p467
+F4.840909090909091
+tp468
+a(S'reconfiguration port'
+p469
+F4.840909090909091
+tp470
+a(S'management services'
+p471
+F4.8
+tp472
+a(S'3       4       feasible region'
+p473
+F4.777941176470588
+tp474
+a(S'feasible region'
+p475
+F4.777941176470588
+tp476
+a(S'configuration delay'
+p477
+F4.776315789473684
+tp478
+a(S'fewest amounts'
+p479
+F4.75
+tp480
+a(S'current time'
+p481
+F4.723404255319149
+tp482
+a(S'region giving'
+p483
+F4.686274509803922
+tp484
+a(S'2       1                 7                       heterogeneous fpga'
+p485
+F4.68065268065268
+tp486
+a(S'time       nb'
+p487
+F4.675785207700102
+tp488
+a(S'r1                  e1'
+p489
+F4.65
+tp490
+a(S'effective technique'
+p491
+F4.642857142857142
+tp492
+a(S'bound technique'
+p493
+F4.642857142857142
+tp494
+a(S'constraints means'
+p495
+F4.615384615384615
+tp496
+a(S'\xe2\x80\xa2       precedence constraints'
+p497
+F4.615384615384615
+tp498
+a(S'reconfigurable regions'
+p499
+F4.608695652173913
+tp500
+a(S'feasible positions'
+p501
+F4.591666666666667
+tp502
+a(S'homogenous fpga'
+p503
+F4.589743589743589
+tp504
+a(S'partial regions'
+p505
+F4.581521739130435
+tp506
+a(S'prefetch tasks'
+p507
+F4.5664556962025316
+tp508
+a(S'reconfigurable layer'
+p509
+F4.541062801932367
+tp510
+a(S'placement step'
+p511
+F4.537037037037037
+tp512
+a(S'na       na'
+p513
+F4.533333333333333
+tp514
+a(S'run-time scheduling'
+p515
+F4.5285714285714285
+tp516
+a(S'prefetching technique'
+p517
+F4.527472527472527
+tp518
+a(S'configuration controllers'
+p519
+F4.526315789473684
+tp520
+a(S'configuration compression'
+p521
+F4.526315789473684
+tp522
+a(S'configuration       compression [3]'
+p523
+F4.526315789473684
+tp524
+a(S'formalization part'
+p525
+F4.523809523809524
+tp526
+a(S'clp formulation'
+p527
+F4.5
+tp528
+a(S'essential research'
+p529
+F4.5
+tp530
+a(S'esit       bochum'
+p531
+F4.5
+tp532
+a(S'directed edges'
+p533
+F4.5
+tp534
+a(S'france       {quang-hai'
+p535
+F4.5
+tp536
+a(S'function       checks'
+p537
+F4.5
+tp538
+a(S'placement constraints'
+p539
+F4.485754985754986
+tp540
+a(S'partial reconfiguration'
+p541
+F4.465909090909091
+tp542
+a(S'reconfiguration constraints'
+p543
+F4.456293706293707
+tp544
+a(S'operating system'
+p545
+F4.45
+tp546
+a(S'execution constraints'
+p547
+F4.448717948717949
+tp548
+a(S'np-hard problem'
+p549
+F4.428571428571429
+tp550
+a(S'configuration       prefetching'
+p551
+F4.410931174089068
+tp552
+a(S'configuration prefetching'
+p553
+F4.410931174089068
+tp554
+a(S'reconfigurable zone'
+p555
+F4.4021739130434785
+tp556
+a(S'results produced'
+p557
+F4.4
+tp558
+a(S'approximately 5%       compared'
+p559
+F4.4
+tp560
+a(S'time step'
+p561
+F4.390070921985815
+tp562
+a(S'4 feasible regions'
+p563
+F4.381521739130434
+tp564
+a(S'2 feasible regions'
+p565
+F4.381521739130434
+tp566
+a(S'feasible regions'
+p567
+F4.381521739130434
+tp568
+a(S'placement con-'
+p569
+F4.37037037037037
+tp570
+a(S'task       management'
+p571
+F4.36140350877193
+tp572
+a(S'rx mw'
+p573
+F4.360294117647059
+tp574
+a(S'created region'
+p575
+F4.352941176470589
+tp576
+a(S'region created'
+p577
+F4.352941176470589
+tp578
+a(S'sible region'
+p579
+F4.352941176470589
+tp580
+a(S'invalid region'
+p581
+F4.352941176470589
+tp582
+a(S'ble region'
+p583
+F4.352941176470589
+tp584
+a(S'feasible position'
+p585
+F4.334090909090909
+tp586
+a(S'non-prefetching method'
+p587
+F4.333333333333334
+tp588
+a(S'platform consists'
+p589
+F4.333333333333334
+tp590
+a(S'innovative approach'
+p591
+F4.333333333333334
+tp592
+a(S'data exchange'
+p593
+F4.318181818181818
+tp594
+a(S'scanning brams'
+p595
+F4.314814814814815
+tp596
+a(S'partial bitstream'
+p597
+F4.291666666666667
+tp598
+a(S'computing resources'
+p599
+F4.25
+tp600
+a.
