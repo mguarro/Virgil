@@ -6,36 +6,70 @@ function go123(callback){
   var temp = $.getJSON("")
 }
 
+
 function makeGraph(graphJSON){
 console.log(graphJSON)
-// graphJSON = [{"y_axis": 0.12530908979457525, "x_axis": -0.25207039458369607, "doi": "http://dx.doi.org/10.1109/iv.2010.49"}, {"y_axis": 0.18238104596440313, "x_axis": 0.09602556220205033, "doi": "http://dx.doi.org/10.1109/tvcg.2009.165"}, {"y_axis": -0.33954536243945233, "x_axis": -0.40436306278880246, "doi": "http://dx.doi.org/10.1109/c5.2011.18"}, {"y_axis": 0.40454223674394102, "x_axis": -0.079032422820886433, "doi": "http://dx.doi.org/10.1109/wmute.2010.24"}, {"y_axis": 1.1250837303330676, "x_axis": 1.1517580517578063, "doi": "http://dx.doi.org/10.1109/icsc.2010.19"}, {"y_axis": -0.1476453569112543, "x_axis": 0.31598812237293789, "doi": "http://dx.doi.org/10.1109/ahs.2014.6880151"}, {"y_axis": -0.18869968686055205, "x_axis": -0.0029228676567548142, "doi": "http://dx.doi.org/10.1109/tvcg.2014.2388208"}, {"y_axis": -0.60993883379898284, "x_axis": -0.014102677752548502, "doi": "http://dx.doi.org/10.1109/jdt.2013.2292051"}, {"y_axis": -0.55148680609178824, "x_axis": -0.81128029721657979, "doi": "http://dx.doi.org/10.1109/wivec.2013.6698240"}]
 
-// console.log(graphJSON)
-// var graphJSON = require("./graph.json")
+//probably not the best way of scaling, but it's better than nothing
+var i
+var maxX = 0
+var maxY = 0 
+for(i=0; i<graphJSON.length;i++){
+  var cx = graphJSON[i].x_axis;
+  var cy = graphJSON[i].y_axis;
+  if(Math.abs(cx)>maxX){
+    maxX = cx
+  }
+  if(Math.abs(cy)>maxY){
+    maxY = cy
+  }
+}
 
-// var graphJSON = [
-//    { "x_axis": 10, "y_axis": 10, "height": 20, "width":20, "color" : "green" },
-//    { "x_axis": 160, "y_axis": 40, "height": 20, "width":20, "color" : "purple" },
-//    { "x_axis": 70, "y_axis": 70, "height": 20, "width":20, "color" : "red" }];
+var cSize = 800; //container size
+
+var maxT  = maxX;
+if(maxY>maxT){
+  maxT = maxY;
+}
+
+var circleSize = 10; //radius of dots
+
+var sf = (cSize-2*circleSize)/(2*maxT); // scaling factor
+
+var shift = cSize/2; //
+
+
+
+transformString = "".concat("translate(",shift.toString(),",",shift.toString(),") scale(",sf.toString(),")");
+
+
 
 var svgContainer = d3.select("body").append("svg")
-                                     .attr("width", 1000)
-                                    .attr("height", 1000);
+                                     .attr("width", cSize)
+                                    .attr("height", cSize);
 
 var circleGroup = svgContainer.append("g")
-.attr("transform","translate(300,300) scale(10,10)");
+.attr("transform",transformString);
+
 
 var circles = circleGroup.selectAll("circle")
 .data(graphJSON)
 .enter()
-.append("circle")
+.append("svg:a")
+.attr("xlink:href",function(d){return d.doi;})
+.append("circle");
 
+
+                          
 
 var circleAttributes = circles
-                          .attr("cx", function (d) { return d.x_axis*10; })
-                          .attr("cy", function (d) { return d.y_axis*10; })
-                          .attr("r", 1 )
-                          .style("fill", "red");
+                          .attr("cx", function (d) { return d.x_axis; })
+                          .attr("cy", function (d) { return d.y_axis; })
+                          .attr("r", circleSize/sf )
+                          .style("fill", "red")
+                          .append("svg:title")
+                          .text(function(d){return d.doi;});
+                          
                         }
                         
 
